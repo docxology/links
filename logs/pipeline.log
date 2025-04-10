@@ -1,0 +1,89 @@
+2025-04-09 11:10:40 - main - INFO - Starting pipeline
+2025-04-09 11:10:40 - main - INFO - Stage 1: Organizing links and tags
+2025-04-09 11:10:40 - main - INFO - Stage 1 completed
+2025-04-09 11:10:40 - main - INFO - Skipping Stage 2: Scraping websites
+2025-04-09 11:10:40 - main - INFO - Skipping Stage 3: Generating political platform
+2025-04-09 11:10:40 - main - INFO - Pipeline completed in 0.02 seconds
+2025-04-09 11:10:44 - main - INFO - Starting pipeline
+2025-04-09 11:10:44 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:10:44 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:10:44 - main - INFO - Stage 2 completed
+2025-04-09 11:10:44 - main - INFO - Skipping Stage 3: Generating political platform
+2025-04-09 11:10:44 - main - INFO - Pipeline completed in 0.36 seconds
+2025-04-09 11:14:07 - main - INFO - Starting pipeline
+2025-04-09 11:14:07 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:14:07 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:15:46 - main - INFO - Starting pipeline
+2025-04-09 11:15:46 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:15:46 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:18:42 - main - INFO - Starting pipeline
+2025-04-09 11:18:42 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:18:42 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:25:35 - main - INFO - Starting pipeline
+2025-04-09 11:25:35 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:25:35 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:32:25 - main - INFO - Starting pipeline
+2025-04-09 11:32:25 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:32:25 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:37:58 - main - INFO - Starting pipeline
+2025-04-09 11:37:58 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:37:58 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:38:37 - main - ERROR - Error in pipeline: Path.replace() takes 2 positional arguments but 3 were given
+2025-04-09 11:43:03 - main - INFO - Starting pipeline
+2025-04-09 11:43:03 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:43:03 - main - INFO - Skipping Stage 2: Scraping websites
+2025-04-09 11:43:03 - main - INFO - Stage 3: Extracting concepts
+2025-04-09 11:43:03 - main - ERROR - Error in pipeline: [Errno 2] No such file or directory: '/Users/tetra/Documents/GitHub/links/data/scraped_data.json'
+2025-04-09 11:43:36 - main - INFO - Starting pipeline
+2025-04-09 11:43:36 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:43:36 - main - INFO - Skipping Stage 2: Scraping websites
+2025-04-09 11:43:36 - main - INFO - Stage 3: Extracting concepts
+2025-04-09 11:44:28 - main - INFO - Stage 3 completed. Concepts saved to /Users/tetra/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-09 11:44:28 - main - INFO - Skipping Stage 4: Generating political platform
+2025-04-09 11:44:28 - main - INFO - Pipeline completed in 51.99 seconds
+2025-04-09 11:44:38 - main - INFO - Starting pipeline
+2025-04-09 11:44:38 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:44:38 - main - INFO - Skipping Stage 2: Scraping websites
+2025-04-09 11:44:38 - main - INFO - Skipping Stage 3: Extracting concepts
+2025-04-09 11:44:38 - main - INFO - Stage 4: Generating political platform
+2025-04-09 11:45:21 - main - INFO - Stage 4 completed. Platform saved to /Users/tetra/Documents/GitHub/links/output/political_platform.json
+2025-04-09 11:45:21 - main - INFO - Pipeline completed in 42.92 seconds
+2025-04-09 11:48:44 - main - INFO - Starting pipeline
+2025-04-09 11:48:44 - main - INFO - Stage 1: Organizing links and tags
+2025-04-09 11:48:44 - main - INFO - Stage 1 completed
+2025-04-09 11:48:44 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:49:27 - main - ERROR - Error in pipeline: Path.replace() takes 2 positional arguments but 3 were given
+2025-04-09 11:49:50 - main - INFO - Starting pipeline
+2025-04-09 11:49:50 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 11:49:50 - main - INFO - Stage 2: Scraping websites
+2025-04-09 11:50:33 - main - INFO - Stage 2 completed
+2025-04-09 11:50:33 - main - INFO - Stage 3: Extracting concepts
+2025-04-09 11:59:53 - main - INFO - Stage 3 completed. Concepts saved to /Users/tetra/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-09 11:59:53 - main - INFO - Stage 4: Generating political platform
+2025-04-09 12:00:41 - main - INFO - Stage 4 completed. Platform saved to /Users/tetra/Documents/GitHub/links/output/political_platform.json
+2025-04-09 12:00:41 - main - INFO - Pipeline completed in 650.77 seconds
+2025-04-09 12:06:45 - main - INFO - Starting pipeline
+2025-04-09 12:06:45 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 12:06:45 - main - INFO - Skipping Stage 2: Scraping websites
+2025-04-09 12:06:45 - main - INFO - Skipping Stage 3: Extracting concepts
+2025-04-09 12:06:45 - main - INFO - Skipping Stage 4: Generating political platform
+2025-04-09 12:06:45 - main - INFO - Stage 5: Rendering platform as Markdown
+2025-04-09 12:06:45 - main - INFO - Stage 5 completed. Markdown saved to /Users/tetra/Documents/GitHub/links/output/political_platform.md
+2025-04-09 12:06:45 - main - INFO - Pipeline completed in 0.00 seconds
+2025-04-09 12:08:38 - main - INFO - Starting pipeline
+2025-04-09 12:08:38 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 12:08:38 - main - INFO - Skipping Stage 2: Scraping websites
+2025-04-09 12:08:38 - main - INFO - Skipping Stage 3: Extracting concepts
+2025-04-09 12:08:38 - main - INFO - Skipping Stage 4: Generating political platform
+2025-04-09 12:08:38 - main - INFO - Stage 5: Rendering platform as Markdown
+2025-04-09 12:08:38 - main - INFO - Stage 5 completed. Markdown saved to (PosixPath('/Users/tetra/Documents/GitHub/links/output/political_platform.md'), PosixPath('/Users/tetra/Documents/GitHub/links/output/political_platform.html'))
+2025-04-09 12:08:38 - main - INFO - Pipeline completed in 0.00 seconds
+2025-04-09 12:16:37 - main - INFO - Starting pipeline
+2025-04-09 12:16:37 - main - INFO - Skipping Stage 1: Organizing links and tags
+2025-04-09 12:16:37 - main - INFO - Skipping Stage 2: Scraping websites
+2025-04-09 12:16:37 - main - INFO - Skipping Stage 3: Extracting concepts
+2025-04-09 12:16:37 - main - INFO - Skipping Stage 4: Generating political platform
+2025-04-09 12:16:37 - main - INFO - Skipping Stage 5: Rendering platform as Markdown
+2025-04-09 12:16:37 - main - INFO - Stage 6: Generating images from platform
+2025-04-09 12:17:55 - main - INFO - Stage 6 completed. Images saved to /Users/tetra/Documents/GitHub/links/output/platform_images
+2025-04-09 12:17:55 - main - INFO - Pipeline completed in 78.00 seconds

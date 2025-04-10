@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}}); 
+/* ]]> */
+</script>
+
+	<title>Nvidia reveals supercomputer for modelling the entire Earth - Springwise</title><link rel="preload" as="font" href="https://springwise.com/wp-content/themes/spring-wise/webfonts/fa-brands-400.woff2" crossorigin><link rel="preload" as="font" href="https://springwise.com/wp-content/themes/spring-wise/webfonts/fa-solid-900.woff2" crossorigin><link rel="preload" as="font" href="https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&#038;fvd=n7&#038;v=3" crossorigin><link rel="preload" as="font" href="https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&#038;fvd=n6&#038;v=3" crossorigin><link rel="preload" as="font" href="https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&#038;fvd=n4&#038;v=3" crossorigin><style id="wpr-usedcss">img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}body,html{color:#fff;background-color:#5f357a;margin:0;padding:0;z-index:0;overflow-x:hidden;border:0;font-family:"Tiempos Headline",sans-serif;font-size:16px}#screen-loader{position:fixed;width:100vw;height:100vh;z-index:99999;background:#5f357a;overflow:hidden}#screen-loader svg{width:40px;height:40px;position:absolute;top:50%;left:50%;margin:-20px auto auto -20px}#content,#footer,#header{visibility:hidden}.row-type-advert_top{min-height:290px}#eZRPqnoUvXs2_ts{animation:1.2s linear infinite alternate backwards eZRPqnoUvXs2_ts__ts}@keyframes eZRPqnoUvXs2_ts__ts{0%{transform:translate(4px,20px) scale(1,1);animation-timing-function:cubic-bezier(0.42,0,0.58,1)}24.166667%{transform:translate(4px,20px) scale(1,1);animation-timing-function:cubic-bezier(0.42,0,0.58,1)}49.166667%{transform:translate(4px,20px) scale(1,0)}100%{transform:translate(4px,20px) scale(1,0)}}#eZRPqnoUvXs2{animation:1.2s linear infinite alternate backwards eZRPqnoUvXs2_c_o}@keyframes eZRPqnoUvXs2_c_o{0%{opacity:1;animation-timing-function:cubic-bezier(0.42,0,0.58,1)}25%{opacity:1;animation-timing-function:cubic-bezier(0.42,0,0.58,1)}50%{opacity:0}100%{opacity:0}}#eZRPqnoUvXs3_ts{animation:1.2s linear infinite alternate backwards eZRPqnoUvXs3_ts__ts}@keyframes eZRPqnoUvXs3_ts__ts{0%{transform:translate(20px,20px) scale(1,1)}15.833333%{transform:translate(20px,20px) scale(1,1)}40%{transform:translate(20px,20px) scale(1,1)}66.666667%{transform:translate(20px,20px) scale(1,0)}100%{transform:translate(20px,20px) scale(1,0)}}#eZRPqnoUvXs3{animation:1.2s linear infinite alternate backwards eZRPqnoUvXs3_c_o}@keyframes eZRPqnoUvXs3_c_o{0%{opacity:1}15.833333%{opacity:1;animation-timing-function:cubic-bezier(0.42,0,0.58,1)}41.666667%{opacity:1;animation-timing-function:cubic-bezier(0.42,0,0.58,1)}66.666667%{opacity:0}100%{opacity:0}}#eZRPqnoUvXs4_ts{animation:1.2s linear infinite alternate backwards eZRPqnoUvXs4_ts__ts}@keyframes eZRPqnoUvXs4_ts__ts{0%{transform:translate(36px,20px) scale(1,1)}32.5%{transform:translate(36px,20px) scale(1,1)}58.333333%{transform:translate(36px,20px) scale(1,1)}83.333333%{transform:translate(36px,20px) scale(1,0)}100%{transform:translate(36px,20px) scale(1,0)}}#eZRPqnoUvXs4{animation:1.2s linear infinite alternate backwards eZRPqnoUvXs4_c_o}@keyframes eZRPqnoUvXs4_c_o{0%{opacity:1}32.5%{opacity:1;animation-timing-function:cubic-bezier(0.42,0,0.58,1)}58.333333%{opacity:1;animation-timing-function:cubic-bezier(0.42,0,0.58,1)}83.333333%{opacity:0}100%{opacity:0}}body{background:red!important}a,address,aside,body,center,code,div,em,fieldset,figcaption,figure,footer,form,h1,h2,h4,header,html,i,iframe,img,label,legend,li,nav,object,p,s,section,span,strong,table,tbody,time,tr,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}aside,figcaption,figure,footer,header,nav,section{display:block}body{line-height:1}ul{list-style:none}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration{-webkit-appearance:none;-moz-appearance:none}input[type=search]{-webkit-appearance:none;-moz-appearance:none;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}textarea{overflow:auto;vertical-align:top;resize:vertical}video{display:inline-block;max-width:100%}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a:focus{outline:dotted thin}a:active,a:hover{outline:0}img{border:0;-ms-interpolation-mode:bicubic}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}body,html{color:#fff;background-color:#5f357a;font-size:16px;font-family:proxima-nova,sans-serif;z-index:0;overflow-x:hidden}div,section{display:block;position:relative;box-sizing:border-box}.col::after{content:"";clear:both;display:table}.row-inner{width:100%;display:flex;flex-wrap:wrap;align-items:stretch;max-width:1440px;margin:0 auto;padding:70px 5%;z-index:1;column-gap:2%;row-gap:35px}.row-inner .row-inner{width:100%;max-width:none;padding:0}@media only screen and (min-width:1440px){.row-inner{width:1440px;padding-left:72px;padding-right:72px}}.row-inner.row-intro+.row-inner{padding-top:35px}@media (max-width:576px){.row-type-advert_top{min-height:250px}.row-inner{padding:35px 5%}.col.col-blank{display:none!important}}.row{width:100%;z-index:0}.row.col-cntr .row-inner{justify-content:center}.row.col-cntr .row-intro{justify-content:left}.cntr-txt{text-align:center}.right-txt{text-align:right}.no-pd-top,.no-pd-top .row-inner,.row-inner.no-pd-top{padding-top:0}.no-pd-btm,.no-pd-btm .row-inner,.row-inner.no-pd-btm{padding-bottom:0}.col.no-pd-btm{margin-bottom:0}.col{display:block;position:relative;box-sizing:border-box;-ms-margin-right:2%}#content .row-intro{text-align:left}#content .row-intro.col-cntr{justify-content:center}#content .row-intro.cntr-txt{text-align:center}#content .row-intro .col{margin-bottom:0}.col,.col-1{width:6.5%}.col-2{width:15%}.col-3{width:23.5%}.col-4{width:32%}.col-6{width:49%}.col-7{width:57.5%}.col-8{width:66%}.col-12{width:100%;margin-right:0}@media (min-width:576px) and (max-width:1100px){.row-inner:not(.row-intro){padding-bottom:35px}.col{width:100%;margin:0 0 35px}.col-md-6{width:49%}.col-md-12{width:100%}.col.col-blank{margin-bottom:0}}@media (min-width:576px) and (max-width:1100px) and (max-width:1150px){.col.col-blank{display:none!important}}@media (min-width:576px) and (max-width:1100px) and (max-width:576px){.col.col-blank{display:none!important}}.col.col-blank{margin-bottom:0}@media (max-width:1150px){.col.col-blank{display:none!important}}@media (max-width:576px){.row-inner:not(.row-intro){padding-bottom:35px}.col{width:100%;margin:0 0 35px}.col-sm-12{float:left}.col-sm-12{width:100%}.col.col-blank{margin-bottom:0}#footer .col:nth-of-type(2){text-align:center}}body{text-rendering:geometricPrecision;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}.h2,.h3,.h4,address,h1,h2,h4,p,ul{padding:20px 0}.h2,.h3,.h4,h1,h2,h4,p{max-width:none}.cntr-txt h1,.cntr-txt h2,.cntr-txt h4,.cntr-txt p{margin-left:auto;margin-right:auto}.h2,.h3,.h4,h1,h2,h4{line-height:1.2em}address,p,ul{line-height:1.5rem;font-family:proxima-nova,sans-serif;font-size:1rem;font-weight:400}ul:not(.menu):not(.phases):not(.sub-menu):not(.sub-sub-menu):not(.social-list):not(.cat-nav):not(.gform_fields):not(.bio-links):not(.event-info):not(.main-nav-mobile):not(.tabs-nav):not(.tags):not(.woocommerce-error):not(.payment_methods):not(.slick-dots):not(.post-pins):not(.post-pins-dropdown):not(.type):not(.search-filter-list):not(.tab-content):not(.folders):not(.form-list):not(.contents){list-style-type:none;padding-left:20px}ul:not(.menu):not(.phases):not(.sub-menu):not(.sub-sub-menu):not(.social-list):not(.cat-nav):not(.gform_fields):not(.bio-links):not(.event-info):not(.main-nav-mobile):not(.tabs-nav):not(.tags):not(.woocommerce-error):not(.payment_methods):not(.slick-dots):not(.post-pins):not(.post-pins-dropdown):not(.type):not(.search-filter-list):not(.tab-content):not(.folders):not(.form-list):not(.contents) li{padding-bottom:6.6666666667px}ul:not(.menu):not(.phases):not(.sub-menu):not(.sub-sub-menu):not(.social-list):not(.cat-nav):not(.gform_fields):not(.bio-links):not(.event-info):not(.main-nav-mobile):not(.tabs-nav):not(.tags):not(.woocommerce-error):not(.payment_methods):not(.slick-dots):not(.post-pins):not(.post-pins-dropdown):not(.type):not(.search-filter-list):not(.tab-content):not(.folders):not(.form-list):not(.contents) li:before{content:"";height:8px;width:8px;position:relative;background:#5f357a;display:inline-block;display:inline-block;margin-left:-19px;margin-right:10px;border-radius:100%}.h2,.h3,h1,h2{font-family:proxima-nova,sans-serif;font-weight:700}h1{font-size:2.8rem;line-height:1.1830357143em}.h2,h2{font-size:2rem;line-height:1.1875em;font-weight:700}.h3{font-size:1.6rem;line-height:1.171875em;font-weight:600}.h4,h4{font-size:1.2rem;line-height:1.1979166667em;font-weight:700;font-family:proxima-nova,sans-serif}.post-headline{font-size:45px;line-height:50px}strong{font-weight:700}em{font-style:italic}p.date{font-size:.875rem}.article-details span{font-weight:600}.fal,.far,.fas{font-family:"Font Awesome 6 Pro";font-weight:900}.fab{font-family:"Font Awesome 6 Brands";font-weight:400}p+p{padding-top:0}a:not(.menu>li>a,.button-secondary,.button,.sub-menu>li>a,.remove-pin,.folder-link,.tags>li>a,.pin-favourite,.social-list>li>a,.post-pins>li>a,.pin-remove-topic,.pin-remove-people,.pin-remove-company,.pin-topic,.pin-people,.pin-company,.tab-content>li>a,a.search-result){color:#333;text-decoration:underline;transition:color .3s ease-in-out;cursor:pointer}a:not(.menu>li>a,.button-secondary,.button,.sub-menu>li>a,.remove-pin,.folder-link,.tags>li>a,.pin-favourite,.social-list>li>a,.post-pins>li>a,.pin-remove-topic,.pin-remove-people,.pin-remove-company,.pin-topic,.pin-people,.pin-company,.tab-content>li>a,a.search-result):hover{color:#333}.skip{position:absolute;top:-1000px;left:-1000px;height:1px;width:1px;text-align:left;overflow:hidden}a.skip:active,a.skip:focus,a.skip:hover{left:0;top:0;width:auto;height:auto;overflow:visible}a:focus{outline:#f37021 dotted 1px}a:active{outline:0}.button,body .modal-close.mfp-close,button:not(#ccc-icon):not(#ccc-close):not(.slick-dotsbutton),input[type=submit]{padding:10px 30px;border:none;text-align:center;font-family:proxima-nova,sans-serif;border-radius:30px;box-sizing:border-box;display:inline-block;color:#fff;background-color:#333;transition:background-color .3s ease-in-out,color .3s ease-in-out;text-decoration:none;position:relative;line-height:normal;cursor:pointer;margin-bottom:10px}.button:hover,body .modal-close.mfp-close:hover,button:not(#ccc-icon):not(#ccc-close):not(.slick-dotsbutton):hover,input[type=submit]:hover{background-color:#5f357a;color:#fff}.button#seopress-user-consent-accept::after,body .modal-close.mfp-close#seopress-user-consent-accept::after,button:not(#ccc-icon):not(#ccc-close):not(.slick-dotsbutton)#seopress-user-consent-accept::after,input[type=submit]#seopress-user-consent-accept::after{content:"  \f058"}.button#seopress-user-consent-close,body .modal-close.mfp-close#seopress-user-consent-close,button:not(#ccc-icon):not(#ccc-close):not(.slick-dotsbutton)#seopress-user-consent-close,input[type=submit]#seopress-user-consent-close{margin-left:20px}.button#seopress-user-consent-close::after,body .modal-close.mfp-close#seopress-user-consent-close::after,button:not(#ccc-icon):not(#ccc-close):not(.slick-dotsbutton)#seopress-user-consent-close::after,input[type=submit]#seopress-user-consent-close::after{content:"  \f057"}.mobile-menu .input-group{display:flex}.mobile-menu .input-group button{border-color:#fff!important;color:#fff!important;width:auto;margin-left:15px}.button-secondary{padding:0 0 6.6666666667px;border:none;border-bottom:2px solid #5f357a;text-align:center;min-width:none;font-family:proxima-nova,sans-serif;border-radius:0;box-sizing:border-box;display:inline-block;background-color:transparent;color:#5f357a;transition:color .3s ease-in-out,border-color .3s ease-in-out;text-decoration:none;position:relative;line-height:normal;cursor:pointer}.button-secondary:hover{background-color:transparent;color:#333;border-color:#333}.button-secondary:hover::after{background-color:transparent}.button-secondary::after{content:"  \f054";font-family:"Font Awesome 6 Pro";font-weight:900;opacity:.5}.button-tertiary{cursor:pointer;text-decoration:none!important;padding-bottom:6.6666666667px;border-bottom:1px solid;font-family:proxima-nova,sans-serif!important}button,input[type=submit]{height:60px;padding-top:0!important;padding-bottom:0!important}button::after,input[type=submit]::after{content:""}.button,.button-secondary,.button-tertiary{margin-left:20px}.button-secondary:first-of-type,.button-tertiary:first-of-type,.button:first-of-type{margin-left:auto}.button-secondary.modal::after,.button-tertiary.modal::after,.button.modal::after{content:"  \f0fe"}@font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:swap;src:url(https://springwise.com/wp-content/themes/spring-wise/webfonts/fa-brands-400.woff2) format("woff2"),url(https://springwise.com/wp-content/themes/spring-wise/webfonts/fa-brands-400.ttf) format("truetype")}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:900;font-display:swap;src:url(https://springwise.com/wp-content/themes/spring-wise/webfonts/fa-solid-900.woff2) format("woff2"),url(https://springwise.com/wp-content/themes/spring-wise/webfonts/fa-solid-900.ttf) format("truetype")}.responsive-video{width:100%;position:relative;padding:0 0 56.25%;height:0}.responsive-video iframe{position:absolute;top:0;left:0;width:100%;height:100%}#header{position:relative;background-color:#5f357a;z-index:400;transition:none}#header .row-inner{display:flex;align-items:center;justify-content:space-between;padding-top:0;padding-bottom:0;transition:none;height:114px}#header .row-inner:nth-of-type(2){padding-top:0}.nav ul{list-style:none;margin:0;padding:0;display:block;position:relative}.nav ul li{display:inline-block;margin:0;padding:0;vertical-align:middle}.nav ul li.hide-logged-out{display:none!important}.nav ul li a{display:block;cursor:pointer;position:relative;text-decoration:none}.nav ul li a i.user-icon{margin-right:5px}#header{background-color:#fff;color:#5f357a!important}#header .nav{width:auto;z-index:0;text-align:right;transition:none}#header .nav ul{text-align:right;transition:none}#header .nav ul li{transition:none;padding:0 10px}#header .nav ul li.hide-logged-out{display:none}#header .nav ul li:first-of-type a,#header .nav ul li:first-of-type span{margin-left:0;margin-right:0}#header .nav ul li a,#header .nav ul li span{padding:10px 0;font-size:1rem;color:#5f357a;display:block;cursor:pointer;transition:color .3s ease-in-out;position:relative}#header .nav ul li a i.open-menu,#header .nav ul li span i.open-menu{padding-left:6.6666666667px;display:none}#header .nav ul li a::before,#header .nav ul li span::before{content:"";position:absolute;bottom:0;left:50%;width:0;height:2px;background-color:#5f357a;transition:width .3s ease-in-out,left .3s ease-in-out}#header .nav ul li span i{transition:none}#header .nav ul li:hover>a::before,#header .nav ul li:hover>span i::before,#header .nav ul li:hover>span::before{width:100%;left:0}#header .nav ul li.search a::before{content:none}#header .nav ul li.become-a-member>a,#header .nav ul li.become-a-member>span{background-color:#5f357a;color:#fff;padding:10px 15px;border-radius:30px;transition:background-color .3s ease-in-out}#header .nav ul li.become-a-member>a:before,#header .nav ul li.become-a-member>span:before{content:none!important}#header .nav ul li.become-a-member>a:hover,#header .nav ul li.become-a-member>span:hover{background-color:#333}#header .nav ul li ul.sub-menu{opacity:0;visibility:hidden;position:absolute;text-align:left;background-color:#5f357a;padding:0;transition:transform .3s ease-in-out,opacity .3s ease-in-out;min-width:200px;pointer-events:none;transform:translateY(2px);opacity:0;box-shadow:-8px 13px 28px -3px rgba(0,0,0,.23)}#header .nav ul li ul.sub-menu.focus{opacity:1;visibility:visible}#header .nav ul li ul.sub-menu li{display:block;padding:0;position:relative}#header .nav ul li ul.sub-menu li a,#header .nav ul li ul.sub-menu li span{margin-left:0;text-align:left;line-height:normal;height:auto;padding:7.5px 15px;color:#fff;margin-right:0!important;transition:background-color .3s ease-in-out}#header .nav ul li ul.sub-menu li a::before,#header .nav ul li ul.sub-menu li span::before{content:none}#header .nav ul li ul.sub-menu li:last-of-type a,#header .nav ul li ul.sub-menu li:last-of-type span{padding-right:15px}#header .nav ul li ul.sub-menu li .open-menu{display:none}#header .nav ul li ul.sub-menu li:hover a{background-color:#333}#header .nav ul li:hover>ul{opacity:1;visibility:visible;pointer-events:auto}#header .nav ul li:hover>ul.sub-menu{transform:translateY(0);opacity:1}#header .nav ul li a:focus+ul{opacity:1;visibility:visible}a#mb-mission-nav,a#mb-nav{display:none;float:right;text-decoration:none;position:relative;cursor:pointer;line-height:28px;height:28px;width:28px;transform:scale(1);transition:transform 1s;position:relative;z-index:400}.scrolled a#mb-mission-nav,.scrolled a#mb-nav{margin-top:6.5px}a#mb-mission-nav i,a#mb-nav i{transform:scale(1);display:block;line-height:28px;height:28px;width:28px;text-align:center;font-size:1.2em}a#mb-mission-nav em,a#mb-nav em{display:block;width:19px;height:2px;background-color:#5f357a;overflow:hidden;text-indent:-9999px;text-transform:capitalize;top:13px;position:absolute;left:5px}a#mb-mission-nav span.mb-nav-1,a#mb-nav span.mb-nav-1{display:block;width:19px;height:2px;top:5px;background-color:#5f357a;position:absolute;left:5px}a#mb-mission-nav span.mb-nav-2,a#mb-nav span.mb-nav-2{display:block;width:19px;height:2px;top:21px;background-color:#5f357a;position:absolute;left:5px}.mobile-navigation-overlay{display:none}@media (max-width:1150px){.mobile-navigation-overlay{display:none;position:fixed;top:0;right:420px;bottom:0;left:0;z-index:5;background:0 0}.mobile-navigation-overlay.active{display:block}a#mb-mission-nav,a#mb-nav{display:inline-block}#header .nav.main{display:none!important}#header .nav:not(.channels){z-index:10;width:100%;max-width:420px;padding:104px 0 0;transition:right .5s;right:-420px;display:block;position:fixed;margin:0;height:100%;top:0;background-color:#5f357a;padding-bottom:60px}#header .nav:not(.channels) ul{text-align:center}#header .nav:not(.channels) ul li{opacity:0;width:100%;transition:all .5s ease-out;margin-left:30px}#header .nav:not(.channels) ul li a{line-height:normal;height:auto;padding:15px}#header .nav:not(.channels) ul li:last-of-type a{padding-right:15px}#header .nav:not(.channels) ul li ul{display:block;position:relative;text-align:center;background:#49295e}#header .nav:not(.channels) ul li ul li a{text-align:center}#header.scrolled .nav{height:100%}#header a.logo{left:7%;transform:translateX(-7%)}}.mobile-menu{position:fixed;top:0;left:100%;width:100%;height:100vh;z-index:400;background-color:#5f357a;transition:left .3s;overflow-y:scroll;display:none;box-sizing:border-box}.mobile-menu.open{left:0}@media (min-width:576px) and (max-width:1100px){.mobile-menu{top:288px}}.mobile-nav{padding:20px 0 0}.mobile-nav li{width:100%;display:block;position:relative}.mobile-nav li::after{content:"";height:1px;width:100%;background-color:#fff;opacity:.5;display:block}.mobile-nav li a,.mobile-nav li span{padding:15px 60px 15px 0;width:100%;display:block;font-size:1.2rem;box-sizing:border-box;color:#fff}.mobile-nav li a i.open-menu,.mobile-nav li span i.open-menu{position:absolute;right:0;padding:15px;top:0}.mobile-nav li ul.sub-menu{opacity:0;visibility:hidden;height:0}.mobile-nav li ul.sub-menu.focus{opacity:1;visibility:visible;height:auto}.mobile-nav li ul.sub-menu li a,.mobile-nav li ul.sub-menu li span{padding-top:5px;padding-bottom:5px}.mobile-nav li ul.sub-menu li .open-menu{display:none}a.logo{width:130px;height:64px;background-size:130px 64px;background-image:url(https://springwise.com/wp-content/themes/spring-wise/images/logo-new.svg);background-repeat:no-repeat;background-position:0 0;text-transform:capitalize;cursor:pointer;display:block;text-indent:-9999px;text-align:left;overflow:hidden;z-index:1;transition:none}#header a.logo{top:30px;margin-top:0}#content{color:#5f357a;background-color:#fff;z-index:1;margin:0 auto}.bg-grey{background-color:#f1f1f1;color:#333}.bg-light{background-color:#fff;color:#333}.bg-dark-purple{background-color:#301b3d;color:#fff}.bg-discovery{color:#5f357a}.bg-discovery:nth-of-type(odd){background-color:#f0f6fa}.bg-discovery:nth-of-type(2n){background-color:#fff}img{opacity:0;display:block;max-width:100%;height:auto;transition:opacity ease-in-out .7s}img.loaded{opacity:1}img[data-loaded=true]{opacity:1}img.ratio-16x9{aspect-ratio:16/9}#footer{color:#fff;background-color:#5f357a;z-index:0;font-size:.9rem}#footer .footer-accreditation-image{width:150px;margin-top:30px;margin-left:-15px}#footer .social{margin-top:10px}#footer .social ul li a{margin:0}#footer h4{padding-top:0;padding-bottom:10px}#footer a.logo{position:static;background-image:url(https://springwise.com/wp-content/themes/spring-wise/images/logo-new-white.svg);margin-bottom:35px;width:191px;height:94px;background-size:191px 94px}#footer section:last-of-type{background:#301b3d;color:#fff}#footer section:last-of-type .row-inner{align-items:center}#footer section:last-of-type .col{margin:15px 0}#footer section:last-of-type .col-7{display:flex}#footer section:last-of-type .nav ul.menu{display:flex}#footer section:last-of-type .nav ul.menu li{margin-left:10px}#footer section:last-of-type .nav ul.menu li a{padding-bottom:0}#footer a{color:#fff;text-decoration:none}#footer p{padding:0}#footer .nav ul{padding:0}#footer .nav ul li{display:block}#footer .nav ul li a,#footer .nav ul li span{padding:0 0 10px}#footer .nav ul li:first-of-type{border-left:0}#footer .nav ul li:first-of-type a{padding-left:0}input[type=email],input[type=number],input[type=password],input[type=search],input[type=text],input[type=url],select,textarea{background-color:#fff;border-radius:0;border-width:2px!important;border-color:#5f357a;border-style:solid;box-sizing:border-box;padding:20px;height:60px;font-family:proxima-nova,sans-serif!important;width:100%;font-size:16px}input[type=email]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=text]:focus,input[type=url]:focus,select:focus,textarea:focus{border-color:#5f357a}input[type=email]::-webkit-input-placeholder,input[type=number]::-webkit-input-placeholder,input[type=password]::-webkit-input-placeholder,input[type=search]::-webkit-input-placeholder,input[type=text]::-webkit-input-placeholder,input[type=url]::-webkit-input-placeholder,select::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#5f357a}input[type=email]:-moz-placeholder,input[type=number]:-moz-placeholder,input[type=password]:-moz-placeholder,input[type=search]:-moz-placeholder,input[type=text]:-moz-placeholder,input[type=url]:-moz-placeholder,select:-moz-placeholder,textarea:-moz-placeholder{color:#5f357a}input[type=email]::-moz-placeholder,input[type=number]::-moz-placeholder,input[type=password]::-moz-placeholder,input[type=search]::-moz-placeholder,input[type=text]::-moz-placeholder,input[type=url]::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:#5f357a}input[type=email]:-ms-input-placeholder,input[type=number]:-ms-input-placeholder,input[type=password]:-ms-input-placeholder,input[type=search]:-ms-input-placeholder,input[type=text]:-ms-input-placeholder,input[type=url]:-ms-input-placeholder,select:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#5f357a}select{padding-top:0;padding-bottom:0}textarea{height:200px}.tile:not(.tile-event,.tile-team){text-align:left;transition:color .3s ease-in-out;text-decoration:none;display:flex;flex-direction:column}.tile:not(.tile-event,.tile-team) .tile-actions{display:flex;justify-content:space-between;margin-top:auto}.tile:not(.tile-event,.tile-team) .tile-actions ul.tags{padding:0}.tile:not(.tile-event,.tile-team) img{padding-bottom:10px}.tile:not(.tile-event,.tile-team) a{transition:color .3s ease-in-out}.tile:not(.tile-event,.tile-team) h4{padding-top:0}.tile:not(.tile-event,.tile-team) .tile-content{height:100%;display:flex;flex-direction:column;flex-grow:1}.tile:not(.tile-event,.tile-team) .tile-content a{text-decoration:none}.tile:not(.tile-event,.tile-team) .tile-content p:not(.excerpt){margin-top:auto;margin-bottom:0;opacity:.5}.input-group{display:flex;justify-content:space-between}.input-group button{border-radius:0!important;background-color:#5f357a!important}.input-group button:hover{background-color:#432656!important}@media (max-width:576px){.input-group{display:block}.input-group input[type=search],.input-group select{margin-right:0;width:100%;margin-bottom:20px}.input-group button,.input-group input[type=submit]{width:100%}}body.search form.search-form{margin:20px 0}#header .nav input[type=search]{padding-top:0;padding-bottom:0;height:64px;transition:none}#header .nav button{height:64px;transition:none}#header.scrolled .nav button,#header.scrolled .nav input[type=search]{height:46px}li.cookie-settings span{cursor:pointer}.tags{list-style:none;display:block;margin:0;padding:20px 0}.tags a{display:inline-block;cursor:pointer;text-decoration:none;box-sizing:border-box;line-height:40px;font-size:12px;line-height:18px;color:#5f357a;text-transform:uppercase;position:relative;transition:color .3s ease-in-out}.tags a::after{content:"";position:absolute;left:0;bottom:-5px;width:100%;height:2px;background-color:#5f357a;transition:none;border-radius:5px;transition:background-color .3s ease-in-out}.tags a:hover{color:#333}.tags a:hover::after{background-color:#333}.tags li{display:inline-block;margin-right:5px;margin-bottom:5px}.tags li:first-of-type{margin-left:0}.type{list-style:none;display:block;margin:0;padding:0;top:0;right:20px}.tile .type{position:absolute}.type li{padding:0;margin:0;display:inline-block}.type li a{background-color:#5f357a;color:#fff;padding:20px;display:block;cursor:pointer}.posts-filters{margin:20px 0}.post-pins,.social ul{list-style:none;margin:0;padding:0}.post-pins li,.social ul li{display:inline-block;margin:0 5px 0 0}.post-pins li a,.social ul li a{display:block;text-decoration:none;width:28px;height:28px;text-align:center;font-size:18px;border-radius:0;background-color:transparent;color:#333;font-weight:400}.post-pins li a i,.social ul li a i{width:28px;height:28px;line-height:28px;font-size:18px;color:#333}.post-pins li a span,.social ul li a span{display:block;width:0;height:0;text-align:left;overflow:hidden;text-transform:capitalize;text-indent:-9999px}.post-pins li ul,.social ul li ul{position:absolute;background-color:#efebf2;padding:5px;z-index:1;display:none}.post-pins li ul li,.social ul li ul li{display:block}.post-pins li ul li a,.social ul li ul li a{padding:0 20px 0 0;text-decoration:none!important;width:auto;height:auto;font-size:.8rem;font-family:proxima-nova,sans-serif;font-weight:400;margin:0;text-align:left;-webkit-text-stroke-width:0;white-space:nowrap;font-family:proxima-nova,sans-serif}.post-pins li ul li a i,.social ul li ul li a i{width:20px;height:20px;line-height:20px}.post-pins li:hover ul,.social ul li:hover ul{display:block}.post-pins li{display:block;margin:0 15px 0 0}.post-pins li a{line-height:28px}#header .nav ul li ul.social-list{transition:none}#header .nav ul li ul.social-list a{margin:0 7.5px;padding:0;line-height:normal}#header .nav ul li ul.social-list a i{padding:0;margin:0;transition:none}#footer .social ul li a i{width:auto;height:auto;text-align:center;font-size:1.3rem;padding:0;border:none;border-radius:0;margin:0;color:#fff}ul.post-pins li a{color:#5f357a;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#5f357a;border-radius:0;width:auto!important;height:auto!important;font-family:proxima-nova,sans-serif;display:flex;align-items:center;font-size:14px}ul.post-pins li a i{padding-left:5px}ul.post-pins li a:hover{color:#5f357a}ul.post-pins li a:focus{outline:0}ul.post-pins li a.pin-save.selected{color:#14c341;-webkit-text-stroke-color:#14c341}ul.post-pins li a.pin-save.selected i{color:#14c341}table{table-layout:fixed;width:100%;background-color:transparent;margin:20px 0}table tbody tr{background-color:rgba(0,0,0,.05)}table tbody tr:nth-child(2n){background-color:rgba(0,0,0,.025)}.row-notification_banner{transition:none;height:0;background-color:#5f357a;color:#fff}.row-notification_banner.show-banner{height:62px}.row-notification_banner .row-inner{padding-top:20px;padding-bottom:20px}.row-notification_banner .row-inner p{padding:0}.row-notification_banner .close-banner{position:absolute;right:5%;top:50%;transform:translateY(-50%);cursor:pointer}#content .sidebar section .row-inner.row-intro::after,#content .sidebar-fix section .row-inner.row-intro::after{width:100%!important;left:0!important}.sidebar-fix section:first-of-type{margin-top:0}.sidebar-fix section .tile-sidebar{text-decoration:none}.sidebar-fix section .tile-sidebar.col{margin-bottom:15px}.sidebar-fix section .tile-sidebar a{text-decoration:none}.sidebar-fix section .tile-sidebar:hover{color:#5f357a}.sidebar-fix section .tile-sidebar:hover a{color:#5f357a}.row-type-sidebar_post_feed a{color:#5f357a;text-decoration:none!important}.row-type-sidebar_post_feed a:hover{color:#f37021}.row-type-sidebar_post_feed a p{padding-top:10px!important}.row-type-sidebar_post_feed .tile-sidebar{border-bottom:2px solid #333}.datepicker{text-transform:none}html{scroll-behavior:smooth}.top-bar{justify-content:space-between!important;padding-bottom:0!important}.top-bar:nth-of-type(2){padding-bottom:35px!important}@media (max-width:1100px){.nav ul li a i.user-icon{margin-right:0}#footer a.logo{margin:0 auto;margin-bottom:35px}#footer .col.col-2{text-align:center}.top-bar:nth-of-type(2) .col.col-4{margin-bottom:0}}.top-bar .title-block{margin-bottom:15px}.top-bar .title-block p{color:#333;font-weight:700}.flex-column{display:flex;flex-direction:column;justify-content:space-between}@media (max-width:1100px){.top-bar{padding-bottom:0!important}.top-bar .title-block{margin-bottom:0}.no-col-mob{margin-bottom:0}.flex-column{margin-bottom:30px}.flex-column:last-of-type{margin-bottom:0}}.author-details{display:flex;align-items:center}.author-details img{margin-right:5px;object-fit:cover}.row-type-advert_top{display:flex;justify-content:center;padding:20px 0;background-color:#301b3d}.paywall-section{display:flex;justify-content:center;align-items:flex-start}.paywall-section .paywall-content-block{text-align:center;background-color:#5f357a;color:#fff;padding:50px;border-radius:5px}.paywall-section .paywall-content-block a.button{border-color:#fff;color:#fff}.paywall-section .paywall-content-block a.button:hover{background-color:#fff;color:#5f357a}.paywall-section.paywall-dynamic{display:none;width:100%;z-index:99;height:100%;height:100%;background:rgba(255,255,255,.95);backdrop-filter:blur(5px)}.paywall-section.paywall-dynamic.paywall-obscured{display:block}.single iframe{width:100%}.row-type-cta .h2{margin-bottom:50px}.select-container{display:flex;justify-content:space-between}.select-container select{width:auto;margin-right:20px}.single-post .top-bar .tags{width:60%}@media (max-width:1100px){.select-container{display:block}.select-container select{width:100%;margin-top:10px;margin-bottom:10px}.single-post .top-bar .tags{width:auto;margin-right:auto}.single-post .top-bar .col-3.flex-column{flex-direction:row;justify-content:space-between}.single-post .top-bar .col-3.flex-column .post-actions{padding-top:0}}.single-post .top-bar .social.share{width:30%}@media (max-width:576px){.single-post .top-bar .col-3.flex-column{flex-direction:column}.single-post .top-bar .col-3.flex-column .post-actions{flex-wrap:wrap}.single-post .top-bar .social.share{width:100%}.single-post .top-bar{justify-content:flex-start!important}}.follow-block{background-color:#f1f1f1;border-radius:3px;padding:20px}.follow-block h4{padding:0;cursor:pointer}.follow-block h4::after{content:"\e59e";font-family:"Font Awesome 6 Pro";font-weight:900;float:right}.follow-block.selected h4::after{content:"\f068"}.follow-block a.refresh-page{margin-top:30px;padding:8px 15px;display:none;width:fit-content;margin-left:0!important}.follow-block ul{list-style-type:none;flex-wrap:wrap;padding:0!important;padding-top:15px!important;padding-bottom:15px!important;display:none}.follow-block ul.active{height:100%}.follow-block ul li::before{content:none!important}.follow-block ul li{padding-left:0!important;padding-right:5px;display:inline-block}.follow-block ul li a{padding:8px 15px;border:2px solid #5f357a;text-decoration:none!important;display:block;cursor:pointer;transition:background-color .3s ease-in-out,color .3s ease-in-out}.follow-block ul li a.pin-sector{background-color:#fff;color:#5f357a}.follow-block ul li a.pin-sector:hover{background-color:#5f357a;color:#fff}.follow-block ul li a.pin-sector.selected{background-color:#5f357a;color:#fff}.row-type-innovation_content .login-block{background-color:#efebf2;color:#5f357a;padding:15px 30px 30px;text-align:center}.row-type-innovation_content .login-block h4+p{padding-top:0}.single .top-bar .post-actions{padding-top:50px}@media (max-width:576px){.single .top-bar .post-actions{padding-top:0;flex-wrap:wrap}}.single .top-bar .flex-column{justify-content:unset}.single ul.countries{display:flex;padding:0 10px 0 0!important}.single ul.countries li{padding:0 5px;padding-bottom:0;box-sizing:border-box;list-style-type:none}.single ul.countries li::before{content:none!important}.single ul.countries li img{width:40px}.single div.social{padding-top:0!important;padding-bottom:0!important}.single .top-bar .post-pins{display:flex;flex-wrap:wrap;width:80%}.single .top-bar .post-pins li{width:35%;margin:0}.single .top-bar .post-pins li.sectors{width:100%;margin-bottom:10px}.single .top-bar .post-pins li a{margin:0}.single .col-3.flex-column::after{content:none}.refresh-page{display:none}.single-post .paywall-content{font-size:1rem;line-height:1.5rem}.post-actions{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}@media (max-width:1100px){.post-actions{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.post-actions div:not(.share)::after{content:none}.post-actions div:not(.share) span:first-of-type{display:none}}.post-actions ul.tags{padding:0}.post-actions ul.type{padding-top:40px 0 20px 0;right:0}.post-actions div:not(.share){padding:20px 20px 20px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.post-actions div:not(.share) span{margin-right:5px}@media (max-width:1100px){.post-actions div:not(.share) .social.share li:first-of-type{display:none}}.post-actions div:not(.share) .social.share li a i{color:#5f357a}.post-actions .social.share{padding:20px 20px 20px 0}.article-content .row-inner .col{z-index:0}.article-content .row-inner .col:first-of-type{z-index:1}@font-face{font-family:proxima-nova;src:url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:proxima-nova;src:url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:600;font-stretch:normal}@font-face{font-family:proxima-nova;src:url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:400;font-stretch:normal}div.gform_wrapper{padding:0;background-color:transparent;margin:0 auto;text-align:left}.gform_body{padding:15px 0}.gform_body label{display:block;width:100%;margin:0;padding-top:15px;padding-bottom:5px}.gform_body .ginput_container_radio label{display:inline;padding-left:5px}.gform_body .ginput_container_radio ul{list-style:none;padding-left:0}.gform_body .gfield_description{font-size:.8rem;padding-bottom:5px;padding-top:7.5px}.gform_body select{height:45px}.gform_body select[multiple]{height:auto}.gform_fields{list-style:none;margin:0;padding:0}.gform_fields .gfield{padding:0 0 15px}.gform_fields .ginput_complex{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}.gform_fields .ginput_complex span{width:50%;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box}.gform_fields .ginput_complex span:nth-of-type(odd){padding-right:2%}.gform_fields .ginput_complex span:nth-of-type(2n){padding-left:2%}@media (max-width:576px){.gform_fields .ginput_complex{display:block}.gform_fields .ginput_complex span{display:block;width:100%}.gform_fields .ginput_complex span:nth-of-type(odd){padding-right:0}.gform_fields .ginput_complex span:nth-of-type(2n){padding-left:0}}.gform_fields .ginput_complex span label{display:block;width:100%;font-size:.8rem;padding-bottom:0;padding-top:5px}.gfield_label{display:block;padding-top:5px;font-weight:700;margin:0}.gfield_error .validation_message{padding:5px 15px;background-color:#ff004c;color:#fff}.gfield_error .validation_message::before{content:"\f06a ";font-family:"Font Awesome 5 Pro";font-weight:300}.gfield_error input,.gfield_error textarea{border-color:#ff004c}.gform_validation_errors{padding:15px 30px;background-color:#ff004c;color:#fff;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.gform_validation_errors a{color:#fff}.gform_footer{padding-top:0;text-align:right}span.screen-reader-text{width:0;height:0;display:block;overflow:hidden;position:absolute;left:0;top:0}.ginput_preview img{display:inline-block;margin-right:15px}.gfield_required_text{display:inline-block;padding-left:5px;font-weight:400}.gform_wrapper.gravity-theme fieldset,.gform_wrapper.gravity-theme legend{background:0 0;padding:0}.gform_wrapper.gravity-theme fieldset{border:none;display:block;margin:0}.gform_wrapper.gravity-theme legend{margin-left:0;margin-right:0}.gform-icon{font-family:gform-icons-theme!important;speak:never;font-style:normal;font-weight:400;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.gform-icon--circle-error:before{content:"\e91a"}.gform_wrapper.gravity-theme .gform_drop_instructions{display:block;margin-bottom:8px}.gform_wrapper.gravity-theme .gfield_fileupload_filesize{padding:0 6px}.gform_wrapper.gravity-theme .gfield_validation_message ul{margin:16px 0;padding-left:24px}.gform_wrapper.gravity-theme .gfield_validation_message ul:empty{display:none}.gform_wrapper.gravity-theme .ginput_preview{margin:16px 0}.gform_wrapper.gravity-theme ::-ms-reveal{display:none}.gform_wrapper.gravity-theme .chosen-container{display:inline-block;font-size:16px;position:relative;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle}.gform_wrapper.gravity-theme .chosen-container *{box-sizing:border-box}.gform_wrapper.gravity-theme .chosen-container a{cursor:pointer}.gform_wrapper.gravity-theme .chosen-rtl{text-align:right}@media only screen and (max-width:641px){.gform_wrapper.gravity-theme input:not([type=radio]):not([type=checkbox]):not([type=image]):not([type=file]){line-height:2;min-height:32px}.gform_wrapper.gravity-theme textarea{line-height:1.5}.gform_wrapper.gravity-theme .chosen-container span:not(.ginput_price){display:block;margin-bottom:8px}.gform_wrapper.gravity-theme li.field_sublabel_below .ginput_complex{margin-top:12px!important}.gform_wrapper.gravity-theme ul.gfield_checkbox li label,.gform_wrapper.gravity-theme ul.gfield_radio li label{cursor:pointer;width:85%}}.gform_wrapper.gravity-theme .gform_hidden{display:none}.gform_wrapper.gravity-theme .hidden_label .gfield_label,.gform_wrapper.gravity-theme .screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.gform_wrapper.gravity-theme button.screen-reader-text:focus{border:0;clip:auto;clip-path:none;height:auto;margin:0;position:static!important;width:auto}.gform_wrapper.gravity-theme .gfield textarea{width:100%}.gform_wrapper.gravity-theme .gfield textarea.large{height:288px}.gform_wrapper.gravity-theme .gfield input,.gform_wrapper.gravity-theme .gfield select{max-width:100%}.gform_wrapper.gravity-theme .gfield input.large,.gform_wrapper.gravity-theme .gfield select.large{width:100%}.gform_wrapper.gravity-theme *{box-sizing:border-box}.gform_wrapper.gravity-theme .gform_fields{display:grid;grid-column-gap:2%;-ms-grid-columns:(1fr 2%)[12];grid-row-gap:16px;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(auto-fill,auto);width:100%}.gform_wrapper.gravity-theme .gfield{grid-column:1/-1;min-width:0}.gform_wrapper.gravity-theme .gfield.gfield--width-full{grid-column:span 12;-ms-grid-column-span:12}.gform_wrapper.gravity-theme .field_sublabel_below .ginput_complex{align-items:flex-start}html[dir=rtl] .gform_wrapper.gravity-theme code,html[dir=rtl] .gform_wrapper.gravity-theme input[type=email],html[dir=rtl] .gform_wrapper.gravity-theme input[type=url]{direction:rtl}html[dir=rtl] .gform_wrapper.gravity-theme .gfield_label{direction:rtl}html[dir=rtl] .gform_wrapper.gravity-theme .gfield_required{margin-left:0;margin-right:4px}html[dir=rtl] .gform_wrapper.gravity-theme ::-webkit-input-placeholder{text-align:right}html[dir=rtl] .gform_wrapper.gravity-theme ::-moz-placeholder{text-align:right}html[dir=rtl] .gform_wrapper.gravity-theme :-ms-input-placeholder{text-align:right}html[dir=rtl] .gform_wrapper.gravity-theme :-moz-placeholder{text-align:right}html[dir=rtl] .gform_wrapper.gravity-theme .gform_wrapper.gravity-theme fieldset{display:block}html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) fieldset:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full),html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full){padding-left:0;padding-right:16px}@media (min-width:641px){html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full){padding-left:0;padding-right:16px}}.gform_wrapper.gravity-theme .gform_card_icon_container{display:flex;height:32px;margin:8px 0 6.4px}.gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon{background-image:url(https://springwise.com/wp-content/plugins/gravityforms/images/gf-creditcards.svg);background-repeat:no-repeat;height:32px;margin-right:4.8px;text-indent:-9000px;width:40px}.gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon.gform_card_icon_selected{position:relative}.gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon.gform_card_icon_selected::after{background:url(https://springwise.com/wp-content/plugins/gravityforms/images/gf-creditcards-check.svg) center center no-repeat;bottom:4px;content:"";display:block;height:10px;position:absolute;right:0;width:13px}.gform_wrapper.gravity-theme .gfield_list_group{display:flex;flex-direction:row;flex-wrap:nowrap;margin-bottom:8px}.gform_wrapper.gravity-theme .gfield_list_group:last-child{margin-bottom:0}@media (max-width:640px){.gform_wrapper.gravity-theme .gform_fields{grid-column-gap:0}.gform_wrapper.gravity-theme .gfield:not(.gfield--width-full){grid-column:1/-1}html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) fieldset:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full),html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full){padding-right:0}.gform_wrapper.gravity-theme .gfield_list_group{border:1px solid rgba(0,0,0,.2);display:block;margin-bottom:16px;padding:16px}.gform_wrapper.gravity-theme .gfield_list_group:last-child{margin-bottom:0}}.gform_wrapper.gravity-theme .gfield_label{display:inline-block;font-size:16px;font-weight:700;margin-bottom:8px;padding:0}.gform_wrapper.gravity-theme .ginput_complex label{font-size:15px;padding-top:5px}.gform_wrapper.gravity-theme .gform_validation_errors{background:#fff9f9;border-radius:5px;border:1.5px solid #c02b0a;box-shadow:0 1px 4px rgba(0,0,0,.11),0 0 4px rgba(18,25,97,.0405344);margin-block-end:8px;margin-block-start:8px;padding-block:16px;padding-inline-end:16px;padding-inline-start:48px;position:relative;width:100%}.gform_wrapper.gravity-theme .gform_validation_errors:focus{outline:#c02b0a solid 2px;outline-offset:2px}.gform_wrapper.gravity-theme .gform_validation_errors>h2{color:#c02b0a;font-size:13.2px;font-weight:500;line-height:17.6px;margin-block-end:12px;margin-block-start:0;margin-inline:0}.gform_wrapper.gravity-theme .gform_validation_errors>h2::before{display:none}.gform_wrapper.gravity-theme .gform_validation_errors>h2 .gform-icon{align-items:center;display:flex;font-size:28px;height:100%;inset-inline-start:12px;position:absolute;inset-block-start:0}.gform_wrapper.gravity-theme .gform_validation_errors>h2.hide_summary{margin:0;padding:0}.gform_wrapper.gravity-theme .gfield_required{color:#c02b0a;display:inline-block;font-size:13.008px;padding-inline-start:0.125em}.gform_wrapper.gravity-theme .gfield_required .gfield_required_text{font-style:italic;font-weight:400}.gform_wrapper.gravity-theme .gfield_error .gfield_repeater_cell label,.gform_wrapper.gravity-theme .gfield_error label,.gform_wrapper.gravity-theme .gfield_error legend,.gform_wrapper.gravity-theme .gfield_validation_message,.gform_wrapper.gravity-theme .validation_message,.gform_wrapper.gravity-theme [aria-invalid=true]+label,.gform_wrapper.gravity-theme label+[aria-invalid=true]{color:#c02b0a}.gform_wrapper.gravity-theme .gfield_validation_message,.gform_wrapper.gravity-theme .validation_message{background:#fff9f9;border:1px solid #c02b0a;font-size:14.992px;margin-block-start:8px;padding:12.992px 24px}.gform_wrapper.gravity-theme .gfield_error [aria-invalid=true]{border:1px solid #c02b0a}.gform_wrapper.gravity-theme .gform_previous_button.button,.gform_wrapper.gravity-theme .gform_save_link.button{-webkit-appearance:none!important;background-color:#fff;color:#6b7280;text-decoration:none}.gform_wrapper.gravity-theme .gform_previous_button.button svg,.gform_wrapper.gravity-theme .gform_save_link.button svg{display:inline-block;margin-right:4px}.gform_wrapper.gravity-theme button.button:disabled{opacity:.6}.gform_wrapper.gravity-theme .gform_footer{display:flex}.gform_wrapper.gravity-theme .gform_footer input{align-self:flex-end}.gform_wrapper.gravity-theme .ginput_complex{display:flex;flex-flow:row wrap}.gform_wrapper.gravity-theme .ginput_complex fieldset,.gform_wrapper.gravity-theme .ginput_complex span{flex:1}.gform_wrapper.gravity-theme .ginput_complex label,.gform_wrapper.gravity-theme .ginput_complex legend{display:block}.gform_wrapper.gravity-theme .ginput_complex input,.gform_wrapper.gravity-theme .ginput_complex select{width:100%}@media (min-width:641px){.gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) fieldset:not([style*="display:none"]):not(.ginput_full),.gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full){padding-right:1%}.gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) fieldset:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full),.gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full){padding-left:1%;padding-right:0}html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) fieldset:not([style*="display:none"]):not(.ginput_full),html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full){padding-left:1%;padding-right:0}html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) fieldset:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full),html[dir=rtl] .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full){padding-left:0;padding-right:1%}}@media (max-width:640px){.gform_wrapper.gravity-theme .ginput_complex span{flex:0 0 100%;margin-bottom:8px;padding-left:0}}.gform_wrapper.gravity-theme .description,.gform_wrapper.gravity-theme .gfield_description{clear:both;font-family:inherit;font-size:15px;letter-spacing:normal;line-height:inherit;padding-top:13px;width:100%}html[dir=rtl] .gform_wrapper.gravity-theme .gform_card_icon{float:right}.gform_wrapper.gravity-theme .gform_footer{margin:6px 0 0;padding:16px 0}.gform_wrapper.gravity-theme .gform_footer button,.gform_wrapper.gravity-theme .gform_footer input{margin-bottom:8px}.gform_wrapper.gravity-theme .gform_footer button.button:disabled,.gform_wrapper.gravity-theme .gform_footer input.button:disabled{opacity:.6}.gform_wrapper.gravity-theme .gform_footer button+input,.gform_wrapper.gravity-theme .gform_footer input+button,.gform_wrapper.gravity-theme .gform_footer input+input{margin-left:8px}html[dir=rtl] .gform_wrapper.gravity-theme button+input,html[dir=rtl] .gform_wrapper.gravity-theme input+button,html[dir=rtl] .gform_wrapper.gravity-theme input+input{margin-right:8px}.gform_wrapper.gravity-theme .gfield_checkbox label,.gform_wrapper.gravity-theme .gfield_radio label{display:inline-block;font-size:15px}.gform_wrapper.gravity-theme .gfield_checkbox button,.gform_wrapper.gravity-theme .gfield_checkbox input[type=text],.gform_wrapper.gravity-theme .gfield_radio button,.gform_wrapper.gravity-theme .gfield_radio input[type=text]{margin-top:16px}.gform_wrapper.gravity-theme input[type=number]{display:inline-block}.gform_wrapper.gravity-theme input[type=date],.gform_wrapper.gravity-theme input[type=email],.gform_wrapper.gravity-theme input[type=number],.gform_wrapper.gravity-theme input[type=password],.gform_wrapper.gravity-theme input[type=search],.gform_wrapper.gravity-theme input[type=text],.gform_wrapper.gravity-theme input[type=time],.gform_wrapper.gravity-theme input[type=url],.gform_wrapper.gravity-theme select,.gform_wrapper.gravity-theme textarea{font-size:15px;margin-bottom:0;margin-top:0;padding:8px}.gform_wrapper.gravity-theme .ginput_total{color:#060}.gform_wrapper.gravity-theme .gfield_repeater_cell{margin-top:8px}.gform_wrapper.gravity-theme .gfield_repeater_cell label{color:#9b9a9a;font-size:12.8px;font-weight:400;padding-top:8px}.gform_wrapper.gravity-theme .gfield_repeater_items .gfield_repeater_cell:not(:first-child){padding-top:8px}.gform_wrapper.gravity-theme .gfield_repeater_wrapper input{border:1px solid #c5c6c5;border-radius:4px}.gform_wrapper.gravity-theme .gfield_repeater_cell>.gfield_repeater_wrapper{background-color:rgba(1,1,1,.02);border-bottom:1px solid #eee;border-left:8px solid #f1f1f1;border-radius:8px;box-shadow:0 1px 1px 0 rgba(0,0,0,.06),0 2px 1px -1px rgba(0,0,0,.06),0 1px 5px 0 rgba(0,0,0,.06);padding:10px 20px}.gform_wrapper.gravity-theme .gfield_repeater_buttons{padding-top:16px}.mfp-bg{top:0;left:0;width:100%;height:100%;z-index:1042;overflow:hidden;position:fixed;background:#0b0b0b;opacity:.8}.mfp-wrap{top:0;left:0;width:100%;height:100%;z-index:1043;position:fixed;outline:0!important;-webkit-backface-visibility:hidden}.mfp-container{text-align:center;position:absolute;width:100%;height:100%;left:0;top:0;padding:0 8px;box-sizing:border-box}.mfp-container:before{content:"";display:inline-block;height:100%;vertical-align:middle}.mfp-align-top .mfp-container:before{display:none}.mfp-ajax-cur{cursor:progress}.mfp-zoom-out-cur{cursor:-moz-zoom-out;cursor:-webkit-zoom-out;cursor:zoom-out}.mfp-arrow,.mfp-close,.mfp-counter{-webkit-user-select:none;-moz-user-select:none;user-select:none}.mfp-loading.mfp-figure{display:none}.mfp-hide{display:none!important}button.mfp-arrow,button.mfp-close{overflow:visible;cursor:pointer;background:0 0;border:0;-webkit-appearance:none;display:block;outline:0;padding:0;z-index:1046;box-shadow:none;touch-action:manipulation}button::-moz-focus-inner{padding:0;border:0}.mfp-close{width:44px;height:44px;line-height:44px;position:absolute;right:0;top:0;text-decoration:none;text-align:center;opacity:.65;padding:0 0 18px 10px;color:#fff;font-style:normal;font-size:28px;font-family:Arial,Baskerville,monospace}.mfp-close:focus,.mfp-close:hover{opacity:1}.mfp-close:active{top:1px}.mfp-close-btn-in .mfp-close{color:#333}.mfp-counter{position:absolute;top:0;right:0;color:#ccc;font-size:12px;line-height:18px;white-space:nowrap}.mfp-arrow{position:absolute;opacity:.65;margin:0;top:50%;margin-top:-55px;padding:0;width:90px;height:110px;-webkit-tap-highlight-color:transparent}.mfp-arrow:active{margin-top:-54px}.mfp-arrow:focus,.mfp-arrow:hover{opacity:1}.mfp-arrow:after,.mfp-arrow:before{content:"";display:block;width:0;height:0;position:absolute;left:0;top:0;margin-top:35px;margin-left:35px;border:inset transparent}.mfp-arrow:after{border-top-width:13px;border-bottom-width:13px;top:8px}.mfp-arrow:before{border-top-width:21px;border-bottom-width:21px;opacity:.7}.mfp-iframe-scaler{width:100%;height:0;overflow:hidden;padding-top:56.25%}.mfp-iframe-scaler iframe{position:absolute;display:block;top:0;left:0;width:100%;height:100%;box-shadow:0 0 8px rgba(0,0,0,.6);background:#000}img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;box-sizing:border-box;padding:40px 0;margin:0 auto}.mfp-figure{line-height:0}.mfp-figure:after{content:"";position:absolute;left:0;top:40px;bottom:40px;display:block;right:0;width:auto;height:auto;z-index:-1;box-shadow:0 0 8px rgba(0,0,0,.6);background:#444}.mfp-figure figure{margin:0}.mfp-bottom-bar{margin-top:-36px;position:absolute;top:100%;left:0;width:100%;cursor:auto}.mfp-title{text-align:left;line-height:18px;color:#f3f3f3;word-wrap:break-word;padding-right:36px}@media all and (max-width:900px){.mfp-arrow{-webkit-transform:scale(.75);transform:scale(.75)}.mfp-container{padding-left:6px;padding-right:6px}}body .mfp-container{padding:0;width:90%;height:90%;right:0;margin:0 auto}body .mfp-wrap{-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background:rgba(51,51,51,.8)}body .mfp-bg{background:0 0}body .mfp-bottom-bar{display:none!important}.mfp-fade.mfp-bg{opacity:0;-webkit-transition:none;transition:none}.mfp-fade.mfp-bg.mfp-ready{opacity:1}.mfp-fade.mfp-bg.mfp-removing{opacity:0}.modal{z-index:0}.modal .row{z-index:0}.modal .row-inner{width:100%;padding-left:60px;padding-right:60px}button.modal-close.mfp-close{position:absolute!important;top:0;border-radius:0!important;right:0;font-size:1rem;opacity:1;padding:20px!important;width:auto;height:auto;z-index:1055;font-family:"Font Awesome 6 Pro"!important;border:none!important;background-color:#5f357a!important;color:#fff!important}button.modal-close.mfp-close:hover{background-color:#333!important;color:#000}button.modal-close.mfp-close::before{content:none}button.modal-close.mfp-close::after{content:none}</style>
+	<style></style>
+	<meta name="dc.title" content="Nvidia reveals supercomputer for modelling the entire Earth - Springwise">
+<meta name="dc.description" content="Nvidia has announced it is building a supercomputer which will be capable of modelling the entire planet at metre-scale resolution – allowing development of much more accurate climate models">
+<meta name="dc.relation" content="https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/">
+<meta name="dc.source" content="https://springwise.com/">
+<meta name="dc.language" content="en_GB">
+<meta name="description" content="Nvidia has announced it is building a supercomputer which will be capable of modelling the entire planet at metre-scale resolution – allowing development of much more accurate climate models">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/">
+<meta property="og:url" content="https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/">
+<meta property="og:site_name" content="Springwise">
+<meta property="og:locale" content="en_GB">
+<meta property="og:type" content="article">
+<meta property="article:publisher" content="https://www.facebook.com/edie.net/" />
+<meta property="article:author" content="Lisa Magloff" />
+<meta property="author" content="Lisa Magloff" />
+<meta property="article:section" content="Uncategorized">
+<meta property="og:title" content="Nvidia reveals supercomputer for modelling the entire Earth - Springwise">
+<meta property="og:description" content="Nvidia has announced it is building a supercomputer which will be capable of modelling the entire planet at metre-scale resolution – allowing development of much more accurate climate models">
+<meta property="og:image" content="https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitya-digital-twin-of-the-earth-to-fight-climate-change.jpg">
+<meta property="og:image:secure_url" content="https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitya-digital-twin-of-the-earth-to-fight-climate-change.jpg">
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="698">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@springwise">
+<meta name="twitter:creator" content="@springwise">
+<meta name="twitter:title" content="Nvidia reveals supercomputer for modelling the entire Earth - Springwise">
+<meta name="twitter:description" content="Nvidia has announced it is building a supercomputer which will be capable of modelling the entire planet at metre-scale resolution – allowing development of much more accurate climate models">
+<meta name="twitter:image" content="https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitya-digital-twin-of-the-earth-to-fight-climate-change.jpg">
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"TechArticle","datePublished":"2021-12-06T05:55:00+00:00","dateModified":"2025-04-03T22:34:28+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/springwise.com\/uncategorized\/nvidia-reveals-supercomputer-for-modelling-the-entire-earth\/"},"headline":"Nvidia reveals supercomputer for modelling the entire Earth","author":{"@type":"Person","name":"Lisa Magloff","url":"https:\/\/springwise.com"},"image":{"@type":"ImageObject","url":"https:\/\/edienetlive.s3.eu-west-2.amazonaws.com\/wp-content\/uploads\/sites\/5\/innovationsustainabilitya-digital-twin-of-the-earth-to-fight-climate-change.jpg"},"publisher":{"@type":"Organization","name":"Springwise","logo":{"@type":"ImageObject","url":"https:\/\/springwise.com\/wp-content\/themes\/spring-wise\/images\/cover.png"},"sameAs":["https:\/\/www.facebook.com\/springwiseintelligence\/","https:\/\/twitter.com\/@springwise","https:\/\/www.instagram.com\/springwiseintelligence\/","https:\/\/www.linkedin.com\/company\/springwise-intelligence\/"]},"description":"Nvidia has announced it is building a supercomputer which will be capable of modelling the entire planet at metre-scale resolution \u2013 allowing development of much more accurate climate models","isAccessibleForFree":"False","hasPart":{"@type":"WebPageElement","isAccessibleForFree":"False","cssSelector":".paywall-content"}}</script>
+<style id='wpseopress-local-business-style-inline-css' type='text/css'></style>
+<style id='wpseopress-table-of-contents-style-inline-css' type='text/css'></style>
+
+<link rel="preload" href="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitya-digital-twin-of-the-earth-to-fight-climate-change.jpg?width=848&height=477&func=fit&bg_colour=auto" as="image">
+                    <script>
+                        window.dataLayer = window.dataLayer || [];
+                        dataLayer.push({
+                            'pageTitle' : 'Nvidia reveals supercomputer for modelling the entire Earth',
+                            'articleType' : 'innovation',
+                            'userLoggedIn' : 'false',
+                            'websiteEvent' : '',
+                            'articleCompany' : '',
+                            'articlePeople' : [],
+                            'articleTopic' : ["Uncategorized"],
+                            'primaryTopic' : '',
+                            'articleChannel' : [],
+                            'articleURL' : 'https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/',
+                            'articleTitle' : 'Nvidia reveals supercomputer for modelling the entire Earth',
+                            'userSegment' : [""],
+                            'cid' : '',
+                            'partyId' : '',
+                            'itemid' : '',
+                            'itemType' : '',
+                            'statType' : '0',
+                            'pageTags' : [],
+                            'authorName' : 'Lisa Magloff',
+                            'accessLevel' : 'standard',
+                        });
+                    </script>
+                <link rel="amphtml" href="https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?amp=true">
+<meta name="lytics:topics" content="Uncategorized"/>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TQDLKK3F');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- BEGIN ADVERTSERVE CODE -->
+<script type="text/javascript">
+var _avp = _avp || [];
+(function() {
+function load() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript'; s.async = true; s.src = 'https://fhg.advertserve.com/js/libcode4.js';
+  var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s, x);
+}
+window.setTimeout(load, 0);
+})();
+</script>
+<!-- END ADVERTSERVE CODE -->	<link href="https://fhg.advertserve.com" rel="preconnect" />
+	<meta name="viewport" content="width=device-width" />
+<link rel="shortcut icon" href="https://springwise.com/wp-content/themes/spring-wise/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://springwise.com/wp-content/themes/spring-wise/images/apple-touch-icon-180x180.png" />	<style></style>
+	
+<noscript>
+	<style type="text/css">
+		.screen-loader { display:none; }
+		#content .col:not(.noScrollAnimation):not(.col-type-image) { opacity: 1; }
+		#content, #footer, #header { display:block;	}
+	</style>
+</noscript>
+</head>
+
+<body class="post-template-default single single-post postid-33379 single-format-standard content-type-innovation">
+
+	<div id="screen-loader">
+		<svg id="eZRPqnoUvXs1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><style></style><g id="eZRPqnoUvXs2_ts" transform="translate(4,20) scale(1,1)"><rect id="eZRPqnoUvXs2" width="8" height="40" rx="0" ry="0" transform="translate(-4,-20)" fill="#FFF" stroke="none" stroke-width="1"/></g><g id="eZRPqnoUvXs3_ts" transform="translate(20,20) scale(1,1)"><rect id="eZRPqnoUvXs3" width="8" height="40" rx="0" ry="0" transform="translate(-4,-20)" fill="#FFF" stroke="none" stroke-width="1"/></g><g id="eZRPqnoUvXs4_ts" transform="translate(36,20) scale(1,1)"><rect id="eZRPqnoUvXs4" width="8" height="40" rx="0" ry="0" transform="translate(-4,-20)" fill="#FFF" stroke="none" stroke-width="1"/></g></svg>
+	</div>
+
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQDLKK3F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<a href="#content" class="skip">Skip to content</a>
+	<div class="mobile-navigation-overlay"></div>
+	
+    <header id="header" class="row" >
+		
+<!-- BEGIN ADVERTSERVE CODE -->
+<section id="top-advert-block" class="row-type-advert_top">
+    <div data-tagid="avp_zid_629">
+        <script type="text/javascript">
+        var _avp = _avp || [];
+        _avp.push({ tagid: 'avp_zid_629', alias: '/', type: 'banner', zid: 629, pid: 0, secure: true, keywords: 'uncategorized' });
+        </script>
+    </div>
+
+</section>
+<!-- END ADVERTSERVE CODE -->
+
+<!-- BEGIN ADVERTSERVE CODE -->
+<div data-tagid="crawler">
+    <script type="text/javascript">
+    var _avp = _avp || [];
+    if (!document.cookie || document.cookie.indexOf('crawler_hide') == -1) {
+    _avp.push({ tagid: 'crawler', alias: '/', type: 'banner', zid: 621, pid: 0, crawler: true, align: 'center', closeable: true, polite: true, spacing: 10, bgcolor: '%23E0E0EB', secure: true, keywords: 'uncategorized' });
+    }
+    </script>
+</div>
+<!-- END ADVERTSERVE CODE -->		
+        <div class="row-inner">
+			
+<a class="logo" href="https://springwise.com" title="Springwise">
+    Springwise | </a>			<nav class="nav main" aria-label="Main Menu">
+							<ul class="menu">
+				<li><a href="https://springwise.com/content/innovation/" title="Innovation Database">Innovation Database</a></li>
+				<li class=" hide-logged-out"><a href="https://springwise.com/my-springwise/" title="My Springwise">My Springwise</a></li>
+				<li><a href="https://springwise.com/content/feature/" title="Insights">Insights<i class="fal open-menu" title="Open menu">&#xf078;</i></a>
+					<ul class="sub-menu">
+				<li><a href="https://springwise.com/springwise-reports/" title="Reports">Reports</a>
+				<li><a href="https://springwise.com/springwise-reports/" title="Future Now">Future Now</a></ul></li>
+				<li><a href="https://springwise.com/ask-springwise/" title="Ask Springwise">Ask Springwise</a></li>
+				<li><a href="https://springwise.com/webinars/" title="Events">Events</a></li>
+				<li><a href="https://springwise.com/pricing/" title="Pricing">Pricing</a></li>
+					<li><a href="https://subs.springwise.com/login?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?advance_login=success" title="Login"><i class="fas user-icon">&#xf2bd;</i>Login</a></li>
+					<li class=" hide-logged-out"><a href="https://springwise.com/?advance_logout=true" title="Logout"><i class="fas user-icon">&#xf2bd;</i>Logout</a></li><li class="become-a-member"><a  target="_blank" href="https://subs.springwise.com/register?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?register=success">Try for free</a></li>
+				<li class="search modal-trigger-li"><a href="#modal-2479" title="Search"><i class="fas">&#xf002;</i></a></li>
+							</ul>
+						</nav>			
+			<a id="mb-nav" href="https://springwise.com/sitemap/">
+				<span class="mb-nav-1"></span>
+				<em>Menu</em>
+				<span class="mb-nav-2"></span>
+			</a>	
+		</div>
+	</header>
+
+	
+	<div class="mobile-menu">
+    <div class="row">
+        <div class="row-inner">
+            <div class="col-6">
+                
+<a class="logo" href="https://springwise.com" title="Springwise">
+    Springwise | </a>            </div>
+            <div class="col col-6">
+                <a id="mb-nav" href="https://springwise.com/sitemap/">
+                    <span class="mb-nav-1"></span>
+                    <em>Menu</em>
+                    <span class="mb-nav-2"></span>
+                </a>
+            </div>
+            <div class="col col-12">
+                <form action="https://springwise.com/" method="get" class="search-form" role="search">
+    <div class="input-group">
+        <input type="search" name="s" placeholder="Search" aria-label="Search terms" value="">
+        <div>
+            <button title="Search this site" type="submit" aria-label="Submit search"><i class="fal">&#xf002;</i></button>
+        </div>
+    </div>
+</form>                <nav class="nav mobile-nav" aria-label="Mobile">
+							<ul class="menu">
+				<li><a href="https://springwise.com/content/innovation/" title="Innovation Database">Innovation Database</a></li>
+				<li class=" hide-logged-out"><a href="https://springwise.com/my-springwise/" title="My Springwise">My Springwise</a></li>
+				<li><a href="https://springwise.com/content/feature/" title="Insights">Insights<i class="fal open-menu" title="Open menu">&#xf078;</i></a>
+					<ul class="sub-menu">
+				<li><a href="https://springwise.com/springwise-reports/" title="Reports">Reports</a>
+				<li><a href="https://springwise.com/springwise-reports/" title="Future Now">Future Now</a></ul></li>
+				<li><a href="https://springwise.com/ask-springwise/" title="Ask Springwise">Ask Springwise</a></li>
+				<li><a href="https://springwise.com/webinars/" title="Events">Events</a></li>
+				<li><a href="https://springwise.com/pricing/" title="Pricing">Pricing</a></li>
+					<li><a href="https://subs.springwise.com/login?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?advance_login=success" title="Login"><i class="fas user-icon">&#xf2bd;</i>Login</a></li>
+					<li class=" hide-logged-out"><a href="https://springwise.com/?advance_logout=true" title="Logout"><i class="fas user-icon">&#xf2bd;</i>Logout</a></li><li class="become-a-member"><a  target="_blank" href="https://subs.springwise.com/register?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?register=success">Try for free</a></li>
+				<li class="search modal-trigger-li"><a href="#modal-2479" title="Search"><i class="fas">&#xf002;</i></a></li>
+							</ul>
+						</nav>                                                    <span class="h3">Contact Us</span><br>
+                 
+                                                    <p><a href="/cdn-cgi/l/email-protection#e68f888089a69596948f8881918f9583c885898b"><span class="__cf_email__" data-cfemail="3f565159507f4c4f4d56515848564c5a115c5052">[email&#160;protected]</span></a></p>
+                                            </div>
+        </div>
+    </div>
+</div>	
+
+
+
+
+    <div id="content" role="main">
+		<div id="ajax-hook" data-post-id="33379" data-post-title="Nvidia reveals supercomputer for modelling the entire Earth"></div><style></style>
+
+<div class="row bg-light article-content">
+            
+            
+            <div class="row-inner">
+                <div class="col col-12 no-col-mob">
+                    <div class="row-inner no-pd-top top-bar">
+                        <div class="col-8 col-md-12 col-sm-12 flex-column">
+                            <div class="title-block">
+                                <h1 class="no-pd-top post-headline" >Nvidia reveals supercomputer for modelling the entire Earth</h1>                                                            </div>
+                            <div class="post-actions">
+                                                                     <ul class="countries">
+                                                                                                                                                                                                                                                                <li>
+                <img
+                    class=""
+                    
+                    data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/united_states.png?width=32&height=21&func=fit"
+                    alt="Springwise - "
+                    data-placeholder-background="transparent"
+					data-toggle-class="active"
+                >
+            </li>                                                                            </ul>
+                                                                
+    <ul class="tags">
+                    <li>
+                <a href="https://springwise.com/category/uncategorized/">
+                                            Uncategorized                                    </a>
+            </li>
+            </ul>
+
+                                
+<div class="social share">
+    <ul class="social-list">
+        <li>Share</li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fspringwise.com%2Funcategorized%2Fnvidia-reveals-supercomputer-for-modelling-the-entire-earth%2F" target="_blank" rel="noopener" aria-label="Facebook">
+                <span>Share Nvidia reveals supercomputer for modelling the entire Earth from Springwise on Facebook</span><i class="fab">&#xf39e;</i>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/intent/tweet/?url=https%3A%2F%2Fspringwise.com%2Funcategorized%2Fnvidia-reveals-supercomputer-for-modelling-the-entire-earth%2F" target="_blank" rel="noopener" aria-label="Twitter">
+                <span>Share Nvidia reveals supercomputer for modelling the entire Earth from Springwise on Twitter</span><i class="fab">&#xe61b;</i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fspringwise.com%2Funcategorized%2Fnvidia-reveals-supercomputer-for-modelling-the-entire-earth%2F" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <span>Share Nvidia reveals supercomputer for modelling the entire Earth from Springwise on LinkedIn</span><i class="fab">&#xf0e1;</i>
+            </a>
+        </li>
+        
+        <li>
+            <a href="/cdn-cgi/l/email-protection#b887cbcddad2dddbcc85f6ced1dcd1d998caddceddd9d4cb98cbcdc8ddcadbd7d5c8cdccddca98ded7ca98d5d7dcddd4d4d1d6df98ccd0dd98ddd6ccd1cadd98fdd9caccd09edad7dcc185d0ccccc8cb9d8bf99d8afe9d8afecbc8cad1d6dfcfd1cbdd96dbd7d59d8afecdd6dbd9ccdddfd7cad1c2dddc9d8afed6ced1dcd1d995caddceddd9d4cb95cbcdc8ddcadbd7d5c8cdccddca95ded7ca95d5d7dcddd4d4d1d6df95ccd0dd95ddd6ccd1cadd95ddd9caccd09d8afe" target="_blank" rel="noopener" aria-label="Email">
+                <span>Share Nvidia reveals supercomputer for modelling the entire Earth from Springwise via Email</span><i class="fas fa-envelope-open-text">&#xf0e0;</i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+                            </div>
+                        </div>
+                        <div class="col col-1 col-blank"></div>
+                        <div class="col col-3 flex-column">
+                            <div class="article-details">
+                                <div class="author-details">
+                                                                        <div>
+                                                                                    <p class="date no-pd-btm no-pd-top"><span><a href="https://springwise.com/author/lisa-magloffbtopenworld-com/" title="Posts by Lisa Magloff" rel="author">Lisa Magloff</a></span></p>
+                                                                                <p class="date no-pd-top no-pd-btm">Published <span>December 6, 2021</span></p>
+                                                                            </div>
+                                </div>
+                            </div>
+                            <div class="post-actions">
+                                <div>
+                                    
+<ul class="post-pins">
+    <li class="sectors">
+                    <a href="https://subs.springwise.com/login?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?advance_login=success" title="Save sector" class="pin-sector">Follow Sectors</a>
+            </li>
+    <li>
+                    <a href="https://subs.springwise.com/login?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?advance_login=success" title="Save for later" class="pin-save">Save <i class="fas">&#xf4c7;</i></a>
+            </li>
+    
+    <li>
+                    <a href="https://subs.springwise.com/login?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/?advance_login=success" title="Save for folder" class="pin-save"><i class="fas">&#xf65e;</i></a>
+            </li>
+    
+</ul>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col col-8 post-main-content">
+
+                        
+                            <div class="paywall-section paywall-dynamic paywall-obscured">
+                                <div class="paywall-content-block" data-nosnippet>
+                              
+
+        
+            
+            <h2>Want to explore this innovation?</h2>
+<p>Register for free today to access up to 10 groundbreaking innovations and discover the latest insights in sustainability and innovation.</p>
+            
+                            <p>
+                    <a class="button" href="https://subs.springwise.com/login?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/%3Fregwall%3Dsuccess%26advance_login%3Dsuccess">Login <i class="fas">&#xf090;</i></a>
+                    <a class="button" href="https://subs.springwise.com/register?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/%3Fregwall%3Dsuccess%26register%3Dsuccess">Register <i class="fas">&#xf2bd;</i></i></a>
+                </p>
+            
+            </div>
+
+                                                            </div>
+
+                                                </div>
+
+                        
+                            <div class="col col-1 col-blank"></div>
+                                <div class="col col-3">
+                                <div class="sidebar-fix-outer">
+                                    <div class="sidebar-fix">
+                                        
+<div class="sidebar">
+            
+        
+            
+                
+                    <section class="row row-type-innovation_content">
+                        
+    
+    <div class="login-block">
+        <h4>Login/Register</h4>
+        <p>Login or register to view the Innovation content.</p>
+        <a class="button-secondary" href="https://subs.springwise.com/login?returl=https://springwise.com/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/">Login/Register</a>
+    </div>
+
+    <!-- BEGIN ADVERTSERVE CODE -->
+
+    <div data-tagid="avp_zid_627">
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+            var _avp = _avp || [];
+            _avp.push({ tagid: 'avp_zid_627', alias: '/', type: 'banner', zid: 627, pid: 0, iframe: true, width: 300, height: 600, refresh: 30, refresh_limit: 30, secure: true, keywords: 'uncategorized' });
+        </script>
+    </div>
+    <!-- END ADVERTSERVE CODE -->
+                    </section>
+                
+                    <section class="row row-type-sidebar_post_feed">
+                            
+            <h2>Latest Innovations</h2>                                <a class="col col-12 tile-sidebar" href="https://springwise.com/diverse-nature/tackling-laundry-microplastic-pollution/" title="Tackling laundry microplastic pollution" onclick="dataLayer.push({'event':'mostReadClick','eventCategory':'Most Read Click','eventAction':'Tackling laundry microplastic pollution','eventLabel': 'innovation'});">
+                                <div class="col-12">
+                                            
+			<img
+				class="ratio-16x9 "
+				
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+				data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitysolutions-tackling-microplastic-pollution-from-laundry.jpg?width=1296&height=729&func=crop"
+				alt=""
+				height="729"
+				width="1296"
+				data-srcset="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitysolutions-tackling-microplastic-pollution-from-laundry.jpg?width=286&height=161&func=crop 286w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitysolutions-tackling-microplastic-pollution-from-laundry.jpg?width=398&height=224&func=crop 398w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitysolutions-tackling-microplastic-pollution-from-laundry.jpg?width=624&height=351&func=crop 624w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitysolutions-tackling-microplastic-pollution-from-laundry.jpg?width=848&height=477&func=crop 848w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitysolutions-tackling-microplastic-pollution-from-laundry.jpg?width=1296&height=729&func=crop 1296w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilitysolutions-tackling-microplastic-pollution-from-laundry.jpg?width=2560&height=1440&func=crop 2560w"
+				data-placeholder-background="transparent"
+				data-sizes="(min-width:576px) 1296px, 100vw"
+				data-toggle-class="active"
+				>                                    </div>
+                <p>Tackling laundry microplastic pollution</p>
+            </a>
+                                <a class="col col-12 tile-sidebar" href="https://springwise.com/clean-energy/clean-energy-storage-in-old-oil-wells/" title="Clean energy storage in old oil wells" onclick="dataLayer.push({'event':'mostReadClick','eventCategory':'Most Read Click','eventAction':'Clean energy storage in old oil wells','eventLabel': 'innovation'});">
+                                <div class="col-12">
+                                            
+			<img
+				class="ratio-16x9 "
+				
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+				data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationagriculture-energyusing-old-oil-and-gas-wells-for-compressed-air-energy-storage.jpg?width=1296&height=729&func=crop"
+				alt=""
+				height="729"
+				width="1296"
+				data-srcset="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationagriculture-energyusing-old-oil-and-gas-wells-for-compressed-air-energy-storage.jpg?width=286&height=161&func=crop 286w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationagriculture-energyusing-old-oil-and-gas-wells-for-compressed-air-energy-storage.jpg?width=398&height=224&func=crop 398w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationagriculture-energyusing-old-oil-and-gas-wells-for-compressed-air-energy-storage.jpg?width=624&height=351&func=crop 624w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationagriculture-energyusing-old-oil-and-gas-wells-for-compressed-air-energy-storage.jpg?width=848&height=477&func=crop 848w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationagriculture-energyusing-old-oil-and-gas-wells-for-compressed-air-energy-storage.jpg?width=1296&height=729&func=crop 1296w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationagriculture-energyusing-old-oil-and-gas-wells-for-compressed-air-energy-storage.jpg?width=2560&height=1440&func=crop 2560w"
+				data-placeholder-background="transparent"
+				data-sizes="(min-width:576px) 1296px, 100vw"
+				data-toggle-class="active"
+				>                                    </div>
+                <p>Clean energy storage in old oil wells</p>
+            </a>
+                                <a class="col col-12 tile-sidebar" href="https://springwise.com/circular-economy/ai-photo-analysis-boosts-waste-management/" title="AI photo analysis boosts waste management" onclick="dataLayer.push({'event':'mostReadClick','eventCategory':'Most Read Click','eventAction':'AI photo analysis boosts waste management','eventLabel': 'innovation'});">
+                                <div class="col-12">
+                                            
+			<img
+				class="ratio-16x9 "
+				
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+				data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationmanufacturingAI-photo-analysis-reduces-the-carbon-footprint-of-waste.jpg?width=1296&height=729&func=crop"
+				alt=""
+				height="729"
+				width="1296"
+				data-srcset="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationmanufacturingAI-photo-analysis-reduces-the-carbon-footprint-of-waste.jpg?width=286&height=161&func=crop 286w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationmanufacturingAI-photo-analysis-reduces-the-carbon-footprint-of-waste.jpg?width=398&height=224&func=crop 398w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationmanufacturingAI-photo-analysis-reduces-the-carbon-footprint-of-waste.jpg?width=624&height=351&func=crop 624w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationmanufacturingAI-photo-analysis-reduces-the-carbon-footprint-of-waste.jpg?width=848&height=477&func=crop 848w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationmanufacturingAI-photo-analysis-reduces-the-carbon-footprint-of-waste.jpg?width=1296&height=729&func=crop 1296w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationmanufacturingAI-photo-analysis-reduces-the-carbon-footprint-of-waste.jpg?width=2560&height=1440&func=crop 2560w"
+				data-placeholder-background="transparent"
+				data-sizes="(min-width:576px) 1296px, 100vw"
+				data-toggle-class="active"
+				>                                    </div>
+                <p>AI photo analysis boosts waste management</p>
+            </a>
+                                <a class="col col-12 tile-sidebar" href="https://springwise.com/sustainable-infrastructure/could-the-ocean-help-us-decarbonise-concrete/" title="Could the ocean help us decarbonise concrete?" onclick="dataLayer.push({'event':'mostReadClick','eventCategory':'Most Read Click','eventAction':'Could the ocean help us decarbonise concrete?','eventLabel': 'innovation'});">
+                                <div class="col-12">
+                                            
+			<img
+				class="ratio-16x9 "
+				
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+				data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationproperty-constructionturning-CO2-into-materials-with-seawater-and-electricity.jpg?width=1296&height=729&func=crop"
+				alt=""
+				height="729"
+				width="1296"
+				data-srcset="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationproperty-constructionturning-CO2-into-materials-with-seawater-and-electricity.jpg?width=286&height=161&func=crop 286w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationproperty-constructionturning-CO2-into-materials-with-seawater-and-electricity.jpg?width=398&height=224&func=crop 398w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationproperty-constructionturning-CO2-into-materials-with-seawater-and-electricity.jpg?width=624&height=351&func=crop 624w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationproperty-constructionturning-CO2-into-materials-with-seawater-and-electricity.jpg?width=848&height=477&func=crop 848w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationproperty-constructionturning-CO2-into-materials-with-seawater-and-electricity.jpg?width=1296&height=729&func=crop 1296w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationproperty-constructionturning-CO2-into-materials-with-seawater-and-electricity.jpg?width=2560&height=1440&func=crop 2560w"
+				data-placeholder-background="transparent"
+				data-sizes="(min-width:576px) 1296px, 100vw"
+				data-toggle-class="active"
+				>                                    </div>
+                <p>Could the ocean help us decarbonise concrete?</p>
+            </a>
+               
+                     </section>
+                
+                           
+        
+    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                </div>
+            </div> 
+            </div>
+
+
+
+
+    <section class="row">
+        
+                                    
+                
+                    <aside class="row bg-discovery">
+                        <div class="row-inner row-intro no-pd-btm">
+                            <div class="col col-8" >
+                                <h2>Innovations</h2>                            </div>
+                            <div class="col col-4 right-txt">
+                                <a href="https://springwise.com/content/innovation" class="button-tertiary">View more</a>
+                            </div>
+                        </div>
+                        <div class="row-inner">
+                                                            
+<div class="grid col col-4 col-md-6 tile tile-post " data-id="35493">
+							<a href="https://springwise.com/uncategorized/innovation-sustainability-producing-solid-carbon-from-the-air/" title="Producing solid carbon from thin air" class="tile-image" onclick="dataLayer.push({'event':'discoveryZoneClick','eventCategory':'Discovery Zone Click','eventAction':'Producing solid carbon from thin air','eventLabel': 'innovation'});">
+									
+			<img
+				class="ratio-16x9 "
+				
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+				data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilityProducing-solid-carbon-from-the-air.png?width=398&height=224&func=fit&bg_colour=auto"
+				alt=""
+				height="224"
+				width="398"
+				data-srcset="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilityProducing-solid-carbon-from-the-air.png?width=286&height=161&func=fit&bg_colour=auto 286w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilityProducing-solid-carbon-from-the-air.png?width=398&height=224&func=fit&bg_colour=auto 398w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilityProducing-solid-carbon-from-the-air.png?width=624&height=351&func=fit&bg_colour=auto 624w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilityProducing-solid-carbon-from-the-air.png?width=848&height=477&func=fit&bg_colour=auto 848w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilityProducing-solid-carbon-from-the-air.png?width=1296&height=729&func=fit&bg_colour=auto 1296w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationsustainabilityProducing-solid-carbon-from-the-air.png?width=2560&height=1440&func=fit&bg_colour=auto 2560w"
+				data-placeholder-background="transparent"
+				data-sizes="(min-width:576px) 398px, 100vw"
+				data-toggle-class="active"
+				>							</a>
+				<div class="tile-content">
+		<a href="https://springwise.com/uncategorized/innovation-sustainability-producing-solid-carbon-from-the-air/" title="Producing solid carbon from thin air" onclick="dataLayer.push({'event':'discoveryZoneClick','eventCategory':'Discovery Zone Click','eventAction':'Producing solid carbon from thin air','eventLabel': 'innovation'});">
+			<h4>Producing solid carbon from thin air</h4>								</a>
+					<div class="tile-actions">
+							<ul class="tags">
+																	<li>
+							<a href="https://springwise.com/category/uncategorized/" class="tag">
+																	Uncategorized															</a>
+						</li>
+															</ul>
+						</div>
+			</div>
+</div>
+                                                            
+<div class="grid col col-4 col-md-6 tile tile-post " data-id="35245">
+							<a href="https://springwise.com/uncategorized/innovation-food-drink-technology-to-program-proteins-for-everyday-products/" title="Technology to program proteins for everyday products" class="tile-image" onclick="dataLayer.push({'event':'discoveryZoneClick','eventCategory':'Discovery Zone Click','eventAction':'Technology to program proteins for everyday products','eventLabel': 'innovation'});">
+									
+			<img
+				class="ratio-16x9 "
+				
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+				data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfood-drinktechnology-to-program-proteins-for-everyday-products-1.png?width=398&height=224&func=fit&bg_colour=auto"
+				alt=""
+				height="224"
+				width="398"
+				data-srcset="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfood-drinktechnology-to-program-proteins-for-everyday-products-1.png?width=286&height=161&func=fit&bg_colour=auto 286w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfood-drinktechnology-to-program-proteins-for-everyday-products-1.png?width=398&height=224&func=fit&bg_colour=auto 398w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfood-drinktechnology-to-program-proteins-for-everyday-products-1.png?width=624&height=351&func=fit&bg_colour=auto 624w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfood-drinktechnology-to-program-proteins-for-everyday-products-1.png?width=848&height=477&func=fit&bg_colour=auto 848w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfood-drinktechnology-to-program-proteins-for-everyday-products-1.png?width=1296&height=729&func=fit&bg_colour=auto 1296w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfood-drinktechnology-to-program-proteins-for-everyday-products-1.png?width=2560&height=1440&func=fit&bg_colour=auto 2560w"
+				data-placeholder-background="transparent"
+				data-sizes="(min-width:576px) 398px, 100vw"
+				data-toggle-class="active"
+				>							</a>
+				<div class="tile-content">
+		<a href="https://springwise.com/uncategorized/innovation-food-drink-technology-to-program-proteins-for-everyday-products/" title="Technology to program proteins for everyday products" onclick="dataLayer.push({'event':'discoveryZoneClick','eventCategory':'Discovery Zone Click','eventAction':'Technology to program proteins for everyday products','eventLabel': 'innovation'});">
+			<h4>Technology to program proteins for everyday products</h4>								</a>
+					<div class="tile-actions">
+							<ul class="tags">
+																	<li>
+							<a href="https://springwise.com/category/uncategorized/" class="tag">
+																	Uncategorized															</a>
+						</li>
+															</ul>
+						</div>
+			</div>
+</div>
+                                                            
+<div class="grid col col-4 col-md-6 tile tile-post " data-id="35103">
+							<a href="https://springwise.com/uncategorized/a-fintech-startup-reduces-the-turnover-of-gig-workers/" title="A fintech startup reduces the turnover of gig workers" class="tile-image" onclick="dataLayer.push({'event':'discoveryZoneClick','eventCategory':'Discovery Zone Click','eventAction':'A fintech startup reduces the turnover of gig workers','eventLabel': 'innovation'});">
+									
+			<img
+				class="ratio-16x9 "
+				
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+				data-src="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfinancial-servicesA-fintech-reduces-turnover-of-gig-workers.jpg?width=398&height=224&func=fit&bg_colour=auto"
+				alt=""
+				height="224"
+				width="398"
+				data-srcset="https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfinancial-servicesA-fintech-reduces-turnover-of-gig-workers.jpg?width=286&height=161&func=fit&bg_colour=auto 286w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfinancial-servicesA-fintech-reduces-turnover-of-gig-workers.jpg?width=398&height=224&func=fit&bg_colour=auto 398w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfinancial-servicesA-fintech-reduces-turnover-of-gig-workers.jpg?width=624&height=351&func=fit&bg_colour=auto 624w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfinancial-servicesA-fintech-reduces-turnover-of-gig-workers.jpg?width=848&height=477&func=fit&bg_colour=auto 848w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfinancial-servicesA-fintech-reduces-turnover-of-gig-workers.jpg?width=1296&height=729&func=fit&bg_colour=auto 1296w, https://e2k9ube.cloudimg.io/v7/https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/5/innovationfinancial-servicesA-fintech-reduces-turnover-of-gig-workers.jpg?width=2560&height=1440&func=fit&bg_colour=auto 2560w"
+				data-placeholder-background="transparent"
+				data-sizes="(min-width:576px) 398px, 100vw"
+				data-toggle-class="active"
+				>							</a>
+				<div class="tile-content">
+		<a href="https://springwise.com/uncategorized/a-fintech-startup-reduces-the-turnover-of-gig-workers/" title="A fintech startup reduces the turnover of gig workers" onclick="dataLayer.push({'event':'discoveryZoneClick','eventCategory':'Discovery Zone Click','eventAction':'A fintech startup reduces the turnover of gig workers','eventLabel': 'innovation'});">
+			<h4>A fintech startup reduces the turnover of gig workers</h4>								</a>
+					<div class="tile-actions">
+							<ul class="tags">
+																	<li>
+							<a href="https://springwise.com/category/uncategorized/" class="tag">
+																	Uncategorized															</a>
+						</li>
+															</ul>
+						</div>
+			</div>
+</div>
+                                                    </div>
+                    </aside>
+
+                                            
+
+            </section>
+
+
+    <section class="row row-type-cta bg-grey cntr-txt col-cntr">
+        <div class="row-inner">
+            <div class="col col-8">
+                <p class="h2" >Join 40,000+ subscribers getting free daily updates on the latest innovations</p>                <a href="#modal-2839" class="button modal-trigger">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+
+	
+</div>
+<footer id="footer" class="" >
+	<section class="row">
+		<div class="row-inner">
+			<div class="col col-6">
+				<a class="logo" href="https://springwise.com" title="Springwise | ">
+					Springwise | 				</a>
+				
+            <div class="social">
+                <ul class="social-list">
+                    
+                <li>
+                    <a 
+                        title="Springwise on " 
+                        target="_blank" 
+                        rel="noopener"
+                        href="https://www.linkedin.com/company/springwise-intelligence/?originalSubdomain=uk">
+                        <i class="fab">&#xf08c;</i>
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        title="Springwise on " 
+                        target="_blank" 
+                        rel="noopener"
+                        href="https://x.com/springwise">
+                        <i class="fab">&#xe61b;</i>
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        title="Springwise on " 
+                        target="_blank" 
+                        rel="noopener"
+                        href="https://www.facebook.com/springwiseintelligence/">
+                        <i class="fab">&#xf09a;</i>
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        title="Springwise on " 
+                        target="_blank" 
+                        rel="noopener"
+                        href="https://www.instagram.com/springwiseintelligence/?hl=en">
+                        <i class="fab">&#xf16d;</i>
+                    </a>
+                </li>
+            
+                </ul>
+            </div>
+        				<img width="320" height="180" class="footer-accreditation-image" src="https://springwise.com/wp-content/themes/spring-wise/images/accreditation-spring-wise.png" alt="Accreditation">
+			</div>
+			<div class="col col-4 col-blank"></div>
+			<div class="col col-2">
+				<h4>General</h4>
+				<nav class="nav" aria-label="Footer">
+							<ul class="menu">
+				<li><a href="https://springwise.com/about/" title="About">About</a></li>
+				<li><a href="https://springwise.com/content/innovation/" title="Innovation Database">Innovation Database</a></li>
+				<li><a href="https://springwise.com/submit-an-innovation/" title="Submit an Innovation">Submit an Innovation</a></li>
+				<li><a href="https://springwise.com/services/" title="Content services">Content services</a></li>
+				<li><a href="https://springwise.com/contact/" title="Contact">Contact</a></li>
+				<li><a href="https://favershamhouse.com/privacy/" target="_blank" title="Privacy">Privacy</a></li>
+				<li><a href="https://favershamhouse.com/membership-terms-and-conditions/" title="Membership terms & conditions">Membership terms & conditions</a></li>
+				<li><a href="https://springwise.com/cookie-policy/" title="Cookie policy">Cookie policy</a></li>
+							</ul>
+						</nav>			</div>
+		</div>
+	</section>
+	<section class="row bg-dark-purple">
+		<div class="row-inner no-pd-top no-pd-btm">
+			<div class="col col-7">
+				<p>&copy; 2025 Springwise</p>
+				<nav class="nav" aria-label="Footer">
+							<ul class="menu">
+				<li><a href="https://springwise.com/cookie-policy/" title="Cookie policy">Cookie policy</a></li>
+							</ul>
+						</nav>			</div>
+			
+		</div>
+	</section>
+
+	
+    
+        
+        <div id="modal-2479" class="modal mfp-hide triggered-modal" data-modal-expiration="30" data-modal-delay="0">
+
+                        
+                
+                    <section class="row bg-light row-type-columns">
+
+                                                    <div class="row-inner row-content">
+
+                                
+                                
+                                    
+                                    
+                                        
+                                        <div class="col col-12 col-type-search">
+                                            <p class="h2">Search</p>
+<form action="https://springwise.com/" method="get" class="search-form" role="search">
+    <div class="input-group">
+        <input type="search" name="s" placeholder="Search" aria-label="Search terms" value="">
+        <div>
+            <button title="Search this site" type="submit" aria-label="Submit search"><i class="fal">&#xf002;</i></button>
+        </div>
+    </div>
+</form>                                         </div>
+
+                                                                    
+                            </div>
+                        
+                    </section>
+
+                
+            
+        </div>
+    
+    
+        
+        <div id="modal-2839" class="modal mfp-hide triggered-modal" data-modal-expiration="" data-modal-delay="">
+
+                        
+                
+                    <section class="row bg-light row-type-columns">
+
+                                                    <div class="row-inner row-content">
+
+                                
+                                
+                                    
+                                    
+                                        
+                                        <div class="col col-12 col-type-form">
+                                            
+
+<script type="text/javascript"></script>
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_3' >
+                        <div class='gform_heading'>
+                            <h2 class="gform_title">Subscribe</h2>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_3'  action='/uncategorized/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/' data-formid='3' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_3' class='gform_fields top_label form_sublabel_below description_below validation_below'><fieldset id="field_3_4" class="gfield gfield--type-name gfield--input-type-name gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  data-js-reload="field_3_4" ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Name<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_3_4'>
+                            
+                            <span id='input_3_4_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_4.3' id='input_3_4_3' value=''   aria-required='true'     />
+                                                    <label for='input_3_4_3' class='gform-field-label gform-field-label--type-sub '>First</label>
+                                                </span>
+                            
+                            <span id='input_3_4_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_4.6' id='input_3_4_6' value=''   aria-required='true'     />
+                                                    <label for='input_3_4_6' class='gform-field-label gform-field-label--type-sub '>Last</label>
+                                                </span>
+                            
+                        </div></fieldset><div id="field_3_3" class="gfield gfield--type-email gfield--input-type-email gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  data-js-reload="field_3_3" ><label class='gfield_label gform-field-label' for='input_3_3'>Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_3_3' type='email' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_3_5" class="gfield gfield--type-captcha gfield--input-type-captcha gfield--width-full field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_3_5" ><label class='gfield_label gform-field-label' for='input_3_5'>CAPTCHA</label><div id='input_3_5' class='ginput_container ginput_recaptcha' data-sitekey='6LcKeZgqAAAAACeOMYo9TnIJAZxLJJRyteXnwv3A'  data-theme='light' data-tabindex='-1' data-size='invisible' data-badge='bottomright'></div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_3' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' value='Submit'  /> 
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_3' value='postback' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_3' id='gform_theme_3' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_3' id='gform_style_settings_3' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_3' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='3' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_3' value='WyJbXSIsImQ2NGI0MTcyODg5ODdiMmJhYTExNzI3YWRiM2Q3NTU5Il0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_3' id='gform_target_page_number_3' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_3' id='gform_source_page_number_3' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 3, 'https://springwise.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_3').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_3');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_3').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_3').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_3').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_3').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_3').val();gformInitSpinner( 3, 'https://springwise.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [3, current_page]);window['gf_submitting_3'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_3').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [3]);window['gf_submitting_3'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_3').text());}else{jQuery('#gform_3').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "3", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_3" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_3";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_3" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [3, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 3, currentPage: current_page } } );            gform.utils.trigger( { event: 'gform/post_render', native: false, data: { formId: 3, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+                                        </div>
+
+                                                                    
+                            </div>
+                        
+                    </section>
+
+                
+            
+        </div>
+    
+    
+    </footer>
+
+	<script type="text/javascript">
+	var relevanssi_rt_regex = /(&|\?)_(rt|rt_nonce)=(\w+)/g
+	var newUrl = window.location.search.replace(relevanssi_rt_regex, '')
+	history.replaceState(null, null, window.location.pathname + newUrl + window.location.hash)
+	</script>
+	
+
+
+
+
+
+
+
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/my-springwise\/|\/daily-newsletter-preview\/|\/newsletter-template\/|\/my-springwise\/|\/ask-springwise\/|\/feed\/securefeed\/|\/content\/innovation\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/springwise.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://springwise.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://springwise.com/wp-content/themes/fh-master/scripts/js.cookie.min.js?ver=15" id="cookies-js"></script>
+<script type="text/javascript" src="https://springwise.com/wp-content/themes/fh-master/scripts/libs.min.js?ver=15" id="libs-js"></script>
+<script type="text/javascript" src="https://springwise.com/wp-content/themes/fh-master/scripts/jquery.magnific-popup.min.js?ver=15" id="magnific-js"></script>
+<script type="text/javascript" src="https://springwise.com/wp-content/themes/fh-master/scripts/lozad.min.js?ver=15" id="lozad-js"></script>
+<script data-minify="1" type="text/javascript" src="https://springwise.com/wp-content/cache/min/5/wp-content/themes/fh-master/scripts/slick.js?ver=1739884777" id="slick-js"></script>
+<script type="text/javascript" id="app-js-extra">
+/* <![CDATA[ */
+var Wordpress = {"location":"https:\/\/springwise.com\/wp-content\/themes\/spring-wise","siteUrl":"https:\/\/springwise.com","ajaxUrl":"https:\/\/springwise.com\/wp-admin\/admin-ajax.php","FHcookieDomain":".springwise.com"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://springwise.com/wp-content/themes/fh-master/scripts/app.min.js?ver=15" id="app-js"></script>
+<script type="text/javascript" src="https://springwise.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js" defer></script>
+<script type="text/javascript" src="https://springwise.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://springwise.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2025-04-06 12:54:02+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://springwise.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js" defer></script>
+<script type="text/javascript" defer='defer' src="https://springwise.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.4" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/springwise.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/springwise.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/springwise.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"f9e6f4acfd721c475ffe366149243e58","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://springwise.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.4" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.google.com/recaptcha/api.js?hl=en&amp;ver=6.7.2#038;render=explicit" id="gform_recaptcha-js"></script>
+<script type="text/javascript" defer='defer' src="https://springwise.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=501a987060f4426fb517400c73c7fc1e" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://springwise.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=639b4ac21c17c9dc304b05db4a3d3293" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"f9e6f4acfd721c475ffe366149243e58"},"ajax":{"ajaxurl":"https:\/\/springwise.com\/wp-admin\/admin-ajax.php","ajax_submission_nonce":"107f11546d","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https:\/\/springwise.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/","config_nonce":"1a01273336"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://springwise.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=dc91b64a15c979eb9acace3fe2754b5f" id="gform_gravityforms_theme-js"></script>
+<script data-minify="1" type="text/javascript" src="https://springwise.com/wp-content/cache/min/5/wp-content/themes/fh-master/components/component-modal/modal.js?ver=1739884777" id="modal-script-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 3) {				gform.utils.addAsyncFilter('gform/submission/pre_submission', async (data) => {
+				    const input = document.createElement('input');
+				    input.type = 'hidden';
+				    input.name = 'gf_zero_spam_key';
+				    input.value = 'XFP2HUsEKxpmiDD6GA6XrOoPyZZCYxpUi4T0WVCHYL6egQwZ6Vfq1NYOQGnXBfSG';
+				    input.setAttribute('autocomplete', 'new-password');
+				    data.form.appendChild(input);
+				
+				    return data;
+				});} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "3", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_3" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_3";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_3" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [3, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 3, currentPage: 1 } } );            gform.utils.trigger( { event: 'gform/post_render', native: false, data: { formId: 3, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+
+</body>
+</html>
+<!-- Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com -->
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

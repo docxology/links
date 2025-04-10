@@ -1,0 +1,23 @@
+2025-04-09 11:10:40 - organize_links - INFO - Starting link organization process
+2025-04-09 11:10:40 - organize_links - INFO - Loading raw links from /Users/tetra/Documents/GitHub/links/bestofnow_urls.json
+2025-04-09 11:10:40 - organize_links - INFO - Categorizing links
+2025-04-09 11:10:40 - organize_links - INFO - Category 'political': 0 links
+2025-04-09 11:10:40 - organize_links - INFO - Category 'economic': 0 links
+2025-04-09 11:10:40 - organize_links - INFO - Category 'social': 0 links
+2025-04-09 11:10:40 - organize_links - INFO - Category 'technological': 0 links
+2025-04-09 11:10:40 - organize_links - INFO - Category 'other': 1394 links
+2025-04-09 11:10:40 - organize_links - INFO - Saving organized links to /Users/tetra/Documents/GitHub/links/data/organized_links.json
+2025-04-09 11:10:40 - organize_links - INFO - Organized links saved successfully
+2025-04-09 11:10:40 - organize_links - INFO - Link organization process completed
+2025-04-09 11:48:44 - organize_links - INFO - Starting link organization process
+2025-04-09 11:48:44 - organize_links - INFO - Loading raw links from /Users/tetra/Documents/GitHub/links/bestofnow_urls.json
+2025-04-09 11:48:44 - organize_links - INFO - Limiting to 100 links as per configuration
+2025-04-09 11:48:44 - organize_links - INFO - Categorizing links
+2025-04-09 11:48:44 - organize_links - INFO - Category 'political': 0 links
+2025-04-09 11:48:44 - organize_links - INFO - Category 'economic': 0 links
+2025-04-09 11:48:44 - organize_links - INFO - Category 'social': 0 links
+2025-04-09 11:48:44 - organize_links - INFO - Category 'technological': 0 links
+2025-04-09 11:48:44 - organize_links - INFO - Category 'other': 100 links
+2025-04-09 11:48:44 - organize_links - INFO - Saving organized links to /Users/tetra/Documents/GitHub/links/data/organized_links.json
+2025-04-09 11:48:44 - organize_links - INFO - Organized links saved successfully
+2025-04-09 11:48:44 - organize_links - INFO - Link organization process completed

@@ -1,0 +1,22 @@
+2025-04-09 11:44:38 - generate_platform - INFO - Starting platform generation process
+2025-04-09 11:44:38 - generate_platform - INFO - Loading extracted concepts from /Users/tetra/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-09 11:44:38 - generate_platform - INFO - Starting platform generation process
+2025-04-09 11:44:38 - generate_platform - WARNING - No documents found for category: political
+2025-04-09 11:44:38 - generate_platform - WARNING - No documents found for category: economic
+2025-04-09 11:44:38 - generate_platform - WARNING - No documents found for category: social
+2025-04-09 11:44:38 - generate_platform - WARNING - No documents found for category: technological
+2025-04-09 11:44:38 - generate_platform - INFO - Generating platform section for category: other
+2025-04-09 11:45:21 - generate_platform - INFO - Saving generated platform to /Users/tetra/Documents/GitHub/links/output/political_platform.json
+2025-04-09 11:45:21 - generate_platform - INFO - Platform saved successfully
+2025-04-09 11:45:21 - generate_platform - INFO - Platform generation process completed
+2025-04-09 11:59:53 - generate_platform - INFO - Starting platform generation process
+2025-04-09 11:59:53 - generate_platform - INFO - Loading extracted concepts from /Users/tetra/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-09 11:59:53 - generate_platform - INFO - Starting platform generation process
+2025-04-09 11:59:53 - generate_platform - WARNING - No documents found for category: political
+2025-04-09 11:59:53 - generate_platform - WARNING - No documents found for category: economic
+2025-04-09 11:59:53 - generate_platform - WARNING - No documents found for category: social
+2025-04-09 11:59:53 - generate_platform - WARNING - No documents found for category: technological
+2025-04-09 11:59:53 - generate_platform - INFO - Generating platform section for category: other
+2025-04-09 12:00:41 - generate_platform - INFO - Saving generated platform to /Users/tetra/Documents/GitHub/links/output/political_platform.json
+2025-04-09 12:00:41 - generate_platform - INFO - Platform saved successfully
+2025-04-09 12:00:41 - generate_platform - INFO - Platform generation process completed
