@@ -1426,7 +1426,7 @@
       "title": null,
       "content": null,
       "status": "error",
-      "error": "HTTPSConnectionPool(host='vitalik.ca', port=443): Max retries exceeded with url: /general/2019/04/03/collusion.html (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x110560f50>: Failed to resolve 'vitalik.ca' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "error": "HTTPSConnectionPool(host='vitalik.ca', port=443): Max retries exceeded with url: /general/2019/04/03/collusion.html (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10783ce10>: Failed to resolve 'vitalik.ca' ([Errno 8] nodename nor servname provided, or not known)\"))",
       "original_link": {
         "_key": "628eac07-3080-49b0-8f4a-c107c99bbec9",
         "_id": "Documents/628eac07-3080-49b0-8f4a-c107c99bbec9",

@@ -87,3 +87,17 @@
 2025-04-09 12:16:37 - main - INFO - Stage 6: Generating images from platform
 2025-04-09 12:17:55 - main - INFO - Stage 6 completed. Images saved to /Users/tetra/Documents/GitHub/links/output/platform_images
 2025-04-09 12:17:55 - main - INFO - Pipeline completed in 78.00 seconds
+2025-04-11 10:39:39 - main - INFO - Starting pipeline
+2025-04-11 10:39:39 - main - INFO - Stage 1: Organizing links and tags
+2025-04-11 10:39:39 - main - INFO - Stage 1 completed
+2025-04-11 10:39:39 - main - INFO - Stage 2: Scraping websites
+2025-04-11 10:40:25 - main - INFO - Stage 2 completed
+2025-04-11 10:40:25 - main - INFO - Stage 3: Extracting concepts
+2025-04-11 10:45:27 - main - INFO - Stage 3 completed. Concepts saved to /Users/tetra/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-11 10:45:27 - main - INFO - Stage 4: Generating political platform
+2025-04-11 10:46:23 - main - INFO - Stage 4 completed. Platform saved to /Users/tetra/Documents/GitHub/links/output/political_platform.json
+2025-04-11 10:46:23 - main - INFO - Stage 5: Rendering platform as Markdown
+2025-04-11 10:46:23 - main - INFO - Stage 5 completed. Markdown saved to (PosixPath('/Users/tetra/Documents/GitHub/links/output/political_platform.md'), PosixPath('/Users/tetra/Documents/GitHub/links/output/political_platform.html'))
+2025-04-11 10:46:23 - main - INFO - Stage 6: Generating images from platform
+2025-04-11 10:47:44 - main - INFO - Stage 6 completed. Images saved to /Users/tetra/Documents/GitHub/links/output/platform_images
+2025-04-11 10:47:44 - main - INFO - Pipeline completed in 484.19 seconds

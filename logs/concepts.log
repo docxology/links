@@ -29,3 +29,17 @@
 2025-04-09 11:59:53 - extract_concepts - INFO - Extracted concepts saved successfully
 2025-04-09 11:59:53 - extract_concepts - INFO - Text version saved to /Users/tetra/Documents/GitHub/links/output/extracted_concepts_text.txt
 2025-04-09 11:59:53 - extract_concepts - INFO - Concept extraction process completed
+2025-04-11 10:40:25 - extract_concepts - INFO - Starting concept extraction process
+2025-04-11 10:40:25 - extract_concepts - INFO - Loading scraped data from /Users/tetra/Documents/GitHub/links/data/scraped_data.json
+2025-04-11 10:40:25 - extract_concepts - INFO - Starting concept extraction process
+2025-04-11 10:40:25 - extract_concepts - INFO - Processing 20 documents
+2025-04-11 10:40:25 - extract_concepts - INFO - Processing 0 documents in category: political
+2025-04-11 10:40:25 - extract_concepts - INFO - Processing 0 documents in category: economic
+2025-04-11 10:40:25 - extract_concepts - INFO - Processing 0 documents in category: social
+2025-04-11 10:40:25 - extract_concepts - INFO - Processing 0 documents in category: technological
+2025-04-11 10:40:25 - extract_concepts - INFO - Processing 20 documents in category: other
+2025-04-11 10:45:27 - extract_concepts - INFO - Concept extraction completed. Success: 14, Error: 0, Skipped: 6
+2025-04-11 10:45:27 - extract_concepts - INFO - Saving extracted concepts to /Users/tetra/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-11 10:45:27 - extract_concepts - INFO - Extracted concepts saved successfully
+2025-04-11 10:45:27 - extract_concepts - INFO - Text version saved to /Users/tetra/Documents/GitHub/links/output/extracted_concepts_text.txt
+2025-04-11 10:45:27 - extract_concepts - INFO - Concept extraction process completed
