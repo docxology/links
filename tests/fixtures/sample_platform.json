@@ -1,0 +1,57 @@
+{
+  "title": "Sample Political Platform",
+  "executive_summary": "This is a sample political platform synthesized from various sources, covering political, technological, economic, and social issues.",
+  "categories": {
+    "political": {
+      "title": "Political Reforms",
+      "items": [
+        {
+          "title": "Democratic Reform",
+          "description": "Improving democratic processes",
+          "details": "Electoral system changes to increase representation and participation",
+          "sources": ["https://example.com/politics1"]
+        },
+        {
+          "title": "Transparency in Governance",
+          "description": "Making government actions visible to citizens",
+          "details": "Open data initiatives to build trust and accountability",
+          "sources": ["https://example.com/politics1"]
+        }
+      ]
+    },
+    "technological": {
+      "title": "Technology Policy",
+      "items": [
+        {
+          "title": "AI Ethics",
+          "description": "Establishing ethical guidelines for AI development",
+          "details": "Creating regulatory frameworks for AI development to ensure benefits without harm",
+          "sources": ["https://example.com/tech1"]
+        },
+        {
+          "title": "Data Privacy",
+          "description": "Protecting individual data rights",
+          "details": "Comprehensive privacy legislation to establish digital rights",
+          "sources": ["https://example.com/tech1"]
+        },
+        {
+          "title": "Open Source Software",
+          "description": "Promoting collaborative development",
+          "details": "Government support for open source projects to reduce costs and increase innovation",
+          "sources": ["https://example.com/tech2"]
+        }
+      ]
+    },
+    "economic": {
+      "title": "Economic Policy",
+      "items": [
+        {
+          "title": "Universal Basic Income",
+          "description": "Providing all citizens with a basic income",
+          "details": "Monthly payments to all adults to reduce poverty and economic insecurity",
+          "sources": ["https://example.com/econ1"]
+        }
+      ]
+    }
+  }
+} 

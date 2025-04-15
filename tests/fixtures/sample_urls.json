@@ -1,0 +1,16 @@
+{
+  "tech": [
+    {"url": "https://example.com/tech1", "title": "Tech Article 1"},
+    {"url": "https://example.com/tech2", "title": "Tech Article 2"}
+  ],
+  "politics": [
+    {"url": "https://example.com/politics1", "title": "Politics Article 1"},
+    {"url": "https://example.com/politics2", "title": "Politics Article 2"}
+  ],
+  "economics": [
+    {"url": "https://example.com/econ1", "title": "Economics Article 1"}
+  ],
+  "social": [
+    {"url": "https://example.com/social1", "title": "Social Article 1"}
+  ]
+} 

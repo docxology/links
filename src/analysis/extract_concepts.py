@@ -122,6 +122,7 @@ Extract the following in detail:
 3. Social values and principles advocated for
 4. Technological or scientific perspectives
 5. Environmental stances or approaches
+6. All named people and bioregions
 
 For each concept, include:
 - A clear, concise title

@@ -1,0 +1,8 @@
+{
+  "https://example.com/tech1": ["technology", "ai", "future"],
+  "https://example.com/tech2": ["technology", "programming"],
+  "https://example.com/politics1": ["politics", "governance"],
+  "https://example.com/politics2": ["politics", "election"],
+  "https://example.com/econ1": ["economics", "finance"],
+  "https://example.com/social1": ["social", "community"]
+} 

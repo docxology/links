@@ -1,0 +1,38 @@
+{
+  "tech": [
+    {
+      "url": "https://example.com/tech1",
+      "title": "Tech Article 1",
+      "status": "success",
+      "concepts": "1. AI Ethics\n- Concept: Establishing ethical guidelines for AI development\n- Implementation: Creating regulatory frameworks\n- Significance: Ensures AI benefits humanity without causing harm\n\n2. Data Privacy\n- Concept: Protecting individual data rights\n- Implementation: Comprehensive privacy legislation\n- Significance: Foundational for digital rights"
+    },
+    {
+      "url": "https://example.com/tech2",
+      "title": "Tech Article 2",
+      "status": "success",
+      "concepts": "1. Open Source Software\n- Concept: Promoting collaborative development\n- Implementation: Government support for open source projects\n- Significance: Reduces costs and increases innovation"
+    }
+  ],
+  "politics": [
+    {
+      "url": "https://example.com/politics1",
+      "title": "Politics Article 1",
+      "status": "success",
+      "concepts": "1. Democratic Reform\n- Concept: Improving democratic processes\n- Implementation: Electoral system changes\n- Significance: Increases representation and participation\n\n2. Transparency in Governance\n- Concept: Making government actions visible to citizens\n- Implementation: Open data initiatives\n- Significance: Builds trust and accountability"
+    },
+    {
+      "url": "https://example.com/politics2",
+      "title": "Politics Article 2",
+      "status": "error",
+      "error": "Failed to extract concepts"
+    }
+  ],
+  "economics": [
+    {
+      "url": "https://example.com/econ1",
+      "title": "Economics Article 1",
+      "status": "success",
+      "concepts": "1. Universal Basic Income\n- Concept: Providing all citizens with a basic income\n- Implementation: Monthly payments to all adults\n- Significance: Reduces poverty and economic insecurity"
+    }
+  ]
+} 

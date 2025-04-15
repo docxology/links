@@ -136,3 +136,29 @@
 2025-04-15 08:40:15 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
 2025-04-15 08:40:15 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
 2025-04-15 08:40:15 - main - INFO - 🔮 Stage 3: Extracting concepts
+2025-04-15 08:41:37 - main - INFO - 🚀 Starting pipeline
+2025-04-15 08:41:37 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2025-04-15 08:41:37 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2025-04-15 08:41:37 - main - INFO - 🔮 Stage 3: Extracting concepts
+2025-04-15 08:43:19 - main - INFO - 🏁 Stage 3 completed. Concepts saved to /home/trim/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-15 08:43:19 - main - INFO - ⏭️ Skipping Stage 4: Generating political platform
+2025-04-15 08:43:19 - main - INFO - ⏭️ Skipping Stage 5: Rendering platform as Markdown
+2025-04-15 08:43:19 - main - INFO - ⏭️ Skipping Stage 6: Generating images from platform
+2025-04-15 08:43:19 - main - INFO - 🏁 Pipeline completed in 3m 3.35s
+2025-04-15 08:44:50 - main - INFO - 🏁 Stage 3 completed. Concepts saved to /home/trim/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-15 08:44:50 - main - INFO - ⏭️ Skipping Stage 4: Generating political platform
+2025-04-15 08:44:50 - main - INFO - ⏭️ Skipping Stage 5: Rendering platform as Markdown
+2025-04-15 08:44:50 - main - INFO - ⏭️ Skipping Stage 6: Generating images from platform
+2025-04-15 08:44:50 - main - INFO - 🏁 Pipeline completed in 3m 13.40s
+2025-04-15 08:45:06 - main - INFO - 🚀 Starting pipeline
+2025-04-15 08:45:06 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2025-04-15 08:45:06 - main - INFO - 🏁 Stage 1 completed
+2025-04-15 08:45:06 - main - INFO - 🔎 Stage 2: Scraping websites
+2025-04-15 08:45:47 - main - INFO - 🏁 Stage 2 completed
+2025-04-15 08:45:47 - main - INFO - 🔮 Stage 3: Extracting concepts
+2025-04-15 08:48:45 - main - INFO - 🏁 Stage 3 completed. Concepts saved to /home/trim/Documents/GitHub/links/output/extracted_concepts.json
+2025-04-15 08:48:45 - main - INFO - 🧠 Stage 4: Generating political platform
+2025-04-15 08:49:08 - main - INFO - 🏁 Stage 4 completed. Platform saved to /home/trim/Documents/GitHub/links/output/political_platform.json
+2025-04-15 08:49:08 - main - INFO - 🎨 Stage 5: Rendering platform as Markdown
+2025-04-15 08:49:08 - main - INFO - 🏁 Stage 5 completed. Markdown saved to (PosixPath('/home/trim/Documents/GitHub/links/output/political_platform.md'), PosixPath('/home/trim/Documents/GitHub/links/output/political_platform.html'))
+2025-04-15 08:49:08 - main - INFO - ✨ Stage 6: Generating images from platform

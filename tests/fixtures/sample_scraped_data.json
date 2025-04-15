@@ -1,0 +1,102 @@
+{
+  "tech": [
+    {
+      "url": "https://example.com/tech1",
+      "title": "Tech Article 1",
+      "status": "success",
+      "content": {
+        "title": "Tech Article 1",
+        "headings": [
+          {"level": 1, "text": "Main Heading"},
+          {"level": 2, "text": "Subheading 1"}
+        ],
+        "paragraphs": [
+          "This is the first paragraph about technology.",
+          "This is the second paragraph about AI.",
+          "This is the third paragraph about future trends.",
+          "This is the fourth paragraph about machine learning.",
+          "This is the fifth paragraph about data science.",
+          "This is the sixth paragraph about algorithms.",
+          "This is the seventh paragraph about neural networks.",
+          "This is the eighth paragraph about deep learning.",
+          "This is the ninth paragraph about computer vision.",
+          "This is the tenth paragraph about natural language processing.",
+          "This is the eleventh paragraph about robotics."
+        ],
+        "lists": [
+          {
+            "items": ["List item 1", "List item 2"]
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://example.com/tech2",
+      "title": "Tech Article 2",
+      "status": "success",
+      "content": {
+        "title": "Tech Article 2",
+        "headings": [
+          {"level": 1, "text": "Programming Paradigms"},
+          {"level": 2, "text": "Object-Oriented Programming"}
+        ],
+        "paragraphs": [
+          "This is a paragraph about programming.",
+          "This is a paragraph about coding."
+        ],
+        "lists": [
+          {
+            "items": ["Python", "JavaScript", "Rust"]
+          }
+        ]
+      }
+    }
+  ],
+  "politics": [
+    {
+      "url": "https://example.com/politics1",
+      "title": "Politics Article 1",
+      "status": "success",
+      "content": {
+        "title": "Politics Article 1",
+        "headings": [
+          {"level": 1, "text": "Main Political Heading"},
+          {"level": 2, "text": "Policy Subheading"}
+        ],
+        "paragraphs": [
+          "This is a paragraph about politics.",
+          "This is a paragraph about governance."
+        ],
+        "lists": [
+          {
+            "items": ["Policy 1", "Policy 2"]
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://example.com/politics2",
+      "title": "Politics Article 2",
+      "status": "error",
+      "error": "Failed to scrape content"
+    }
+  ],
+  "economics": [
+    {
+      "url": "https://example.com/econ1",
+      "title": "Economics Article 1",
+      "status": "success",
+      "content": {
+        "title": "Economics Article 1",
+        "headings": [
+          {"level": 1, "text": "Economic Theory"}
+        ],
+        "paragraphs": [
+          "This is a paragraph about economics.",
+          "This is a paragraph about finance."
+        ],
+        "lists": []
+      }
+    }
+  ]
+} 
