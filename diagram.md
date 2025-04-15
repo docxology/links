@@ -63,11 +63,11 @@ flowchart LR
         render --> generate[6. Generate Images]
     end
     
-    extract --> |extracted_concepts_text.txt| output1
-    analyze --> |political_platform.json| output2
-    render --> |political_platform.md| output3
-    render --> |political_platform.html| output4
-    generate --> |platform_images/* | output5
+    extract --> |extracted_concepts_text.txt| output1[extracted_concepts_text.txt]
+    analyze --> |political_platform.json| output2[political_platform.json]
+    render --> |political_platform.md| output3[political_platform.md]
+    render --> |political_platform.html| output4[political_platform.html]
+    generate --> |platform_images/*| output5[platform_images/]
     
     classDef input fill:#bbf,stroke:#333,stroke-width:1px;
     classDef process fill:#f9f,stroke:#333,stroke-width:1px;
@@ -200,7 +200,26 @@ flowchart TD
     skipscr --> skip3{skip-extract?}
     runscr --> skip3
     
-    %% Continue for remaining skip options
+    skip3 -->|Yes| skipext[Skip Extract]
+    skip3 -->|No| runext[Run Extract]
+    
+    skipext --> skip4{skip-analyze?}
+    runext --> skip4
+    
+    skip4 -->|Yes| skipana[Skip Analyze]
+    skip4 -->|No| runana[Run Analyze]
+    
+    skipana --> skip5{skip-render?}
+    runana --> skip5
+    
+    skip5 -->|Yes| skipren[Skip Render]
+    skip5 -->|No| runren[Run Render]
+    
+    skipren --> skip6{skip-images?}
+    runren --> skip6
+    
+    skip6 -->|Yes| skipimg[Skip Images]
+    skip6 -->|No| runimg[Run Images]
     
     org --> end([End])
     scr --> end
@@ -208,8 +227,6 @@ flowchart TD
     ana --> end
     ren --> end
     img --> end
-    skiporg --> end
-    runorg --> end
-    skipscr --> end
-    runscr --> end
+    skipimg --> end
+    runimg --> end
 ```
