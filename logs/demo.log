@@ -1,0 +1,28 @@
+2025-04-15 08:36:20 - demo - INFO - 🚀 Starting demo of improved logging
+2025-04-15 08:36:20 - demo - INFO - ✅ This is a regular info message
+2025-04-15 08:36:20 - demo - WARNING - ⚠️ This is a warning message
+2025-04-15 08:36:20 - demo - ERROR - ❌ This is an error message
+2025-04-15 08:36:20 - demo - INFO - 📂 Loading data from a file
+2025-04-15 08:36:20 - demo - INFO - ⏳ Processing the loaded data
+2025-04-15 08:36:21 - demo - INFO - 🔎 Scraping website content
+2025-04-15 08:36:21 - demo - INFO - 🔮 Extracting concepts from text
+2025-04-15 08:36:22 - demo - INFO - 🧠 Analyzing extracted concepts
+2025-04-15 08:36:22 - demo - INFO - ✨ Generating a platform from analysis
+2025-04-15 08:36:23 - demo - INFO - 🎨 Rendering platform as markdown
+2025-04-15 08:36:23 - demo - INFO - 💾 Saving results to disk
+2025-04-15 08:36:24 - demo - INFO - ✅ Task completed successfully
+2025-04-15 08:36:24 - demo - INFO - ❌ Task failed (demo only)
+2025-04-15 08:36:24 - demo - INFO - ⏭️ Task skipped (demo only)
+2025-04-15 08:36:24 - demo - INFO - 🏁 All demo tasks completed
+2025-04-15 08:36:24 - demo - INFO - 🚀 Starting progress bar demo
+2025-04-15 08:36:29 - demo - INFO - 🏁 Progress bar demo completed: 12 success, 4 errors, 4 skipped
+2025-04-15 08:36:29 - demo - INFO - 🚀 Starting demo pipeline
+2025-04-15 08:36:29 - demo - INFO - 📂 Stage 1: Loading data
+2025-04-15 08:36:30 - demo - INFO - 🏁 Stage 1 completed
+2025-04-15 08:36:30 - demo - INFO - ⏳ Stage 2: Processing data
+2025-04-15 08:36:35 - demo - INFO - 🏁 Stage 2 completed
+2025-04-15 08:36:35 - demo - INFO - 🧠 Stage 3: Analyzing data
+2025-04-15 08:36:36 - demo - INFO - 🏁 Stage 3 completed
+2025-04-15 08:36:36 - demo - INFO - ✨ Stage 4: Generating results
+2025-04-15 08:36:37 - demo - INFO - 🏁 Stage 4 completed
+2025-04-15 08:36:37 - demo - INFO - 🏁 Pipeline demo completed successfully

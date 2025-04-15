@@ -62,21 +62,33 @@ def extract_concepts_from_document(document):
     try:
         # Extract content from the document
         content = document["content"]
+        
+        # Check if content is a string or dictionary and handle appropriately
+        if not isinstance(content, dict):
+            return {
+                "url": document.get("url", "Unknown URL"),
+                "title": document.get("title", "Unknown Title"),
+                "concepts": [],
+                "status": "skipped",
+                "reason": "Content is not in expected format"
+            }
+            
         title = content.get("title", "No title")
         
         # Prepare the text to analyze
         text_to_analyze = f"Title: {title}\n\n"
         
-        # Add headings
-        if content.get("headings"):
+        # Add headings - ensure it's a list before iterating
+        if content.get("headings") and isinstance(content["headings"], list):
             text_to_analyze += "Headings:\n"
             for heading in content["headings"]:
-                indent = "  " * (heading["level"] - 1)
-                text_to_analyze += f"{indent}* {heading['text']}\n"
+                if isinstance(heading, dict) and "level" in heading and "text" in heading:
+                    indent = "  " * (heading["level"] - 1)
+                    text_to_analyze += f"{indent}* {heading['text']}\n"
             text_to_analyze += "\n"
         
-        # Add paragraphs (limit to avoid token limits)
-        if content.get("paragraphs"):
+        # Add paragraphs (limit to avoid token limits) - ensure it's a list before iterating
+        if content.get("paragraphs") and isinstance(content["paragraphs"], list):
             paragraphs = content["paragraphs"]
             # Take first 5 and last 5 paragraphs if there are more than 10
             if len(paragraphs) > 10:
@@ -86,14 +98,17 @@ def extract_concepts_from_document(document):
                 
             text_to_analyze += "Content:\n"
             for para in selected_paragraphs:
-                text_to_analyze += f"{para}\n\n"
+                if isinstance(para, str):
+                    text_to_analyze += f"{para}\n\n"
         
-        # Add lists
-        if content.get("lists"):
+        # Add lists - ensure it's a list before iterating
+        if content.get("lists") and isinstance(content["lists"], list):
             text_to_analyze += "Lists:\n"
             for lst in content["lists"][:3]:  # Limit to 3 lists
-                for i, item in enumerate(lst["items"]):
-                    text_to_analyze += f"  {i+1}. {item}\n"
+                if isinstance(lst, dict) and "items" in lst and isinstance(lst["items"], list):
+                    for i, item in enumerate(lst["items"]):
+                        if isinstance(item, str):
+                            text_to_analyze += f"  {i+1}. {item}\n"
         
         # Prepare the prompt for concept extraction
         prompt = f"""

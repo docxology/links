@@ -62,6 +62,47 @@ A project to analyze links from a collection, scrape their content, and generate
    - `bestofnow_urls.json`: JSON file containing the links to analyze
    - `bestofnow_tags.json`: JSON file containing tags for the links
 
+## Logging System
+
+The project includes an enhanced logging system with the following features:
+
+### 🎨 Colorful Emoji Logging
+
+The logging system uses emojis and colors to make the terminal output more readable:
+
+- 🚀 `START`: Beginning of a process
+- ✅ `SUCCESS`: Successful operation
+- ⏳ `PROCESSING`: Processing data
+- 🔎 `SCRAPING`: Scraping websites
+- 🔮 `EXTRACTING`: Extracting concepts
+- 🧠 `ANALYZING`: Analyzing data
+- ✨ `GENERATING`: Generating content
+- 🎨 `RENDERING`: Rendering output
+- 💾 `SAVING`: Saving data
+- 📂 `LOADING`: Loading data
+- ⏭️ `SKIPPED`: Skipped operation
+- ❌ `ERROR`: Error in operation
+- 🏁 `COMPLETE`: Completion of a process
+
+### 📊 Enhanced Progress Bars
+
+The progress bars now include:
+- Emoji indicators
+- Clear success/failure counters
+- Better visual formatting
+- Elapsed and estimated time remaining
+- Percentage completion
+
+### 🔍 Demo Script
+
+To see a demonstration of the logging system:
+
+```bash
+./demo_logging.py
+```
+
+This demo showcases the various logging features without running the full pipeline.
+
 ## Running the Pipeline
 
 The pipeline consists of six stages:

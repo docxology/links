@@ -23,7 +23,7 @@ from src.analysis.extract_concepts import main as extract_concepts_main
 from src.analysis.generate_platform import main as generate_platform_main
 from src.analysis.render_markdown import main as render_markdown_main
 from src.analysis.generate_images import main as generate_images_main
-from src.utils.logger import get_logger
+from src.utils.logger import get_logger, log_with_emoji
 from src.utils.config import PLATFORM_OUTPUT_PATH, EXTRACTED_CONCEPTS_PATH
 
 # Set up logger
@@ -43,58 +43,69 @@ def run_pipeline(skip_organize=False, skip_scrape=False, skip_extract=False, ski
     """
     start_time = time.time()
     
-    logger.info("Starting pipeline")
+    log_with_emoji(logger, 'INFO', 'START', "Starting pipeline")
     
     # Stage 1: Organize links and tags
     if not skip_organize:
-        logger.info("Stage 1: Organizing links and tags")
+        log_with_emoji(logger, 'INFO', 'PROCESSING', "Stage 1: Organizing links and tags")
         organize_links_main()
-        logger.info("Stage 1 completed")
+        log_with_emoji(logger, 'INFO', 'COMPLETE', "Stage 1 completed")
     else:
-        logger.info("Skipping Stage 1: Organizing links and tags")
+        log_with_emoji(logger, 'INFO', 'SKIPPED', "Skipping Stage 1: Organizing links and tags")
     
     # Stage 2: Scrape websites
     if not skip_scrape:
-        logger.info("Stage 2: Scraping websites")
+        log_with_emoji(logger, 'INFO', 'SCRAPING', "Stage 2: Scraping websites")
         scrape_sites_main()
-        logger.info("Stage 2 completed")
+        log_with_emoji(logger, 'INFO', 'COMPLETE', "Stage 2 completed")
     else:
-        logger.info("Skipping Stage 2: Scraping websites")
+        log_with_emoji(logger, 'INFO', 'SKIPPED', "Skipping Stage 2: Scraping websites")
     
     # Stage 3: Extract concepts
     if not skip_extract:
-        logger.info("Stage 3: Extracting concepts")
+        log_with_emoji(logger, 'INFO', 'EXTRACTING', "Stage 3: Extracting concepts")
         extract_concepts_main()
-        logger.info(f"Stage 3 completed. Concepts saved to {EXTRACTED_CONCEPTS_PATH}")
+        log_with_emoji(logger, 'INFO', 'COMPLETE', f"Stage 3 completed. Concepts saved to {EXTRACTED_CONCEPTS_PATH}")
     else:
-        logger.info("Skipping Stage 3: Extracting concepts")
+        log_with_emoji(logger, 'INFO', 'SKIPPED', "Skipping Stage 3: Extracting concepts")
     
     # Stage 4: Generate political platform
     if not skip_analyze:
-        logger.info("Stage 4: Generating political platform")
+        log_with_emoji(logger, 'INFO', 'ANALYZING', "Stage 4: Generating political platform")
         generate_platform_main()
-        logger.info(f"Stage 4 completed. Platform saved to {PLATFORM_OUTPUT_PATH}")
+        log_with_emoji(logger, 'INFO', 'COMPLETE', f"Stage 4 completed. Platform saved to {PLATFORM_OUTPUT_PATH}")
     else:
-        logger.info("Skipping Stage 4: Generating political platform")
+        log_with_emoji(logger, 'INFO', 'SKIPPED', "Skipping Stage 4: Generating political platform")
     
     # Stage 5: Render platform as Markdown
     if not skip_render:
-        logger.info("Stage 5: Rendering platform as Markdown")
+        log_with_emoji(logger, 'INFO', 'RENDERING', "Stage 5: Rendering platform as Markdown")
         markdown_path = render_markdown_main()
-        logger.info(f"Stage 5 completed. Markdown saved to {markdown_path}")
+        log_with_emoji(logger, 'INFO', 'COMPLETE', f"Stage 5 completed. Markdown saved to {markdown_path}")
     else:
-        logger.info("Skipping Stage 5: Rendering platform as Markdown")
+        log_with_emoji(logger, 'INFO', 'SKIPPED', "Skipping Stage 5: Rendering platform as Markdown")
     
     # Stage 6: Generate images from platform
     if not skip_images:
-        logger.info("Stage 6: Generating images from platform")
+        log_with_emoji(logger, 'INFO', 'GENERATING', "Stage 6: Generating images from platform")
         images_dir = generate_images_main()
-        logger.info(f"Stage 6 completed. Images saved to {images_dir}")
+        log_with_emoji(logger, 'INFO', 'COMPLETE', f"Stage 6 completed. Images saved to {images_dir}")
     else:
-        logger.info("Skipping Stage 6: Generating images from platform")
+        log_with_emoji(logger, 'INFO', 'SKIPPED', "Skipping Stage 6: Generating images from platform")
     
     end_time = time.time()
-    logger.info(f"Pipeline completed in {end_time - start_time:.2f} seconds")
+    duration = end_time - start_time
+    hours, remainder = divmod(duration, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    
+    if hours > 0:
+        time_str = f"{int(hours)}h {int(minutes)}m {seconds:.2f}s"
+    elif minutes > 0:
+        time_str = f"{int(minutes)}m {seconds:.2f}s"
+    else:
+        time_str = f"{seconds:.2f}s"
+    
+    log_with_emoji(logger, 'INFO', 'COMPLETE', f"Pipeline completed in {time_str}")
 
 def main():
     """
@@ -164,7 +175,7 @@ def main():
             skip_images=args.skip_images
         )
     except Exception as e:
-        logger.error(f"Error in pipeline: {str(e)}")
+        log_with_emoji(logger, 'ERROR', 'ERROR', f"Error in pipeline: {str(e)}")
         raise
 
 if __name__ == "__main__":

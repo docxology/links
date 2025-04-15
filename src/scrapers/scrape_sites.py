@@ -10,9 +10,9 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
-from tqdm import tqdm
+from tqdm.auto import tqdm  # Use tqdm.auto to automatically select the best progress bar
 import random
-from src.utils.logger import get_logger
+from src.utils.logger import get_logger, log_with_emoji, EMOJI
 from src.utils.config import ORGANIZED_LINKS_PATH, SCRAPED_DATA_PATH, REQUEST_TIMEOUT, CACHE_DIR
 
 # Set up logger
@@ -31,12 +31,12 @@ def load_organized_links(file_path):
     Returns:
         dict: Dictionary containing the organized links data.
     """
-    logger.info(f"Loading organized links from {file_path}")
+    log_with_emoji(logger, 'INFO', 'LOADING', f"Loading organized links from {file_path}")
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except Exception as e:
-        logger.error(f"Error loading organized links: {str(e)}")
+        log_with_emoji(logger, 'ERROR', 'ERROR', f"Error loading organized links: {str(e)}")
         raise
 
 def get_cache_path(url):
@@ -57,7 +57,7 @@ def get_cache_path(url):
 
 def is_cached(url):
     """
-    Check if a URL is already cached.
+    Check if a URL's content is cached.
     
     Args:
         url (str): URL to check.
@@ -76,7 +76,7 @@ def get_cached_content(url):
         url (str): URL to get cached content for.
         
     Returns:
-        str or None: Cached HTML content or None if not cached.
+        str or None: Cached content if available, None otherwise.
     """
     cache_path = get_cache_path(url)
     if os.path.exists(cache_path):
@@ -84,7 +84,8 @@ def get_cached_content(url):
             with open(cache_path, 'r', encoding='utf-8') as f:
                 return f.read()
         except Exception as e:
-            logger.error(f"Error reading cache for {url}: {str(e)}")
+            logger.warning(f"Error reading cache for {url}: {str(e)}")
+            return None
     return None
 
 def cache_content(url, content):
@@ -127,95 +128,79 @@ def extract_url_from_link(link):
 
 def extract_meaningful_content(soup):
     """
-    Extract meaningful content from a webpage, focusing on article content.
+    Extract meaningful content from a BeautifulSoup object.
     
     Args:
-        soup (BeautifulSoup): BeautifulSoup object containing the HTML.
+        soup (BeautifulSoup): BeautifulSoup object of the page HTML.
         
     Returns:
-        dict: Dictionary containing extracted content and metadata.
+        dict: Dictionary containing the extracted content.
     """
     # Extract title
-    title = soup.title.string.strip() if soup.title else "No title found"
+    title = ""
+    title_tag = soup.find('title')
+    if title_tag:
+        title = title_tag.get_text().strip()
+    else:
+        # Try to find a suitable heading as the title
+        h1 = soup.find('h1')
+        if h1:
+            title = h1.get_text().strip()
     
-    # Initialize content storage
-    content = {
-        "title": title,
-        "headings": [],
-        "paragraphs": [],
-        "lists": [],
-        "full_text": ""
-    }
-    
-    # First try to find the main content container
-    main_content = None
-    
-    # Common content container selectors (in order of priority)
-    content_selectors = [
-        "article", "main", 
-        ".post-content", ".article-content", ".entry-content", ".content", ".post",
-        "#content", "#main", "#article", 
-        "[role='main']", "[itemprop='articleBody']"
-    ]
-    
-    # Try to find the main content container
-    for selector in content_selectors:
-        if selector.startswith('.') or selector.startswith('#') or selector.startswith('['):
-            elements = soup.select(selector)
-        else:
-            elements = soup.find_all(selector)
-            
-        if elements:
-            main_content = elements[0]
-            break
-    
-    # If no main content container found, use the body
-    if not main_content:
-        main_content = soup.body if soup.body else soup
-    
-    # Extract headings (h1, h2, h3, etc.)
-    headings = main_content.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
-    for heading in headings:
-        text = heading.get_text().strip()
-        if text:
-            content["headings"].append({
-                "level": int(heading.name[1]),
-                "text": text
-            })
-    
-    # Extract paragraphs
-    paragraphs = main_content.find_all('p')
-    for p in paragraphs:
+    # Extract main content
+    paragraphs = []
+    for p in soup.find_all('p'):
         text = p.get_text().strip()
-        if text and len(text) > 20:  # Ignore very short paragraphs (likely not content)
-            content["paragraphs"].append(text)
+        if text:
+            paragraphs.append(text)
+    
+    # Extract headings
+    headings = []
+    for tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+        for h in soup.find_all(tag):
+            text = h.get_text().strip()
+            if text and text not in headings:
+                headings.append(text)
     
     # Extract lists
-    lists = main_content.find_all(['ul', 'ol'])
-    for list_elem in lists:
-        list_items = []
-        for item in list_elem.find_all('li'):
-            text = item.get_text().strip()
-            if text:
-                list_items.append(text)
-        
-        if list_items:
-            content["lists"].append({
-                "type": list_elem.name,
-                "items": list_items
-            })
+    list_items = []
+    for li in soup.find_all('li'):
+        text = li.get_text().strip()
+        if text:
+            list_items.append(text)
     
-    # Combine all text for full-text search
-    full_text = "\n\n".join([
-        title,
-        "\n".join([h["text"] for h in content["headings"]]),
-        "\n\n".join(content["paragraphs"]),
-        "\n".join(["\n".join(lst["items"]) for lst in content["lists"]])
-    ])
+    # Extract structured data (metadata tags)
+    metadata = {}
     
-    content["full_text"] = full_text
+    # OpenGraph tags
+    og_tags = soup.find_all('meta', property=lambda x: x and x.startswith('og:'))
+    for tag in og_tags:
+        if tag.get('content'):
+            metadata[tag['property']] = tag['content']
     
-    return content
+    # Twitter card tags
+    twitter_tags = soup.find_all('meta', attrs={'name': lambda x: x and x.startswith('twitter:')})
+    for tag in twitter_tags:
+        if tag.get('content'):
+            metadata[tag['name']] = tag['content']
+    
+    # Meta description
+    meta_desc = soup.find('meta', attrs={'name': 'description'})
+    if meta_desc and meta_desc.get('content'):
+        metadata['description'] = meta_desc['content']
+    
+    # Meta keywords
+    meta_keywords = soup.find('meta', attrs={'name': 'keywords'})
+    if meta_keywords and meta_keywords.get('content'):
+        metadata['keywords'] = meta_keywords['content']
+    
+    return {
+        "title": title,
+        "paragraphs": paragraphs,
+        "headings": headings,
+        "list_items": list_items,
+        "metadata": metadata
+    }
 
 def scrape_url(url):
     """
@@ -227,11 +212,11 @@ def scrape_url(url):
     Returns:
         dict: Dictionary containing the scraped content.
     """
-    logger.info(f"Scraping URL: {url}")
+    log_with_emoji(logger, 'INFO', 'SCRAPING', f"Scraping URL: {url}")
     
     # Check cache first
     if is_cached(url):
-        logger.info(f"Using cached content for {url}")
+        log_with_emoji(logger, 'INFO', 'LOADING', f"Using cached content for {url}")
         html_content = get_cached_content(url)
         if html_content:
             soup = BeautifulSoup(html_content, 'html.parser')
@@ -272,7 +257,7 @@ def scrape_url(url):
             "source": "web"
         }
     except requests.exceptions.RequestException as e:
-        logger.error(f"Error scraping {url}: {str(e)}")
+        log_with_emoji(logger, 'ERROR', 'ERROR', f"Error scraping {url}: {str(e)}")
         return {
             "url": url,
             "title": None,
@@ -291,17 +276,17 @@ def scrape_links(organized_links):
     Returns:
         dict: Dictionary containing scraped content by category.
     """
-    logger.info("Starting scraping process")
+    log_with_emoji(logger, 'INFO', 'START', "Starting scraping process")
     scraped_data = {}
     
     # For testing: limit to first 20 links only in each category
     for category in organized_links:
         if len(organized_links[category]) > 20:
-            logger.info(f"Limiting {category} to first 20 links for testing")
+            log_with_emoji(logger, 'INFO', 'INFO', f"Limiting {category} to first 20 links for testing")
             organized_links[category] = organized_links[category][:20]
     
     total_links = sum(len(links) for links in organized_links.values())
-    logger.info(f"Total links to scrape: {total_links}")
+    log_with_emoji(logger, 'INFO', 'INFO', f"Total links to scrape: {total_links}")
     
     # Initialize counters for success and failure
     success_count = 0
@@ -309,12 +294,21 @@ def scrape_links(organized_links):
     skipped_count = 0
     processed_count = 0
     
-    # Create a progress bar for all links
-    progress_bar = tqdm(total=total_links, desc=f"Scraping: {success_count} success, {error_count} failed, {skipped_count} skipped")
+    # Create a progress bar with improved formatting
+    progress_format = "{desc}: {percentage:3.0f}%|{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]"
+    progress_bar = tqdm(
+        total=total_links,
+        desc=f"{EMOJI['SCRAPING']}Scraping: {success_count} success, {error_count} failed, {skipped_count} skipped",
+        bar_format=progress_format,
+        ncols=100  # Set fixed width for cleaner display
+    )
+    
+    # Save interim results every 10 links
+    interim_save_interval = 10
     
     # Scrape each category
     for category, links in organized_links.items():
-        logger.info(f"Scraping {len(links)} links in category: {category}")
+        log_with_emoji(logger, 'INFO', 'PROCESSING', f"Scraping {len(links)} links in category: {category}")
         scraped_data[category] = []
         
         for link in links:
@@ -343,8 +337,10 @@ def scrape_links(organized_links):
                 error_count += 1
                 logger.error(f"Error processing link {link}: {str(e)}")
             
-            # Update progress bar description with current counts
-            progress_bar.set_description(f"Scraping: {success_count} success, {error_count} failed, {skipped_count} skipped")
+            # Update progress bar description with current counts and emoji
+            progress_bar.set_description(
+                f"{EMOJI['SCRAPING']}Scraping: {success_count} success, {error_count} failed, {skipped_count} skipped"
+            )
             
             # Update progress bar
             progress_bar.update(1)
@@ -352,22 +348,22 @@ def scrape_links(organized_links):
             # Increment processed count
             processed_count += 1
             
-            # Save interim results every 20 links
-            if processed_count % 20 == 0:
-                logger.info(f"Saving interim results after processing {processed_count} links")
+            # Save interim results periodically
+            if processed_count % interim_save_interval == 0:
+                log_with_emoji(logger, 'INFO', 'SAVING', f"Saving interim results after processing {processed_count} links")
+                interim_file = str(SCRAPED_DATA_PATH).replace('.json', '_interim.json')
                 try:
-                    interim_path = str(SCRAPED_DATA_PATH).replace('.json', f'_interim.json')
-                    with open(interim_path, 'w', encoding='utf-8') as f:
+                    with open(interim_file, 'w', encoding='utf-8') as f:
                         json.dump(scraped_data, f, indent=2)
-                    logger.info(f"Interim results saved to {interim_path}")
+                    log_with_emoji(logger, 'INFO', 'SUCCESS', f"Interim results saved to {interim_file}")
                 except Exception as e:
                     logger.error(f"Error saving interim results: {str(e)}")
     
-    # Close progress bar
+    # Close the progress bar
     progress_bar.close()
     
-    # Log final statistics
-    logger.info(f"Scraping completed. Success: {success_count}, Failed: {error_count}, Skipped: {skipped_count}")
+    # Log the final results
+    log_with_emoji(logger, 'INFO', 'COMPLETE', f"Scraping completed. Success: {success_count}, Failed: {error_count}, Skipped: {skipped_count}")
     
     return scraped_data
 
@@ -379,70 +375,60 @@ def save_scraped_data(scraped_data, output_path):
         scraped_data (dict): Dictionary containing scraped data.
         output_path (str): Path to save the scraped data.
     """
-    logger.info(f"Saving scraped data to {output_path}")
+    log_with_emoji(logger, 'INFO', 'SAVING', f"Saving scraped data to {output_path}")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
     # Also save a plain text extract for easier analysis
     text_extract_path = str(output_path).replace('.json', '_text_extract.txt')
-    logger.info(f"Saving text extract to {text_extract_path}")
+    log_with_emoji(logger, 'INFO', 'SAVING', f"Saving text extract to {text_extract_path}")
     
     try:
         # Save the main JSON data
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(scraped_data, f, indent=2)
-        logger.info("Scraped data saved successfully")
+        log_with_emoji(logger, 'INFO', 'SUCCESS', "Scraped data saved successfully")
         
         # Save a plain text extract with just the content for easier analysis
         with open(text_extract_path, 'w', encoding='utf-8') as f:
-            # For each category
+            f.write(f"SCRAPED CONTENT EXTRACT\n")
+            f.write(f"======================\n\n")
+            
             for category, items in scraped_data.items():
-                f.write(f"--- CATEGORY: {category.upper()} ---\n\n")
+                f.write(f"CATEGORY: {category.upper()}\n")
+                f.write(f"{'=' * (len(category) + 10)}\n\n")
                 
-                # For each item in the category
-                for i, item in enumerate(items):
-                    if item.get("status") == "success" and item.get("content"):
+                for item in items:
+                    if item["status"] == "success" and item["content"]:
+                        f.write(f"URL: {item['url']}\n")
+                        f.write(f"TITLE: {item['title']}\n")
+                        f.write(f"{'-' * 40}\n\n")
+                        
                         content = item["content"]
-                        url = item["url"]
-                        
-                        f.write(f"[DOCUMENT {i+1}]\n")
-                        f.write(f"URL: {url}\n")
-                        f.write(f"TITLE: {content['title']}\n\n")
-                        
-                        # Write headings
-                        if content.get("headings"):
-                            f.write("HEADINGS:\n")
-                            for heading in content["headings"]:
-                                indent = "  " * (heading["level"] - 1)
-                                f.write(f"{indent}* {heading['text']}\n")
-                            f.write("\n")
                         
                         # Write paragraphs
-                        if content.get("paragraphs"):
-                            f.write("CONTENT:\n")
-                            for para in content["paragraphs"]:
-                                f.write(f"{para}\n\n")
+                        if content["paragraphs"]:
+                            f.write("PARAGRAPHS:\n")
+                            for p in content["paragraphs"]:
+                                f.write(f"- {p}\n\n")
                         
-                        # Write lists
-                        if content.get("lists"):
-                            f.write("LISTS:\n")
-                            for lst in content["lists"]:
-                                for i, item in enumerate(lst["items"]):
-                                    f.write(f"  {i+1}. {item}\n")
+                        # Write list items
+                        if content["list_items"]:
+                            f.write("LIST ITEMS:\n")
+                            for li in content["list_items"]:
+                                f.write(f"* {li}\n")
                             f.write("\n")
                         
-                        f.write("-" * 80 + "\n\n")
-                
-        logger.info("Text extract saved successfully")
+                        f.write(f"{'-' * 80}\n\n")
         
+        log_with_emoji(logger, 'INFO', 'SUCCESS', "Text extract saved successfully")
     except Exception as e:
-        logger.error(f"Error saving scraped data: {str(e)}")
-        raise
+        log_with_emoji(logger, 'ERROR', 'ERROR', f"Error saving data: {str(e)}")
 
 def main():
     """
     Main function to scrape websites.
     """
-    logger.info("Starting web scraping process")
+    log_with_emoji(logger, 'INFO', 'START', "Starting web scraping process")
     
     # Load organized links
     organized_links = load_organized_links(ORGANIZED_LINKS_PATH)
@@ -453,7 +439,7 @@ def main():
     # Save scraped data
     save_scraped_data(scraped_data, SCRAPED_DATA_PATH)
     
-    logger.info("Web scraping process completed")
+    log_with_emoji(logger, 'INFO', 'COMPLETE', "Web scraping process completed")
     return scraped_data
 
 if __name__ == "__main__":
