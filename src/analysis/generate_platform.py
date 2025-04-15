@@ -7,7 +7,7 @@ This module analyzes the scraped website content and generates a political platf
 import json
 import os
 from pathlib import Path
-from openai import OpenAI
+import openai
 from tqdm import tqdm
 from src.utils.logger import get_logger
 from src.utils.config import SCRAPED_DATA_PATH, EXTRACTED_CONCEPTS_PATH, PLATFORM_OUTPUT_PATH, OPENAI_KEY, GPT_MODEL
@@ -16,7 +16,7 @@ from src.utils.config import SCRAPED_DATA_PATH, EXTRACTED_CONCEPTS_PATH, PLATFOR
 logger = get_logger("generate_platform", "platform.log")
 
 # Set up OpenAI API client
-client = OpenAI(api_key=OPENAI_KEY)
+openai.api_key = OPENAI_KEY
 
 def load_extracted_concepts(file_path):
     """
@@ -61,14 +61,14 @@ def prepare_prompt(category, documents):
         concepts_list.append(f"Source: {title}\n\n{concepts}")
     
     # Format the prompt
-    prompt = f"""
-You are a political analyst tasked with generating a comprehensive political platform based on the following extracted concepts from the '{category}' category:
+    prompt = """
+You are a political analyst tasked with generating a comprehensive political platform based on the following extracted concepts from the '{}' category:
 
-{'=' * 40}
-{'\n\n'.join(concepts_list)}
-{'=' * 40}
+{}
+{}
+{}
 
-Based on these concepts, generate a coherent political platform section on {category} issues. Include:
+Based on these concepts, generate a coherent political platform section on {} issues. Include:
 1. A concise overview of the key positions and values
 2. 5-7 specific policy proposals based on the concepts
 3. Brief justifications for each proposal
@@ -76,7 +76,13 @@ Based on these concepts, generate a coherent political platform section on {cate
 
 Make sure the platform is balanced, realistic, and directly based on the extracted concepts provided.
 Integrate similar ideas from different sources, and resolve any contradictions by taking a moderate position.
-"""
+""".format(
+        category,
+        '=' * 40,
+        '\n\n'.join(concepts_list),
+        '=' * 40,
+        category
+    )
     return prompt
 
 def generate_section(category, documents):
@@ -97,7 +103,7 @@ def generate_section(category, documents):
         prompt = prepare_prompt(category, documents)
         
         # Call the OpenAI API
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a helpful political analyst who excels at synthesizing diverse concepts into a coherent political platform."},
@@ -143,7 +149,7 @@ def generate_platform(extracted_data):
             summary_prompt += f"=== {category.upper()} ===\n{section}\n\n"
         
         # Generate the summary
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a skilled political strategist who excels at synthesizing complex policy ideas into compelling, accessible summaries."},

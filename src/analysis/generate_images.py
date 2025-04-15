@@ -11,7 +11,7 @@ import time
 from pathlib import Path
 import base64
 import requests
-from openai import OpenAI
+import openai
 from src.utils.logger import get_logger
 from src.utils.config import PLATFORM_OUTPUT_PATH, OUTPUT_DIR, OPENAI_API_KEY
 
@@ -90,23 +90,21 @@ def generate_images(prompts):
     """
     logger.info(f"Generating {len(prompts)} images using DALL-E")
     
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    openai.api_key = OPENAI_API_KEY
     image_paths = []
     
     for i, prompt in enumerate(prompts):
         try:
             logger.info(f"Generating image {i+1} with prompt: {prompt[:100]}...")
             
-            response = client.images.generate(
-                model="dall-e-3",  # Using DALL-E 3 for high quality images
+            response = openai.Image.create(
                 prompt=prompt,
-                size="1024x1024",
-                quality="standard",
-                n=1
+                n=1,
+                size="1024x1024"
             )
             
             # Get image URL from response
-            image_url = response.data[0].url
+            image_url = response['data'][0]['url']
             
             # Download the image
             response = requests.get(image_url)

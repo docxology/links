@@ -8,7 +8,7 @@ positions, and beliefs that would be relevant for a manifesto or political platf
 import json
 import os
 from pathlib import Path
-from openai import OpenAI
+import openai
 from tqdm import tqdm
 from src.utils.logger import get_logger
 from src.utils.config import SCRAPED_DATA_PATH, OUTPUT_DIR, OPENAI_KEY, GPT_MODEL, EXTRACTED_CONCEPTS_PATH
@@ -20,7 +20,7 @@ logger = get_logger("extract_concepts", "concepts.log")
 # CONCEPTS_PATH = OUTPUT_DIR / "extracted_concepts.json"
 
 # Set up OpenAI API client
-client = OpenAI(api_key=OPENAI_KEY)
+openai.api_key = OPENAI_KEY
 
 def load_scraped_data(file_path):
     """
@@ -118,7 +118,7 @@ Format your response as a structured list of concepts, being as specific and det
 """
         
         # Call the OpenAI API
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a skilled political analyst who excels at extracting specific, detailed concepts from text."},

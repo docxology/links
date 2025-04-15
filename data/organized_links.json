@@ -1792,6 +1792,1894 @@
         "site_name": "FundingtheOcean.org"
       },
       "modDate": "2022-04-30T14:53:34.760Z"
+    },
+    {
+      "_key": "cd3fbf0c-e677-4bf0-8ad4-3affb0737b53",
+      "_id": "Documents/cd3fbf0c-e677-4bf0-8ad4-3affb0737b53",
+      "_rev": "_eF9sTVC--A",
+      "createDate": "2022-05-01T14:02:47.536Z",
+      "data": {
+        "image": "https://i.guim.co.uk/img/media/d1e71d335fba83a85e3e49eb5e505735f24a6eba/758_244_1529_917/master/1529.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e7fd8cc99a91a31b6acc62e267726888",
+        "title": "UN ocean treaty is \u2018once in a lifetime\u2019 chance to protect the high seas",
+        "articleModifiedTime": "2022-03-10T20:51:05.000Z",
+        "articleSection": "Environment",
+        "imageHeight": "720",
+        "imageWidth": "1200",
+        "description": "Negotiators aim to agree on legal framework for protecting international waters that are key to \u2018life as we know it\u2019",
+        "site_name": "the Guardian",
+        "url": "https://www.theguardian.com/environment/2022/mar/10/un-ocean-treaty-is-once-in-a-lifetime-chance-to-protect-the-high-seas",
+        "articlePublishedTime": "2022-03-10T12:49:19.000Z",
+        "type": "article",
+        "favicon": "https://static.guim.co.uk/images/favicon-32x32.ico",
+        "articleAuthor": "https://www.theguardian.com/profile/karenmcveigh"
+      },
+      "modDate": "2022-05-01T14:02:47.536Z"
+    },
+    {
+      "_key": "7d3b5ef5-dd9e-4090-a3ec-71fabecac407",
+      "_id": "Documents/7d3b5ef5-dd9e-4090-a3ec-71fabecac407",
+      "_rev": "_eGS8TES--A",
+      "createDate": "2022-05-02T14:48:16.229Z",
+      "data": {
+        "profileUsername": "Gitcoin Media",
+        "site_name": "ImpactDAOs",
+        "articleFavorites": "0",
+        "articleComments": "6",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "imageSecureUrl": "https://i.ytimg.com/vi/8rWX1PArkYs/hqdefault.jpg",
+        "articleLikes": "41",
+        "imageHeight": 360,
+        "title": "ImpactDAOs- The Building Block of Regen web3 - Kevin Owocki & Ale Borda",
+        "imageWidth": 480,
+        "video": "https://www.youtube.com/embed/8rWX1PArkYs",
+        "articleViews": "525",
+        "type": "photo",
+        "url": "https://www.youtube.com/watch?v=8rWX1PArkYs"
+      },
+      "modDate": "2022-05-02T14:48:16.229Z"
+    },
+    {
+      "_key": "b53391a4-d20e-43e0-89d2-d4e937fb7095",
+      "_id": "Documents/b53391a4-d20e-43e0-89d2-d4e937fb7095",
+      "_rev": "_eJNVOXu--_",
+      "createDate": "2022-05-11T15:57:50.363Z",
+      "data": {
+        "image": "https://cdn.ssrn.com/ssrn-global-header/11589acb53bc518aa22929bf19add113.svg",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763",
+        "type": "site",
+        "imageHeight": "630",
+        "imageWidth": "1200",
+        "title": "Decentralized Society: Finding Web3's Soul",
+        "site_name": "Decentralized Society",
+        "description": "Web3 today centers around expressing transferable, financialized assets, rather than encoding social relationships of trust. Yet many core economic activities\u2014s"
+      },
+      "modDate": "2022-05-11T15:57:50.363Z"
+    },
+    {
+      "_key": "1452b647-6ff3-443d-8f1e-82335da76c99",
+      "_id": "Documents/1452b647-6ff3-443d-8f1e-82335da76c99",
+      "_rev": "_eUxvYhe---",
+      "createDate": "2022-06-16T14:36:09.655Z",
+      "data": {
+        "favicon": "https://orca.mirror.xyz/icon/favicon-32x32.png",
+        "description": "Most organizations run on Socialware - Systems and processes managed by people. We introduce the concept of \"Trustware\" as an important tool for DAOs.",
+        "image": "https://mirror-media.imgix.net/publication-images/XYsurVu8cSU7vuOgjS-j_.png?height=1000&width=2000&h=1000&w=2000&auto=compress",
+        "title": "Scaling Trust in DAOs: Trustware vs Socialware",
+        "type": "site",
+        "url": "https://orca.mirror.xyz/T70CmuhX95ubkw_JHOxSEy8d_EFeYXgtJnF13mPtaZE",
+        "site_name": "Scaling Trust in DAOs"
+      },
+      "modDate": "2022-06-16T14:36:09.655Z"
+    },
+    {
+      "_key": "f0306fc4-66ac-4cef-960b-ee1de19d3eda",
+      "_id": "Documents/f0306fc4-66ac-4cef-960b-ee1de19d3eda",
+      "_rev": "_eUxzcui--A",
+      "createDate": "2022-06-16T14:40:36.104Z",
+      "data": {
+        "image": "https://matthewstrom.com/images/annealing-og.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "675",
+        "site_name": "How to pick the least wrong colors",
+        "type": "article",
+        "url": "https://matthewstrom.com/writing/how-to-pick-the-least-wrong-colors/",
+        "description": "An algorithm for creating color palettes for data visualization",
+        "favicon": "https://matthewstrom.com/favicon.png",
+        "title": "How to pick the least wrong colors"
+      },
+      "modDate": "2022-06-16T14:40:36.104Z"
+    },
+    {
+      "_key": "a1257404-7b99-49ac-9c9e-822c43c26e0b",
+      "_id": "Documents/a1257404-7b99-49ac-9c9e-822c43c26e0b",
+      "_rev": "_eV5WcSC--_",
+      "createDate": "2022-06-20T02:02:04.983Z",
+      "data": {
+        "description": "In the recent paper about \"soulbound\" tokens, Vitalik Buterin et al. write that they aim to build technology that is \"acceptably non-dystopian\". Do any of today's self-sovereign identity projects fit that bill?",
+        "type": "website",
+        "favicon": "https://blog.mollywhite.net/assets/favicon-32x32.png",
+        "image": "https://blog.mollywhite.net/assets/mollyandmax.png",
+        "title": "Is \"acceptably non-dystopian\" self-sovereign identity even possible?",
+        "site_name": "Is \"acceptably non",
+        "imageHeight": "200",
+        "url": "https://blog.mollywhite.net/is-acceptably-non-dystopian-self-sovereign-identity-even-possible/",
+        "imageWidth": "200"
+      },
+      "modDate": "2022-06-20T02:02:04.983Z"
+    },
+    {
+      "_key": "16dc6ba1-155b-4f0e-a00b-3022bc703fed",
+      "_id": "Documents/16dc6ba1-155b-4f0e-a00b-3022bc703fed",
+      "_rev": "_eXtfWnS---",
+      "createDate": "2022-06-25T17:20:48.259Z",
+      "data": {
+        "title": "Signature Economies",
+        "imageType": "image/png",
+        "image": "https://www.kernel.community/images/shares/sig-eco.png",
+        "site_name": "Signature Economies",
+        "type": "website",
+        "url": "https://sign.kernel.community",
+        "description": "Make eternally beautiful marks",
+        "favicon": "https://www.kernel.community/images/shares/favicon.ico"
+      },
+      "modDate": "2022-06-25T17:20:48.259Z"
+    },
+    {
+      "_key": "3b8ac6cd-c326-451e-93bd-ef51848638d4",
+      "_id": "Documents/3b8ac6cd-c326-451e-93bd-ef51848638d4",
+      "_rev": "_eXtgzFu---",
+      "createDate": "2022-06-25T17:22:22.971Z",
+      "data": {
+        "type": "site",
+        "image": "https://bestofnow.net/logo192.png",
+        "title": "Powered by NooNet",
+        "url": "https://bestofnow.net/bookmarks",
+        "favicon": "https://bestofnow.net/favicon.ico",
+        "site_name": "Powered by NooNet"
+      },
+      "modDate": "2022-06-25T17:22:22.971Z"
+    },
+    {
+      "_key": "0ce00b6b-f551-4911-b28c-5023686d8200",
+      "_id": "Documents/0ce00b6b-f551-4911-b28c-5023686d8200",
+      "_rev": "_eXvaRNa---",
+      "createDate": "2022-06-25T19:35:03.670Z",
+      "data": {
+        "imageType": "image/jpeg",
+        "description": "The purpose of this document is to help US organizers, bridge-builders, and ordinary people understand the key attributes of authoritarian systems, how authoritarians wield power, and ways to counter it.",
+        "articlePublishedTime": "2022-06-13T13:12:37+00:00",
+        "title": "Authoritarianism: How You Know It When You See It - Horizons",
+        "url": "https://horizonsproject.us/authoritarianism-how-you-know-it-when-you-see-it/",
+        "imageWidth": "2560",
+        "imageHeight": "1920",
+        "site_name": "Horizons",
+        "articleModifiedTime": "2022-06-15T16:16:26+00:00",
+        "locale": "en_US",
+        "image": "https://horizonsproject.us/wp-content/uploads/2022/06/pexels-anni-roenkae-2728587-scaled.jpg",
+        "type": "article",
+        "favicon": "https://horizonsproject.us/wp-content/uploads/2021/11/cropped-cropped-THP_final1-192x192.png"
+      },
+      "modDate": "2022-06-25T19:35:03.670Z"
+    },
+    {
+      "_key": "a8dc98fc-2d6f-4dd5-bdc1-9e39e5e86e04",
+      "_id": "Documents/a8dc98fc-2d6f-4dd5-bdc1-9e39e5e86e04",
+      "_rev": "_eXxflbK---",
+      "createDate": "2022-06-25T22:00:40.658Z",
+      "data": {
+        "articlePublishedTime": "2018-02-01T19:36:50.502Z",
+        "favicon": "https://miro.medium.com/fit/c/256/256/",
+        "title": "Wikimedia and the free knowledge ecosystem",
+        "description": "This story was originally written in Spanish, for \u201cObservatorio de Redes\u201d.",
+        "type": "article",
+        "image": "https://miro.medium.com/max/477/1*z5svKIkenuZ7Vc9dN_-dBQ.png",
+        "url": "https://medium.com/freely-sharing-the-sum-of-all-knowledge/wikimedia-and-the-free-knowledge-ecosystem-c1a5ebb9f760",
+        "articleAuthor": "https://medium.com/@marianarra_",
+        "site_name": "Medium"
+      },
+      "modDate": "2022-06-25T22:00:40.658Z"
+    },
+    {
+      "_key": "7ddaffc2-275a-4708-81a1-b630540da435",
+      "_id": "Documents/7ddaffc2-275a-4708-81a1-b630540da435",
+      "_rev": "_eXxhtnm---",
+      "createDate": "2022-06-25T22:03:00.121Z",
+      "data": {
+        "locale": "en_US",
+        "url": "https://greaterthanthesum.com/aldo1/",
+        "favicon": "https://greaterthanthesum.com/wp-content/uploads/2020/09/Greater-than-the-Sum-icon-30px10px-Margin.png",
+        "imageHeight": "720",
+        "imageType": "image/jpeg",
+        "articlePublishedTime": "2017-08-03T16:42:05+00:00",
+        "articleModifiedTime": "2021-08-17T19:59:26+00:00",
+        "description": "Mapping Networks & Systems to Support Social Innovation. Social change network weaver support & organizational services. Christine Capra, Tim Hanson, MN",
+        "site_name": "Greater Than The Sum",
+        "image": "https://greaterthanthesum.com/wp-content/uploads/2017/08/Social-Innovation-Process-from-Aldo.jpg",
+        "title": "Participatory Community Network Mapping as Collective Sensemaking - Part 1 of an interview with Aldo de Moor - Greater Than The Sum",
+        "imageWidth": "1280",
+        "type": "article"
+      },
+      "modDate": "2022-06-25T22:03:00.121Z"
+    },
+    {
+      "_key": "a7154872-eac7-46b0-b3ad-1594b95a678a",
+      "_id": "Documents/a7154872-eac7-46b0-b3ad-1594b95a678a",
+      "_rev": "_eXxrjUm--A",
+      "createDate": "2022-06-25T22:13:44.937Z",
+      "data": {
+        "title": "Mapping Twitter Topic Networks: From Polarized Crowds to Community Clusters",
+        "url": "https://www.pewresearch.org/internet/2014/02/20/mapping-twitter-topic-networks-from-polarized-crowds-to-community-clusters/",
+        "description": "People connect to form groups on Twitter for a variety of purposes. The networks they create have identifiable contours that are shaped by the topic being discussed, the information and influencers driving the conversation, and the social network structures of the participants.",
+        "type": "article",
+        "favicon": "https://www.pewresearch.org/internet/wp-content/themes/prc_parent/src/images/favicon/favicon_128x128.png",
+        "articlePublishedTime": "2014-02-20T16:35:58+00:00",
+        "site_name": "Pew Research Center: Internet, Science & Tech",
+        "image": "https://assets.pewresearch.org/wp-content/uploads/sites/14/2014/02/polarized-crowd.png",
+        "articleModifiedTime": "2020-05-30T16:53:40+00:00",
+        "locale": "en_US"
+      },
+      "modDate": "2022-06-25T22:13:44.937Z"
+    },
+    {
+      "_key": "02e94260-20e7-4958-ab2c-ebcae0cbb7bf",
+      "_id": "Documents/02e94260-20e7-4958-ab2c-ebcae0cbb7bf",
+      "_rev": "_eXxy50---A",
+      "createDate": "2022-06-25T22:21:46.719Z",
+      "data": {
+        "description": "Henry Markram is back with a new publication on his controversial Blue Brain project. The math behind it may be more important than the results.",
+        "articlePublishedTime": "2017-06-13T11:00:00.000Z",
+        "url": "https://www.wired.com/story/the-mind-boggling-math-that-maybe-mapped-the-brain-in-11-dimensions/",
+        "favicon": "https://www.wired.com/verso/static/wired/assets/favicon.ico",
+        "title": "The Mind-Boggling Math That (Maybe) Mapped the Brain in 11 Dimensions",
+        "type": "article",
+        "image": "https://media.wired.com/photos/593b28a49a93607bd17ca9d8/191:100/w_1280,c_limit/BlueBrainHP.jpg",
+        "articleSection": "tags",
+        "articleAuthor": "Megan Molteni",
+        "site_name": "Wired"
+      },
+      "modDate": "2022-06-25T22:21:46.719Z"
+    },
+    {
+      "_key": "5678900d-3f5e-4ced-81c6-53f1db145a81",
+      "_id": "Documents/5678900d-3f5e-4ced-81c6-53f1db145a81",
+      "_rev": "_eY_2FYS---",
+      "createDate": "2022-06-26T14:43:55.427Z",
+      "data": {
+        "type": "article",
+        "description": "\u201cDecentralized Autonomous Organizations\u201d (DAOs) are everywhere, yet it is unclear what a DAO is (or isn\u2019t), and what design elements constitute a DAO. Already, DAOs are diverse. DAOs have helped to\u2026",
+        "articleModifiedTime": "2022-05-18T08:14+00:00",
+        "site_name": "Platform Cooperativism Consortium",
+        "locale": "en_US",
+        "articlePublishedTime": "2022-05-18T08:13+00:00",
+        "imageWidth": "800",
+        "image": "https://platform.coop/wp-content/uploads/2022/05/kelsie.jpeg",
+        "imageHeight": "533",
+        "favicon": "https://platform.coop/wp-content/themes/pcc/dist/images/favicon.png",
+        "title": "DAO Design Patterns: | Platform Cooperativism Consortium",
+        "url": "https://platform.coop/blog/dao-design-patterns/"
+      },
+      "modDate": "2022-06-26T14:43:55.427Z"
+    },
+    {
+      "_key": "04b6e95e-c655-41ca-8282-d7205f5af9a4",
+      "_id": "Documents/04b6e95e-c655-41ca-8282-d7205f5af9a4",
+      "_rev": "_eYBLTJy--_",
+      "createDate": "2022-06-26T16:17:00.092Z",
+      "data": {
+        "description": "BBC Horizon programme. Simon Singh's moving documentary of Andrew Wiles' extraordinary search for the most elusive proof in number theory.",
+        "site_name": "Dailymotion",
+        "imageType": "image/jpg",
+        "url": "https://www.dailymotion.com/video/x1btavd",
+        "type": "video",
+        "imageWidth": "976",
+        "imageHeight": "720",
+        "imageSecureUrl": "https://s1.dmcdn.net/v/4oMj91YLdjHZXNz5U/x720",
+        "video": "https://www.dailymotion.com/embed/video/x1btavd?autoplay=1",
+        "favicon": "https://static1.dmcdn.net/neon-ssr/prod/favicons/android-icon-192x192.668e5fde9462cb3a921df2e9d00537e6.png",
+        "image": "https://s1.dmcdn.net/v/4oMj91YLdjHZXNz5U/x720",
+        "videoHeight": "360",
+        "videoSecureUrl": "https://www.dailymotion.com/embed/video/x1btavd?autoplay=1",
+        "videoWidth": "640",
+        "videoType": "text/html",
+        "title": "Fermat's Last Theorum - video Dailymotion"
+      },
+      "modDate": "2022-06-26T16:17:00.092Z"
+    },
+    {
+      "_key": "609b025a-6a99-4853-b786-b021de5347fc",
+      "_id": "Documents/609b025a-6a99-4853-b786-b021de5347fc",
+      "_rev": "_eYFpG-6--A",
+      "createDate": "2022-06-26T21:29:09.902Z",
+      "data": {
+        "imageHeight": "600",
+        "title": "From the Archives: Xerox Parc\u2019s Engineers on How They Invented the Future",
+        "site_name": "IEEE Spectrum",
+        "type": "article",
+        "imageWidth": "1200",
+        "image": "https://spectrum.ieee.org/media-library/a-sign-outside-of-a-building-says-palo-alto-research-center-xerox.jpg?id=29833172&width=1200&coordinates=0%2C262%2C0%2C263&height=600",
+        "favicon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY1OTYwMjUwNn0.83ww7bkGqpGwDJ0lJUQ9t40jCxvzIiI09EEqwNcU8HE/img.png?width=32&height=32",
+        "articleModifiedTime": "2022-06-09T15:23:19+00:00",
+        "articleSection": "History of Technology",
+        "url": "https://spectrum.ieee.org/xerox-parc",
+        "articlePublishedTime": "2022-06-04T15:00:01+00:00",
+        "articleAuthor": "https://www.facebook.com/48576411181",
+        "description": "And how Xerox lost it"
+      },
+      "modDate": "2022-06-26T21:29:09.902Z"
+    },
+    {
+      "_key": "356ceaa5-8a92-4b37-a623-bd2fd0a0dae2",
+      "_id": "Documents/356ceaa5-8a92-4b37-a623-bd2fd0a0dae2",
+      "_rev": "_eYRrEQa--_",
+      "createDate": "2022-06-27T11:30:10.854Z",
+      "data": {
+        "articlePublishedTime": "2022-04-26T10:27:35.058Z",
+        "image": "https://miro.medium.com/max/1200/1*x_ioQO7_scoeXbFlhXFmqg.jpeg",
+        "url": "https://medium.com/together-institute/community-principle-weaving-from-the-inside-out-91649e55837",
+        "favicon": "https://miro.medium.com/fit/c/256/256/",
+        "site_name": "Medium",
+        "type": "article",
+        "description": "Healthy communities need a center of gravity with dense and trusted relationships. Otherwise they are hollow and unsustainable.",
+        "title": "Community principle: Weaving from the inside out",
+        "articleAuthor": "https://medium.com/@pforti"
+      },
+      "modDate": "2022-06-27T11:30:10.854Z"
+    },
+    {
+      "_key": "8af38105-263f-49cf-ad5a-271f3c5b197e",
+      "_id": "Documents/8af38105-263f-49cf-ad5a-271f3c5b197e",
+      "_rev": "_eYSASQG--_",
+      "createDate": "2022-06-27T11:53:21.441Z",
+      "data": {
+        "title": "We are all peacebuilders | Julia Roig | TEDxBratislava",
+        "site_name": "We are all peacebuilders",
+        "url": "https://www.youtube.com/watch?v=DcKdClnpz4k",
+        "articleComments": "1",
+        "imageWidth": 1280,
+        "articleFavorites": "0",
+        "articleLikes": "16",
+        "video": "https://www.youtube.com/embed/DcKdClnpz4k",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "imageSecureUrl": "https://i.ytimg.com/vi/DcKdClnpz4k/maxresdefault.jpg",
+        "description": "Julia Roig is a great impersonation of a person who believes in a change and is a part of it. With her talk, Julia fulfills us with optimism and shows us how to incorporate the concept of democracy into our everyday lives.   Julia Roig is the President of Partners for Democratic Change (Partners), a global organization with a successful track record of building civil society and broad partnerships to effect democratic change. As President, Julia Roig has not only solidified private sector partnerships to reach development goals, but also spearheaded linkages with entertainment and advertising industry leaders to support peacebuilding efforts (most recently, pro bono campaigns aimed at supporting peace talks in Colombia and combating religious intolerance in Europe). Prior to joining Partners, Julia directed a Rule of Law Initiative in Belgrade for two years. She has also spent five years in Bogota working on community justice and dispute resolution in Colombia.   This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx",
+        "type": "photo",
+        "imageHeight": 720,
+        "profileUsername": "TEDx Talks",
+        "articleViews": "1581"
+      },
+      "modDate": "2022-06-27T11:53:21.441Z"
+    },
+    {
+      "_key": "859dfd90-aeab-4fe0-b094-f3e6e1a440f9",
+      "_id": "Documents/859dfd90-aeab-4fe0-b094-f3e6e1a440f9",
+      "_rev": "_eYSv6tm--_",
+      "createDate": "2022-06-27T12:45:23.065Z",
+      "data": {
+        "articlePublishedTime": "2022-06-26T19:30:31.000Z",
+        "imageWidth": "2132",
+        "url": "https://consilienceproject.org/technology-is-not-values-neutral/",
+        "image": "https://consilienceproject.org/content/images/2022/06/Tech-Values-Neutral_1-2.png",
+        "favicon": "https://consilienceproject.org/favicon.png",
+        "type": "article",
+        "site_name": "The Consilience Project",
+        "title": "Technology is Not Values Neutral: Ending the Reign of Nihilistic Design",
+        "imageHeight": "1200",
+        "articleModifiedTime": "2022-06-26T22:16:03.000Z",
+        "description": "How should we design technologies that in turn shape our minds?"
+      },
+      "modDate": "2022-06-27T12:45:23.065Z"
+    },
+    {
+      "_key": "d538ea59-73d1-4737-a2f2-8a627ef1837e",
+      "_id": "Documents/d538ea59-73d1-4737-a2f2-8a627ef1837e",
+      "_rev": "_eYYp9be--_",
+      "createDate": "2022-06-27T19:38:18.455Z",
+      "data": {
+        "title": "MAKING LARGE EVENTS PARTICIPATORY",
+        "imageWidth": "1200",
+        "locale": "en_US",
+        "articleModifiedTime": "2022-04-19T17:01:45+00:00",
+        "type": "article",
+        "favicon": "https://networkweaver.com/wp-content/uploads/2018/09/nw_favicon_white.png",
+        "image": "https://i0.wp.com/networkweaver.com/wp-content/uploads/2022/04/shutterstock_1151217977-1.jpeg?fit=1200%2C675&ssl=1",
+        "articlePublishedTime": "2022-04-19T15:03:46+00:00",
+        "description": "This blog was originally published in October, 2019, when we couldn\u2019t foresee that most large events would cease. As we anticipate meeting again in person, I hope the approaches here give you ideas\u2026",
+        "site_name": "NetworkWeaver",
+        "url": "https://networkweaver.com/making-large-events-participatory/",
+        "imageHeight": "675"
+      },
+      "modDate": "2022-06-27T19:38:18.455Z"
+    },
+    {
+      "_key": "93b9c47a-dead-4cf6-a29a-a4e8c995f215",
+      "_id": "Documents/93b9c47a-dead-4cf6-a29a-a4e8c995f215",
+      "_rev": "_eYaW6GG--_",
+      "createDate": "2022-06-27T21:37:18.465Z",
+      "data": {
+        "site_name": "The Economist",
+        "title": "Stewart Brand\u2019s belief in technology helped shape Silicon Valley",
+        "type": "Article",
+        "description": "A new biography considers the tricky relationship between techno-optimism and green ideals",
+        "favicon": "https://www.economist.com/engassets/ico/favicon.f1ea908894.ico",
+        "url": "https://www.economist.com/culture/2022/04/06/stewart-brands-belief-in-technology-helped-shape-silicon-valley",
+        "image": "https://www.economist.com/img/b/1280/720/90/media-assets/image/20220409_CUP508.jpg"
+      },
+      "modDate": "2022-06-27T21:37:18.465Z"
+    },
+    {
+      "_key": "50967cab-4fb3-48a7-b19d-5c6dde03d864",
+      "_id": "Documents/50967cab-4fb3-48a7-b19d-5c6dde03d864",
+      "_rev": "_eYkV3yu--A",
+      "createDate": "2022-06-28T09:15:13.612Z",
+      "data": {
+        "type": "article",
+        "image": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5976e1d0-3d05-4f5c-857c-e4e308b98c97_1182x665.jpeg",
+        "title": "What the **** is the metaverse?",
+        "site_name": "What the **** is the metaverse?",
+        "favicon": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/03981657-a011-4f72-861e-793568563363/favicon-32x32.png",
+        "description": "And why should financial institutions, or for that matter any other businesses, care?",
+        "url": "https://dgwbirch.substack.com/p/what-the-is-the-metaverse"
+      },
+      "modDate": "2022-06-28T09:15:13.612Z"
+    },
+    {
+      "_key": "17fb5783-602b-48bf-af23-64ee8c708618",
+      "_id": "Documents/17fb5783-602b-48bf-af23-64ee8c708618",
+      "_rev": "_eZCM6ju--_",
+      "createDate": "2022-06-29T20:02:35.739Z",
+      "data": {
+        "site_name": "Economic Space Agency - ECSA",
+        "type": "article",
+        "url": "https://economicspace.agency/library/",
+        "description": "Jonathan Beller",
+        "title": "Library - Economic Space Agency - ECSA",
+        "image": "https://economicspace.agency/wp-content/themes/ecsa/img/apple-touch-icon.png",
+        "favicon": "https://economicspace.agency/wp-content/themes/ecsa/img/favicon-32x32.png",
+        "locale": "en_US"
+      },
+      "modDate": "2022-06-29T20:02:35.739Z"
+    },
+    {
+      "_key": "0e2a4c3f-0ba5-41eb-bbf0-03e0f061aa81",
+      "_id": "Documents/0e2a4c3f-0ba5-41eb-bbf0-03e0f061aa81",
+      "_rev": "_eZZttbi--A",
+      "createDate": "2022-06-30T23:26:13.977Z",
+      "data": {
+        "image": "https://mirror-media.imgix.net/publication-images/FzK303B84CkXp5lxZT5Uq.png?height=1570&width=3140&h=1570&w=3140&auto=compress",
+        "type": "site",
+        "description": "Rowan is a contributor to SuperBenefitDAO and works on scalable models of coordination and fractal DAO governance. Deep gratitude to Heenal Rajani and Michael Lewkowitz for contributing to this article. This article is the third in our series exploring the concept of DAOs as networks and their evolutionary nature.",
+        "url": "https://superbenefit.mirror.xyz/zyP-6GZQz-DWcdbAa-4sqRiY58P1WvYvIs_2zNa9oYo",
+        "favicon": "https://superbenefit.mirror.xyz/icon/favicon-32x32.png",
+        "title": "DAOs: From fractal primitives to network scale.",
+        "site_name": "DAOs"
+      },
+      "modDate": "2022-06-30T23:26:13.977Z"
+    },
+    {
+      "_key": "f12d1e8d-658e-48c8-834a-976ee88e1b8c",
+      "_id": "Documents/f12d1e8d-658e-48c8-834a-976ee88e1b8c",
+      "_rev": "_eZmbzIS---",
+      "createDate": "2022-07-01T14:15:26.115Z",
+      "data": {
+        "imageWidth": "200",
+        "site_name": "Complexity Weekend",
+        "description": "Meet new collaborators and learn Complexity Science by doing within diverse teams",
+        "title": "Complexity Weekend",
+        "url": "https://www.complexityweekend.com/",
+        "type": "site",
+        "image": "https://www.complexityweekend.com/cw-og.jpeg",
+        "imageHeight": "200",
+        "favicon": "https://www.complexityweekend.com/favicon-196x196.png"
+      },
+      "modDate": "2022-07-01T14:15:26.115Z"
+    },
+    {
+      "_key": "be15bfcc-10d5-4e49-af9e-b9162fd7a7a2",
+      "_id": "Documents/be15bfcc-10d5-4e49-af9e-b9162fd7a7a2",
+      "_rev": "_eZuSMqi--A",
+      "createDate": "2022-07-01T23:24:11.337Z",
+      "data": {
+        "description": "Folks who do systems analysis have a great belief in \u201cleverage points.\u201d These are places within a complex system (a corporation, an economy, a living body, a city, an ecosystem) where a small shift in one thing can produce big changes in everything.",
+        "locale": "en_US",
+        "favicon": "https://donellameadows.org/wp-content/themes/donellameadows/favicon.png",
+        "title": "Leverage Points: Places to Intervene in a System",
+        "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+        "site_name": "The Academy for Systems Change",
+        "articleModifiedTime": "2012-04-05T17:16:57+00:00",
+        "image": "https://donellameadows.org/wp-content/themes/donellameadows/images/logo-2.gif",
+        "type": "food"
+      },
+      "modDate": "2022-07-01T23:24:11.337Z"
+    },
+    {
+      "_key": "40c8c947-3e6d-42b3-ba3c-e1c8f5f60b73",
+      "_id": "Documents/40c8c947-3e6d-42b3-ba3c-e1c8f5f60b73",
+      "_rev": "_eaOAUGC--A",
+      "createDate": "2022-07-03T12:21:37.024Z",
+      "data": {
+        "image": "http://bigdoorbrigade.com/wp-content/uploads/2017/02/cropped-we-will-defend-180x180.png",
+        "url": "http://bigdoorbrigade.com/",
+        "site_name": "Big Door Brigade",
+        "title": "Big Door Brigade",
+        "description": "Ciro worked up a version that doesn\u2019t have such strong language, hopefully useful for spaces where that is more appropriate.",
+        "type": "site",
+        "favicon": "http://bigdoorbrigade.com/wp-content/uploads/2017/02/cropped-we-will-defend-192x192.png"
+      },
+      "modDate": "2022-07-03T12:21:37.024Z"
+    },
+    {
+      "_key": "3a140f26-7717-4f4e-90dc-1957588e0cec",
+      "_id": "Documents/3a140f26-7717-4f4e-90dc-1957588e0cec",
+      "_rev": "_eb_ZHLC--A",
+      "createDate": "2022-07-05T21:54:03.088Z",
+      "data": {
+        "articlePublishedTime": "2022-07-05T10:25:06.000Z",
+        "favicon": "https://static.guim.co.uk/images/favicon-32x32.ico",
+        "description": "Coinbase\u2019s former chief technology officer wants to use social networks to create states. What doesn\u2019t fit into his vision are things like poverty, illness and ageing",
+        "articleAuthor": "Sam Venis",
+        "articleSection": "Opinion",
+        "articleModifiedTime": "2022-07-05T13:58:47.000Z",
+        "imageHeight": "720",
+        "site_name": "the Guardian",
+        "imageWidth": "1200",
+        "url": "https://www.theguardian.com/commentisfree/2022/jul/05/could-new-countries-be-founded-on-the-internet",
+        "image": "https://i.guim.co.uk/img/media/cd1a5337e9959cda0fe00519a73eaaaf087a4903/178_443_5757_3455/master/5757.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=f4e7ad8c603fa635d735a6826f51466b",
+        "type": "article",
+        "title": "Could new countries be founded \u2013 on the internet? | Sam Venis"
+      },
+      "modDate": "2022-07-05T21:54:03.088Z"
+    },
+    {
+      "_key": "767a751b-ffa3-4a36-8ab8-3669ea9014c3",
+      "_id": "Documents/767a751b-ffa3-4a36-8ab8-3669ea9014c3",
+      "_rev": "_ebk4XlK--_",
+      "createDate": "2022-07-07T17:34:40.754Z",
+      "data": {
+        "title": "Gall's Law [Principles Wiki]",
+        "description": "Creating a complex system from scratch is a difficult task. Many things can go wrong",
+        "favicon": "http://principles-wiki.net/_media/favicon.ico",
+        "url": "http://principles-wiki.net/principles:gall_s_law",
+        "image": "http://principles-wiki.net/lib/tpl/dokuwiki/images/apple-touch-icon.png",
+        "type": "site",
+        "site_name": "Gall's Law [Principles Wiki]"
+      },
+      "modDate": "2022-07-07T17:34:40.754Z"
+    },
+    {
+      "_key": "c0f553ce-e2b1-418e-96fd-8b6cd4e3272b",
+      "_id": "Documents/c0f553ce-e2b1-418e-96fd-8b6cd4e3272b",
+      "_rev": "_ebmSs3u---",
+      "createDate": "2022-07-07T19:13:20.795Z",
+      "data": {
+        "imageWidth": "400",
+        "type": "site",
+        "description": "The eminent futurist-provocateur on the future of politics.",
+        "image": "https://d1z76fhpoqkd01.cloudfront.net/shows/legacy/1ade9142625344045dc17cf523469ced1d93610762f4c886d06aa190a2f979e8.png",
+        "imageHeight": "400",
+        "url": "https://callin.com/link/MfXsJGzwoB",
+        "title": "Balaji Srinivasan and the \u2018Network State\u2019 | The Pull Request",
+        "site_name": "Balaji Srinivasan and the \u2018Network State\u2019"
+      },
+      "modDate": "2022-07-07T19:13:20.795Z"
+    },
+    {
+      "_key": "8f366082-1b23-4e01-8de9-d176ac4e1a15",
+      "_id": "Documents/8f366082-1b23-4e01-8de9-d176ac4e1a15",
+      "_rev": "_ebqe2vK--_",
+      "createDate": "2022-07-08T00:06:14.546Z",
+      "data": {
+        "image": "https://miro.medium.com/max/1200/1*xwS2X_O7UMjn6NetfGQA-A.jpeg",
+        "articleAuthor": "https://matanfield.medium.com",
+        "type": "article",
+        "articlePublishedTime": "2021-09-08T19:37:12.377Z",
+        "description": "Common Good is a blockchain-based application enabling the coordination and motivation of stakeholders in producing common goods.",
+        "site_name": "Medium",
+        "favicon": "https://miro.medium.com/fit/c/256/256/",
+        "title": "Common Good",
+        "url": "https://medium.com/daostack/common-good-77deecfb2887"
+      },
+      "modDate": "2022-07-08T00:06:14.546Z"
+    },
+    {
+      "_key": "5f8fd29c-50d1-4fec-be46-0113ededd39f",
+      "_id": "Documents/5f8fd29c-50d1-4fec-be46-0113ededd39f",
+      "_rev": "_eb3Nmua---",
+      "createDate": "2022-07-08T14:56:09.990Z",
+      "data": {
+        "favicon": "https://www.kernel.community/images/icons/favicon.ico",
+        "type": "website",
+        "description": "A peer-to-peer, lifelong learning community of the most talented individuals in web3",
+        "title": "Kernel Community",
+        "image": "https://kernel.community/../images/shares/giving.png",
+        "site_name": "Kernel Community",
+        "url": "https://www.kernel.community/en/"
+      },
+      "modDate": "2022-07-08T14:56:09.990Z"
+    },
+    {
+      "_key": "4c196b6a-cf89-4933-95b3-c1a5a496071c",
+      "_id": "Documents/4c196b6a-cf89-4933-95b3-c1a5a496071c",
+      "_rev": "_eb7KPY2--A",
+      "createDate": "2022-07-08T19:32:06.701Z",
+      "data": {
+        "url": "https://metacrisis.org/META-CRISIS/01.+%F0%9F%93%9D+Resources/Meta-Crisis+Maps+&+Syntheses",
+        "favicon": "https://publish-01.obsidian.md/access/98e6a3bcddb03482a3683383ef37d1aa/META-CRISIS/00.+%F0%9F%91%8B+About/favicon-196x196.png",
+        "title": "Meta-Crisis Maps & Syntheses - \ud83e\udd2f Meta-Crisis Meta-Resource",
+        "site_name": "Meta",
+        "description": "Meta-Crisis Maps & Syntheses - \ud83e\udd2f Meta-Crisis Meta-Resource",
+        "type": "site"
+      },
+      "modDate": "2022-07-08T19:32:06.701Z"
+    },
+    {
+      "_key": "46696d52-dfac-4d45-b925-fec860a23559",
+      "_id": "Documents/46696d52-dfac-4d45-b925-fec860a23559",
+      "_rev": "_eb7vGD2--_",
+      "createDate": "2022-07-08T20:12:21.981Z",
+      "data": {
+        "title": "FEARFUL SYMMETRY: William Blake and Sacred Geometry, by Rod Tweedy",
+        "favicon": "https://s1.wp.com/i/favicon.ico",
+        "articlePublishedTime": "2021-02-07T19:18:56+00:00",
+        "locale": "en_US",
+        "articleModifiedTime": "2021-02-07T19:22:31+00:00",
+        "imageHeight": "480",
+        "description": "The Human Form Divine: Sacred geometry and its relationship to our physiology \u00a0 Section 1: The Nature of Sacred Geometry This first section explores what is meant by \u201csacred geometry\u201d, studyin\u2026",
+        "type": "article",
+        "image": "https://thehumandivinedotorg.files.wordpress.com/2020/12/screen-shot-2020-12-16-at-21.00.45.png",
+        "site_name": "thehumandivinedotorg",
+        "imageWidth": "720",
+        "url": "https://thehumandivine.org/2021/02/07/fearful-symmetry-william-blake-and-sacred-geometry-by-rod-tweedy/"
+      },
+      "modDate": "2022-07-08T20:12:21.981Z"
+    },
+    {
+      "_key": "74979070-8c07-4ed3-8b59-b0e054b3cb19",
+      "_id": "Documents/74979070-8c07-4ed3-8b59-b0e054b3cb19",
+      "_rev": "_ecXCisu--_",
+      "createDate": "2022-07-10T04:01:02.699Z",
+      "data": {
+        "site_name": "Pools in the Mexican desert are a window into Earth's early life",
+        "type": "article",
+        "description": "Drainage threatens unique microbes in Cuatro Ci\u00e9negas oasis",
+        "favicon": "https://www.science.org/favicon.ico",
+        "title": "Pools in the Mexican desert are a window into Earth's early life",
+        "url": "https://www.science.org/content/article/pools-mexican-desert-are-window-earth-s-early-life",
+        "image": "https://www.science.org/do/10.1126/science.abd5785/abs/ma_0703_nf_cuatrocienegas_pool_1280x720.jpg"
+      },
+      "modDate": "2022-07-10T04:01:02.699Z"
+    },
+    {
+      "_key": "beadad72-6f57-4e5b-baf9-36ff21e1dbf2",
+      "_id": "Documents/beadad72-6f57-4e5b-baf9-36ff21e1dbf2",
+      "_rev": "_ece4HHi--_",
+      "createDate": "2022-07-10T13:08:53.528Z",
+      "data": {
+        "imageWidth": "1200",
+        "favicon": "https://d2zz2qwmps84ma.cloudfront.net/public/images/logo.png",
+        "site_name": "Inqwire",
+        "type": "article",
+        "title": "Inqwire",
+        "image": "https://d2zz2qwmps84ma.cloudfront.net/public/images/InqwireOGImage2.png",
+        "url": "https://www.inqwire.io/www.inqwire.io",
+        "imageHeight": "630",
+        "description": "Unlock the power of natural intelligence, alone and with others."
+      },
+      "modDate": "2022-07-10T13:08:53.528Z"
+    },
+    {
+      "_key": "eb6d5b00-8f83-40cf-8284-bc85cfa84944",
+      "_id": "Documents/eb6d5b00-8f83-40cf-8284-bc85cfa84944",
+      "_rev": "_ecp_lT6--A",
+      "createDate": "2022-07-11T00:56:06.239Z",
+      "data": {
+        "imageHeight": "646",
+        "favicon": "https://www.currentaffairs.org/static/images/favicon.ico?v=3",
+        "title": "The Dangerous Populist Science of Yuval Noah Harari \u2767 Current Affairs",
+        "site_name": "Current Affairs",
+        "url": "https://www.currentaffairs.org/2022/07/the-dangerous-populist-science-of-yuval-noah-harari",
+        "type": "website",
+        "image": "https://images.currentaffairs.org/2022/07/yuval-1024x646.jpg",
+        "imageWidth": "1024",
+        "description": "<p>The best-selling author is a gifted storyteller and popular speaker. But he sacrifices science for sensationalism, and his work is riddled with errors.</p>"
+      },
+      "modDate": "2022-07-11T00:56:06.239Z"
+    },
+    {
+      "_key": "8f79d23b-080f-48d5-a645-28396536a4a9",
+      "_id": "Documents/8f79d23b-080f-48d5-a645-28396536a4a9",
+      "_rev": "_ec4coHS--_",
+      "createDate": "2022-07-11T18:56:24.212Z",
+      "data": {
+        "site_name": "Biodiversity for a Livable Climate",
+        "locale": "en_US",
+        "image": "https://bio4climate.org/wp-content/uploads/Screenshot-2022-05-02-142529.jpg",
+        "favicon": "https://bio4climate.org/wp-content/uploads/cropped-signal_lamb-icon-512x512-1-192x192.jpg",
+        "title": "ERA",
+        "url": "https://bio4climate.org/era/",
+        "articleModifiedTime": "2022-06-06T14:35:28+00:00",
+        "description": "Apart from nature lies ruin.As part of nature, we can thrive.",
+        "type": "article",
+        "articlePublishedTime": "2022-03-07T18:38:32+00:00"
+      },
+      "modDate": "2022-07-11T18:56:24.212Z"
+    },
+    {
+      "_key": "b9289dca-4619-4022-8e9e-7f08e1157120",
+      "_id": "Documents/b9289dca-4619-4022-8e9e-7f08e1157120",
+      "_rev": "_ed-Fgx6--A",
+      "createDate": "2022-07-12T01:30:35.199Z",
+      "data": {
+        "articlePublishedTime": "2022-07-06T15:40:40+00:00",
+        "description": "A case for crypto for the left would undoubtedly have to include the potential for creating resilient methods for digital democracy. However to make real democracy of one person one vote is incredibly difficult without having a very good system of sybil resistance, or for a way to tell that a single account is a [\u2026]",
+        "favicon": "https://theblockchainsocialist.com/wp-content/uploads/cropped-8a1c90eb-2132-420b-9854-eba10124a332-192x192.jpg",
+        "title": "Idena: Digital Democracy without a Centralized Entity - The Blockchain Socalist",
+        "imageType": "image/png",
+        "locale": "en_US",
+        "imageWidth": "2000",
+        "image": "https://theblockchainsocialist.com/wp-content/uploads/Idena_Logo-1.png",
+        "imageHeight": "754",
+        "url": "https://theblockchainsocialist.com/idena-digital-democracy-without-a-centralized-entity/",
+        "site_name": "The Blockchain Socalist",
+        "articleModifiedTime": "2022-07-10T23:13:45+00:00",
+        "type": "article"
+      },
+      "modDate": "2022-07-12T01:30:35.199Z"
+    },
+    {
+      "_key": "aa7554c4-959b-416c-8762-53f7180c1b17",
+      "_id": "Documents/aa7554c4-959b-416c-8762-53f7180c1b17",
+      "_rev": "_edasinm--_",
+      "createDate": "2022-07-13T10:50:33.497Z",
+      "data": {
+        "description": "Obviously, Ariadne's thread may be applied to the solving of mazes in the same manner as the legend; an actual thread can be used as the record, or chalk or a similar marker can be applied to label passages. If the maze is on paper, the thread may well be a pencil.",
+        "site_name": "Ariadne's thread (logic)",
+        "url": "https://en.wikipedia.org/wiki/Ariadne's_thread_(logic)",
+        "favicon": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+        "title": "Ariadne's thread (logic) - Wikipedia",
+        "image": "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
+        "type": "website"
+      },
+      "modDate": "2022-07-13T10:50:33.497Z"
+    },
+    {
+      "_key": "594c117d-f83b-4ae6-a80e-ee7908b4e1c2",
+      "_id": "Documents/594c117d-f83b-4ae6-a80e-ee7908b4e1c2",
+      "_rev": "_edayUzC--_",
+      "createDate": "2022-07-13T10:56:52.560Z",
+      "data": {
+        "description": "-- / --",
+        "site_name": "Future Global Exodus to the Metasphere",
+        "title": "Future Global Exodus to the Metasphere",
+        "type": "site",
+        "favicon": "https://www.laetusinpraesens.org/favicon.ico",
+        "url": "https://www.laetusinpraesens.org/docs20s/metaspher.php",
+        "image": "https://www.laetusinpraesens.org/common/images/achngcol.jpg"
+      },
+      "modDate": "2022-07-13T10:56:52.560Z"
+    },
+    {
+      "_key": "4f327ccc-c998-4057-95c7-f125c3b88591",
+      "_id": "Documents/4f327ccc-c998-4057-95c7-f125c3b88591",
+      "_rev": "_edbBWq---A",
+      "createDate": "2022-07-13T11:13:17.503Z",
+      "data": {
+        "articleModifiedTime": "2022-02-10T08:06:06-05:00",
+        "imageHeight": "500",
+        "title": "THE SKY DON\u2019T HAVE NO ROOF: THE LAST ORNETTE COLEMAN INTERVIEW",
+        "image": "https://1yd4xt11c7is39w2ckdxdls5-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/Ornette_Coleman_main_750.jpeg",
+        "imageWidth": "750",
+        "type": "article",
+        "url": "https://pleasekillme.com/ornette-coleman/",
+        "articlePublishedTime": "2022-02-10T00:07:00-05:00",
+        "site_name": "PleaseKillMe",
+        "description": "Ornette Coleman (1930-2015), undoubtedly a great musician and composer who freed jazz from nearly all constrictions, was also a homespun philosopher. In the times he spent talking and playing with Coleman, John Kruth came",
+        "locale": "en_US",
+        "favicon": "https://1yd4xt11c7is39w2ckdxdls5-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/cropped-favicon-192x192.jpg",
+        "imageType": "image/jpeg"
+      },
+      "modDate": "2022-07-13T11:13:17.503Z"
+    },
+    {
+      "_key": "0ef2b43d-9262-4043-a5c4-8c538e703387",
+      "_id": "Documents/0ef2b43d-9262-4043-a5c4-8c538e703387",
+      "_rev": "_edbG2B---_",
+      "createDate": "2022-07-13T11:19:17.295Z",
+      "data": {
+        "articlePublishedTime": "2021-01-20T19:57:15.687Z",
+        "url": "https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53",
+        "title": "An Introduction to Extitutional Theory",
+        "type": "article",
+        "articleAuthor": "https://jessykate.medium.com",
+        "image": "https://miro.medium.com/max/1200/1*hJCDkcWBUXXLigP4jLyzmw.jpeg",
+        "site_name": "Medium",
+        "favicon": "https://miro.medium.com/fit/c/256/256/",
+        "description": "A set of conceptual tools to describe and analyse the underlying social dynamics of a variety of social arrangements"
+      },
+      "modDate": "2022-07-13T11:19:17.295Z"
+    },
+    {
+      "_key": "526eb800-e8d8-4d8f-9862-9db8b2cc9f19",
+      "_id": "Documents/526eb800-e8d8-4d8f-9862-9db8b2cc9f19",
+      "_rev": "_edbI5Ya--A",
+      "createDate": "2022-07-13T11:21:31.814Z",
+      "data": {
+        "image": "http://www.bollier.org/files/Screen_Shot_2021-08-06_at_11.18.39_AM.png",
+        "type": "site",
+        "site_name": "Alanna Irving on Distributed Leadership and Infrastructures for Commoning",
+        "favicon": "http://www.bollier.org/core/misc/favicon.ico",
+        "description": "Sun, 05/01/2022 - 00:00am",
+        "url": "http://www.bollier.org/blog/alanna-irving-distributed-leadership-and-infrastructures-commoning",
+        "title": "Alanna Irving on Distributed Leadership and Infrastructures for Commoning | David Bollier"
+      },
+      "modDate": "2022-07-13T11:21:31.814Z"
+    },
+    {
+      "_key": "80ccd57c-9a10-47cc-ada8-911baddf1165",
+      "_id": "Documents/80ccd57c-9a10-47cc-ada8-911baddf1165",
+      "_rev": "_edb2Fl---A",
+      "createDate": "2022-07-13T12:10:53.423Z",
+      "data": {
+        "title": "Collective Intelligence Design Playbook (beta)",
+        "favicon": "https://www.nesta.org.uk/static/images/favicons/favicon-32x32.b17a14172c7d.png",
+        "description": "Tools, tactics and methods to harness the power of people, data and technology to solve global challenges",
+        "type": "website",
+        "image": "https://media.nesta.org.uk/images/Capture_ikdUChD.max-1200x600.jpg",
+        "url": "https://www.nesta.org.uk/toolkit/collective-intelligence-design-playbook/",
+        "site_name": "nesta"
+      },
+      "modDate": "2022-07-13T12:10:53.423Z"
+    },
+    {
+      "_key": "9b0385f2-bda0-45d7-85e8-fc013e4d1f49",
+      "_id": "Documents/9b0385f2-bda0-45d7-85e8-fc013e4d1f49",
+      "_rev": "_edb3auK---",
+      "createDate": "2022-07-13T12:12:20.610Z",
+      "data": {
+        "favicon": "https://www.nesta.org.uk/static/images/favicons/favicon-32x32.b17a14172c7d.png",
+        "description": "3: What is collective intelligence?",
+        "url": "https://www.nesta.org.uk/report/future-minds-and-machines/3-what-collective-intelligence/",
+        "type": "website",
+        "image": "https://www.nesta.org.uk/report/future-minds-and-machines/3-what-collective-intelligence/www.nesta.org.uk/static/images/og-image.e4d67cc58ccf.png",
+        "site_name": "nesta",
+        "title": "3: What is collective intelligence?"
+      },
+      "modDate": "2022-07-13T12:12:20.610Z"
+    },
+    {
+      "_key": "468fa827-5e00-4db8-9c92-267d73a247df",
+      "_id": "Documents/468fa827-5e00-4db8-9c92-267d73a247df",
+      "_rev": "_edb4kXG--A",
+      "createDate": "2022-07-13T12:13:36.018Z",
+      "data": {
+        "url": "https://provocations.darkmatterlabs.org/civic-ai-1890d93eb8ce",
+        "image": "https://miro.medium.com/max/1200/1*69a0iG_LcqnP57XW4280Ow.png",
+        "type": "article",
+        "favicon": "https://miro.medium.com/fit/c/256/256/1*Ri4JSC8W06dKCPqTtegEsQ.png",
+        "title": "Civic AI",
+        "site_name": "Medium",
+        "description": "An exploration of Augmented Collective Intelligence",
+        "articlePublishedTime": "2020-11-21T08:08:59.641Z",
+        "articleAuthor": "https://darkmatter-labs.medium.com"
+      },
+      "modDate": "2022-07-13T12:13:36.018Z"
+    },
+    {
+      "_key": "fabe55da-09d1-4493-ae94-d69b62e6c327",
+      "_id": "Documents/fabe55da-09d1-4493-ae94-d69b62e6c327",
+      "_rev": "_edcOnCi--_",
+      "createDate": "2022-07-13T12:37:40.552Z",
+      "data": {
+        "title": "The Network State: How To Start a New Country",
+        "type": "website",
+        "description": "This book explains how to build the successor to the nation state, a concept we call the network state.",
+        "image": "https://book.thenetworkstate.com/assets/home-opengraph.png",
+        "site_name": "thenetworkstate.com",
+        "favicon": "https://thenetworkstate.com/images/icons/favicon.png",
+        "url": "https://thenetworkstate.com/"
+      },
+      "modDate": "2022-07-13T12:37:40.552Z"
+    },
+    {
+      "_key": "69872282-9196-4f21-9446-11105fe22618",
+      "_id": "Documents/69872282-9196-4f21-9446-11105fe22618",
+      "_rev": "_edlP7-y---",
+      "createDate": "2022-07-13T23:08:15.244Z",
+      "data": {
+        "image": "http://vitalik.ca/images/icon.png",
+        "type": "site",
+        "description": "Balaji helpfully gives multiple short definitions of what a network state is. First, his definition in one sentence:",
+        "title": "What do I think about network states?",
+        "url": "https://vitalik.ca/general/2022/07/13/networkstates.html",
+        "site_name": "What do I think about network states?"
+      },
+      "modDate": "2022-07-13T23:08:15.244Z"
+    },
+    {
+      "_key": "dbec1831-187c-46c3-9660-7f86051dfcce",
+      "_id": "Documents/dbec1831-187c-46c3-9660-7f86051dfcce",
+      "_rev": "_edxftJ2--_",
+      "createDate": "2022-07-14T13:24:21.309Z",
+      "data": {
+        "imageHeight": "1200",
+        "title": "Human identity: the number one challenge in computer science",
+        "description": "If the modern \u2018problem of identity\u2019 was how to construct an identity and keep it solid and stable, the postmodern \u2018problem of identity\u2019 is primarily how to avoid fixation and keep the options open. (Bauman 2011)",
+        "imageWidth": "2000",
+        "articleModifiedTime": "2022-07-14T10:43:54.000Z",
+        "articlePublishedTime": "2022-07-14T10:43:54.000Z",
+        "site_name": "Generative Identity",
+        "image": "https://generative-identity.org/content/images/2022/07/1000platos-1914-14-1.png",
+        "favicon": "https://generative-identity.org/content/images/size/w256h256/2020/10/generative-identity-publication-icon-1.png",
+        "type": "article",
+        "url": "https://generative-identity.org/human-identity-the-number-one-challenge-in-computer-science/"
+      },
+      "modDate": "2022-07-14T13:24:21.309Z"
+    },
+    {
+      "_key": "81f9408e-f8c1-43e2-86a3-89dd9f6411c0",
+      "_id": "Documents/81f9408e-f8c1-43e2-86a3-89dd9f6411c0",
+      "_rev": "_ed3fnnq--_",
+      "createDate": "2022-07-14T20:23:41.466Z",
+      "data": {
+        "image": "https://www.sheldrickwildlifetrust.org/assets/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNE1RQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a250c0bf75c41d390b051292a27ab2589998e355/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9LYzJGMlpYSjdDam9LYzNSeWFYQlVPaEZ1YjE5emRXSnpZVzF3YkdWVU9nNXBiblJsY214aFkyVlVPaFJ2Y0hScGJXbDZaVjlqYjJScGJtZFVPZ3h4ZFdGc2FYUjVhVlU2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NXQUk9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--1cf242fe4cdae88279c9192a95924c833625f168/future-generations-web-banner-1-1.jpg",
+        "title": "Sheldrick Wildlife Trust: Haven for Elephants & Rhinos",
+        "description": "Pioneers in the rescue and hand-raising of orphaned baby elephants and rhinos, through to their reintegration to the wild when grown. Saving wild lives today and securing habitats for the future.",
+        "favicon": "https://www.sheldrickwildlifetrust.org/media/favicons/android-icon-192x192.png",
+        "type": "website",
+        "site_name": "Sheldrick Wildlife Trust",
+        "url": "https://www.sheldrickwildlifetrust.org/home-us"
+      },
+      "modDate": "2022-07-14T20:23:41.466Z"
+    },
+    {
+      "_key": "c9a04018-ec5e-418c-8997-0d0cca39c3b6",
+      "_id": "Documents/c9a04018-ec5e-418c-8997-0d0cca39c3b6",
+      "_rev": "_ed3m74K--_",
+      "createDate": "2022-07-14T20:31:40.962Z",
+      "data": {
+        "favicon": "https://images.squarespace-cdn.com/content/v1/6230f5e2fd63824950ceb7ed/5946110c-600b-49c7-90fc-0952c778044d/favicon.ico",
+        "type": "website",
+        "description": "The Collaborative Technology Alliance exists to facilitate collaboration, coordination, and community among platform designers, developers, and stewards who are committed to building social technology that benefits both people and planet.",
+        "site_name": "Collaborative Technology Alliance",
+        "url": "https://www.collaborative.tech",
+        "image": "https://images.squarespace-cdn.com/content/v1/6230f5e2fd63824950ceb7ed/89e3f30c-a275-4ebd-85be-f03bebf7c679/cta_logo_300.png",
+        "title": "Collaborative Technology Alliance"
+      },
+      "modDate": "2022-07-14T20:31:40.962Z"
+    },
+    {
+      "_key": "409081c9-b8a7-4b6c-8b27-16e5679bc793",
+      "_id": "Documents/409081c9-b8a7-4b6c-8b27-16e5679bc793",
+      "_rev": "_eexBx8q--A",
+      "createDate": "2022-07-17T15:25:35.594Z",
+      "data": {
+        "title": "Grantmaking #BeyondtheRules",
+        "articlePublishedTime": "2022-06-10T11:45:15.491Z",
+        "articleAuthor": "https://darkmatter-labs.medium.com",
+        "site_name": "Medium",
+        "image": "https://miro.medium.com/max/1200/0*B-dnZVajDWmjIspS",
+        "favicon": "https://miro.medium.com/fit/c/256/256/1*Ri4JSC8W06dKCPqTtegEsQ.png",
+        "description": "Funding \u2018public good\u2019 in complexity: four interrelated propositions",
+        "type": "article",
+        "url": "https://provocations.darkmatterlabs.org/grantmaking-beyondtherules-8dfc752df3da"
+      },
+      "modDate": "2022-07-17T15:25:35.594Z"
+    },
+    {
+      "_key": "d27cb73d-62ab-4f5d-a127-ea75f6eb6224",
+      "_id": "Documents/d27cb73d-62ab-4f5d-a127-ea75f6eb6224",
+      "_rev": "_egD3BJq---",
+      "createDate": "2022-07-21T15:55:57.498Z",
+      "data": {
+        "imageType": "image/jpeg",
+        "type": "article",
+        "url": "https://www.visualcapitalist.com/sp/visualizing-carbon-storage-in-earths-ecosystems/",
+        "site_name": "Visual Capitalist",
+        "image": "https://www.visualcapitalist.com/wp-content/uploads/2022/01/Carbon-Sequestration-Of-A-Tree-shareable-1.jpeg",
+        "articleModifiedTime": "2022-01-25T14:27:48-08:00",
+        "articlePublishedTime": "2022-01-25T10:01:36-08:00",
+        "locale": "en_US",
+        "favicon": "https://www.visualcapitalist.com/wp-content/uploads/2021/04/cropped-logo-192x192.png",
+        "title": "Visualizing Carbon Storage in Earth\u2019s Ecosystems",
+        "description": "Forests are vital carbon sinks, soaking  up about 40% of all emissions annually. Here is the carbon storage of ecosystems around the world.",
+        "imageWidth": "1200",
+        "imageHeight": "628"
+      },
+      "modDate": "2022-07-21T15:55:57.498Z"
+    },
+    {
+      "_key": "691e468c-ddc0-4ba7-9147-9f12ea495c6e",
+      "_id": "Documents/691e468c-ddc0-4ba7-9147-9f12ea495c6e",
+      "_rev": "_egGwaha--A",
+      "createDate": "2022-07-21T19:18:27.638Z",
+      "data": {
+        "image": "https://miro.medium.com/max/1024/1*XWu6L-qpW_gl49CZZ89ByQ.jpeg",
+        "description": "In the early 1950s, the Dayak people in Borneo suffered from malaria. The World Health Organization had a solution: they sprayed large\u2026",
+        "favicon": "https://miro.medium.com/fit/c/256/256/",
+        "title": "[7 Key Questions about how to] participate appropriately in complex systems?",
+        "url": "https://medium.com/age-of-awareness/how-can-we-participate-appropriately-in-complex-systems-aec17e74cd9f",
+        "type": "article",
+        "site_name": "Medium",
+        "articlePublishedTime": "2019-08-21T09:17:17.422Z",
+        "articleAuthor": "https://designforsustainability.medium.com"
+      },
+      "modDate": "2022-07-21T19:18:27.638Z"
+    },
+    {
+      "_key": "8625cde7-4267-4ec1-9ae7-e46a3a4081dd",
+      "_id": "Documents/8625cde7-4267-4ec1-9ae7-e46a3a4081dd",
+      "_rev": "_egY7sry--_",
+      "createDate": "2022-07-22T16:29:04.604Z",
+      "data": {
+        "type": "site",
+        "description": "Liminal Collective is a global community united by a passion for human performance and the desire to enable humanity\u2019s greatest endeavors.",
+        "image": "https://uploads-ssl.webflow.com/5ef5abb45395cc3b88ca2872/5f1175a566c93a0fdfa535dd_favicon256x256.png",
+        "title": "Liminal Collective - Global Community For Human Performance",
+        "favicon": "https://uploads-ssl.webflow.com/5ef5abb45395cc3b88ca2872/5f116ea19871ee2332c34e9f_avicon_32x32px.png",
+        "site_name": "Liminal Collective",
+        "url": "https://www.liminalcollective.co/"
+      },
+      "modDate": "2022-07-22T16:29:04.604Z"
+    },
+    {
+      "_key": "33f38662-1ca1-4dce-be6a-5c8248968ed6",
+      "_id": "Documents/33f38662-1ca1-4dce-be6a-5c8248968ed6",
+      "_rev": "_egcdcFG--_",
+      "createDate": "2022-07-22T20:35:38.737Z",
+      "data": {
+        "image": "https://radicle.community/uploads/default/original/1X/9e244efc7bcb699594421b60f339279f1fa3263d.png",
+        "site_name": "Radicle Community",
+        "favicon": "https://radicle.community/uploads/default/optimized/1X/fac8ef40c3249ae097ae2b2ffd230f08e7058a86_2_32x32.ico",
+        "description": "For discussing Radicle governance and announcing delegations.",
+        "title": "\ud83d\udc69\u200d\u2696\ufe0f Governance",
+        "url": "https://radicle.community/c/governance/16",
+        "type": "website"
+      },
+      "modDate": "2022-07-22T20:35:38.737Z"
+    },
+    {
+      "_key": "f4917562-1786-424a-b849-8761800fb9c8",
+      "_id": "Documents/f4917562-1786-424a-b849-8761800fb9c8",
+      "_rev": "_ehA1Pui--A",
+      "createDate": "2022-07-24T14:58:13.896Z",
+      "data": {
+        "description": "Technology can expand the short-term horizon of our Paleolithic survival instinct.",
+        "title": "Planetary Homeostasis | NOEMA",
+        "image": "https://noemamag.imgix.net/2022/07/Noema-Itziar-Barrios-1.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.0&rect=0%2C131%2C945%2C495&w=1200&wpsize=noema-social-facebook&s=bdcac6fe2b4fc6411645e0ef1819d5be",
+        "imageWidth": "1200",
+        "type": "article",
+        "locale": "en_US",
+        "imageHeight": "630",
+        "articleModifiedTime": "2022-07-22 15:04:12",
+        "url": "https://www.noemamag.com/planetary-homeostasis",
+        "site_name": "NOEMA",
+        "favicon": "https://www.noemamag.com/wp-content/uploads/2020/06/cropped-ms-icon-310x310-1-192x192.png"
+      },
+      "modDate": "2022-07-24T14:58:13.896Z"
+    },
+    {
+      "_key": "94617330-5e19-4c20-a4d2-0780fdea67b9",
+      "_id": "Documents/94617330-5e19-4c20-a4d2-0780fdea67b9",
+      "_rev": "_ehF5GKG---",
+      "createDate": "2022-07-24T20:51:57.761Z",
+      "data": {
+        "description": "Targeting structurally influential individuals within social networks can enhance adoption of health interventions within populations. We tested th...",
+        "image": "https://www.pnas.org/cms/asset/9dc9f866-cb2f-4446-add2-58ffc40f2e15/keyimage.jpg",
+        "type": "Article",
+        "site_name": "PNAS",
+        "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2120742119",
+        "title": "Algorithms for seeding social networks can enhance the adoption of a public health intervention in urban India | Proceedings of the National Academy of Sciences"
+      },
+      "modDate": "2022-07-24T20:51:57.761Z"
+    },
+    {
+      "_key": "de7582a4-8c33-41a0-a8ab-4c4743b3534b",
+      "_id": "Documents/de7582a4-8c33-41a0-a8ab-4c4743b3534b",
+      "_rev": "_ehV1SA6--A",
+      "createDate": "2022-07-25T15:26:16.623Z",
+      "data": {
+        "favicon": "https://europeanclimate.org/wp-content/uploads/2019/11/favicon-ecf.png",
+        "image": "https://europeanclimate.org/wp-content/uploads/2021/07/miguel-henriques-rfibk6y-upq-unsplash-scaled.jpg",
+        "type": "article",
+        "imageSecureUrl": "https://europeanclimate.org/wp-content/uploads/2021/07/miguel-henriques-rfibk6y-upq-unsplash-scaled.jpg",
+        "site_name": "European Climate Foundation",
+        "title": "The growing traction of climate citizens assemblies - European Climate Foundation",
+        "imageWidth": "2560",
+        "imageHeight": "1707",
+        "locale": "en_US",
+        "url": "https://europeanclimate.org/stories/the-growing-traction-of-climate-citizens-assemblies/",
+        "description": "Climate assemblies are increasingly being used by national and local governments to guide decision-making on climate policy. Promoted by civil society organisations, these assemblies engage everyday people to learn about, deliberate and make recommendations on aspects of the climate crisis. At the beginning of October 2021, Spain launched its national\u2026"
+      },
+      "modDate": "2022-07-25T15:26:16.623Z"
+    },
+    {
+      "_key": "fdc50e39-1f62-4f47-add3-34fe11dc499b",
+      "_id": "Documents/fdc50e39-1f62-4f47-add3-34fe11dc499b",
+      "_rev": "_eh7XEU6--_",
+      "createDate": "2022-07-27T11:09:40.078Z",
+      "data": {
+        "description": "This induces a dual minimisation with respect to action and internal states that correspond to action and perception respectively.",
+        "title": "Free energy principle - Wikipedia",
+        "image": "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
+        "type": "website",
+        "favicon": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+        "url": "https://en.wikipedia.org/wiki/Free_energy_principle",
+        "site_name": "Free energy principle"
+      },
+      "modDate": "2022-07-27T11:09:40.078Z"
+    },
+    {
+      "_key": "8d51db5c-e5cb-472b-9c46-d284dded63ca",
+      "_id": "Documents/8d51db5c-e5cb-472b-9c46-d284dded63ca",
+      "_rev": "_eiAjQCi--_",
+      "createDate": "2022-07-27T17:12:30.024Z",
+      "data": {
+        "image": "https://s0.wp.com/i/blank.jpg",
+        "site_name": "NetworkWeaver",
+        "description": "Weaving System Shifting Networks",
+        "type": "website",
+        "title": "NetworkWeaver",
+        "favicon": "https://networkweaver.com/wp-content/uploads/2018/09/nw_favicon_white.png",
+        "locale": "en_US",
+        "url": "https://networkweaver.com/"
+      },
+      "modDate": "2022-07-27T17:12:30.024Z"
+    },
+    {
+      "_key": "3d2b6f04-aa74-4078-847a-9d4256b7c318",
+      "_id": "Documents/3d2b6f04-aa74-4078-847a-9d4256b7c318",
+      "_rev": "_eir4PyK--A",
+      "createDate": "2022-07-29T19:41:21.091Z",
+      "data": {
+        "title": "Council for the Human Future",
+        "type": "website",
+        "url": "https://humanfuture.org/megarisks",
+        "site_name": "The Council for the Human Future",
+        "description": "Shaping Tomorrow's World Today.",
+        "locale": "en_AU",
+        "image": "https://img1.wsimg.com/isteam/ip/d285553c-dc3c-4ad0-894e-de42d727b7a1/Lake%20Miniques_Atacama.jpg"
+      },
+      "modDate": "2022-07-29T19:41:21.091Z"
+    },
+    {
+      "_key": "ab3f2300-3501-4809-8e49-8b1396609c07",
+      "_id": "Documents/ab3f2300-3501-4809-8e49-8b1396609c07",
+      "_rev": "_ei9_Ree--A",
+      "createDate": "2022-07-30T15:37:24.744Z",
+      "data": {
+        "type": "site",
+        "favicon": "https://link.springer.com/static/77d949f993c8db71ad1f55ca87685d39bf019eec/sites/link/images/favicon-32x32.png",
+        "site_name": "Sustainability Science, Special Feature: Alternatives to Sustainable Development: What can we Learn from the Pluriverse in Practice?",
+        "url": "https://link.springer.com/journal/11625/topicalCollection/AC_7922a76297cca9da6fd8908f4abd4189",
+        "description": "Special Feature: Editorial",
+        "image": "https://link.springer.com/static/77d949f993c8db71ad1f55ca87685d39bf019eec/sites/link/images/logo_high_res.png",
+        "title": "Sustainability Science, Special Feature: Alternatives to Sustainable Development: What can we Learn from the Pluriverse in Practice? - Springer"
+      },
+      "modDate": "2022-07-30T15:37:24.744Z"
+    },
+    {
+      "_key": "2b2ece13-7022-4f7a-9214-5e6c90a4aed9",
+      "_id": "Documents/2b2ece13-7022-4f7a-9214-5e6c90a4aed9",
+      "_rev": "_ej7etNi--A",
+      "createDate": "2022-08-02T16:25:51.608Z",
+      "data": {
+        "title": "TIDE AND TIME",
+        "description": "Sea Level Rise and Solastalgia on  North Carolina's Outer Banks",
+        "type": "site",
+        "site_name": "TIDE AND TIME",
+        "image": "https://stories.pulitzercenter.org/tide-and-time/./assets/h7ok410J0v/coastal-review-logo-pub-2-800x191.png",
+        "url": "https://stories.pulitzercenter.org/tide-and-time/"
+      },
+      "modDate": "2022-08-02T16:25:51.608Z"
+    },
+    {
+      "_key": "23c51b43-a526-4dde-81be-86847d146e42",
+      "_id": "Documents/23c51b43-a526-4dde-81be-86847d146e42",
+      "_rev": "_ej73iUe--_",
+      "createDate": "2022-08-02T16:52:58.855Z",
+      "data": {
+        "imageWidth": "1440",
+        "site_name": "Philea",
+        "image": "https://philea.eu/wp-content/uploads/2022/06/Our-Members.jpg",
+        "imageHeight": "802",
+        "type": "article",
+        "locale": "en_GB",
+        "imageType": "image/jpeg",
+        "url": "https://philea.eu/membership/our-members/",
+        "title": "Our Members - Philea",
+        "description": "The diversity of our membership is the hallmark of Philea, giving us a unique understanding of institutional philanthropy in Europe.",
+        "favicon": "https://philea.eu/wp-content/uploads/2021/12/cropped-android-chrome-256x256-1-192x192.png",
+        "articleModifiedTime": "2022-06-17T14:23:43+00:00"
+      },
+      "modDate": "2022-08-02T16:52:58.855Z"
+    },
+    {
+      "_key": "0d0a7df3-5d3c-4af9-bf30-07318242bff9",
+      "_id": "Documents/0d0a7df3-5d3c-4af9-bf30-07318242bff9",
+      "_rev": "_ekH0HYy--A",
+      "createDate": "2022-08-03T06:48:06.317Z",
+      "data": {
+        "url": "https://www.youtube.com/watch?v=bwAPpW5FSCk",
+        "video": "https://www.youtube.com/embed/bwAPpW5FSCk",
+        "imageWidth": 1280,
+        "articleViews": "146",
+        "type": "photo",
+        "profileUsername": "Association for the Tree of Life",
+        "site_name": "The Promise of Collective Intelligence with Tom Atlee",
+        "imageHeight": 720,
+        "title": "The Promise of Collective Intelligence with Tom Atlee",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "articleFavorites": "0",
+        "articleLikes": "4",
+        "imageSecureUrl": "https://i.ytimg.com/vi/bwAPpW5FSCk/maxresdefault.jpg"
+      },
+      "modDate": "2022-08-03T06:48:06.317Z"
+    },
+    {
+      "_key": "5aa4b7da-bea3-4228-beb4-696df81e179c",
+      "_id": "Documents/5aa4b7da-bea3-4228-beb4-696df81e179c",
+      "_rev": "_ekNjMpG--A",
+      "createDate": "2022-08-03T13:29:03.410Z",
+      "data": {
+        "title": "Greg Tate \u2013 RIP \u2013 Soul-Patrol",
+        "site_name": "Greg Tate \u2013 RIP \u2013 Soul",
+        "description": "Great Black Music From The Ancient To The Future",
+        "type": "site",
+        "url": "http://soul-patrol.com/greg-tate-rip/",
+        "image": "http://soul-patrol.com/wp-content/uploads/2021/01/BBI_LOGO-Search.jpg"
+      },
+      "modDate": "2022-08-03T13:29:03.410Z"
+    },
+    {
+      "_key": "a60ad378-27ff-44a9-ac7d-5e59f37c2d85",
+      "_id": "Documents/a60ad378-27ff-44a9-ac7d-5e59f37c2d85",
+      "_rev": "_ekiCaEy--_",
+      "createDate": "2022-08-04T13:21:14.860Z",
+      "data": {
+        "imageSecureUrl": "https://i.ytimg.com/vi/LEKwQxO4EZU/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=LEKwQxO4EZU",
+        "imageWidth": 1280,
+        "articleFavorites": "0",
+        "video": "https://www.youtube.com/embed/LEKwQxO4EZU",
+        "articleViews": "426643",
+        "articleLikes": "3789",
+        "profileUsername": "Amaze Lab",
+        "articleComments": "582",
+        "imageHeight": 720,
+        "site_name": "Why army ants get trapped in \u2018death circles\u2019",
+        "description": "Army ants are blind and use pheromones to follow trails of other ants, but if a trail loops they get locked running in an endless circle.",
+        "title": "Why army ants get trapped in \u2018death circles\u2019",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "type": "photo"
+      },
+      "modDate": "2022-08-04T13:21:14.860Z"
+    },
+    {
+      "_key": "61ed8a5c-24d4-4048-b272-1f07d1a0c8ca",
+      "_id": "Documents/61ed8a5c-24d4-4048-b272-1f07d1a0c8ca",
+      "_rev": "_elLXbRq--_",
+      "createDate": "2022-08-06T13:30:18.810Z",
+      "data": {
+        "video": "https://www.youtube.com/embed/1Oc_lFmp6vQ",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "profileUsername": "TIKhistory",
+        "articleFavorites": "0",
+        "articleViews": "247801",
+        "title": "Why the German Army couldn't overcome their bad logistics",
+        "imageSecureUrl": "https://i.ytimg.com/vi/1Oc_lFmp6vQ/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=1Oc_lFmp6vQ",
+        "description": "It's well known that they German Army had poor logistics in WW2. So could they have improved it? Doing so would have helped them on the Eastern Front. So should they have built more trains, trucks, roads, railroads? Should they have had an army of engineers? Well, the answer probably isn't what you're expecting. Today, we're going to talk about the \"economic calculation problem\" and why the German Army (or any current army) can't have efficient logistics.  Thank you to my Patreon, Diego Torres-Siclait, for today's question! Want to ask a question? For $5 or more you can ask questions which I will answer in future Q&A videos (note: I'm behind with the Q&A's right now, and have a lot of research to do to catch up, so there will be a delay in answering questions). There are higher tiers too with additional perks, so check out the links below for more details.  https://www.patreon.com/TIKhistory https://www.subscribestar.com/tikhistory  Thank you to my current supporters! You're AWESOME!  \ud83d\udd14 Subscribe for more History content: https://www.youtube.com/channel/UCfZz8F37oSJ2rtcEJHM2kCg?sub_confirmation=1  \u23f2\ufe0f Videos EVERY Monday at 5pm GMT (depending on season, check for British Summer Time).  The thumbnail for this video, and many of the icons, were created by Terri Young. Need graphics? Check out her website https://www.terriyoungdesigns.co.uk/  - - - - -  \ud83d\udcda BIBLIOGRAPHY / SOURCES \ud83d\udcda  The specific bibliography for this video https://docs.google.com/spreadsheets/d/1HAQR-4Q_rKhue1o5JFm0HddIWMUMeE4Q6GEDYMBzPkM/edit?usp=sharing  For the second half of the video, I heavily based my script on the video \"What If There Were No Prices?\" by the channel Learn Liberty, because their video was great! Link: https://youtu.be/zkPGfTEZ_r4  And my full list sources for the channel https://docs.google.com/spreadsheets/d/114GiK85MPs0v4GKm0izPj3DL2CrlJUdAantx5GQUKn8/edit?usp=sharing  - - - - -  \ud83d\udcfd\ufe0f RELATED VIDEO LINKS \ud83d\udcfd\ufe0f  The MAIN Reason Why Germany Lost WW2 - OIL https://youtu.be/kVo5I0xNRhg  Hitler's Socialism | Destroying the Denialist Counter Arguments https://youtu.be/eCkyWBPaTC8  BATTLESTORM STALINGRAD S1/E1 - The 6th Army Strikes! https://youtu.be/YAfo5mse-ag  \"What If There Were No Prices?\" by Learn Liberty https://youtu.be/zkPGfTEZ_r4  \"Economics in One Lesson\" by Henry Hazlitt https://youtu.be/eyIfEpNfU2U  \"Basic Economics\" by Thomas Sowell https://youtu.be/dQiBD-crrvA  History Theory 101 https://youtu.be/PvpJEc-NxVc  - - - - -  ABOUT TIK \ud83d\udcdd  History isn\u2019t as boring as some people think, and my goal is to get people talking about it. I also want to dispel the myths and distortions that ruin our perception of the past by asking a simple question - \u201cBut is this really the case?\u201d. I have a 2:1 Degree in History and a passion for early 20th Century conflicts (mainly WW2). I\u2019m therefore approaching this like I would an academic essay. Lots of sources, quotes, references and so on. Only the truth will do.  This video is discussing events or concepts that are academic, educational and historical in nature. This video is for informational purposes and was created so we may better understand the past and learn from the mistakes others have made.",
+        "articleLikes": "10125",
+        "articleComments": "3460",
+        "imageWidth": 1280,
+        "site_name": "Why the German Army couldn't overcome their bad logistics",
+        "type": "photo",
+        "imageHeight": 720
+      },
+      "modDate": "2022-08-06T13:30:18.810Z"
+    },
+    {
+      "_key": "517bc3fc-3e19-49cb-aeff-07242c6e9ca5",
+      "_id": "Documents/517bc3fc-3e19-49cb-aeff-07242c6e9ca5",
+      "_rev": "_elejKgG--A",
+      "createDate": "2022-08-07T11:51:19.841Z",
+      "data": {
+        "site_name": "BleepingComputer",
+        "imageSecureUrl": "https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter_headerr.jpg",
+        "imageHeight": "900",
+        "image": "https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter_headerr.jpg",
+        "locale": "en_us",
+        "type": "article",
+        "url": "https://www.bleepingcomputer.com/news/security/twitter-confirms-zero-day-used-to-expose-data-of-54-million-accounts/",
+        "title": "Twitter confirms zero-day used to expose data of 5.4 million accounts",
+        "description": "Twitter has confirmed a recent data breach was caused by a\u00a0now-patched zero-day vulnerability used to link email addresses and phone numbers to users' accounts, allowing a threat actor to compile a list of 5.4 million user account profiles.",
+        "favicon": "https://www.bleepstatic.com/favicon/bleeping.ico",
+        "imageWidth": "1600"
+      },
+      "modDate": "2022-08-07T11:51:19.841Z"
+    },
+    {
+      "_key": "1453c437-422b-455c-aef5-20e2da7937e8",
+      "_id": "Documents/1453c437-422b-455c-aef5-20e2da7937e8",
+      "_rev": "_elmXNPm--A",
+      "createDate": "2022-08-07T20:57:30.649Z",
+      "data": {
+        "title": "White Paper Introduction",
+        "description": "cloud agent services for internet data governance connect people to organizations based on personal agency and direct relationships using human-readable internet data contracts in JSON",
+        "type": "website",
+        "favicon": "https://assets.website-files.com/624cacb0619b8b783bfb98c7/625c65376d8977380fcc20b9_Favicon%20JLINX.png",
+        "image": "https://assets.website-files.com/624cacb0619b8b783bfb98c7/62a2397b3273030a74cb2bc2_JLINX%20Open%20Graph.jpg",
+        "url": "https://www.jlinx.io/wpi",
+        "site_name": "White Paper Introduction"
+      },
+      "modDate": "2022-08-07T20:57:30.649Z"
+    },
+    {
+      "_key": "a1bb28aa-7a31-47b4-a093-6008c67ea4ca",
+      "_id": "Documents/a1bb28aa-7a31-47b4-a093-6008c67ea4ca",
+      "_rev": "_elxxIkq--_",
+      "createDate": "2022-08-08T10:14:47.146Z",
+      "data": {
+        "articleViews": "48705",
+        "description": "Peter Joseph - Arriving at a Resource Based Economy | London Z Day 2011, March 13th. Thanks to Jason Gleeson",
+        "imageWidth": 480,
+        "title": "Peter Joseph - Arriving at a Resource Based Economy | London Z Day 2011",
+        "url": "https://www.youtube.com/watch?v=kVPz7uXLZtI",
+        "articleLikes": "1508",
+        "imageSecureUrl": "https://i.ytimg.com/vi/kVPz7uXLZtI/hqdefault.jpg",
+        "type": "photo",
+        "site_name": "Peter Joseph",
+        "articleComments": "427",
+        "video": "https://www.youtube.com/embed/kVPz7uXLZtI",
+        "profileUsername": "TZMOfficialChannel",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "articleFavorites": "0",
+        "imageHeight": 360
+      },
+      "modDate": "2022-08-08T10:14:47.146Z"
+    },
+    {
+      "_key": "8eda06e3-4f6a-469c-a539-e1e7ae3c4d8a",
+      "_id": "Documents/8eda06e3-4f6a-469c-a539-e1e7ae3c4d8a",
+      "_rev": "_emGSNQy---",
+      "createDate": "2022-08-09T10:09:00.708Z",
+      "data": {
+        "site_name": "Ronald Reagan & the Biggest Failure in Physics",
+        "title": "Ronald Reagan & the Biggest Failure in Physics",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "url": "https://www.youtube.com/watch?v=ivVzGpznw1U",
+        "articleViews": "360500",
+        "video": "https://www.youtube.com/embed/ivVzGpznw1U",
+        "type": "photo",
+        "description": "This is a story about the greatest failure in American physics: The Superconducting Super Collider. It's a story that involves 3 presidents, billions of dollars, the Higgs boson, and Star Wars. This is part 1 of 3.  Part 2: https://youtu.be/6JnT37oUV_w Part 3: https://youtu.be/15zHLXvFUs0  The primary source on all things SSC is the book \"Tunnel Visions\", which I used as a blueprint to map out the series. Many of the quotes are taken from that book, which used primary interviews and are sourced very extensively. Stuff involving budgets and congress I accessed from the official government websites, including votes on bills and amendments, and inflation calculations were done by myself using an online tool. There are a bunch of other documents I read through such as \"The Global Research and Development Landscape and Implications for the Department of Defense\", \"A TIMELINE OF MAJOR PARTICLE ACCELERATORS\", \"United States nuclear forces, 2019\", \"High Energy Physics Advisory Panel's Subpanel on Vision for the Future of High-Energy Physics May 1994\", \"The Intellectual Spoils of War? Defense R&D, Productivity and International Spillovers\", \"Accessory to War by Neil DeGrasse Tyson\", \"The Mission by David W Brown\", \"The God Particle by Leon Lederman\".  0:00 The November Revolution 11:47 How the Sausage Gets Made 22:53 Mount Gipper 37:09 Maury, Magnets and Mayhem 44:39 Nothing Personnel 52:45 The Great American Lottery  My Twitter and Patreon (shoutout to John Butler, last minute Patron): https://twitter.com/bobbybroccole https://www.patreon.com/bobbybroccoli  Thumbnail assistance from @Hotcyder    Music by  @White Bat Audio   AKA Karl Casey, in order: Brave New World Endless Night Home Arcadia Rain City Forgotten Planet Edge of Tomorrow Night Crawler Black Rainbows Empty City The Drop Virtual Death Prince of Darkness Astral Projection Afterglow Hackers",
+        "imageHeight": 720,
+        "articleComments": "1282",
+        "profileUsername": "BobbyBroccoli",
+        "articleFavorites": "0",
+        "imageWidth": 1280,
+        "imageSecureUrl": "https://i.ytimg.com/vi/ivVzGpznw1U/maxresdefault.jpg",
+        "articleLikes": "19897"
+      },
+      "modDate": "2022-08-09T10:09:00.708Z"
+    },
+    {
+      "_key": "97cf2e9d-ad00-46f1-8103-3c622957bfd7",
+      "_id": "Documents/97cf2e9d-ad00-46f1-8103-3c622957bfd7",
+      "_rev": "_emJvyzO--_",
+      "createDate": "2022-08-09T14:11:02.611Z",
+      "data": {
+        "title": "Team Human",
+        "image": "http://static1.squarespace.com/static/5f3d45e1b8a05d74a8deb4b5/t/5f53c8fdd4f2f0293638f099/1599326465148/TeamHuman_CoverArtwork_1400px.jpg?format=1500w",
+        "favicon": "https://images.squarespace-cdn.com/content/v1/5f3d45e1b8a05d74a8deb4b5/1599425922237-SERP1H2TA9HGDUSMSGOC/favicon.ico?format=100w",
+        "type": "website",
+        "url": "https://www.teamhuman.fm",
+        "description": "Team Human is a podcast striving to amplify human connection. Hosted by Douglas Rushkoff.",
+        "imageWidth": "1400",
+        "imageHeight": "1400",
+        "site_name": "Team Human"
+      },
+      "modDate": "2022-08-09T14:11:02.611Z"
+    },
+    {
+      "_key": "c18c3239-1ebb-4297-a1ac-de7c4d139ecb",
+      "_id": "Documents/c18c3239-1ebb-4297-a1ac-de7c4d139ecb",
+      "_rev": "_emgdEX6--A",
+      "createDate": "2022-08-10T16:38:24.415Z",
+      "data": {
+        "articleFavorites": "0",
+        "site_name": "Zeitgeist: The Venus Project Break Up",
+        "articleComments": "259",
+        "imageHeight": 720,
+        "url": "https://www.youtube.com/watch?v=G6cCw_n1XJ8",
+        "description": "Register Now To Join Our Crowdfunding Campaign! Capital at risk. https://londonreal.tv/invest  \ud83d\udd25 Join my DeFi Academy: https://londonreal.tv/defi-ytd 2022 SUMMIT TICKETS: https://londonreal.tv/summit/  Peter Joseph Founded The Zeitgeist Movement FULL EPISODE: https://londonrealacademy.com/episodes/peter-joseph-the-zeitgeist-movement/ SUBSCRIBE: http://bit.ly/SubscribeToLondonReal  The opportunity to sit down with Peter Joseph is a unique chance to capture a moment in time with one of the great thinkers of our generation.  His first breakthrough film \"Zeitgeist: The Movie\" in 2007 was an unexpected success and he founded The Zeitgeist Movement on the back of his 2nd film \"Zeitgeist: Addendum.\"  Peter proceeded to release two additional films and produced a satirical Web series called Culture in Decline.  Engineering a leaderless movement is a conundrum itself, which is why Peter rarely does interviews and instead prefers to let the movement ideals speak for themselves.  In order to understand all of the tenets of The Zeitgeist Movement I recommend reading the TZM Defined Book available here http://www.thezeitgeistmovement.com/orientation.  What's next for Peter?  He has been busy working on a live-action genre with his InterReflections Trilogy expected in the next few years.  After producing works of documentary and satire, we can expect a new angle.  As Peter says, \"The beauty of art is that it sneaks behind your ego.\"  http://www.thezeitgeistmovement.com http://peterjoseph.info TZM Defined Book: http://www.thezeitgeistmovement.com/orientation    Music \"Cut & Run\" & \"The Complex\" by Kevin MacLeod (incompetech.com) -   #LondonReal #Motivation DISCLAIMER: Content on this channel references an opinion and is for information purposes only. It is not intended to be investment advice. Seek a duly licensed professional for investment advice.",
+        "imageWidth": 1280,
+        "video": "https://www.youtube.com/embed/G6cCw_n1XJ8",
+        "articleLikes": "843",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "imageSecureUrl": "https://i.ytimg.com/vi/G6cCw_n1XJ8/maxresdefault.jpg",
+        "articleViews": "78310",
+        "profileUsername": "London Real",
+        "title": "Zeitgeist: The Venus Project Break Up - Peter Joseph | London Real",
+        "type": "photo"
+      },
+      "modDate": "2022-08-10T16:38:24.415Z"
+    },
+    {
+      "_key": "98c4d0d3-959e-44de-bc62-e60bd5a60e56",
+      "_id": "Documents/98c4d0d3-959e-44de-bc62-e60bd5a60e56",
+      "_rev": "_emgdl5K--A",
+      "createDate": "2022-08-10T16:38:58.738Z",
+      "data": {
+        "video": "https://www.youtube.com/embed/zJbRM46tltI",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "title": "Why did The Venus Project part ways with The Zeitgeist Movement?",
+        "articleFavorites": "0",
+        "imageWidth": 1280,
+        "url": "https://www.youtube.com/watch?v=zJbRM46tltI",
+        "articleViews": "116707",
+        "imageSecureUrl": "https://i.ytimg.com/vi/zJbRM46tltI/maxresdefault.jpg",
+        "imageHeight": 720,
+        "description": "The linguistic team won't translate this video since it's being run, in part, by people that mean well yet don't know enough about TVP and don't like this video. if you speak a language that this video isn't translated to, please send the finished translation over to me at: worrywort21@gmail.com  I used to be on of TZM's local chapter Coordinators when the split happened, and some of what is here I experienced myself. Other parts were researched, using Google and people who were involved, providing information.  Obviously, this video would not be able to cover all aspects of this, thus, further discourse might be necessary with some people. However, we will not get to everyone, and we don't need to. If someone you tried to talk to about this is being stubborn about taking Peter's side on this, just let go.  If you have a website you are using, put it on the FAQ. If you have a facebook account, please do share it. To this day, we are suffering the results of the continuation of misinformation being put forth by many TZM members, and making this video viral offers some remedy to that.",
+        "profileUsername": "Jonathan Bird",
+        "site_name": "Why did The Venus Project part ways with The Zeitgeist Movement?",
+        "type": "photo"
+      },
+      "modDate": "2022-08-10T16:38:58.738Z"
+    },
+    {
+      "_key": "2f084cdf-83a5-4cc4-b9d0-a47e402b8a02",
+      "_id": "Documents/2f084cdf-83a5-4cc4-b9d0-a47e402b8a02",
+      "_rev": "_emwdJmq---",
+      "createDate": "2022-08-11T11:16:58.625Z",
+      "data": {
+        "type": "site",
+        "url": "https://bestofnow.net/",
+        "favicon": "https://bestofnow.net/favicon.ico",
+        "title": "Powered by NooNet",
+        "image": "https://bestofnow.net/logo192.png",
+        "site_name": "Powered by NooNet"
+      },
+      "modDate": "2022-08-11T11:16:58.625Z"
+    },
+    {
+      "_key": "f5c27385-c210-428f-a60b-7cec4b2660fe",
+      "_id": "Documents/f5c27385-c210-428f-a60b-7cec4b2660fe",
+      "_rev": "_emw4Osa--_",
+      "createDate": "2022-08-11T11:46:33.318Z",
+      "data": {
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "articleViews": "722830",
+        "articleFavorites": "0",
+        "url": "https://www.youtube.com/watch?v=uZYMtVBXUrE",
+        "imageWidth": 1280,
+        "description": "this is probably illegal and Mark Cuban is a terrible crypto investor.  Voyager is a crypto broker that recently went bust, filed for chapter 11 bankruptcy and customers are worried about their money. I'm here to breakdown what Voyager did, why it matters and why what they're doing might not fly in court.  Follow Coffeezilla:  \u25ba Twitter: https://twitter.com/coffeebreak_YT \u25ba Instagram: https://www.instagram.com/coffeebreak_yt/ \ud83c\udfb6 Music: https://www.youtube.com/watch?v=nMSQ1yoPT2c&list=PL4qw3AkxFDSNhEgawXD1j6r0iN1072XIB&index=1 Credits:  3D Artist: Ed Leszczynski https://twitter.com/LeszczynskiEd Video Editor: Harry Bagg  https://twitter.com/HarryRBagg Virtual Production Software: Aximmetry https://aximmetry.com/  This video is an opinion and in no way should be construed as statements of fact. Scams, bad business opportunities, and fake gurus are subjective terms that mean different things to different people. I think someone who promises $100K/month for an upfront fee of $2K is a scam. Others would call it a Napoleon Hill pitch.",
+        "type": "photo",
+        "imageSecureUrl": "https://i.ytimg.com/vi/uZYMtVBXUrE/maxresdefault.jpg",
+        "site_name": "Billion Dollar Bankruptcy Gets WORSE",
+        "imageHeight": 720,
+        "profileUsername": "Coffeezilla",
+        "articleLikes": "37361",
+        "title": "Billion Dollar Bankruptcy Gets WORSE",
+        "articleComments": "2955",
+        "video": "https://www.youtube.com/embed/uZYMtVBXUrE"
+      },
+      "modDate": "2022-08-11T11:46:33.318Z"
+    },
+    {
+      "_key": "1bb965d3-071e-4f57-af1b-0cfbd80aa4ec",
+      "_id": "Documents/1bb965d3-071e-4f57-af1b-0cfbd80aa4ec",
+      "_rev": "_em6_yV6---",
+      "createDate": "2022-08-11T22:23:57.310Z",
+      "data": {
+        "site_name": "Zodiac.wiki Begins",
+        "image": "https://mirror-media.imgix.net/publication-images/AkoPaqW77wICZzT79xokA.png?height=1000&width=1999&h=1000&w=1999&auto=compress",
+        "title": "Zodiac.wiki Begins",
+        "favicon": "https://gnosisguild.mirror.xyz/icon/favicon-32x32.png",
+        "type": "site",
+        "url": "https://gnosisguild.mirror.xyz/WPcf59PdKVwCvKpBjqzXcGGx_UJazRrjFCch_22UhWk",
+        "description": "zodiac.wiki is a living resource for DAOs. The wiki houses documentation, a library, and a pattern language for organizations."
+      },
+      "modDate": "2022-08-11T22:23:57.310Z"
+    },
+    {
+      "_key": "2bdd55e7-49d0-48ba-84fe-78c4ba00db73",
+      "_id": "Documents/2bdd55e7-49d0-48ba-84fe-78c4ba00db73",
+      "_rev": "_enFpzEe--_",
+      "createDate": "2022-08-12T11:58:47.911Z",
+      "data": {
+        "site_name": "Richard Feynman Lecture",
+        "articleViews": "756916",
+        "profileUsername": "The Quagmire",
+        "imageHeight": 360,
+        "url": "https://www.youtube.com/watch?v=uY-u1qyRM5w",
+        "articleComments": "743",
+        "articleLikes": "9642",
+        "articleFavorites": "0",
+        "imageSecureUrl": "https://i.ytimg.com/vi/uY-u1qyRM5w/hqdefault.jpg",
+        "video": "https://www.youtube.com/embed/uY-u1qyRM5w",
+        "type": "photo",
+        "imageWidth": 480,
+        "title": "Richard Feynman Lecture -- \"Los Alamos From Below\"",
+        "description": "There are quite a few copies of this Feynman lecture floating around out there, but most end prior to the question from the audience.  After the lecture, a guy in the audience asks Feynman about his safe-cracking stories and Feynman goes on for about another ten minutes relating three different stories on his safe-cracking while at Los Alamos National Laboratories. Enjoy!",
+        "favicon": "https://www.youtube.com/favicon.ico"
+      },
+      "modDate": "2022-08-12T11:58:47.911Z"
+    },
+    {
+      "_key": "a12c6348-b6d3-4529-9fb0-7975429d119f",
+      "_id": "Documents/a12c6348-b6d3-4529-9fb0-7975429d119f",
+      "_rev": "_enG67be--A",
+      "createDate": "2022-08-12T13:27:24.888Z",
+      "data": {
+        "type": "product",
+        "site_name": "gitcoin",
+        "imageSecureUrl": "https://cdn.shopify.com/s/files/1/0013/3565/6508/products/greenpill-book.png?v=1644929198",
+        "imageWidth": "424",
+        "products": [
+          {
+            "offers": [
+              {
+                "price": 13.37,
+                "availability": "http://schema.org/InStock",
+                "currency": "USD"
+              }
+            ],
+            "description": "By Gitcoin Founder Kevin Owocki.\nThis book is about cryptoeconomic systems that create positive externalities for their neighbors & for the world.\nWe explore the intersection of programmable money, game theory, & mechanism design. We search for powerful new ways to to fund, design, develop, & market regenerative web3-era applications and digital assets. We launch the meme of regenerative crypto-economics into the world.\nThis digital edition is a PDF, and is available in the following languages:\n\nEnglish\nMandarin\nmore languages coming soon..\n",
+            "name": "Green Pill Book (digital edition) [English]",
+            "type": "Product",
+            "images": [
+              [
+                "https://cdn.shopify.com/s/files/1/0013/3565/6508/products/greenpill-book.png?v=1644929198&width=424"
+              ]
+            ]
+          }
+        ],
+        "imageHeight": "505",
+        "url": "https://store.gitcoin.co/products/green-pill-book-digital-edition",
+        "description": "By Gitcoin Founder Kevin Owocki. This book is about cryptoeconomic systems that create positive externalities for their neighbors & for the world. We explore the intersection of programmable money, game theory, & mechanism design. We search for powerful new ways to to fund, design, develop, & market regener",
+        "image": "http://cdn.shopify.com/s/files/1/0013/3565/6508/products/greenpill-book.png?v=1644929198",
+        "title": "Green Pill Book (digital edition) [English]"
+      },
+      "modDate": "2022-08-12T13:27:24.888Z"
+    },
+    {
+      "_key": "f4d25bad-2f91-4bd8-a7a7-06d7dbdafeef",
+      "_id": "Documents/f4d25bad-2f91-4bd8-a7a7-06d7dbdafeef",
+      "_rev": "_enHB54S--_",
+      "createDate": "2022-08-12T13:35:02.052Z",
+      "data": {
+        "url": "https://www.youtube.com/watch?v=iIfDvVRgsjQ",
+        "profileUsername": "Active Inference Institute",
+        "articleViews": "104",
+        "imageHeight": 360,
+        "articleFavorites": "0",
+        "title": "ActInf Livestream #033.0 ~ \"Thinking like a State - Embodied intelligence in the deep history....\"",
+        "description": "https://osf.io/dxnzt  Thinking like a state: embodied intelligence in the deep history of our collective minds Avel Gu\u00e9nin\u2013Carlut, 2021 This video is an introduction for some of the ideas, not a review or final word.   Active Inference Institute information:  Website: https://activeinference.org/  Twitter: https://twitter.com/InferenceActive  Discord: https://discord.gg/8VNKNp4jtx  YouTube: https://www.youtube.com/c/ActiveInference/  Active Inference Livestreams: https://coda.io/@active-inference-institute/livestreams",
+        "type": "photo",
+        "imageSecureUrl": "https://i.ytimg.com/vi/iIfDvVRgsjQ/hqdefault.jpg",
+        "site_name": "ActInf Livestream #033.0 ~ \"Thinking like a State",
+        "video": "https://www.youtube.com/embed/iIfDvVRgsjQ",
+        "articleLikes": "9",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "articleComments": "0",
+        "imageWidth": 480
+      },
+      "modDate": "2022-08-12T13:35:02.052Z"
+    },
+    {
+      "_key": "3c8cc2d0-8048-4a4e-a50f-223b2c4fdb60",
+      "_id": "Documents/3c8cc2d0-8048-4a4e-a50f-223b2c4fdb60",
+      "_rev": "_enHYvLO--_",
+      "createDate": "2022-08-12T13:59:58.419Z",
+      "data": {
+        "description": "While the study of affect and emotion has a long history in psychological sciences and neuroscience, the very question of how visceral states have come to the forefront of politics remains poorly understood. The concept of visceral politics captures how ...",
+        "site_name": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+        "imageHeight": "2864",
+        "type": "Article",
+        "image": "https://royalsocietypublishing.org/cms/asset/fd030f18-ac8b-4e92-8c7d-64b53806fcb5/rstb.2021.376.issue-1822.largecover.jpg",
+        "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0142",
+        "imageWidth": "2864",
+        "title": "Visceral politics: a theoretical and empirical proof of concept | Philosophical Transactions of the Royal Society B: Biological Sciences"
+      },
+      "modDate": "2022-08-12T13:59:58.419Z"
+    },
+    {
+      "_key": "4e270a54-416f-4640-8c35-cba2576d600d",
+      "_id": "Documents/4e270a54-416f-4640-8c35-cba2576d600d",
+      "_rev": "_enJI7L---_",
+      "createDate": "2022-08-12T16:02:30.735Z",
+      "data": {
+        "title": "Stewardship of global collective behavior | Proceedings of the National Academy of Sciences",
+        "type": "Article",
+        "image": "https://www.pnas.org/cms/asset/0fd9b6f4-d800-4577-a8b7-f2e7d6269014/pnas.2021.118.issue-27.largecover.png",
+        "description": "Collective behavior provides a framework for understanding how the actions and properties of groups emerge from the way individuals generate and sh...",
+        "site_name": "PNAS",
+        "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2025764118"
+      },
+      "modDate": "2022-08-12T16:02:30.735Z"
+    },
+    {
+      "_key": "054621ac-a21c-4b75-b544-b929a6d62882",
+      "_id": "Documents/054621ac-a21c-4b75-b544-b929a6d62882",
+      "_rev": "_enJNzGS---",
+      "createDate": "2022-08-12T16:07:50.148Z",
+      "data": {
+        "type": "photo",
+        "articleFavorites": "0",
+        "url": "https://www.youtube.com/watch?v=J7cu4slfIBA",
+        "imageHeight": 360,
+        "articleComments": "0",
+        "video": "https://www.youtube.com/embed/J7cu4slfIBA",
+        "imageWidth": 480,
+        "profileUsername": "Active Inference Institute",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "title": "ActInf GuestStream #026.1 ~ \"From Users to (Sense)Makers\" and Stigmergic Annotation",
+        "articleLikes": "5",
+        "description": "\"From Users to (Sense)Makers: On the Pivotal Role of Stigmergic Social Annotation in the Quest for Collective Sensemaking\" Ronen Tamari, Daniel Friedman, William Fischer, Lauren Hebert, Dafna Shahaf https://dl.acm.org/doi/abs/10.1145/3511095.3536361  Active Inference Institute information:  Website: https://activeinference.org/  Twitter: https://twitter.com/InferenceActive  Discord: https://discord.gg/8VNKNp4jtx  YouTube: https://www.youtube.com/c/ActiveInference/  Active Inference Livestreams: https://coda.io/@active-inference-institute/livestreams",
+        "site_name": "ActInf GuestStream #026.1 ~ \"From Users to (Sense)Makers\" and Stigmergic Annotation",
+        "imageSecureUrl": "https://i.ytimg.com/vi/J7cu4slfIBA/hqdefault_live.jpg",
+        "articleViews": "14"
+      },
+      "modDate": "2022-08-12T16:07:50.148Z"
+    },
+    {
+      "_key": "f61dc93c-353e-4253-afcc-fb0357a72d47",
+      "_id": "Documents/f61dc93c-353e-4253-afcc-fb0357a72d47",
+      "_rev": "_enOPmWm--_",
+      "createDate": "2022-08-12T21:59:19.689Z",
+      "data": {
+        "url": "https://www.veeo.io/",
+        "title": "Veeo - The Future of Online Research",
+        "type": "website",
+        "site_name": "Veeo",
+        "favicon": "https://uploads-ssl.webflow.com/5d7c5230a3db0819d63006e4/5d7ecbda17c02c5c8adfcc76_Veeo_Icon_Square.png",
+        "image": "http://uploads-ssl.webflow.com/5d7c5230a3db0819d63006e4/5db1f0cfd328c62cee76230e_Screen%20Shot%202019-10-24%20at%2012.40.27%20PM.png",
+        "description": "Veeo visually maps your online research and takes care of the tedious stuff. That way, you can focus on what\u2019s interesting and quickly pick up the thread of your learning whenever you need to."
+      },
+      "modDate": "2022-08-12T21:59:19.689Z"
+    },
+    {
+      "_key": "06019f88-4759-4d9a-b172-e9463a2e09af",
+      "_id": "Documents/06019f88-4759-4d9a-b172-e9463a2e09af",
+      "_rev": "_enPJhdi--A",
+      "createDate": "2022-08-12T23:02:35.769Z",
+      "data": {
+        "type": "site",
+        "url": "https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biac069/6651305"
+      },
+      "modDate": "2022-08-12T23:02:35.769Z"
+    },
+    {
+      "_key": "09f4ef2a-9382-43f2-b438-3bde6cfb846d",
+      "_id": "Documents/09f4ef2a-9382-43f2-b438-3bde6cfb846d",
+      "_rev": "_enYuIFm--A",
+      "createDate": "2022-08-13T10:11:43.353Z",
+      "data": {
+        "articleComments": "48",
+        "site_name": "The Patent Scam Full Movie",
+        "articleFavorites": "0",
+        "title": "The Patent Scam Full Movie",
+        "imageSecureUrl": "https://i.ytimg.com/vi/tzK64B9Do9k/hqdefault.jpg",
+        "imageHeight": 360,
+        "imageWidth": 480,
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "video": "https://www.youtube.com/embed/tzK64B9Do9k",
+        "url": "https://www.youtube.com/watch?v=tzK64B9Do9k",
+        "profileUsername": "CRIME ADDICTS",
+        "type": "photo",
+        "articleLikes": "266",
+        "articleViews": "6981"
+      },
+      "modDate": "2022-08-13T10:11:43.353Z"
+    },
+    {
+      "_key": "2c0cc13e-db08-4153-8af4-28f58496fba5",
+      "_id": "Documents/2c0cc13e-db08-4153-8af4-28f58496fba5",
+      "_rev": "_enbJFTm--A",
+      "createDate": "2022-08-13T13:00:58.585Z",
+      "data": {
+        "favicon": "https://images.squarespace-cdn.com/content/v1/6005ceb747a6a51d636af58d/1612232004360-NGL440XIENH1MRLPPZCO/favicon.ico",
+        "site_name": "MASS LBP",
+        "url": "https://www.masslbp.com",
+        "type": "website",
+        "description": "There is a mass of sense lying in a dormant state that good government should quietly harness. \u2014 Thomas Paine",
+        "image": "https://images.squarespace-cdn.com/content/v1/6005ceb747a6a51d636af58d/1611604342339-P5KVUHXC3FZF7DHZQSM5/new-york-times-logo-black-and-white.jpg",
+        "title": "MASS LBP"
+      },
+      "modDate": "2022-08-13T13:00:58.585Z"
+    },
+    {
+      "_key": "54d9860e-5cdd-40fb-9f3a-24c5271b819e",
+      "_id": "Documents/54d9860e-5cdd-40fb-9f3a-24c5271b819e",
+      "_rev": "_enbR5pq--A",
+      "createDate": "2022-08-13T13:10:36.474Z",
+      "data": {
+        "articleModifiedTime": "2022-07-28T14:07:08+00:00",
+        "articlePublishedTime": "2022-07-28T10:06:06+00:00",
+        "site_name": "Einhorn Collaborative",
+        "imageType": "image/png",
+        "locale": "en_US",
+        "description": "A collection of books curated by Jenn that will hopefully bring you joy, awe, ingenuity, provocation, and \u201caha!\u201d moments as we work to build a culture of belonging.",
+        "type": "article",
+        "url": "https://einhorncollaborative.org/a-summer-reading-list-on-belonging/",
+        "imageWidth": "1024",
+        "imageHeight": "768",
+        "title": "A Summer Reading List on Belonging | Einhorn Collaborative",
+        "image": "https://einhorncollaborative.org/wp-content/uploads/2022/07/July-2022-Overlays-Jenn-1024x768.png",
+        "favicon": "https://einhorncollaborative.org/wp-content/uploads/2022/01/Favicon_Purple.png"
+      },
+      "modDate": "2022-08-13T13:10:36.474Z"
+    },
+    {
+      "_key": "11fe3209-1b62-41ef-92e5-22a5e0d92f79",
+      "_id": "Documents/11fe3209-1b62-41ef-92e5-22a5e0d92f79",
+      "_rev": "_enbcT9O---",
+      "createDate": "2022-08-13T13:21:58.771Z",
+      "data": {
+        "imageWidth": "1280",
+        "description": "Convert jargon to plain english",
+        "site_name": "Jargon",
+        "type": "website",
+        "title": "Jargon",
+        "url": "https://explainjargon.com",
+        "imageHeight": "800",
+        "image": "https://explainjargon.com/assets/images/card.jpg?v=bd6cd90f",
+        "imageType": "image/jpeg"
+      },
+      "modDate": "2022-08-13T13:21:58.771Z"
+    },
+    {
+      "_key": "10d897b0-db15-48e2-ac34-180283ab4401",
+      "_id": "Documents/10d897b0-db15-48e2-ac34-180283ab4401",
+      "_rev": "_enbd6nS---",
+      "createDate": "2022-08-13T13:23:43.892Z",
+      "data": {
+        "imageWidth": "1200",
+        "url": "https://www.noemamag.com/a-movement-thats-quietly-reshaping-democracy-for-the-better",
+        "description": "Citizens\u2019 assemblies can help us better address societal challenges, overcome polarization and strengthen trust.",
+        "locale": "en_US",
+        "site_name": "NOEMA",
+        "title": "A Movement That\u2019s Quietly Reshaping Democracy For The Better | NOEMA",
+        "image": "https://noemamag.imgix.net/2022/05/NOEMAMAG-1.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.0&w=1200&wpsize=noema-social-facebook&s=454330bbbfcf465aa1ce8c5734e1b3de",
+        "favicon": "https://www.noemamag.com/wp-content/uploads/2020/06/cropped-ms-icon-310x310-1-192x192.png",
+        "articleModifiedTime": "2022-05-12 15:32:14",
+        "imageHeight": "630",
+        "type": "article"
+      },
+      "modDate": "2022-08-13T13:23:43.892Z"
+    },
+    {
+      "_key": "3a47ea2c-32e3-45a5-b9f9-1a6b7310dd1d",
+      "_id": "Documents/3a47ea2c-32e3-45a5-b9f9-1a6b7310dd1d",
+      "_rev": "_enoIoqO--A",
+      "createDate": "2022-08-14T04:09:15.203Z",
+      "data": {
+        "url": "https://www.csensemakers.com/",
+        "image": "https://uploads-ssl.webflow.com/62ca2f7237b2815119b970f9/62cf445272191e4359d8492b_Group%203035.png",
+        "favicon": "https://uploads-ssl.webflow.com/62ca2f7237b2815119b970f9/62cf45052c907a3622cacc04_Group%203036.png",
+        "type": "website",
+        "site_name": "Common Sense[makers]",
+        "description": "We\u2019re designing distributed protocols, practices, and tools for collective sensemaking.",
+        "title": "Common Sense[makers]"
+      },
+      "modDate": "2022-08-14T04:09:15.203Z"
+    },
+    {
+      "_key": "52fff4b3-4c96-4899-b4f9-444b20493773",
+      "_id": "Documents/52fff4b3-4c96-4899-b4f9-444b20493773",
+      "_rev": "_enuYKkG--A",
+      "createDate": "2022-08-14T11:25:38.786Z",
+      "data": {
+        "articlePublishedTime": "2022-05-17T14:17+00:00",
+        "description": "Leslie Lamport revolutionized how computers talk to each other. Now he\u2019s working on how engineers talk to their machines.",
+        "imageWidth": "1200",
+        "image": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/05/Lamport_1200_Social.jpg",
+        "site_name": "Quanta Magazine",
+        "articleModifiedTime": "2022-05-17T14:49+00:00",
+        "type": "article",
+        "url": "https://www.quantamagazine.org/computing-expert-says-programmers-need-more-math-20220517/",
+        "favicon": "https://www.quantamagazine.org/favicon.png",
+        "locale": "en_US",
+        "title": "Computing Expert Says Programmers Need More Math | Quanta Magazine",
+        "imageHeight": "630"
+      },
+      "modDate": "2022-08-14T11:25:38.786Z"
+    },
+    {
+      "_key": "7d4d4475-77e7-47f6-997b-85bb7c1cf992",
+      "_id": "Documents/7d4d4475-77e7-47f6-997b-85bb7c1cf992",
+      "_rev": "_envV--y--A",
+      "createDate": "2022-08-14T12:32:03.596Z",
+      "data": {
+        "articleAuthor": "https://mlsdatsci.medium.com",
+        "description": "The term \u201cglobal warming,\u201d which describes an increase in the Earth\u2019s average temperature surface due largely to greenhouse gas emissions\u2026",
+        "articlePublishedTime": "2022-08-02T00:38:58.407Z",
+        "favicon": "https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png",
+        "title": "Climate Change\u200a\u2014\u200aIt\u2019s Socialism or Extinction",
+        "url": "https://mlsdatsci.medium.com/climate-change-its-socialism-or-extinction-c6c58aa06c12",
+        "image": "https://miro.medium.com/max/700/0*Hw48D7nEcr3FUiFX",
+        "type": "article",
+        "site_name": "Medium"
+      },
+      "modDate": "2022-08-14T12:32:03.596Z"
+    },
+    {
+      "_key": "5ea1505d-eef0-42dc-ae6e-5b9e79cc4287",
+      "_id": "Documents/5ea1505d-eef0-42dc-ae6e-5b9e79cc4287",
+      "_rev": "_envWy-y--_",
+      "createDate": "2022-08-14T12:34:02.380Z",
+      "data": {
+        "articleAuthor": "https://growensemble.medium.com",
+        "url": "https://bthechange.com/how-to-reinvent-the-economics-of-agriculture-using-blockchain-technology-50463bb9580a",
+        "site_name": "Medium",
+        "image": "https://miro.medium.com/max/1000/1*TQK_sZZ3p2rvJbn0aqT16w.jpeg",
+        "description": "Regen Network Is Creating Tools for Humanity to Relate to Its Environment",
+        "articlePublishedTime": "2022-07-21T05:03:05.416Z",
+        "type": "article",
+        "title": "How to Reinvent the Economics of Agriculture Using Blockchain Technology",
+        "favicon": "https://miro.medium.com/fit/c/256/256/1*16z1Fo92SRqB6GHAM93Aig.png"
+      },
+      "modDate": "2022-08-14T12:34:02.380Z"
+    },
+    {
+      "_key": "e851a0a4-0090-44cd-8882-efca5055781d",
+      "_id": "Documents/e851a0a4-0090-44cd-8882-efca5055781d",
+      "_rev": "_envYS8S--A",
+      "createDate": "2022-08-14T12:35:41.669Z",
+      "data": {
+        "profileUsername": "Gitcoin Media",
+        "imageHeight": 720,
+        "description": "In our fireside this week, we'll be leading a discussion on Module 5, Tokens & Mechanism Design. We'll ask that you read it beforehand, interrupt us often, use the chat as a tool for thought (which was great last week). We\u2019ll be expanding Q&A for more discussion. From this week's materials:   The word \"token\" shares a root with the Germanic and Dutch words for \"teach\", which makes sense given that tokens transmit factual information. This is the actual use of tokens, and mechanisms designed around them, in Web 3: they are tools that can be used to teach by creating tangible, verifiable incentives for certain behaviours, both individually and collectively.  We'll talk all about how these tokens and the facts they represent give us a chance to solve two major problems with the internet today: discoverability and moderation.  We'll let these ideas together with an exploration of Amazon in Unbounded Search and lessons from the best mechanism designers on the internet: game designers.   With these examples, we hope to paint the case that beyond the financial,  tokens can be used to build pro-social, valuable games which simultaneously solve major issues with the modern internet. Join us if you can -- and check out the materials when time permits :)",
+        "video": "https://www.youtube.com/embed/NUO86413eD4",
+        "articleComments": "0",
+        "articleViews": "193",
+        "imageWidth": 1280,
+        "title": "Tokens & Mechanism Design with Sparrow, Bea Ramos| KERNEL Fireside 2/18",
+        "imageSecureUrl": "https://i.ytimg.com/vi/NUO86413eD4/maxresdefault.jpg",
+        "articleLikes": "4",
+        "url": "https://www.youtube.com/watch?v=NUO86413eD4",
+        "site_name": "Tokens & Mechanism Design with Sparrow, Bea Ramos",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "articleFavorites": "0",
+        "type": "photo"
+      },
+      "modDate": "2022-08-14T12:35:41.669Z"
+    },
+    {
+      "_key": "dc936f09-b23c-4ac6-a672-8d6112294212",
+      "_id": "Documents/dc936f09-b23c-4ac6-a672-8d6112294212",
+      "_rev": "_enwgU7q--A",
+      "createDate": "2022-08-14T13:54:22.298Z",
+      "data": {
+        "articlePublishedTime": "2022-08-12T17:59:35+00:00",
+        "image": "https://gitcoin.co/blog/wp-content/uploads/2022/08/Gardne.png",
+        "favicon": "https://gitcoin.co/blog/wp-content/uploads/2019/04/apple-touch-icon.486115005c66.png",
+        "type": "article",
+        "articleModifiedTime": "2022-08-12T18:15:08+00:00",
+        "site_name": "Gitcoin's Blog",
+        "description": "A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play. The infinite garden relies on the infinite game and its mindset. We are not only here as individuals, but as a whole to grow in web3 - together.",
+        "imageHeight": "888",
+        "locale": "en_US",
+        "imageWidth": "1266",
+        "imageType": "image/png",
+        "url": "https://gitcoin.co/blog/infinite-gardens/",
+        "title": "The Infinite Garden Relies on the Infinite Game - Gitcoin's Blog"
+      },
+      "modDate": "2022-08-14T13:54:22.298Z"
+    },
+    {
+      "_key": "07c28087-ea90-474c-a131-5e81a788a956",
+      "_id": "Documents/07c28087-ea90-474c-a131-5e81a788a956",
+      "_rev": "_en0BI5q--_",
+      "createDate": "2022-08-14T17:59:55.578Z",
+      "data": {
+        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595581547l/54654726._SY475_.jpg",
+        "description": "Andy Tudhope has 109 books on their dweb shelf: Mutual Aid: Building Solidarity in This Crisis by Dean Spade, Care Work: Dreaming Disability Justice by L...",
+        "type": "website",
+        "site_name": "Goodreads",
+        "url": "https://www.goodreads.com/review/list/98176865?shelf=dweb",
+        "title": "Andy Tudhope\u2019s 'dweb' books on Goodreads (109 books)"
+      },
+      "modDate": "2022-08-14T17:59:55.578Z"
     }
   ]
 }

@@ -101,3 +101,9 @@
 2025-04-11 10:46:23 - main - INFO - Stage 6: Generating images from platform
 2025-04-11 10:47:44 - main - INFO - Stage 6 completed. Images saved to /Users/tetra/Documents/GitHub/links/output/platform_images
 2025-04-11 10:47:44 - main - INFO - Pipeline completed in 484.19 seconds
+2025-04-15 08:24:34 - main - INFO - Starting pipeline
+2025-04-15 08:24:34 - main - INFO - Stage 1: Organizing links and tags
+2025-04-15 08:24:35 - main - INFO - Stage 1 completed
+2025-04-15 08:24:35 - main - INFO - Stage 2: Scraping websites
+2025-04-15 08:25:21 - main - INFO - Stage 2 completed
+2025-04-15 08:25:21 - main - INFO - Stage 3: Extracting concepts
