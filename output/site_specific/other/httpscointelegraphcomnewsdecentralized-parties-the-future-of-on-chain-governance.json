@@ -1,0 +1,43 @@
+{
+  "url": "https://cointelegraph.com/news/decentralized-parties-the-future-of-on-chain-governance",
+  "title": "Decentralized parties: The future of on-chain governance",
+  "categories": {
+    "principles": [
+      {
+        "title": "Decentralization as a Generational Landmark",
+        "content": "The idea of a decentralized government, formed by competing decentralized parties, would be a generational landmark in human evolution.",
+        "explanation": "The principle here is the belief in the transformative potential of decentralization, specifically in the context of governance. The author views this as a significant evolutionary step for humanity.",
+        "context": "This principle is the foundation for the author's discussion on the potential of decentralized autonomous organizations (DAOs) and decentralized parties in transforming governance and politics.",
+        "implementation": "The author does not provide specific implementation details for this principle."
+      }
+    ],
+    "policies": [
+      {
+        "title": "Community Management through Voting",
+        "content": "Managed by a community through voting, DAOs are self-governing systems with a built-in treasury.",
+        "explanation": "The policy proposed here is the management of DAOs through community voting. This suggests a democratic approach to decision-making within these organizations.",
+        "context": "This policy is part of the broader discussion on how DAOs operate and their potential in transforming governance.",
+        "implementation": "The author suggests that DAOs are almost entirely automated, but still depend on community members for certain tasks, offering an economic incentive from the liquidity pool in return."
+      }
+    ],
+    "values": [
+      {
+        "title": "Democratic Participation and Self-Governance",
+        "content": "What if they could elevate democracy to a new level, creating a self-governance system where everyone would have a say?",
+        "explanation": "The value emphasized here is democratic participation and self-governance. The author believes in the importance of everyone having a say in governance.",
+        "context": "This value is highlighted in the discussion on the potential of distributed ledger technologies in improving voting systems and creating a self-governance system.",
+        "implementation": "The author does not provide specific implementation details for this value."
+      }
+    ],
+    "goals": [
+      {
+        "title": "Paradigm Shift in the Political System",
+        "content": "That is the dormant potential of decentralized parties: to take down the hierarchical structure and bring a paradigm shift to the political system.",
+        "explanation": "The goal here is to bring about a paradigm shift in the political system through the use of decentralized parties. This implies a transformation from a hierarchical structure to a more decentralized and democratic system.",
+        "context": "This goal is part of the author's broader vision of the transformative potential of decentralized technologies in governance and politics.",
+        "implementation": "The author does not provide specific implementation details for this goal."
+      }
+    ]
+  },
+  "raw_response": "{\n  \"principles\": [\n    {\n      \"title\": \"Decentralization as a Generational Landmark\",\n      \"content\": \"The idea of a decentralized government, formed by competing decentralized parties, would be a generational landmark in human evolution.\",\n      \"explanation\": \"The principle here is the belief in the transformative potential of decentralization, specifically in the context of governance. The author views this as a significant evolutionary step for humanity.\",\n      \"context\": \"This principle is the foundation for the author's discussion on the potential of decentralized autonomous organizations (DAOs) and decentralized parties in transforming governance and politics.\",\n      \"implementation\": \"The author does not provide specific implementation details for this principle.\"\n    }\n  ],\n  \"policies\": [\n    {\n      \"title\": \"Community Management through Voting\",\n      \"content\": \"Managed by a community through voting, DAOs are self-governing systems with a built-in treasury.\",\n      \"explanation\": \"The policy proposed here is the management of DAOs through community voting. This suggests a democratic approach to decision-making within these organizations.\",\n      \"context\": \"This policy is part of the broader discussion on how DAOs operate and their potential in transforming governance.\",\n      \"implementation\": \"The author suggests that DAOs are almost entirely automated, but still depend on community members for certain tasks, offering an economic incentive from the liquidity pool in return.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"title\": \"Democratic Participation and Self-Governance\",\n      \"content\": \"What if they could elevate democracy to a new level, creating a self-governance system where everyone would have a say?\",\n      \"explanation\": \"The value emphasized here is democratic participation and self-governance. The author believes in the importance of everyone having a say in governance.\",\n      \"context\": \"This value is highlighted in the discussion on the potential of distributed ledger technologies in improving voting systems and creating a self-governance system.\",\n      \"implementation\": \"The author does not provide specific implementation details for this value.\"\n    }\n  ],\n  \"goals\": [\n    {\n      \"title\": \"Paradigm Shift in the Political System\",\n      \"content\": \"That is the dormant potential of decentralized parties: to take down the hierarchical structure and bring a paradigm shift to the political system.\",\n      \"explanation\": \"The goal here is to bring about a paradigm shift in the political system through the use of decentralized parties. This implies a transformation from a hierarchical structure to a more decentralized and democratic system.\",\n      \"context\": \"This goal is part of the author's broader vision of the transformative potential of decentralized technologies in governance and politics.\",\n      \"implementation\": \"The author does not provide specific implementation details for this goal.\"\n    }\n  ]\n}"
+}

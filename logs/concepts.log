@@ -1,0 +1,45 @@
+2025-08-27 12:45:02 - extract_concepts - INFO - Starting concept extraction process
+2025-08-27 12:45:02 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2025-08-27 12:45:02 - extract_concepts - INFO - Concept extraction process completed
+2025-08-27 12:45:02 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2025-08-27 12:45:02 - extract_concepts - ERROR - Error loading scraped data: [Errno 2] No such file or directory: '/Users/4d/Documents/GitHub/links/output/extracted_concepts.json'
+2025-08-27 12:45:02 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2025-08-27 12:45:02 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2025-08-27 12:45:02 - extract_concepts - INFO - Starting concept extraction process
+2025-08-27 12:45:02 - extract_concepts - INFO - Processing 2 documents
+2025-08-27 12:45:02 - extract_concepts - INFO - Processing 2 documents in category: tech
+2025-08-27 12:45:02 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2025-08-27 12:45:02 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2025-08-27 12:45:02 - extract_concepts - INFO - Extracted concepts saved successfully
+2025-08-27 12:45:02 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2025-08-27 12:45:02 - extract_concepts - INFO - Starting concept extraction process
+2025-08-27 12:45:02 - extract_concepts - INFO - Concept extraction process completed
+2025-08-27 12:45:11 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2025-08-27 12:45:11 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2025-08-27 12:45:11 - extract_concepts - INFO - Starting concept extraction process
+2025-08-27 12:45:11 - extract_concepts - INFO - Processing 2 documents
+2025-08-27 12:45:11 - extract_concepts - INFO - Processing 2 documents in category: tech
+2025-08-27 12:45:11 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2025-08-27 12:45:11 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2025-08-27 12:45:11 - extract_concepts - INFO - Extracted concepts saved successfully
+2025-08-27 12:45:11 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2025-08-27 12:45:11 - extract_concepts - INFO - Starting concept extraction process
+2025-08-27 12:45:11 - extract_concepts - INFO - Concept extraction process completed
+2025-08-27 12:49:37 - extract_concepts - INFO - Starting concept extraction process
+2025-08-27 12:49:37 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2025-08-27 12:49:37 - extract_concepts - INFO - Starting concept extraction process
+2025-08-27 12:49:37 - extract_concepts - INFO - Processing 20 documents
+2025-08-27 12:49:37 - extract_concepts - INFO - Processing 0 documents in category: political
+2025-08-27 12:49:37 - extract_concepts - INFO - Processing 0 documents in category: economic
+2025-08-27 12:49:37 - extract_concepts - INFO - Processing 0 documents in category: social
+2025-08-27 12:49:37 - extract_concepts - INFO - Processing 0 documents in category: technological
+2025-08-27 12:49:37 - extract_concepts - INFO - Processing 20 documents in category: other
+2025-08-27 12:49:38 - extract_concepts - WARNING - JSON parsing failed for https://www.youtube.com/watch?v=yBjjqk1-XZU: Expecting value: line 1 column 1 (char 0)
+2025-08-27 12:50:59 - extract_concepts - WARNING - JSON parsing failed for https://anytype.io/en: Expecting value: line 1 column 1 (char 0)
+2025-08-27 12:51:21 - extract_concepts - WARNING - JSON parsing failed for http://www.whatisemerging.com/opinions/the-impossible-we: Expecting value: line 1 column 1 (char 0)
+2025-08-27 12:51:55 - extract_concepts - WARNING - JSON parsing failed for https://gardens.1hive.org/: Expecting value: line 1 column 1 (char 0)
+2025-08-27 12:52:19 - extract_concepts - INFO - Concept extraction completed. Success: 13, Error: 0, Skipped: 7
+2025-08-27 12:52:19 - extract_concepts - INFO - Saving extracted concepts to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2025-08-27 12:52:19 - extract_concepts - INFO - Extracted concepts saved successfully
+2025-08-27 12:52:19 - extract_concepts - INFO - Text version saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts_text.txt
+2025-08-27 12:52:19 - extract_concepts - INFO - Concept extraction process completed

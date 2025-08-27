@@ -1,0 +1,57 @@
+{
+  "url": "https://www.ixo.world/",
+  "title": "IXO Spatial Web Platform for Intelligent Systems",
+  "categories": {
+    "principles": [
+      {
+        "title": "Enabling networks for Verifiable Impacts",
+        "content": "Enabling networks of people, organisations, AI agents, and physical devices to generate Verifiable Impacts, at an Internet-scale.",
+        "explanation": "The principle here is the belief in the power of networks - of people, organizations, AI agents, and physical devices - to generate impacts that can be verified. The emphasis is on the importance of collaboration and interconnection in achieving meaningful outcomes.",
+        "context": "This principle is central to the IXO Spatial Web Platform's mission and operations. It underpins the platform's approach to building intelligent systems.",
+        "implementation": "The platform implements this principle through its IXO Protocol, which updates the Data Graph of the network."
+      }
+    ],
+    "policies": [
+      {
+        "title": "Financing and scaling access to modern energy cooking devices",
+        "content": "The Emerging Platform is a digital flywheel for financing, verifying, and scaling household access to modern energy cooking devices and fuelling the Green Economy in emerging markets.",
+        "explanation": "This policy involves using the platform as a tool for financing and verifying access to modern energy cooking devices. It's a concrete plan to promote the Green Economy in emerging markets.",
+        "context": "This policy is part of the platform's broader strategy to leverage technology to drive sustainable development and economic growth.",
+        "implementation": "The policy is implemented through the Emerging Platform, which acts as a digital flywheel."
+      },
+      {
+        "title": "Matching young people to opportunities in the Green Economy",
+        "content": "The UNICEF-led Yoma Impacts Platform matches young people in developing countries to learning, earning, and entrepreneurship opportunities in the Green Economy.",
+        "explanation": "This policy involves using the Yoma Impacts Platform to connect young people in developing countries with opportunities in the Green Economy. It's a strategy to promote sustainable development and economic empowerment.",
+        "context": "This policy is part of the platform's broader efforts to foster economic growth and sustainability in developing countries.",
+        "implementation": "The policy is implemented through the Yoma Impacts Platform, which is led by UNICEF."
+      }
+    ],
+    "values": [
+      {
+        "title": "Promoting the Green Economy",
+        "content": "fuelling the Green Economy in emerging markets.",
+        "explanation": "The value here is the promotion of the Green Economy. This indicates a commitment to sustainable development and environmental stewardship.",
+        "context": "This value is reflected in the platform's policies and goals, which aim to promote the Green Economy in emerging markets.",
+        "implementation": "This value is implemented through the platform's financing and scaling of access to modern energy cooking devices, and its matching of young people to opportunities in the Green Economy."
+      }
+    ],
+    "goals": [
+      {
+        "title": "Household access to modern energy cooking devices",
+        "content": "scaling household access to modern energy cooking devices",
+        "explanation": "The goal here is to increase household access to modern energy cooking devices. This is a specific objective that the platform seeks to achieve.",
+        "context": "This goal is part of the platform's broader mission to fuel the Green Economy in emerging markets.",
+        "implementation": "The goal is pursued through the platform's policy of financing and verifying access to these devices."
+      },
+      {
+        "title": "Youth engagement in the Green Economy",
+        "content": "matches young people in developing countries to learning, earning, and entrepreneurship opportunities in the Green Economy.",
+        "explanation": "The goal here is to engage young people in developing countries in the Green Economy. This is a specific aim that the platform seeks to achieve.",
+        "context": "This goal is part of the platform's broader efforts to promote sustainable development and economic empowerment.",
+        "implementation": "The goal is pursued through the platform's policy of matching young people to opportunities in the Green Economy via the Yoma Impacts Platform."
+      }
+    ]
+  },
+  "raw_response": "{\n  \"principles\": [\n    {\n      \"title\": \"Enabling networks for Verifiable Impacts\",\n      \"content\": \"Enabling networks of people, organisations, AI agents, and physical devices to generate Verifiable Impacts, at an Internet-scale.\",\n      \"explanation\": \"The principle here is the belief in the power of networks - of people, organizations, AI agents, and physical devices - to generate impacts that can be verified. The emphasis is on the importance of collaboration and interconnection in achieving meaningful outcomes.\",\n      \"context\": \"This principle is central to the IXO Spatial Web Platform's mission and operations. It underpins the platform's approach to building intelligent systems.\",\n      \"implementation\": \"The platform implements this principle through its IXO Protocol, which updates the Data Graph of the network.\"\n    }\n  ],\n  \"policies\": [\n    {\n      \"title\": \"Financing and scaling access to modern energy cooking devices\",\n      \"content\": \"The Emerging Platform is a digital flywheel for financing, verifying, and scaling household access to modern energy cooking devices and fuelling the Green Economy in emerging markets.\",\n      \"explanation\": \"This policy involves using the platform as a tool for financing and verifying access to modern energy cooking devices. It's a concrete plan to promote the Green Economy in emerging markets.\",\n      \"context\": \"This policy is part of the platform's broader strategy to leverage technology to drive sustainable development and economic growth.\",\n      \"implementation\": \"The policy is implemented through the Emerging Platform, which acts as a digital flywheel.\"\n    },\n    {\n      \"title\": \"Matching young people to opportunities in the Green Economy\",\n      \"content\": \"The UNICEF-led Yoma Impacts Platform matches young people in developing countries to learning, earning, and entrepreneurship opportunities in the Green Economy.\",\n      \"explanation\": \"This policy involves using the Yoma Impacts Platform to connect young people in developing countries with opportunities in the Green Economy. It's a strategy to promote sustainable development and economic empowerment.\",\n      \"context\": \"This policy is part of the platform's broader efforts to foster economic growth and sustainability in developing countries.\",\n      \"implementation\": \"The policy is implemented through the Yoma Impacts Platform, which is led by UNICEF.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"title\": \"Promoting the Green Economy\",\n      \"content\": \"fuelling the Green Economy in emerging markets.\",\n      \"explanation\": \"The value here is the promotion of the Green Economy. This indicates a commitment to sustainable development and environmental stewardship.\",\n      \"context\": \"This value is reflected in the platform's policies and goals, which aim to promote the Green Economy in emerging markets.\",\n      \"implementation\": \"This value is implemented through the platform's financing and scaling of access to modern energy cooking devices, and its matching of young people to opportunities in the Green Economy.\"\n    }\n  ],\n  \"goals\": [\n    {\n      \"title\": \"Household access to modern energy cooking devices\",\n      \"content\": \"scaling household access to modern energy cooking devices\",\n      \"explanation\": \"The goal here is to increase household access to modern energy cooking devices. This is a specific objective that the platform seeks to achieve.\",\n      \"context\": \"This goal is part of the platform's broader mission to fuel the Green Economy in emerging markets.\",\n      \"implementation\": \"The goal is pursued through the platform's policy of financing and verifying access to these devices.\"\n    },\n    {\n      \"title\": \"Youth engagement in the Green Economy\",\n      \"content\": \"matches young people in developing countries to learning, earning, and entrepreneurship opportunities in the Green Economy.\",\n      \"explanation\": \"The goal here is to engage young people in developing countries in the Green Economy. This is a specific aim that the platform seeks to achieve.\",\n      \"context\": \"This goal is part of the platform's broader efforts to promote sustainable development and economic empowerment.\",\n      \"implementation\": \"The goal is pursued through the platform's policy of matching young people to opportunities in the Green Economy via the Yoma Impacts Platform.\"\n    }\n  ]\n}"
+}

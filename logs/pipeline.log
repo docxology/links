@@ -1,0 +1,48 @@
+2025-08-27 12:44:03 - main - INFO - 🚀 Starting pipeline
+2025-08-27 12:44:03 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2025-08-27 12:44:03 - main - INFO - 🏁 Stage 1 completed
+2025-08-27 12:44:03 - main - INFO - 🔎 Stage 2: Scraping websites
+2025-08-27 12:44:55 - main - INFO - 🏁 Stage 2 completed
+2025-08-27 12:44:55 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2025-08-27 12:44:55 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2025-08-27 12:44:55 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2025-08-27 12:44:55 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2025-08-27 12:44:55 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2025-08-27 12:44:55 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2025-08-27 12:44:55 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2025-08-27 12:44:55 - main - INFO - 🏁 Pipeline completed in 52.29s
+2025-08-27 12:45:02 - main - INFO - 🚀 Starting pipeline
+2025-08-27 12:45:02 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2025-08-27 12:45:02 - main - INFO - 🏁 Stage 1 completed
+2025-08-27 12:45:02 - main - INFO - 🔎 Stage 2: Scraping websites
+2025-08-27 12:45:02 - main - INFO - 🏁 Stage 2 completed
+2025-08-27 12:45:02 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2025-08-27 12:45:02 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2025-08-27 12:45:02 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2025-08-27 12:45:02 - main - ERROR - ❌ Error in pipeline: Test error
+2025-08-27 12:45:02 - main - INFO - 🚀 Starting pipeline
+2025-08-27 12:45:02 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2025-08-27 12:45:02 - main - INFO - 🏁 Stage 1 completed
+2025-08-27 12:45:02 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2025-08-27 12:45:02 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2025-08-27 12:45:02 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2025-08-27 12:48:55 - main - INFO - 🚀 Starting pipeline
+2025-08-27 12:48:55 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2025-08-27 12:48:55 - main - INFO - 🏁 Stage 1 completed
+2025-08-27 12:48:55 - main - INFO - 🔎 Stage 2: Scraping websites
+2025-08-27 12:49:37 - main - INFO - 🏁 Stage 2 completed
+2025-08-27 12:49:37 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2025-08-27 12:52:19 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2025-08-27 12:52:19 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2025-08-27 12:52:19 - main - INFO - 🏁 Stage 4 completed. Site-specific: /Users/4d/Documents/GitHub/links/output/site_specific, Compiled: /Users/4d/Documents/GitHub/links/output/compiled
+2025-08-27 12:52:19 - main - INFO - Stage 5: Generating overview essays
+2025-08-27 12:54:26 - main - INFO - 🏁 Stage 5 completed. Essays saved to /Users/4d/Documents/GitHub/links/output/essays
+2025-08-27 12:54:26 - main - INFO - ✨ Stage 6: Generating images from essays
+2025-08-27 12:57:16 - main - INFO - 🏁 Stage 6 completed. Images saved to /Users/4d/Documents/GitHub/links/output/essay_images
+2025-08-27 12:57:16 - main - INFO - 🧠 Stage 7: Generating political platform
+2025-08-27 12:57:20 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2025-08-27 12:57:20 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2025-08-27 12:57:20 - main - INFO - 🏁 Stage 8 completed. Markdown saved to (PosixPath('/Users/4d/Documents/GitHub/links/output/political_platform.md'), PosixPath('/Users/4d/Documents/GitHub/links/output/political_platform.html'))
+2025-08-27 12:57:20 - main - INFO - ✨ Stage 9: Generating images from platform
+2025-08-27 12:57:21 - main - INFO - 🏁 Stage 9 completed. Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2025-08-27 12:57:21 - main - INFO - 🏁 Pipeline completed in 8m 25.88s

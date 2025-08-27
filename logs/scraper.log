@@ -1,0 +1,133 @@
+2025-08-27 12:44:03 - scrape_sites - INFO - 🚀 Starting web scraping process
+2025-08-27 12:44:03 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2025-08-27 12:44:03 - scrape_sites - INFO - 🚀 Starting scraping process
+2025-08-27 12:44:03 - scrape_sites - INFO - ✅ Limiting other to first 20 links for testing
+2025-08-27 12:44:03 - scrape_sites - INFO - ✅ Total links to scrape: 20
+2025-08-27 12:44:03 - scrape_sites - INFO - ⏳ Scraping 0 links in category: political
+2025-08-27 12:44:03 - scrape_sites - INFO - ⏳ Scraping 0 links in category: economic
+2025-08-27 12:44:03 - scrape_sites - INFO - ⏳ Scraping 0 links in category: social
+2025-08-27 12:44:03 - scrape_sites - INFO - ⏳ Scraping 0 links in category: technological
+2025-08-27 12:44:03 - scrape_sites - INFO - ⏳ Scraping 20 links in category: other
+2025-08-27 12:44:04 - scrape_sites - INFO - 🔎 Scraping URL: https://www.youtube.com/watch?v=yBjjqk1-XZU
+2025-08-27 12:44:08 - scrape_sites - INFO - 🔎 Scraping URL: https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ
+2025-08-27 12:44:11 - scrape_sites - INFO - 🔎 Scraping URL: https://otherinter.net/research/squad-wealth/squad-wealth
+2025-08-27 12:44:11 - scrape_sites - ERROR - ❌ Error scraping https://otherinter.net/research/squad-wealth/squad-wealth: 404 Client Error: Not Found for url: https://otherinter.net/research/squad-wealth/squad-wealth
+2025-08-27 12:44:13 - scrape_sites - INFO - 🔎 Scraping URL: https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7
+2025-08-27 12:44:13 - scrape_sites - ERROR - ❌ Error scraping https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7: 403 Client Error: Forbidden for url: https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7
+2025-08-27 12:44:15 - scrape_sites - INFO - 🔎 Scraping URL: https://cointelegraph.com/news/decentralized-parties-the-future-of-on-chain-governance
+2025-08-27 12:44:18 - scrape_sites - INFO - 🔎 Scraping URL: https://blog.curvelabs.eu/applied-regenerative-economics-2219d2e1087b
+2025-08-27 12:44:21 - scrape_sites - INFO - 🔎 Scraping URL: https://conservationxlabs.com/nabit
+2025-08-27 12:44:22 - scrape_sites - ERROR - ❌ Error scraping https://conservationxlabs.com/nabit: 404 Client Error: Not Found for url: https://www.conservationxlabs.com/nabit
+2025-08-27 12:44:24 - scrape_sites - INFO - 🔎 Scraping URL: https://www.ixo.world/
+2025-08-27 12:44:27 - scrape_sites - INFO - 🔎 Scraping URL: https://anytype.io/en
+2025-08-27 12:44:30 - scrape_sites - INFO - 🔎 Scraping URL: https://unchartedterritories.tomaspueyo.com/p/the-end-of-nation-states
+2025-08-27 12:44:30 - scrape_sites - INFO - 💾 Saving interim results after processing 10 links
+2025-08-27 12:44:30 - scrape_sites - INFO - ✅ Interim results saved to /Users/4d/Documents/GitHub/links/data/scraped_data_interim.json
+2025-08-27 12:44:32 - scrape_sites - INFO - 🔎 Scraping URL: http://www.whatisemerging.com/opinions/the-impossible-we
+2025-08-27 12:44:36 - scrape_sites - INFO - 🔎 Scraping URL: https://medium.com/commonsstack/automating-ostrom-for-effective-dao-management-cfe7a7aea138
+2025-08-27 12:44:39 - scrape_sites - INFO - 🔎 Scraping URL: https://davidphelps.substack.com/p/against-scarcity
+2025-08-27 12:44:41 - scrape_sites - INFO - 🔎 Scraping URL: https://vitalik.ca/general/2019/04/03/collusion.html
+2025-08-27 12:44:41 - scrape_sites - ERROR - ❌ Error scraping https://vitalik.ca/general/2019/04/03/collusion.html: HTTPSConnectionPool(host='vitalik.ca', port=443): Max retries exceeded with url: /general/2019/04/03/collusion.html (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110affb10>: Failed to resolve 'vitalik.ca' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-08-27 12:44:43 - scrape_sites - INFO - 🔎 Scraping URL: https://www.projectliberty.io/2021/05/what-is-a-shared-social-graph/
+2025-08-27 12:44:44 - scrape_sites - ERROR - ❌ Error scraping https://www.projectliberty.io/2021/05/what-is-a-shared-social-graph/: 403 Client Error: Forbidden for url: https://www.projectliberty.io/2021/05/what-is-a-shared-social-graph/
+2025-08-27 12:44:45 - scrape_sites - INFO - 🔎 Scraping URL: https://medium.com/commonsstack/computer-aided-governance-cag-a-revolution-in-automated-decision-support-systems-5d15aec2c3d5
+2025-08-27 12:44:49 - scrape_sites - INFO - 🔎 Scraping URL: https://gardens.1hive.org/
+2025-08-27 12:44:50 - scrape_sites - INFO - 🔎 Scraping URL: https://sourcecred.github.io/docs/docs/
+2025-08-27 12:44:51 - scrape_sites - ERROR - ❌ Error scraping https://sourcecred.github.io/docs/docs/: 404 Client Error: Not Found for url: https://sourcecred.io/docs/docs/
+2025-08-27 12:44:54 - scrape_sites - INFO - 🔎 Scraping URL: https://www.jlinc.com/
+2025-08-27 12:44:55 - scrape_sites - INFO - 🔎 Scraping URL: https://future.a16z.com/building-and-running-a-dao-why-governance-matters/
+2025-08-27 12:44:55 - scrape_sites - ERROR - ❌ Error scraping https://future.a16z.com/building-and-running-a-dao-why-governance-matters/: 403 Client Error: Forbidden for url: https://future.a16z.com/building-and-running-a-dao-why-governance-matters/
+2025-08-27 12:44:55 - scrape_sites - INFO - 💾 Saving interim results after processing 20 links
+2025-08-27 12:44:55 - scrape_sites - INFO - ✅ Interim results saved to /Users/4d/Documents/GitHub/links/data/scraped_data_interim.json
+2025-08-27 12:44:55 - scrape_sites - INFO - 🏁 Scraping completed. Success: 13, Failed: 7, Skipped: 0
+2025-08-27 12:44:55 - scrape_sites - INFO - 💾 Saving scraped data to /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2025-08-27 12:44:55 - scrape_sites - INFO - 💾 Saving text extract to /Users/4d/Documents/GitHub/links/data/scraped_data_text_extract.txt
+2025-08-27 12:44:55 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2025-08-27 12:44:55 - scrape_sites - INFO - ✅ Text extract saved successfully
+2025-08-27 12:44:55 - scrape_sites - INFO - 🏁 Web scraping process completed
+2025-08-27 12:45:02 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2025-08-27 12:45:02 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2025-08-27 12:45:02 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2025-08-27 12:45:02 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2025-08-27 12:45:02 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2025-08-27 12:45:02 - scrape_sites - INFO - 🚀 Starting scraping process
+2025-08-27 12:45:02 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2025-08-27 12:45:02 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2025-08-27 12:45:07 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2025-08-27 12:45:07 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2025-08-27 12:45:07 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2025-08-27 12:45:07 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2025-08-27 12:45:07 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2025-08-27 12:45:11 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2025-08-27 12:45:11 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2025-08-27 12:45:11 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2025-08-27 12:45:11 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2025-08-27 12:45:11 - scrape_sites - INFO - 🚀 Starting scraping process
+2025-08-27 12:45:11 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2025-08-27 12:45:11 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2025-08-27 12:45:15 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2025-08-27 12:45:15 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2025-08-27 12:45:15 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2025-08-27 12:45:15 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2025-08-27 12:45:15 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2025-08-27 12:45:34 - scrape_sites - INFO - 📂 Loading organized links from data/scraped_data.json
+2025-08-27 12:48:55 - scrape_sites - INFO - 🚀 Starting web scraping process
+2025-08-27 12:48:55 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2025-08-27 12:48:55 - scrape_sites - INFO - 🚀 Starting scraping process
+2025-08-27 12:48:55 - scrape_sites - INFO - ✅ Limiting other to first 20 links for testing
+2025-08-27 12:48:55 - scrape_sites - INFO - ✅ Total links to scrape: 20
+2025-08-27 12:48:55 - scrape_sites - INFO - ⏳ Scraping 0 links in category: political
+2025-08-27 12:48:55 - scrape_sites - INFO - ⏳ Scraping 0 links in category: economic
+2025-08-27 12:48:55 - scrape_sites - INFO - ⏳ Scraping 0 links in category: social
+2025-08-27 12:48:55 - scrape_sites - INFO - ⏳ Scraping 0 links in category: technological
+2025-08-27 12:48:55 - scrape_sites - INFO - ⏳ Scraping 20 links in category: other
+2025-08-27 12:48:58 - scrape_sites - INFO - 🔎 Scraping URL: https://www.youtube.com/watch?v=yBjjqk1-XZU
+2025-08-27 12:48:58 - scrape_sites - INFO - 📂 Using cached content for https://www.youtube.com/watch?v=yBjjqk1-XZU
+2025-08-27 12:49:00 - scrape_sites - INFO - 🔎 Scraping URL: https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ
+2025-08-27 12:49:00 - scrape_sites - INFO - 📂 Using cached content for https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ
+2025-08-27 12:49:02 - scrape_sites - INFO - 🔎 Scraping URL: https://otherinter.net/research/squad-wealth/squad-wealth
+2025-08-27 12:49:02 - scrape_sites - ERROR - ❌ Error scraping https://otherinter.net/research/squad-wealth/squad-wealth: 404 Client Error: Not Found for url: https://otherinter.net/research/squad-wealth/squad-wealth
+2025-08-27 12:49:03 - scrape_sites - INFO - 🔎 Scraping URL: https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7
+2025-08-27 12:49:03 - scrape_sites - ERROR - ❌ Error scraping https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7: 403 Client Error: Forbidden for url: https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7
+2025-08-27 12:49:04 - scrape_sites - INFO - 🔎 Scraping URL: https://cointelegraph.com/news/decentralized-parties-the-future-of-on-chain-governance
+2025-08-27 12:49:04 - scrape_sites - INFO - 📂 Using cached content for https://cointelegraph.com/news/decentralized-parties-the-future-of-on-chain-governance
+2025-08-27 12:49:07 - scrape_sites - INFO - 🔎 Scraping URL: https://blog.curvelabs.eu/applied-regenerative-economics-2219d2e1087b
+2025-08-27 12:49:07 - scrape_sites - INFO - 📂 Using cached content for https://blog.curvelabs.eu/applied-regenerative-economics-2219d2e1087b
+2025-08-27 12:49:08 - scrape_sites - INFO - 🔎 Scraping URL: https://conservationxlabs.com/nabit
+2025-08-27 12:49:09 - scrape_sites - ERROR - ❌ Error scraping https://conservationxlabs.com/nabit: 404 Client Error: Not Found for url: https://www.conservationxlabs.com/nabit
+2025-08-27 12:49:11 - scrape_sites - INFO - 🔎 Scraping URL: https://www.ixo.world/
+2025-08-27 12:49:11 - scrape_sites - INFO - 📂 Using cached content for https://www.ixo.world/
+2025-08-27 12:49:12 - scrape_sites - INFO - 🔎 Scraping URL: https://anytype.io/en
+2025-08-27 12:49:12 - scrape_sites - INFO - 📂 Using cached content for https://anytype.io/en
+2025-08-27 12:49:13 - scrape_sites - INFO - 🔎 Scraping URL: https://unchartedterritories.tomaspueyo.com/p/the-end-of-nation-states
+2025-08-27 12:49:13 - scrape_sites - INFO - 📂 Using cached content for https://unchartedterritories.tomaspueyo.com/p/the-end-of-nation-states
+2025-08-27 12:49:14 - scrape_sites - INFO - 💾 Saving interim results after processing 10 links
+2025-08-27 12:49:14 - scrape_sites - INFO - ✅ Interim results saved to /Users/4d/Documents/GitHub/links/data/scraped_data_interim.json
+2025-08-27 12:49:16 - scrape_sites - INFO - 🔎 Scraping URL: http://www.whatisemerging.com/opinions/the-impossible-we
+2025-08-27 12:49:16 - scrape_sites - INFO - 📂 Using cached content for http://www.whatisemerging.com/opinions/the-impossible-we
+2025-08-27 12:49:17 - scrape_sites - INFO - 🔎 Scraping URL: https://medium.com/commonsstack/automating-ostrom-for-effective-dao-management-cfe7a7aea138
+2025-08-27 12:49:17 - scrape_sites - INFO - 📂 Using cached content for https://medium.com/commonsstack/automating-ostrom-for-effective-dao-management-cfe7a7aea138
+2025-08-27 12:49:20 - scrape_sites - INFO - 🔎 Scraping URL: https://davidphelps.substack.com/p/against-scarcity
+2025-08-27 12:49:20 - scrape_sites - INFO - 📂 Using cached content for https://davidphelps.substack.com/p/against-scarcity
+2025-08-27 12:49:22 - scrape_sites - INFO - 🔎 Scraping URL: https://vitalik.ca/general/2019/04/03/collusion.html
+2025-08-27 12:49:22 - scrape_sites - ERROR - ❌ Error scraping https://vitalik.ca/general/2019/04/03/collusion.html: HTTPSConnectionPool(host='vitalik.ca', port=443): Max retries exceeded with url: /general/2019/04/03/collusion.html (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107950550>: Failed to resolve 'vitalik.ca' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-08-27 12:49:25 - scrape_sites - INFO - 🔎 Scraping URL: https://www.projectliberty.io/2021/05/what-is-a-shared-social-graph/
+2025-08-27 12:49:25 - scrape_sites - ERROR - ❌ Error scraping https://www.projectliberty.io/2021/05/what-is-a-shared-social-graph/: 403 Client Error: Forbidden for url: https://www.projectliberty.io/2021/05/what-is-a-shared-social-graph/
+2025-08-27 12:49:28 - scrape_sites - INFO - 🔎 Scraping URL: https://medium.com/commonsstack/computer-aided-governance-cag-a-revolution-in-automated-decision-support-systems-5d15aec2c3d5
+2025-08-27 12:49:28 - scrape_sites - INFO - 📂 Using cached content for https://medium.com/commonsstack/computer-aided-governance-cag-a-revolution-in-automated-decision-support-systems-5d15aec2c3d5
+2025-08-27 12:49:30 - scrape_sites - INFO - 🔎 Scraping URL: https://gardens.1hive.org/
+2025-08-27 12:49:30 - scrape_sites - INFO - 📂 Using cached content for https://gardens.1hive.org/
+2025-08-27 12:49:32 - scrape_sites - INFO - 🔎 Scraping URL: https://sourcecred.github.io/docs/docs/
+2025-08-27 12:49:32 - scrape_sites - ERROR - ❌ Error scraping https://sourcecred.github.io/docs/docs/: 404 Client Error: Not Found for url: https://sourcecred.io/docs/docs/
+2025-08-27 12:49:35 - scrape_sites - INFO - 🔎 Scraping URL: https://www.jlinc.com/
+2025-08-27 12:49:35 - scrape_sites - INFO - 📂 Using cached content for https://www.jlinc.com/
+2025-08-27 12:49:37 - scrape_sites - INFO - 🔎 Scraping URL: https://future.a16z.com/building-and-running-a-dao-why-governance-matters/
+2025-08-27 12:49:37 - scrape_sites - ERROR - ❌ Error scraping https://future.a16z.com/building-and-running-a-dao-why-governance-matters/: 403 Client Error: Forbidden for url: https://future.a16z.com/building-and-running-a-dao-why-governance-matters/
+2025-08-27 12:49:37 - scrape_sites - INFO - 💾 Saving interim results after processing 20 links
+2025-08-27 12:49:37 - scrape_sites - INFO - ✅ Interim results saved to /Users/4d/Documents/GitHub/links/data/scraped_data_interim.json
+2025-08-27 12:49:37 - scrape_sites - INFO - 🏁 Scraping completed. Success: 13, Failed: 7, Skipped: 0
+2025-08-27 12:49:37 - scrape_sites - INFO - 💾 Saving scraped data to /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2025-08-27 12:49:37 - scrape_sites - INFO - 💾 Saving text extract to /Users/4d/Documents/GitHub/links/data/scraped_data_text_extract.txt
+2025-08-27 12:49:37 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2025-08-27 12:49:37 - scrape_sites - INFO - ✅ Text extract saved successfully
+2025-08-27 12:49:37 - scrape_sites - INFO - 🏁 Web scraping process completed

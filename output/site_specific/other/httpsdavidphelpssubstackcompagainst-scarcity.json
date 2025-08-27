@@ -1,0 +1,50 @@
+{
+  "url": "https://davidphelps.substack.com/p/against-scarcity",
+  "title": "Against Scarcity - by David Phelps - Three quarks",
+  "categories": {
+    "principles": [
+      {
+        "title": "Replication of old models in new technologies",
+        "content": "One reason that it can be hard to appreciate transformative technologies early on is that they are seldom, well, transformative, instead replicating old technologies in hamfisted new forms.",
+        "explanation": "The principle here is that new technologies often mimic the form and function of older technologies before they evolve and redefine their potential.",
+        "context": "This principle is discussed in the context of the evolution of transformative technologies like railroads, cars, and the internet. The author uses this principle to explain the current state of the metaverse, VR, and Web 3.0.",
+        "implementation": "The author provides examples of how early railroads were powered by horses and early cars were modeled after railroads and steamships, showing how new technologies initially replicate old models."
+      },
+      {
+        "title": "Economic scarcity in a digital world",
+        "content": "Again, we find our new technologies replicating old models\u2014in this case, a model of economic scarcity that has little application to the infinity of goods available in a digital world.",
+        "explanation": "The principle here is the notion of scarcity, a fundamental economic concept, being applied in a digital context where it may not be as relevant due to the abundance of digital goods.",
+        "context": "This principle is discussed in the context of decentralized virtual worlds like Decentraland, where users can buy 'land' in a digital environment.",
+        "implementation": "The author discusses how the concept of scarcity is applied in the context of Decentraland, where there are a finite number of 'parcels of land' that users can purchase."
+      }
+    ],
+    "policies": [
+      {
+        "title": "Development of digital public goods through grants",
+        "content": "Earlier I mentioned Scott Moore, the cofounder of Gitcoin, a project to develop digital public goods through grants.",
+        "explanation": "The policy here refers to the use of grants to fund the development of digital public goods, as exemplified by the Gitcoin project.",
+        "context": "This policy is discussed in the context of Gitcoin, a project that allows the public to crowdfund projects for developers to build, with the provision that the developers\u2019 code for these projects will remain open-source.",
+        "implementation": "The author provides the example of Gitcoin, which uses this policy to fund the development of digital public goods."
+      }
+    ],
+    "values": [
+      {
+        "title": "Democratization of simulated real estate",
+        "content": "Recreating the physical world online, decentralized universes like Upland serve the noble purpose of democratizing simulated real estate for the average Joes of the world.",
+        "explanation": "The value here is the democratization of access to simulated real estate in virtual worlds, making it accessible to the average person.",
+        "context": "This value is discussed in the context of virtual worlds like Upland, which aim to democratize access to simulated real estate.",
+        "implementation": "The author provides the example of Upland, a virtual world that embodies this value by making simulated real estate accessible to the average person."
+      }
+    ],
+    "goals": [
+      {
+        "title": "Defining economic value in a digital world of post-scarcity",
+        "content": "In the meantime, though, Gitcoin offers a tentative answer for how to define economic value in a digital world of post-scarcity. That answer is a public commons.",
+        "explanation": "The goal here is to define economic value in a digital world characterized by post-scarcity. The proposed solution is the concept of a public commons.",
+        "context": "This goal is discussed in the context of Gitcoin's approach to defining economic value in a digital world.",
+        "implementation": "The author discusses how Gitcoin offers a potential solution to this goal by creating a public commons where the scarce resource is a worker\u2019s time, and everyone can, in theory, share in the rewards."
+      }
+    ]
+  },
+  "raw_response": "{\n  \"principles\": [\n    {\n      \"title\": \"Replication of old models in new technologies\",\n      \"content\": \"One reason that it can be hard to appreciate transformative technologies early on is that they are seldom, well, transformative, instead replicating old technologies in hamfisted new forms.\",\n      \"explanation\": \"The principle here is that new technologies often mimic the form and function of older technologies before they evolve and redefine their potential.\",\n      \"context\": \"This principle is discussed in the context of the evolution of transformative technologies like railroads, cars, and the internet. The author uses this principle to explain the current state of the metaverse, VR, and Web 3.0.\",\n      \"implementation\": \"The author provides examples of how early railroads were powered by horses and early cars were modeled after railroads and steamships, showing how new technologies initially replicate old models.\"\n    },\n    {\n      \"title\": \"Economic scarcity in a digital world\",\n      \"content\": \"Again, we find our new technologies replicating old models\u2014in this case, a model of economic scarcity that has little application to the infinity of goods available in a digital world.\",\n      \"explanation\": \"The principle here is the notion of scarcity, a fundamental economic concept, being applied in a digital context where it may not be as relevant due to the abundance of digital goods.\",\n      \"context\": \"This principle is discussed in the context of decentralized virtual worlds like Decentraland, where users can buy 'land' in a digital environment.\",\n      \"implementation\": \"The author discusses how the concept of scarcity is applied in the context of Decentraland, where there are a finite number of 'parcels of land' that users can purchase.\"\n    }\n  ],\n  \"policies\": [\n    {\n      \"title\": \"Development of digital public goods through grants\",\n      \"content\": \"Earlier I mentioned Scott Moore, the cofounder of Gitcoin, a project to develop digital public goods through grants.\",\n      \"explanation\": \"The policy here refers to the use of grants to fund the development of digital public goods, as exemplified by the Gitcoin project.\",\n      \"context\": \"This policy is discussed in the context of Gitcoin, a project that allows the public to crowdfund projects for developers to build, with the provision that the developers\u2019 code for these projects will remain open-source.\",\n      \"implementation\": \"The author provides the example of Gitcoin, which uses this policy to fund the development of digital public goods.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"title\": \"Democratization of simulated real estate\",\n      \"content\": \"Recreating the physical world online, decentralized universes like Upland serve the noble purpose of democratizing simulated real estate for the average Joes of the world.\",\n      \"explanation\": \"The value here is the democratization of access to simulated real estate in virtual worlds, making it accessible to the average person.\",\n      \"context\": \"This value is discussed in the context of virtual worlds like Upland, which aim to democratize access to simulated real estate.\",\n      \"implementation\": \"The author provides the example of Upland, a virtual world that embodies this value by making simulated real estate accessible to the average person.\"\n    }\n  ],\n  \"goals\": [\n    {\n      \"title\": \"Defining economic value in a digital world of post-scarcity\",\n      \"content\": \"In the meantime, though, Gitcoin offers a tentative answer for how to define economic value in a digital world of post-scarcity. That answer is a public commons.\",\n      \"explanation\": \"The goal here is to define economic value in a digital world characterized by post-scarcity. The proposed solution is the concept of a public commons.\",\n      \"context\": \"This goal is discussed in the context of Gitcoin's approach to defining economic value in a digital world.\",\n      \"implementation\": \"The author discusses how Gitcoin offers a potential solution to this goal by creating a public commons where the scarce resource is a worker\u2019s time, and everyone can, in theory, share in the rewards.\"\n    }\n  ]\n}"
+}

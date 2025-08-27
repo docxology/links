@@ -1,0 +1,43 @@
+{
+  "url": "https://unchartedterritories.tomaspueyo.com/p/the-end-of-nation-states",
+  "title": "The End of Nation-States - by Tomas Pueyo",
+  "categories": {
+    "principles": [
+      {
+        "title": "Information Technologies Determine Political Structures",
+        "content": "In previous articles, we studied how information technologies determine political structures: speech, writing, the printing press, and broadcasting media created chiefdoms, kingdoms, empires, churches, nation-states, and totalitarianisms.",
+        "explanation": "This principle suggests that the evolution of political structures is heavily influenced by the development of information technologies. As each new technology emerges, it reshapes the political landscape, leading to the formation of new types of political entities.",
+        "context": "This principle is used to set the stage for the author's argument that current nation-states will fall due to the rise of the Internet and Blockchain.",
+        "implementation": "No specific implementation details mentioned"
+      }
+    ],
+    "policies": [
+      {
+        "title": "Taxation Policies",
+        "content": "Taxes get paid by individuals. Taxing corporations and other legal fictions is just an attempt to disguise this fact. Residents are less mobile than legal fictions. Land is less mobile still. That's where taxation is headed. Further, taxing consumption makes more sense than taxing income, because consumption is the weight that someone put on a society. Income is the stuff that the individual contributes to that society. You want less of the former and more of the latter. Tax the yachts, not the capital gains that pay for them.",
+        "explanation": "The author proposes a shift in taxation policies, suggesting that taxes should be levied more on consumption rather than income. The rationale is that consumption represents the burden an individual places on society, whereas income represents their contribution. Therefore, taxing consumption discourages excessive societal burden, while not taxing income encourages contribution.",
+        "context": "This policy proposal is part of the author's broader discussion on the future of nation-states and the potential impact of the Internet and Blockchain.",
+        "implementation": "The author suggests taxing luxury items like yachts, which represent high consumption, rather than capital gains, which represent income."
+      }
+    ],
+    "values": [
+      {
+        "title": "Importance of Community and Belonging",
+        "content": "A sense of place/team/tribe seems to be an important part of the human psyche. That rootedness runs deep. The Anywheres will need that sense as much as others. Where will they get it?",
+        "explanation": "The author values the sense of community and belonging, considering it a fundamental part of human nature. The author questions how this need for rootedness will be met in a world where traditional nation-states have fallen.",
+        "context": "This value is presented in the context of discussing the potential fall of nation-states and the rise of a more global, decentralized society.",
+        "implementation": "No specific implementation details mentioned"
+      }
+    ],
+    "goals": [
+      {
+        "title": "Understanding the Future of Nation-States",
+        "content": "Today, we\u2019re going to see how specifically our current nation-states will fall.",
+        "explanation": "The author's goal is to explore and understand how current nation-states might fall, particularly in the context of the rise of the Internet and Blockchain.",
+        "context": "This goal is the central focus of the article, with the author using historical context, current trends, and future projections to build their argument.",
+        "implementation": "No specific implementation details mentioned"
+      }
+    ]
+  },
+  "raw_response": "{\n  \"principles\": [\n    {\n      \"title\": \"Information Technologies Determine Political Structures\",\n      \"content\": \"In previous articles, we studied how information technologies determine political structures: speech, writing, the printing press, and broadcasting media created chiefdoms, kingdoms, empires, churches, nation-states, and totalitarianisms.\",\n      \"explanation\": \"This principle suggests that the evolution of political structures is heavily influenced by the development of information technologies. As each new technology emerges, it reshapes the political landscape, leading to the formation of new types of political entities.\",\n      \"context\": \"This principle is used to set the stage for the author's argument that current nation-states will fall due to the rise of the Internet and Blockchain.\",\n      \"implementation\": \"No specific implementation details mentioned\"\n    }\n  ],\n  \"policies\": [\n    {\n      \"title\": \"Taxation Policies\",\n      \"content\": \"Taxes get paid by individuals. Taxing corporations and other legal fictions is just an attempt to disguise this fact. Residents are less mobile than legal fictions. Land is less mobile still. That's where taxation is headed. Further, taxing consumption makes more sense than taxing income, because consumption is the weight that someone put on a society. Income is the stuff that the individual contributes to that society. You want less of the former and more of the latter. Tax the yachts, not the capital gains that pay for them.\",\n      \"explanation\": \"The author proposes a shift in taxation policies, suggesting that taxes should be levied more on consumption rather than income. The rationale is that consumption represents the burden an individual places on society, whereas income represents their contribution. Therefore, taxing consumption discourages excessive societal burden, while not taxing income encourages contribution.\",\n      \"context\": \"This policy proposal is part of the author's broader discussion on the future of nation-states and the potential impact of the Internet and Blockchain.\",\n      \"implementation\": \"The author suggests taxing luxury items like yachts, which represent high consumption, rather than capital gains, which represent income.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"title\": \"Importance of Community and Belonging\",\n      \"content\": \"A sense of place/team/tribe seems to be an important part of the human psyche. That rootedness runs deep. The Anywheres will need that sense as much as others. Where will they get it?\",\n      \"explanation\": \"The author values the sense of community and belonging, considering it a fundamental part of human nature. The author questions how this need for rootedness will be met in a world where traditional nation-states have fallen.\",\n      \"context\": \"This value is presented in the context of discussing the potential fall of nation-states and the rise of a more global, decentralized society.\",\n      \"implementation\": \"No specific implementation details mentioned\"\n    }\n  ],\n  \"goals\": [\n    {\n      \"title\": \"Understanding the Future of Nation-States\",\n      \"content\": \"Today, we\u2019re going to see how specifically our current nation-states will fall.\",\n      \"explanation\": \"The author's goal is to explore and understand how current nation-states might fall, particularly in the context of the rise of the Internet and Blockchain.\",\n      \"context\": \"This goal is the central focus of the article, with the author using historical context, current trends, and future projections to build their argument.\",\n      \"implementation\": \"No specific implementation details mentioned\"\n    }\n  ]\n}"
+}

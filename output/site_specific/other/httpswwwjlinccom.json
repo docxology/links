@@ -1,0 +1,50 @@
+{
+  "url": "https://www.jlinc.com/",
+  "title": "Home - JLINC",
+  "categories": {
+    "principles": [
+      {
+        "title": "Transparency and Control in Data Sharing",
+        "content": "Customers need transparency and control of their data to move beyond the technically and legally opaque models for data sharing most widely in use today.",
+        "explanation": "This principle emphasizes the importance of transparency and control in the process of data sharing. It suggests that customers should have a clear understanding of how their data is being used and the ability to control its usage.",
+        "context": "This principle is central to the JLINC protocol, which is designed to provide a platform for trustworthy data exchange.",
+        "implementation": "JLINC provides transparency and control through its protocol that automates permissioned control of data after it is shared."
+      }
+    ],
+    "policies": [
+      {
+        "title": "Data Usage Governance",
+        "content": "Data usage permissions can be governed by standard framework agreements that no party can unilaterally change.",
+        "explanation": "This policy suggests that data usage should be governed by agreements that cannot be changed unilaterally, ensuring that all parties involved in data sharing have a say in how the data is used.",
+        "context": "This policy is part of JLINC's approach to data sharing, which emphasizes transparency, control, and mutual agreement.",
+        "implementation": "The implementation of this policy is facilitated through JLINC's protocol, which automates the control of data after it is shared."
+      },
+      {
+        "title": "Fiduciary Agents for Data Transactions",
+        "content": "With JLINC, individuals can have fiduciary agents that work on their behalf under signed contractual agreements.",
+        "explanation": "This policy proposes the use of fiduciary agents to conduct data transactions on behalf of individuals, ensuring that personal data is used in a transparent way based on agreed-upon terms.",
+        "context": "This policy is another aspect of JLINC's approach to data sharing, which prioritizes transparency and control for individuals.",
+        "implementation": "The implementation of this policy is facilitated through JLINC's protocol, which allows for the use of fiduciary agents in data transactions."
+      }
+    ],
+    "values": [
+      {
+        "title": "Trustworthy Data Exchange",
+        "content": "JLINC gives all parties both transparency and control before and after they share their data, thus providing a platform for truly trustworthy data exchange.",
+        "explanation": "This value emphasizes the importance of trust in data exchange. It suggests that data exchange should be conducted in a way that is transparent and gives control to all parties involved, thereby fostering trust.",
+        "context": "This value is central to the JLINC protocol, which is designed to provide a platform for trustworthy data exchange.",
+        "implementation": "JLINC implements this value through its protocol that automates permissioned control of data after it is shared."
+      }
+    ],
+    "goals": [
+      {
+        "title": "Sustainable Business through Conversions",
+        "content": "Drives conversions, and delivers measurable results that contribute to sustainable business.",
+        "explanation": "This goal emphasizes the importance of driving conversions and delivering measurable results to contribute to the sustainability of a business.",
+        "context": "This goal is part of JLINC's broader mission to provide a platform for trustworthy data exchange that benefits businesses.",
+        "implementation": "The implementation of this goal is not explicitly mentioned in the content."
+      }
+    ]
+  },
+  "raw_response": "{\n  \"principles\": [\n    {\n      \"title\": \"Transparency and Control in Data Sharing\",\n      \"content\": \"Customers need transparency and control of their data to move beyond the technically and legally opaque models for data sharing most widely in use today.\",\n      \"explanation\": \"This principle emphasizes the importance of transparency and control in the process of data sharing. It suggests that customers should have a clear understanding of how their data is being used and the ability to control its usage.\",\n      \"context\": \"This principle is central to the JLINC protocol, which is designed to provide a platform for trustworthy data exchange.\",\n      \"implementation\": \"JLINC provides transparency and control through its protocol that automates permissioned control of data after it is shared.\"\n    }\n  ],\n  \"policies\": [\n    {\n      \"title\": \"Data Usage Governance\",\n      \"content\": \"Data usage permissions can be governed by standard framework agreements that no party can unilaterally change.\",\n      \"explanation\": \"This policy suggests that data usage should be governed by agreements that cannot be changed unilaterally, ensuring that all parties involved in data sharing have a say in how the data is used.\",\n      \"context\": \"This policy is part of JLINC's approach to data sharing, which emphasizes transparency, control, and mutual agreement.\",\n      \"implementation\": \"The implementation of this policy is facilitated through JLINC's protocol, which automates the control of data after it is shared.\"\n    },\n    {\n      \"title\": \"Fiduciary Agents for Data Transactions\",\n      \"content\": \"With JLINC, individuals can have fiduciary agents that work on their behalf under signed contractual agreements.\",\n      \"explanation\": \"This policy proposes the use of fiduciary agents to conduct data transactions on behalf of individuals, ensuring that personal data is used in a transparent way based on agreed-upon terms.\",\n      \"context\": \"This policy is another aspect of JLINC's approach to data sharing, which prioritizes transparency and control for individuals.\",\n      \"implementation\": \"The implementation of this policy is facilitated through JLINC's protocol, which allows for the use of fiduciary agents in data transactions.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"title\": \"Trustworthy Data Exchange\",\n      \"content\": \"JLINC gives all parties both transparency and control before and after they share their data, thus providing a platform for truly trustworthy data exchange.\",\n      \"explanation\": \"This value emphasizes the importance of trust in data exchange. It suggests that data exchange should be conducted in a way that is transparent and gives control to all parties involved, thereby fostering trust.\",\n      \"context\": \"This value is central to the JLINC protocol, which is designed to provide a platform for trustworthy data exchange.\",\n      \"implementation\": \"JLINC implements this value through its protocol that automates permissioned control of data after it is shared.\"\n    }\n  ],\n  \"goals\": [\n    {\n      \"title\": \"Sustainable Business through Conversions\",\n      \"content\": \"Drives conversions, and delivers measurable results that contribute to sustainable business.\",\n      \"explanation\": \"This goal emphasizes the importance of driving conversions and delivering measurable results to contribute to the sustainability of a business.\",\n      \"context\": \"This goal is part of JLINC's broader mission to provide a platform for trustworthy data exchange that benefits businesses.\",\n      \"implementation\": \"The implementation of this goal is not explicitly mentioned in the content.\"\n    }\n  ]\n}"
+}

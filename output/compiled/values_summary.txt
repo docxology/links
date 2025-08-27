@@ -1,0 +1,67 @@
+=== VALUES SUMMARY ===
+
+Total items: 7
+
+1. Value of Peer-to-Peer Institutions
+   Source: A Prehistory of DAOs — gnosis guild 🪐 (https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ)
+   Content: During this crest of the hype cycle, we could see relationships forged by new peer-to-peer institutions take root underneath.
+   Explanation: This value emphasizes the importance of peer-to-peer institutions in fostering relationships and facilitating interactions.
+   Context: The content discusses the rise of blockchain technology and the potential for peer-to-peer institutions to play a significant role in the digital landscape.
+   Implementation: No specific implementation details mentioned.
+
+--------------------------------------------------------------------------------
+
+2. Value of Provable Uniqueness in Blockchain
+   Source: A Prehistory of DAOs — gnosis guild 🪐 (https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ)
+   Content: The utility of provable uniqueness also extends to types of relations beyond direct economic exchange.
+   Explanation: This value highlights the importance of provable uniqueness, a feature of blockchain technology, in facilitating not just economic transactions, but also other types of relationships.
+   Context: The content discusses the unique features of blockchain technology and their potential applications in various domains.
+   Implementation: No specific implementation details mentioned.
+
+--------------------------------------------------------------------------------
+
+3. Democratic Participation and Self-Governance
+   Source: Decentralized parties: The future of on-chain governance (https://cointelegraph.com/news/decentralized-parties-the-future-of-on-chain-governance)
+   Content: What if they could elevate democracy to a new level, creating a self-governance system where everyone would have a say?
+   Explanation: The value emphasized here is democratic participation and self-governance. The author believes in the importance of everyone having a say in governance.
+   Context: This value is highlighted in the discussion on the potential of distributed ledger technologies in improving voting systems and creating a self-governance system.
+   Implementation: The author does not provide specific implementation details for this value.
+
+--------------------------------------------------------------------------------
+
+4. Promoting the Green Economy
+   Source: IXO Spatial Web Platform for Intelligent Systems (https://www.ixo.world/)
+   Content: fuelling the Green Economy in emerging markets.
+   Explanation: The value here is the promotion of the Green Economy. This indicates a commitment to sustainable development and environmental stewardship.
+   Context: This value is reflected in the platform's policies and goals, which aim to promote the Green Economy in emerging markets.
+   Implementation: This value is implemented through the platform's financing and scaling of access to modern energy cooking devices, and its matching of young people to opportunities in the Green Economy.
+
+--------------------------------------------------------------------------------
+
+5. Importance of Community and Belonging
+   Source: The End of Nation-States - by Tomas Pueyo (https://unchartedterritories.tomaspueyo.com/p/the-end-of-nation-states)
+   Content: A sense of place/team/tribe seems to be an important part of the human psyche. That rootedness runs deep. The Anywheres will need that sense as much as others. Where will they get it?
+   Explanation: The author values the sense of community and belonging, considering it a fundamental part of human nature. The author questions how this need for rootedness will be met in a world where traditional nation-states have fallen.
+   Context: This value is presented in the context of discussing the potential fall of nation-states and the rise of a more global, decentralized society.
+   Implementation: No specific implementation details mentioned
+
+--------------------------------------------------------------------------------
+
+6. Democratization of simulated real estate
+   Source: Against Scarcity - by David Phelps - Three quarks (https://davidphelps.substack.com/p/against-scarcity)
+   Content: Recreating the physical world online, decentralized universes like Upland serve the noble purpose of democratizing simulated real estate for the average Joes of the world.
+   Explanation: The value here is the democratization of access to simulated real estate in virtual worlds, making it accessible to the average person.
+   Context: This value is discussed in the context of virtual worlds like Upland, which aim to democratize access to simulated real estate.
+   Implementation: The author provides the example of Upland, a virtual world that embodies this value by making simulated real estate accessible to the average person.
+
+--------------------------------------------------------------------------------
+
+7. Trustworthy Data Exchange
+   Source: Home - JLINC (https://www.jlinc.com/)
+   Content: JLINC gives all parties both transparency and control before and after they share their data, thus providing a platform for truly trustworthy data exchange.
+   Explanation: This value emphasizes the importance of trust in data exchange. It suggests that data exchange should be conducted in a way that is transparent and gives control to all parties involved, thereby fostering trust.
+   Context: This value is central to the JLINC protocol, which is designed to provide a platform for trustworthy data exchange.
+   Implementation: JLINC implements this value through its protocol that automates permissioned control of data after it is shared.
+
+--------------------------------------------------------------------------------
+

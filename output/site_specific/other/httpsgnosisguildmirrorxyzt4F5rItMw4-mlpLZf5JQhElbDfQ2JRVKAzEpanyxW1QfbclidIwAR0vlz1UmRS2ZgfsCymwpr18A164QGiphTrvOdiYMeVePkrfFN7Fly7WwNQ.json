@@ -1,0 +1,57 @@
+{
+  "url": "https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ",
+  "title": "A Prehistory of DAOs \u2014 gnosis guild \ud83e\ude90",
+  "categories": {
+    "principles": [
+      {
+        "title": "Internet as a Space for Transactions, Relationships, and Thought",
+        "content": "The year is 1996. John Perry Barlow is about to declare, \u201cThe internet consists of transactions, relationships, and thought itself\u201d (1).",
+        "explanation": "This principle suggests that the internet is not just a medium for economic transactions, but also a platform for building relationships and fostering intellectual exchange.",
+        "context": "The content discusses the evolution of the internet and the rise of blockchain technology, emphasizing the multifaceted nature of the internet.",
+        "implementation": "No specific implementation details mentioned."
+      },
+      {
+        "title": "Blockchain as a Tool for Economic and Organizational Innovation",
+        "content": "While blockchain-based digital assets are amenable to speculative financial markets, they are not the only application of the technology.",
+        "explanation": "This principle posits that blockchain technology has applications beyond financial markets, including new forms of organizations.",
+        "context": "The content discusses the potential of blockchain technology in the context of DAOs (Decentralized Autonomous Organizations), suggesting that it can be used to create new forms of organizations.",
+        "implementation": "No specific implementation details mentioned."
+      }
+    ],
+    "policies": [
+      {
+        "title": "Promotion of DAOs",
+        "content": "We at Gnosis Guild build Zodiac, the expansion pack for DAOs.",
+        "explanation": "This policy suggests that the authors are actively working on developing tools to expand and enhance the capabilities of DAOs.",
+        "context": "The content discusses the work of Gnosis Guild in the context of DAOs, indicating their commitment to promoting this form of organization.",
+        "implementation": "The authors mention the development of 'Zodiac', an expansion pack for DAOs, as a specific implementation of this policy."
+      }
+    ],
+    "values": [
+      {
+        "title": "Value of Peer-to-Peer Institutions",
+        "content": "During this crest of the hype cycle, we could see relationships forged by new peer-to-peer institutions take root underneath.",
+        "explanation": "This value emphasizes the importance of peer-to-peer institutions in fostering relationships and facilitating interactions.",
+        "context": "The content discusses the rise of blockchain technology and the potential for peer-to-peer institutions to play a significant role in the digital landscape.",
+        "implementation": "No specific implementation details mentioned."
+      },
+      {
+        "title": "Value of Provable Uniqueness in Blockchain",
+        "content": "The utility of provable uniqueness also extends to types of relations beyond direct economic exchange.",
+        "explanation": "This value highlights the importance of provable uniqueness, a feature of blockchain technology, in facilitating not just economic transactions, but also other types of relationships.",
+        "context": "The content discusses the unique features of blockchain technology and their potential applications in various domains.",
+        "implementation": "No specific implementation details mentioned."
+      }
+    ],
+    "goals": [
+      {
+        "title": "Goal of Bridging Cryptonetworks, Web3, and Gaming",
+        "content": "This essay is the second in a Gnosis Guild series by @keikreutler bridging cryptonetworks, web3, and gaming.",
+        "explanation": "The goal here is to explore the intersections and synergies between cryptonetworks, web3, and gaming, and to contribute to the discourse in these areas.",
+        "context": "The content is part of a series of essays by Gnosis Guild, which aims to bridge these domains and contribute to their development.",
+        "implementation": "The authors are implementing this goal through the creation of a series of essays exploring these topics."
+      }
+    ]
+  },
+  "raw_response": "{\n  \"principles\": [\n    {\n      \"title\": \"Internet as a Space for Transactions, Relationships, and Thought\",\n      \"content\": \"The year is 1996. John Perry Barlow is about to declare, \u201cThe internet consists of transactions, relationships, and thought itself\u201d (1).\",\n      \"explanation\": \"This principle suggests that the internet is not just a medium for economic transactions, but also a platform for building relationships and fostering intellectual exchange.\",\n      \"context\": \"The content discusses the evolution of the internet and the rise of blockchain technology, emphasizing the multifaceted nature of the internet.\",\n      \"implementation\": \"No specific implementation details mentioned.\"\n    },\n    {\n      \"title\": \"Blockchain as a Tool for Economic and Organizational Innovation\",\n      \"content\": \"While blockchain-based digital assets are amenable to speculative financial markets, they are not the only application of the technology.\",\n      \"explanation\": \"This principle posits that blockchain technology has applications beyond financial markets, including new forms of organizations.\",\n      \"context\": \"The content discusses the potential of blockchain technology in the context of DAOs (Decentralized Autonomous Organizations), suggesting that it can be used to create new forms of organizations.\",\n      \"implementation\": \"No specific implementation details mentioned.\"\n    }\n  ],\n  \"policies\": [\n    {\n      \"title\": \"Promotion of DAOs\",\n      \"content\": \"We at Gnosis Guild build Zodiac, the expansion pack for DAOs.\",\n      \"explanation\": \"This policy suggests that the authors are actively working on developing tools to expand and enhance the capabilities of DAOs.\",\n      \"context\": \"The content discusses the work of Gnosis Guild in the context of DAOs, indicating their commitment to promoting this form of organization.\",\n      \"implementation\": \"The authors mention the development of 'Zodiac', an expansion pack for DAOs, as a specific implementation of this policy.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"title\": \"Value of Peer-to-Peer Institutions\",\n      \"content\": \"During this crest of the hype cycle, we could see relationships forged by new peer-to-peer institutions take root underneath.\",\n      \"explanation\": \"This value emphasizes the importance of peer-to-peer institutions in fostering relationships and facilitating interactions.\",\n      \"context\": \"The content discusses the rise of blockchain technology and the potential for peer-to-peer institutions to play a significant role in the digital landscape.\",\n      \"implementation\": \"No specific implementation details mentioned.\"\n    },\n    {\n      \"title\": \"Value of Provable Uniqueness in Blockchain\",\n      \"content\": \"The utility of provable uniqueness also extends to types of relations beyond direct economic exchange.\",\n      \"explanation\": \"This value highlights the importance of provable uniqueness, a feature of blockchain technology, in facilitating not just economic transactions, but also other types of relationships.\",\n      \"context\": \"The content discusses the unique features of blockchain technology and their potential applications in various domains.\",\n      \"implementation\": \"No specific implementation details mentioned.\"\n    }\n  ],\n  \"goals\": [\n    {\n      \"title\": \"Goal of Bridging Cryptonetworks, Web3, and Gaming\",\n      \"content\": \"This essay is the second in a Gnosis Guild series by @keikreutler bridging cryptonetworks, web3, and gaming.\",\n      \"explanation\": \"The goal here is to explore the intersections and synergies between cryptonetworks, web3, and gaming, and to contribute to the discourse in these areas.\",\n      \"context\": \"The content is part of a series of essays by Gnosis Guild, which aims to bridge these domains and contribute to their development.\",\n      \"implementation\": \"The authors are implementing this goal through the creation of a series of essays exploring these topics.\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,76 @@
+=== POLICIES SUMMARY ===
+
+Total items: 8
+
+1. Promotion of DAOs
+   Source: A Prehistory of DAOs — gnosis guild 🪐 (https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ)
+   Content: We at Gnosis Guild build Zodiac, the expansion pack for DAOs.
+   Explanation: This policy suggests that the authors are actively working on developing tools to expand and enhance the capabilities of DAOs.
+   Context: The content discusses the work of Gnosis Guild in the context of DAOs, indicating their commitment to promoting this form of organization.
+   Implementation: The authors mention the development of 'Zodiac', an expansion pack for DAOs, as a specific implementation of this policy.
+
+--------------------------------------------------------------------------------
+
+2. Community Management through Voting
+   Source: Decentralized parties: The future of on-chain governance (https://cointelegraph.com/news/decentralized-parties-the-future-of-on-chain-governance)
+   Content: Managed by a community through voting, DAOs are self-governing systems with a built-in treasury.
+   Explanation: The policy proposed here is the management of DAOs through community voting. This suggests a democratic approach to decision-making within these organizations.
+   Context: This policy is part of the broader discussion on how DAOs operate and their potential in transforming governance.
+   Implementation: The author suggests that DAOs are almost entirely automated, but still depend on community members for certain tasks, offering an economic incentive from the liquidity pool in return.
+
+--------------------------------------------------------------------------------
+
+3. Financing and scaling access to modern energy cooking devices
+   Source: IXO Spatial Web Platform for Intelligent Systems (https://www.ixo.world/)
+   Content: The Emerging Platform is a digital flywheel for financing, verifying, and scaling household access to modern energy cooking devices and fuelling the Green Economy in emerging markets.
+   Explanation: This policy involves using the platform as a tool for financing and verifying access to modern energy cooking devices. It's a concrete plan to promote the Green Economy in emerging markets.
+   Context: This policy is part of the platform's broader strategy to leverage technology to drive sustainable development and economic growth.
+   Implementation: The policy is implemented through the Emerging Platform, which acts as a digital flywheel.
+
+--------------------------------------------------------------------------------
+
+4. Matching young people to opportunities in the Green Economy
+   Source: IXO Spatial Web Platform for Intelligent Systems (https://www.ixo.world/)
+   Content: The UNICEF-led Yoma Impacts Platform matches young people in developing countries to learning, earning, and entrepreneurship opportunities in the Green Economy.
+   Explanation: This policy involves using the Yoma Impacts Platform to connect young people in developing countries with opportunities in the Green Economy. It's a strategy to promote sustainable development and economic empowerment.
+   Context: This policy is part of the platform's broader efforts to foster economic growth and sustainability in developing countries.
+   Implementation: The policy is implemented through the Yoma Impacts Platform, which is led by UNICEF.
+
+--------------------------------------------------------------------------------
+
+5. Taxation Policies
+   Source: The End of Nation-States - by Tomas Pueyo (https://unchartedterritories.tomaspueyo.com/p/the-end-of-nation-states)
+   Content: Taxes get paid by individuals. Taxing corporations and other legal fictions is just an attempt to disguise this fact. Residents are less mobile than legal fictions. Land is less mobile still. That's where taxation is headed. Further, taxing consumption makes more sense than taxing income, because consumption is the weight that someone put on a society. Income is the stuff that the individual contributes to that society. You want less of the former and more of the latter. Tax the yachts, not the capital gains that pay for them.
+   Explanation: The author proposes a shift in taxation policies, suggesting that taxes should be levied more on consumption rather than income. The rationale is that consumption represents the burden an individual places on society, whereas income represents their contribution. Therefore, taxing consumption discourages excessive societal burden, while not taxing income encourages contribution.
+   Context: This policy proposal is part of the author's broader discussion on the future of nation-states and the potential impact of the Internet and Blockchain.
+   Implementation: The author suggests taxing luxury items like yachts, which represent high consumption, rather than capital gains, which represent income.
+
+--------------------------------------------------------------------------------
+
+6. Development of digital public goods through grants
+   Source: Against Scarcity - by David Phelps - Three quarks (https://davidphelps.substack.com/p/against-scarcity)
+   Content: Earlier I mentioned Scott Moore, the cofounder of Gitcoin, a project to develop digital public goods through grants.
+   Explanation: The policy here refers to the use of grants to fund the development of digital public goods, as exemplified by the Gitcoin project.
+   Context: This policy is discussed in the context of Gitcoin, a project that allows the public to crowdfund projects for developers to build, with the provision that the developers’ code for these projects will remain open-source.
+   Implementation: The author provides the example of Gitcoin, which uses this policy to fund the development of digital public goods.
+
+--------------------------------------------------------------------------------
+
+7. Data Usage Governance
+   Source: Home - JLINC (https://www.jlinc.com/)
+   Content: Data usage permissions can be governed by standard framework agreements that no party can unilaterally change.
+   Explanation: This policy suggests that data usage should be governed by agreements that cannot be changed unilaterally, ensuring that all parties involved in data sharing have a say in how the data is used.
+   Context: This policy is part of JLINC's approach to data sharing, which emphasizes transparency, control, and mutual agreement.
+   Implementation: The implementation of this policy is facilitated through JLINC's protocol, which automates the control of data after it is shared.
+
+--------------------------------------------------------------------------------
+
+8. Fiduciary Agents for Data Transactions
+   Source: Home - JLINC (https://www.jlinc.com/)
+   Content: With JLINC, individuals can have fiduciary agents that work on their behalf under signed contractual agreements.
+   Explanation: This policy proposes the use of fiduciary agents to conduct data transactions on behalf of individuals, ensuring that personal data is used in a transparent way based on agreed-upon terms.
+   Context: This policy is another aspect of JLINC's approach to data sharing, which prioritizes transparency and control for individuals.
+   Implementation: The implementation of this policy is facilitated through JLINC's protocol, which allows for the use of fiduciary agents in data transactions.
+
+--------------------------------------------------------------------------------
+

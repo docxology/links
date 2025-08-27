@@ -1,0 +1,556 @@
+{
+  "political": [],
+  "economic": [],
+  "social": [],
+  "technological": [],
+  "other": [
+    {
+      "_key": "e38367f7-de62-44ca-85f6-9325c9111e57",
+      "_id": "Documents/e38367f7-de62-44ca-85f6-9325c9111e57",
+      "_rev": "_dUy9R9K---",
+      "createDate": "2021-11-29T19:50:05.546Z",
+      "data": {
+        "imageSecureUrl": "https://i.ytimg.com/vi/yBjjqk1-XZU/maxresdefault.jpg",
+        "description": "Emerge Gathering 2021 - Documentary film by Tommy G\u00e4rdh from Visionary Films Stockholm",
+        "articleViews": "269",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "articleLikes": "19",
+        "type": "photo",
+        "site_name": "Emerge Documentary 2021",
+        "articleFavorites": "0",
+        "video": "https://www.youtube.com/embed/yBjjqk1-XZU",
+        "articleDislikes": "1",
+        "url": "https://www.youtube.com/watch?v=yBjjqk1-XZU",
+        "profileUsername": "Emerge",
+        "imageWidth": 1280,
+        "title": "Emerge Documentary 2021",
+        "imageHeight": 720
+      },
+      "modDate": "2021-11-29T19:50:05.546Z"
+    },
+    {
+      "_key": "3991ef57-1b3c-4523-9156-f3265e629719",
+      "_id": "Documents/3991ef57-1b3c-4523-9156-f3265e629719",
+      "_rev": "_dUzNkX6--A",
+      "createDate": "2021-11-29T20:07:52.990Z",
+      "data": {
+        "image": "https://images.mirror-media.xyz/nft/24b88f3e-9220-4389-934e-95e1c73f7d71.png",
+        "type": "site",
+        "favicon": "https://gnosisguild.mirror.xyz/icon/favicon-32x32.png",
+        "url": "https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q?fbclid=IwAR0vlz1UmRS2ZgfsCymwpr18A164QGiphTrvOdiYMeVePkrfFN7Fly7WwNQ",
+        "description": "This essay is the second in a Gnosis Guild series by @keikreutler bridging cryptonetworks, web3, and gaming. The first essay Inventories, Not Identities focuses on collective, composable web3 identity.",
+        "site_name": "A Prehistory of DAOs \u2014 Mirror",
+        "title": "A Prehistory of DAOs \u2014 Mirror"
+      },
+      "modDate": "2021-11-29T20:07:52.990Z"
+    },
+    {
+      "_key": "0b124b37-5cbf-4367-b16f-51119124ef73",
+      "_id": "Documents/0b124b37-5cbf-4367-b16f-51119124ef73",
+      "_rev": "_dUzPQtG--A",
+      "createDate": "2021-11-29T20:09:43.922Z",
+      "data": {
+        "image": "https://otherinter.net/squad-twittercard.png?=903",
+        "type": "website",
+        "url": "https://otherinter.net/research/squad-wealth/squad-wealth",
+        "site_name": "Squad Wealth",
+        "title": "Squad Wealth",
+        "description": "The squad is the basic user class for the tools we need today as a society."
+      },
+      "modDate": "2021-11-29T20:09:43.922Z"
+    },
+    {
+      "_key": "ed104d9b-5dde-47d9-b4b5-94c5ddc4c026",
+      "_id": "Documents/ed104d9b-5dde-47d9-b4b5-94c5ddc4c026",
+      "_rev": "_dUzQZp2---",
+      "createDate": "2021-11-29T20:10:58.621Z",
+      "data": {
+        "site_name": "Medium",
+        "description": "We cover the theory of social networks with an introduction to graph theory, information spread and a deep dive into Python code examples",
+        "articleAuthor": "https://medium.com/@dimgold",
+        "articlePublishedTime": "2021-02-06T19:44:24.642Z",
+        "image": "https://miro.medium.com/max/1040/0*311Gn2vCqFYpPfi0",
+        "url": "https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7",
+        "title": "Social Network Analysis: From Graph Theory to Applications with Python",
+        "type": "article",
+        "favicon": "https://miro.medium.com/fit/c/256/256/1*ChFMdf--f5jbm-AYv6VdYA@2x.png"
+      },
+      "modDate": "2021-11-29T20:10:58.621Z"
+    },
+    {
+      "_key": "dfcdf932-4e58-45db-a3d9-3e310ee24ab1",
+      "_id": "Documents/dfcdf932-4e58-45db-a3d9-3e310ee24ab1",
+      "_rev": "_dUzRh1O--A",
+      "createDate": "2021-11-29T20:12:12.532Z",
+      "data": {
+        "title": "Decentralized parties: The future of on-chain governance",
+        "image": "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMDUvMjNjNGRhOTMtZmM1OS00MzA1LWI5MTEtNTQ0MWI1ZGI2OTM3LmpwZw==.jpg",
+        "url": "https://cointelegraph.com/news/decentralized-parties-the-future-of-on-chain-governance",
+        "description": "Decentralized parties have the potential to enhance political participation and make people interested and involved in politics again.",
+        "favicon": "https://cointelegraph.com/favicons/favicon-32x32.png",
+        "type": "article",
+        "site_name": "Cointelegraph"
+      },
+      "modDate": "2021-11-29T20:12:12.532Z"
+    },
+    {
+      "_key": "6f8f8cfd-be7c-4164-a26e-c51645c77b3b",
+      "_id": "Documents/6f8f8cfd-be7c-4164-a26e-c51645c77b3b",
+      "_rev": "_dUzR0re--A",
+      "createDate": "2021-11-29T20:12:31.831Z",
+      "data": {
+        "articlePublishedTime": "2021-10-11T16:12:23.091Z",
+        "favicon": "https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png",
+        "description": "Mapping Environmental Web3",
+        "title": "Applied Regenerative Economics",
+        "articleAuthor": "https://medium.com/@louise.borreani",
+        "site_name": "Medium",
+        "image": "https://miro.medium.com/max/1200/1*ugsMkf1jt2u9piOjDgvPbw.jpeg",
+        "url": "https://blog.curvelabs.eu/applied-regenerative-economics-2219d2e1087b",
+        "type": "article"
+      },
+      "modDate": "2021-11-29T20:12:31.831Z"
+    },
+    {
+      "_key": "0dda2176-2f3f-48fa-b88c-01120b472638",
+      "_id": "Documents/0dda2176-2f3f-48fa-b88c-01120b472638",
+      "_rev": "_dUzTH42--A",
+      "createDate": "2021-11-29T20:13:57.037Z",
+      "data": {
+        "description": "The NABIT is a hand-held device that compares a DNA sample to the Barcode Of Life Database to answer the question: is this species actually what it\u2019s claimed to be?",
+        "type": "website",
+        "image": "http://static1.squarespace.com/static/56047ac1e4b0612d66a56646/t/5fb6d3e0a870ad3c15e557be/1605817316204/cxl_x_squarespace.jpg?format=1500w",
+        "imageWidth": "1200",
+        "title": "The NABIT \u2014 Conservation X Labs",
+        "url": "https://conservationxlabs.com/nabit",
+        "imageHeight": "675",
+        "site_name": "Conservation X Labs",
+        "favicon": "https://images.squarespace-cdn.com/content/v1/56047ac1e4b0612d66a56646/1605817357645-B2XZSY2PECQFDBWX5G7A/favicon.ico?format=100w"
+      },
+      "modDate": "2021-11-29T20:13:57.037Z"
+    },
+    {
+      "_key": "1e010460-13ea-432b-a2af-251c6b0e8d45",
+      "_id": "Documents/1e010460-13ea-432b-a2af-251c6b0e8d45",
+      "_rev": "_dUzTePu--A",
+      "createDate": "2021-11-29T20:14:19.931Z",
+      "data": {
+        "url": "https://www.ixo.world/",
+        "site_name": "ixo The Internet of Impact",
+        "type": "website",
+        "title": "ixo The Internet of Impact",
+        "image": "https://uploads-ssl.webflow.com/5f5402e3cf2fb66d997d6331/61084d61fd06bc527348cc65_Internet%20of%20Impact%20SEO.png",
+        "favicon": "https://uploads-ssl.webflow.com/5f5402e3cf2fb66d997d6331/5f540330b66385b98b8dfd86_ixo%20favicon.png",
+        "description": "The Internet of Impact functions like a global digital immune system for humanity. Enabling effective localised sensing of social, environmental, economic and threats. With coordinated and scalable responses to finance and deliver sustainable impacts and bring about planetary regeneration. This stateful, graph-based, programmable and trusted Internet is formed by interconnected networks of ixo-Cosmos blockchain networks, which implement the ixo Protocol for identifying, verifying, financing and tokenising Impact."
+      },
+      "modDate": "2021-11-29T20:14:19.931Z"
+    },
+    {
+      "_key": "1b1ed134-096f-4343-9457-c61a8a2f91f0",
+      "_id": "Documents/1b1ed134-096f-4343-9457-c61a8a2f91f0",
+      "_rev": "_dUzTu8e---",
+      "createDate": "2021-11-29T20:14:37.031Z",
+      "data": {
+        "title": "Anytype \u2014 operating system for life",
+        "url": "https://anytype.io/en",
+        "favicon": "https://anytype.io/favicon-32x32.png",
+        "description": "Anytype is a next generation software that breaks down barriers between applications, gives back privacy and data ownership to users.",
+        "site_name": "Anytype \u2014 operating system for life",
+        "type": "site",
+        "image": "https://anytype.io/ogimage.jpg"
+      },
+      "modDate": "2021-11-29T20:14:37.031Z"
+    },
+    {
+      "_key": "2bc582ee-8d0a-45e9-ac6b-dd30bc51c98b",
+      "_id": "Documents/2bc582ee-8d0a-45e9-ac6b-dd30bc51c98b",
+      "_rev": "_dUzU-kW--_",
+      "createDate": "2021-11-29T20:14:53.029Z",
+      "data": {
+        "image": "https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F57f125e8-b9af-46ca-8d27-bfbc7c287c23_600x338.gif",
+        "url": "https://unchartedterritories.tomaspueyo.com/p/the-end-of-nation-states",
+        "title": "The End of Nation-States",
+        "site_name": "The End of Nation",
+        "favicon": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/432206f1-de85-4462-815b-56af07ec8e5f/favicon-32x32.png",
+        "type": "article",
+        "description": "It\u2019s 2050. The US government just defaulted on its debt. It\u2019s not meeting its social security payments. Hospitals are going down: they can\u2019t operate without Medicare and Medicaid income. Old people line up outside the hospitals. Hospitals don\u2019t service them. They can\u2019t afford it. There's a run on the banks that held too many dollars. They are collapsing. All the governments around the world caught with too much US debt are defaulting. Those with their savings in dollars have been wiped out. They are looking at the last few decades of their lives like an empty ravine."
+      },
+      "modDate": "2021-11-29T20:14:53.029Z"
+    },
+    {
+      "_key": "0609445d-4fea-41e7-bd63-401b0059e3ef",
+      "_id": "Documents/0609445d-4fea-41e7-bd63-401b0059e3ef",
+      "_rev": "_dUzUd2G---",
+      "createDate": "2021-11-29T20:15:25.055Z",
+      "data": {
+        "description": "A bigger 'we' is often called upon to take collective action to address our burning global emergencies. But 'we' is the most problematic pronoun of them all: The We that wants to say there is an emergency is not the same We as the We that needs to hear it, and the We that needs to hear it has several different ideas about the nature of the We that should do something about it.",
+        "favicon": "http://www.whatisemerging.com/assets/Emerge_Logo-dba107a9d19d3cfd0f50dbd96434cb7772f2edb24d9c5452b3283dec4135ebfe.png",
+        "title": "The Impossible We? - Emerge",
+        "url": "http://www.whatisemerging.com/opinions/the-impossible-we",
+        "image": "https://res.cloudinary.com/whatisemerging/image/upload/c_fill,h_675,w_1200/v1/store/6861e0b22977f8923c9ebba810cd1706.jpg",
+        "type": "website",
+        "site_name": "The Impossible We?"
+      },
+      "modDate": "2021-11-29T20:15:25.055Z"
+    },
+    {
+      "_key": "16f4a1b3-5e6a-46fb-89c5-49cd51ca9862",
+      "_id": "Documents/16f4a1b3-5e6a-46fb-89c5-49cd51ca9862",
+      "_rev": "_dUzVBL---A",
+      "createDate": "2021-11-29T20:16:01.231Z",
+      "data": {
+        "articlePublishedTime": "2021-05-04T01:27:21.303Z",
+        "image": "https://miro.medium.com/max/1200/0*h_cRBmGrlaODZwWE",
+        "description": "Designing Cyber-Physical Commons to be \u2018Ostrom Compliant\u2019",
+        "title": "Automating Ostrom for Effective DAO Management",
+        "type": "article",
+        "articleAuthor": "https://medium.com/@jeffemmett",
+        "url": "https://medium.com/commonsstack/automating-ostrom-for-effective-dao-management-cfe7a7aea138",
+        "site_name": "Medium",
+        "favicon": "https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+      },
+      "modDate": "2021-11-29T20:16:01.231Z"
+    },
+    {
+      "_key": "f54d6439-102d-4527-8532-1222d966bba8",
+      "_id": "Documents/f54d6439-102d-4527-8532-1222d966bba8",
+      "_rev": "_dUzVtNe---",
+      "createDate": "2021-11-29T20:16:46.327Z",
+      "data": {
+        "favicon": "https://cdn.substack.com/icons/substack/favicon-32x32.png",
+        "description": "Online, goods and services are infinite. What are the costs of making them artificially scarce?",
+        "type": "article",
+        "site_name": "Against Scarcity",
+        "url": "https://davidphelps.substack.com/p/against-scarcity",
+        "title": "Against Scarcity",
+        "image": "https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F219ba359-f7fd-4745-86c5-6862e9d8dce0_1600x1480.png"
+      },
+      "modDate": "2021-11-29T20:16:46.327Z"
+    },
+    {
+      "_key": "628eac07-3080-49b0-8f4a-c107c99bbec9",
+      "_id": "Documents/628eac07-3080-49b0-8f4a-c107c99bbec9",
+      "_rev": "_dUzahp6---",
+      "createDate": "2021-11-29T20:22:02.174Z",
+      "data": {
+        "title": "On Collusion",
+        "image": "http://vitalik.ca/images/icon.png",
+        "type": "site",
+        "site_name": "On Collusion",
+        "description": "Special thanks to Glen Weyl, Phil Daian and Jinglan Wang for review",
+        "url": "https://vitalik.ca/general/2019/04/03/collusion.html"
+      },
+      "modDate": "2021-11-29T20:22:02.174Z"
+    },
+    {
+      "_key": "9722350a-3d11-4c4e-9557-ae8458dd5e8a",
+      "_id": "Documents/9722350a-3d11-4c4e-9557-ae8458dd5e8a",
+      "_rev": "_dUzb-2O--A",
+      "createDate": "2021-11-29T20:22:32.068Z",
+      "data": {
+        "description": "Our vision is big\u2014some would say audacious. But it\u2019s also urgent and necessary. As our work evolves we\u2019d love to keep you informed of our progress, and ultimately hope you\u2019ll join us on this bold journey.",
+        "image": "https://www.projectliberty.io/wp-content/uploads/2021/05/what-is-a-social-graph-thumb.jpg",
+        "site_name": "Project Liberty",
+        "imageHeight": "1080",
+        "title": "What is a shared Social graph? \u2022 Project Liberty",
+        "articlePublishedTime": "2021-05-31T16:18:31+00:00",
+        "video": "https://www.projectliberty.io/wp-content/uploads/2021/06/What-is-a-shared-social-graph-720.mp4",
+        "type": "article",
+        "videoType": "video/mp4",
+        "videoWidth": 1280,
+        "favicon": "https://www.projectliberty.io/wp-content/uploads/2021/05/avatar-300x300.png",
+        "imageWidth": "1920",
+        "url": "https://www.projectliberty.io/2021/05/what-is-a-shared-social-graph/",
+        "articleModifiedTime": "2021-07-01T16:08:39+00:00",
+        "videoHeight": 720,
+        "locale": "en_US"
+      },
+      "modDate": "2021-11-29T20:22:32.068Z"
+    },
+    {
+      "_key": "24fc3b1c-613b-4ef8-a77d-8fd8388b1ab7",
+      "_id": "Documents/24fc3b1c-613b-4ef8-a77d-8fd8388b1ab7",
+      "_rev": "_dUzbOoi--_",
+      "createDate": "2021-11-29T20:22:48.232Z",
+      "data": {
+        "image": "https://miro.medium.com/max/1000/0*x12dNOGSR6k5mJG-",
+        "favicon": "https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png",
+        "url": "https://medium.com/commonsstack/computer-aided-governance-cag-a-revolution-in-automated-decision-support-systems-5d15aec2c3d5",
+        "description": "The Future of DAO Governance via the Commons Stack",
+        "articlePublishedTime": "2020-04-20T23:49:32.254Z",
+        "type": "article",
+        "articleAuthor": "https://medium.com/@jeffemmett",
+        "site_name": "Medium",
+        "title": "Computer-Aided Governance (CAG)\u200a\u2014\u200aA Revolution in Automated Decision-Support Systems"
+      },
+      "modDate": "2021-11-29T20:22:48.232Z"
+    },
+    {
+      "_key": "8ac4ad49-b505-4954-8412-68247cf6a4e6",
+      "_id": "Documents/8ac4ad49-b505-4954-8412-68247cf6a4e6",
+      "_rev": "_dUzqRg6--_",
+      "createDate": "2021-11-29T20:39:14.222Z",
+      "data": {
+        "title": "Gardens",
+        "type": "site",
+        "image": "https://uploads-ssl.webflow.com/601dadfd31339f35d57ce983/60f6b65037e45d5a9912e73b_logomark.png",
+        "site_name": "Gardens",
+        "url": "https://gardens.1hive.org/",
+        "favicon": "https://uploads-ssl.webflow.com/601dadfd31339f35d57ce983/610849f541f50a273c9ee006_favicon.png",
+        "description": "A governance framework for truly decentralised and sovereign internet communities -  by 1hive"
+      },
+      "modDate": "2021-11-29T20:39:14.222Z"
+    },
+    {
+      "_key": "1b5718a4-331b-4e70-bdb0-fffe636e9b06",
+      "_id": "Documents/1b5718a4-331b-4e70-bdb0-fffe636e9b06",
+      "_rev": "_dU1mX_G--_",
+      "createDate": "2021-11-29T22:54:46.289Z",
+      "data": {
+        "favicon": "https://sourcecred.io/img/favicon.png",
+        "url": "https://sourcecred.github.io/docs/docs/",
+        "title": "\ud83c\udf31  Introduction | SourceCred",
+        "description": "An introduction to the basic concepts of SourceCred.",
+        "site_name": "\ud83c\udf31  Introduction",
+        "image": "https://sourcecred.io/img/favicon.png",
+        "type": "site"
+      },
+      "modDate": "2021-11-29T22:54:46.289Z"
+    },
+    {
+      "_key": "03409aed-e9bb-4f95-a035-ebd955a40990",
+      "_id": "Documents/03409aed-e9bb-4f95-a035-ebd955a40990",
+      "_rev": "_dU3UmZW--A",
+      "createDate": "2021-11-30T00:55:11.030Z",
+      "data": {
+        "favicon": "https://assets.website-files.com/5c8f999450ed9d6d6a70d50b/5ec6de501f8ca839e0bbd243_5b072b525f12f22efaa67bc8_JLINC%20Favicon.png",
+        "site_name": "JLINC",
+        "image": "https://assets.website-files.com/5c8f999450ed9d6d6a70d50b/5ff78cd03b924249281eb778_JLINC%20OpenGraph.jpg",
+        "type": "website",
+        "title": "JLINC",
+        "url": "https://www.jlinc.com/",
+        "description": "JLINC is a new protocol for permissioned data exchange on the Internet. This creates \u201cdata provenance\u201d where all parties can prove the chain of custody and agreement for the data they share."
+      },
+      "modDate": "2021-11-30T00:55:11.030Z"
+    },
+    {
+      "_key": "060084aa-2391-474f-bc87-0e06191037f3",
+      "_id": "Documents/060084aa-2391-474f-bc87-0e06191037f3",
+      "_rev": "_dVKvzWO---",
+      "createDate": "2021-11-30T23:33:05.539Z",
+      "data": {
+        "favicon": "https://future.a16z.com/wp-content/themes/future/assets/images/favicon/favicon.ico",
+        "description": "Governing the decentralized protocols associated with DeFI and NFT communities requires significant coordination costs which can be reduced by decentralized autonomous organizations.",
+        "title": "Building and Running a DAO: Why Governance Matters | Future",
+        "image": "https://future.a16z.com/wp-content/uploads/2021/11/DAOGovernance-Facebook-Template.jpg",
+        "imageWidth": "1200",
+        "articlePublishedTime": "2021-11-03T14:00:39+00:00",
+        "type": "article",
+        "site_name": "Future",
+        "imageHeight": "630",
+        "locale": "en_US",
+        "url": "https://future.a16z.com/building-and-running-a-dao-why-governance-matters/",
+        "articleModifiedTime": "2021-11-10T23:31:34+00:00"
+      },
+      "modDate": "2021-11-30T23:33:05.539Z"
+    },
+    {
+      "_key": "1dd18f9d-9d39-4cdd-bf37-0834c789a3dd",
+      "_id": "Documents/1dd18f9d-9d39-4cdd-bf37-0834c789a3dd",
+      "_rev": "_dVWzZCe--A",
+      "createDate": "2021-12-01T13:35:52.392Z",
+      "data": {
+        "imageWidth": "2400",
+        "site_name": "Third Act",
+        "url": "https://thirdact.org/",
+        "description": "We invite you to join Third Act, a community of experienced Americans determined to change the world for the better. Together, we can make a difference.",
+        "imageHeight": "1256",
+        "title": "Homepage - Third Act",
+        "articleModifiedTime": "2021-11-21T20:40:18+00:00",
+        "locale": "en_US",
+        "image": "https://thirdact.org/wp-content/uploads/2021/10/third-act-share.jpg",
+        "type": "website",
+        "favicon": "https://thirdact.org/wp-content/uploads/2021/10/cropped-favicon-192x192.jpg"
+      },
+      "modDate": "2021-12-01T13:35:52.392Z"
+    },
+    {
+      "_key": "d847e075-3409-41dc-97b9-c4199387e290",
+      "_id": "Documents/d847e075-3409-41dc-97b9-c4199387e290",
+      "_rev": "_dWWZnSa---",
+      "createDate": "2021-12-04T15:41:38.409Z",
+      "data": {
+        "favicon": "https://pa.tedcdn.com/favicon.ico",
+        "imageWidth": "1050",
+        "imageHeight": "550",
+        "type": "video.other",
+        "description": "As a diver in the 1970s, marine ecologist Enric Sala saw once-lush oceanscapes reduced to underwater deserts -- but later, in marine preserves across the globe, he also witnessed the ocean's power to rejuvenate itself when left to its own natural devices. Could rewilding the planet help us restore biodiversity and reduce the impacts of climate change? Sala presents the 30x30 initiative: a global plan to protect 30 percent of the Earth's surface and the ocean floor by 2030.",
+        "imageSecureUrl": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/e16b5bd0-81aa-49f9-9af2-d41442ed1aa9/EnricSala_2021T-embed.jpg?c=1050%2C550&w=1050",
+        "url": "https://www.ted.com/talks/enric_sala_a_bold_plan_to_protect_30_percent_of_the_earth_s_surface_and_ocean_floor",
+        "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/e16b5bd0-81aa-49f9-9af2-d41442ed1aa9/EnricSala_2021T-embed.jpg?c=1050%2C550&w=1050",
+        "title": "A bold plan to protect 30 percent of the Earth's surface and ocean floor",
+        "site_name": "A bold plan to protect 30 percent of the Earth's surface and ocean floor",
+        "videoTag": "ocean"
+      },
+      "modDate": "2021-12-04T15:41:38.409Z"
+    },
+    {
+      "_key": "f2f1d57e-5e46-4c9f-9afe-eb9debb815e6",
+      "_id": "Documents/f2f1d57e-5e46-4c9f-9afe-eb9debb815e6",
+      "_rev": "_dWWyrqO--_",
+      "createDate": "2021-12-04T16:09:01.379Z",
+      "data": {
+        "image": "https://nakamoto.com/content/images/2020/01/credible-neutrality.png",
+        "articlePublishedTime": "2020-01-04T00:00:00.000Z",
+        "description": "When building mechanisms that decide high-stakes outcomes, it\u2019s important for those mechanisms to be credibly neutral.",
+        "imageHeight": "1216",
+        "site_name": "NAKAMOTO",
+        "type": "article",
+        "url": "https://nakamoto.com/credible-neutrality/",
+        "favicon": "https://nakamoto.com/favicon.png",
+        "articleModifiedTime": "2020-01-05T02:43:27.000Z",
+        "imageWidth": "2000",
+        "title": "Credible Neutrality As A Guiding Principle"
+      },
+      "modDate": "2021-12-04T16:09:01.379Z"
+    },
+    {
+      "_key": "20c1b84d-826c-43b7-8872-4a852be4dd45",
+      "_id": "Documents/20c1b84d-826c-43b7-8872-4a852be4dd45",
+      "_rev": "_dWW12Kq--_",
+      "createDate": "2021-12-04T16:12:28.746Z",
+      "data": {
+        "site_name": "Mirror",
+        "image": "https://images.mirror-media.xyz/nft/JkoR249ofe0vOB7TbWZt_.png",
+        "url": "https://mirror.xyz/gardensdao.eth/ARZ5e-mRQtuUq9n2guJV5maKWYxWZHt1G_2g5R3EhQ8",
+        "favicon": "https://mirror.xyz/icon/favicon-32x32.png",
+        "title": "Welcome to Gardens: let\u2019s plant the seeds for the public economy \u2014 Mirror",
+        "description": "Our new home for Gardens:  https://gardens.1hive.org",
+        "type": "site"
+      },
+      "modDate": "2021-12-04T16:12:28.746Z"
+    },
+    {
+      "_key": "294e4858-f652-4e74-b146-9dad72d81d2d",
+      "_id": "Documents/294e4858-f652-4e74-b146-9dad72d81d2d",
+      "_rev": "_dWXSIPO--A",
+      "createDate": "2021-12-04T16:43:22.259Z",
+      "data": {
+        "video": "https://citizen-site.cdn.prismic.io/citizen-site/1f68bf93-5d6c-444e-b920-c0c67ff26963_silent-sizzle-v07D.mp4",
+        "description": "Citizen helps you stay safe & informed, by providing instant notifications and live broadcasts of reported crimes and incidents near you.",
+        "favicon": "https://citizen.com/assets/images/favicons/android-icon-192x192.png",
+        "image": "https://images.prismic.io/citizen-site/ea51fded-bedd-482d-85b6-0ae1b743d636_Thumbnail+-+Invite.png?auto=compress,format",
+        "videoType": "video/mp4",
+        "url": "http://www.citizen.com",
+        "type": "article",
+        "site_name": "Citizen",
+        "title": "Citizen: Keeping you safe & informed"
+      },
+      "modDate": "2021-12-04T16:43:22.259Z"
+    },
+    {
+      "_key": "682d4ceb-e3bf-47a1-baa4-560ac52271dd",
+      "_id": "Documents/682d4ceb-e3bf-47a1-baa4-560ac52271dd",
+      "_rev": "_dXXuuOq---",
+      "createDate": "2021-12-07T19:48:31.523Z",
+      "data": {
+        "url": "https://www.theguardian.com/artanddesign/2021/dec/06/futures-smithsonian-exhibition-washington-art-design",
+        "articleModifiedTime": "2021-12-06T06:33:45.000Z",
+        "imageWidth": "1200",
+        "site_name": "the Guardian",
+        "articleAuthor": "https://www.theguardian.com/profile/davidsmith",
+        "imageHeight": "720",
+        "favicon": "https://static.guim.co.uk/images/favicon-32x32.ico",
+        "articlePublishedTime": "2021-12-06T06:31:16.000Z",
+        "image": "https://i.guim.co.uk/img/media/2c71fa3d83b0fdfbeffbd18fa3320bd1156c48cc/0_394_1900_1140/master/1900.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e8a75197547ce6cb055d97a268f7400b",
+        "title": "\u2018Optimism is the only way forward\u2019: the exhibition that imagines our future",
+        "type": "article",
+        "description": "At a new exhibition at the reopening of the Smithsonian Arts and Industries Building, technology and designs for a better future are on display",
+        "articleSection": "Art and design"
+      },
+      "modDate": "2021-12-07T19:48:31.523Z"
+    },
+    {
+      "_key": "5531a26b-3bbc-4391-95d1-1d90a54da29f",
+      "_id": "Documents/5531a26b-3bbc-4391-95d1-1d90a54da29f",
+      "_rev": "_dXo1llK--_",
+      "createDate": "2021-12-08T15:44:24.690Z",
+      "data": {
+        "site_name": "Scientific American",
+        "description": "Habitat degradation, low genetic variation and declining fertility are setting Homo sapiens up for collapse&nbsp;",
+        "title": "Humans Are Doomed to Go Extinct",
+        "imageWidth": "790",
+        "url": "https://www.scientificamerican.com/article/humans-are-doomed-to-go-extinct/",
+        "imageHeight": "496",
+        "type": "article",
+        "favicon": "https://www.scientificamerican.com/public/resources/favicons/favicon-4c8c70500bd3f01ae8c38cf7dd2771fe.ico",
+        "image": "https://static.scientificamerican.com/sciam/cache/file/3D74552F-5C2E-48E4-8571AB514A4C7242.jpg"
+      },
+      "modDate": "2021-12-08T15:44:24.690Z"
+    },
+    {
+      "_key": "fe7dfcdd-dbbd-4492-aea7-b89e4043d97f",
+      "_id": "Documents/fe7dfcdd-dbbd-4492-aea7-b89e4043d97f",
+      "_rev": "_dXsfMse---",
+      "createDate": "2021-12-08T19:59:34.622Z",
+      "data": {
+        "type": "article",
+        "site_name": "Eos",
+        "articleModifiedTime": "2021-09-28T19:25:44+00:00",
+        "url": "http://eos.org/articles/eddy-killing-in-the-ocean",
+        "locale": "en_US",
+        "favicon": "https://i0.wp.com/eos.org/wp-content/uploads/2021/09/cropped-AGU-Logo_50x50.png?fit=192%2C192&ssl=1",
+        "title": "Eddy Killing in the Ocean - Eos",
+        "description": "Solving the case of ocean eddy death could help climate modelers better represent the effect of wind.",
+        "articlePublishedTime": "2021-07-29T13:40:49+00:00",
+        "imageWidth": "820",
+        "imageHeight": "615",
+        "image": "https://i1.wp.com/eos.org/wp-content/uploads/2021/07/ocean-eddy-bloom.jpg?fit=820%2C615"
+      },
+      "modDate": "2021-12-08T19:59:34.622Z"
+    },
+    {
+      "_key": "07f15564-c5b7-4d67-aef1-57f436097bdc",
+      "_id": "Documents/07f15564-c5b7-4d67-aef1-57f436097bdc",
+      "_rev": "_dYUgjPm---",
+      "createDate": "2021-12-10T18:37:15.408Z",
+      "data": {
+        "site_name": "The Independent",
+        "title": "Major UK landowners sign pact to boost biodiversity and tackle climate crisis",
+        "articlePublishedTime": "2021-11-29T15:00:10.000Z",
+        "imageSecureUrl": "https://static.independent.co.uk/2021/11/29/13/newFile-4.jpg?width=1200&auto=webp&quality=75",
+        "articleModifiedTime": "2021-11-29T15:00:10.000Z",
+        "articleSection": "Climate",
+        "description": "More woodland, peatland and restoration of rivers among key focus for major landowners",
+        "locale": "en_GB",
+        "favicon": "https://www.independent.co.uk/img/shortcut-icons/icon-512x512.png",
+        "type": "article",
+        "image": "https://static.independent.co.uk/2021/11/29/13/newFile-4.jpg?width=1200&auto=webp&quality=75",
+        "url": "https://www.independent.co.uk/climate-change/news/rewilding-national-trust-rspb-biodiversity-b1966086.html"
+      },
+      "modDate": "2021-12-10T18:37:15.408Z"
+    },
+    {
+      "_key": "8a763363-9f91-4be9-9966-b89daf4caff6",
+      "_id": "Documents/8a763363-9f91-4be9-9966-b89daf4caff6",
+      "_rev": "_dgv6i4e---",
+      "createDate": "2022-01-05T23:04:28.823Z",
+      "data": {
+        "articleModifiedTime": "2021-12-05T13:13:50+00:00",
+        "imageWidth": "1500",
+        "imageHeight": "698",
+        "articlePublishedTime": "2021-12-06T05:55:00+00:00",
+        "type": "article",
+        "locale": "en_US",
+        "favicon": "https://www.springwise.com/wp-content/uploads/2019/04/favicon.ico",
+        "imageSecureUrl": "https://www.springwise.com/wp-content/uploads/2021/12/innovationsustainabilitya-digital-twin-of-the-earth-to-fight-climate-change.png",
+        "image": "https://www.springwise.com/wp-content/uploads/2021/12/innovationsustainabilitya-digital-twin-of-the-earth-to-fight-climate-change.png",
+        "site_name": "Springwise",
+        "description": "Nvidia has announced it is building a supercomputer which will be capable of modelling the entire planet at metre-scale resolution \u2013 allowing development of much more accurate climate models",
+        "url": "https://www.springwise.com/nvidia-reveals-supercomputer-for-modelling-the-entire-earth/",
+        "title": "Nvidia reveals supercomputer for modelling the entire Earth - Springwise"
+      },
+      "modDate": "2022-01-05T23:04:28.823Z"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+2025-08-27 12:52:19 - generate_essays - INFO - Starting essay generation process
+2025-08-27 12:52:19 - generate_essays - INFO - Generating essay for principles (12 items)
+2025-08-27 12:52:53 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/principles_essay.md
+2025-08-27 12:52:53 - generate_essays - INFO - Essay quality validation for principles:
+2025-08-27 12:52:53 - generate_essays - INFO -   - Has source citations: True
+2025-08-27 12:52:53 - generate_essays - INFO -   - Has quotes: True
+2025-08-27 12:52:53 - generate_essays - INFO -   - Citation count: 70
+2025-08-27 12:52:53 - generate_essays - INFO -   - Quote count: 7
+2025-08-27 12:52:53 - generate_essays - INFO -   - Quotes with sources: 6
+2025-08-27 12:52:53 - generate_essays - INFO -   - Has source index: True
+2025-08-27 12:52:53 - generate_essays - INFO -   - URL references: 12
+2025-08-27 12:52:53 - generate_essays - INFO -   - Word count: 926
+2025-08-27 12:52:53 - generate_essays - INFO -   - Has structure: False
+2025-08-27 12:52:53 - generate_essays - INFO - Essay validation completed for principles
+2025-08-27 12:52:53 - generate_essays - INFO - Generating essay for policies (8 items)
+2025-08-27 12:53:36 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/policies_essay.md
+2025-08-27 12:53:36 - generate_essays - INFO - Essay quality validation for policies:
+2025-08-27 12:53:36 - generate_essays - INFO -   - Has source citations: True
+2025-08-27 12:53:36 - generate_essays - INFO -   - Has quotes: True
+2025-08-27 12:53:36 - generate_essays - INFO -   - Citation count: 72
+2025-08-27 12:53:36 - generate_essays - INFO -   - Quote count: 12
+2025-08-27 12:53:36 - generate_essays - INFO -   - Quotes with sources: 10
+2025-08-27 12:53:36 - generate_essays - INFO -   - Has source index: True
+2025-08-27 12:53:36 - generate_essays - INFO -   - URL references: 8
+2025-08-27 12:53:36 - generate_essays - INFO -   - Word count: 700
+2025-08-27 12:53:36 - generate_essays - INFO -   - Has structure: False
+2025-08-27 12:53:36 - generate_essays - INFO - Essay validation completed for policies
+2025-08-27 12:53:36 - generate_essays - INFO - Generating essay for values (7 items)
+2025-08-27 12:54:02 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/values_essay.md
+2025-08-27 12:54:02 - generate_essays - INFO - Essay quality validation for values:
+2025-08-27 12:54:02 - generate_essays - INFO -   - Has source citations: True
+2025-08-27 12:54:02 - generate_essays - INFO -   - Has quotes: True
+2025-08-27 12:54:02 - generate_essays - INFO -   - Citation count: 54
+2025-08-27 12:54:02 - generate_essays - INFO -   - Quote count: 14
+2025-08-27 12:54:02 - generate_essays - INFO -   - Quotes with sources: 9
+2025-08-27 12:54:02 - generate_essays - INFO -   - Has source index: True
+2025-08-27 12:54:02 - generate_essays - INFO -   - URL references: 7
+2025-08-27 12:54:02 - generate_essays - INFO -   - Word count: 746
+2025-08-27 12:54:02 - generate_essays - INFO -   - Has structure: False
+2025-08-27 12:54:02 - generate_essays - INFO - Essay validation completed for values
+2025-08-27 12:54:02 - generate_essays - INFO - Generating essay for goals (7 items)
+2025-08-27 12:54:26 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/goals_essay.md
+2025-08-27 12:54:26 - generate_essays - INFO - Essay quality validation for goals:
+2025-08-27 12:54:26 - generate_essays - INFO -   - Has source citations: True
+2025-08-27 12:54:26 - generate_essays - INFO -   - Has quotes: True
+2025-08-27 12:54:26 - generate_essays - INFO -   - Citation count: 77
+2025-08-27 12:54:26 - generate_essays - INFO -   - Quote count: 12
+2025-08-27 12:54:26 - generate_essays - INFO -   - Quotes with sources: 9
+2025-08-27 12:54:26 - generate_essays - INFO -   - Has source index: True
+2025-08-27 12:54:26 - generate_essays - INFO -   - URL references: 13
+2025-08-27 12:54:26 - generate_essays - INFO -   - Word count: 707
+2025-08-27 12:54:26 - generate_essays - INFO -   - Has structure: False
+2025-08-27 12:54:26 - generate_essays - INFO - Essay validation completed for goals
+2025-08-27 12:54:26 - generate_essays - INFO - Essay generation completed. Essays saved to /Users/4d/Documents/GitHub/links/output/essays
