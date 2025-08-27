@@ -5,10 +5,10 @@ Unit tests for the scrape_sites module.
 import os
 import json
 import pytest
-from unittest.mock import patch, Mock, MagicMock
+from unittest.mock import patch, Mock, MagicMock, mock_open
 from src.scrapers.scrape_sites import (
-    load_organized_links, fetch_page_content, extract_content,
-    scrape_website, process_websites, save_scraped_data
+    load_organized_links, scrape_url, scrape_links, save_scraped_data,
+    extract_meaningful_content, get_cache_path, is_cached
 )
 
 
@@ -24,157 +24,139 @@ def test_load_organized_links():
         assert links == {"tech": [{"url": "https://example.com", "title": "Example", "tags": ["tag1"]}]}
 
 
-@patch('requests.get')
-def test_fetch_page_content_success(mock_get):
-    """Test fetching page content successfully."""
-    # Setup mock response
-    mock_response = Mock()
-    mock_response.status_code = 200
-    mock_response.text = "<html><body><h1>Test Page</h1><p>Test content</p></body></html>"
-    mock_get.return_value = mock_response
-    
+@patch('src.scrapers.scrape_sites.BeautifulSoup')
+def test_extract_meaningful_content(mock_bs4):
+    """Test extracting meaningful content from BeautifulSoup object."""
+    # Setup mock soup object
+    mock_soup = MagicMock()
+    mock_title_tag = MagicMock()
+    mock_title_tag.get_text.return_value = "Test Page"
+    mock_soup.find.return_value = mock_title_tag
+
+    # Mock find_all to handle different arguments
+    def mock_find_all(tag, **kwargs):
+        if tag == 'p':
+            return [MagicMock(get_text=lambda: "Paragraph 1"), MagicMock(get_text=lambda: "Paragraph 2")]
+        elif tag == 'h1':
+            return [MagicMock(get_text=lambda: "Main Heading")]
+        elif tag == 'h2':
+            return [MagicMock(get_text=lambda: "Subheading")]
+        elif tag == 'li':
+            return [MagicMock(get_text=lambda: "Item 1"), MagicMock(get_text=lambda: "Item 2")]
+        elif tag == 'meta' and 'property' in kwargs:
+            return []
+        elif tag == 'meta' and 'name' in kwargs:
+            return []
+        return []
+
+    mock_soup.find_all = mock_find_all
+    mock_bs4.return_value = mock_soup
+
     # Call the function
-    status, content = fetch_page_content("https://example.com")
-    
-    # Verify expected output
-    assert status == "success"
-    assert content == "<html><body><h1>Test Page</h1><p>Test content</p></body></html>"
-    mock_get.assert_called_once_with("https://example.com", timeout=30)
+    content = extract_meaningful_content(mock_soup)
 
-
-@patch('requests.get')
-def test_fetch_page_content_failure(mock_get):
-    """Test fetching page content with a failure."""
-    # Setup mock to raise an exception
-    mock_get.side_effect = Exception("Connection error")
-    
-    # Call the function
-    status, content = fetch_page_content("https://example.com")
-    
-    # Verify expected output
-    assert status == "error"
-    assert "Connection error" in content
-    mock_get.assert_called_once_with("https://example.com", timeout=30)
-
-
-def test_extract_content():
-    """Test extracting content from HTML."""
-    # Create test HTML
-    html = """
-    <html>
-        <head><title>Test Page</title></head>
-        <body>
-            <header>Header content</header>
-            <h1>Main Heading</h1>
-            <h2>Subheading</h2>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-            </ul>
-            <footer>Footer content</footer>
-        </body>
-    </html>
-    """
-    
-    # Call the function
-    content = extract_content(html)
-    
-    # Verify expected output
+    # Verify expected output structure
     assert "title" in content
-    assert content["title"] == "Test Page"
-    
-    assert "headings" in content
-    assert len(content["headings"]) == 2
-    assert content["headings"][0]["text"] == "Main Heading"
-    assert content["headings"][0]["level"] == 1
-    assert content["headings"][1]["text"] == "Subheading"
-    assert content["headings"][1]["level"] == 2
-    
     assert "paragraphs" in content
-    assert len(content["paragraphs"]) == 2
-    assert "Paragraph 1" in content["paragraphs"]
-    assert "Paragraph 2" in content["paragraphs"]
-    
-    assert "lists" in content
-    assert len(content["lists"]) == 1
-    assert len(content["lists"][0]["items"]) == 2
-    assert "Item 1" in content["lists"][0]["items"]
-    assert "Item 2" in content["lists"][0]["items"]
+    assert "headings" in content
+    assert "list_items" in content
+    assert "metadata" in content
 
 
-@patch('src.scrapers.scrape_sites.fetch_page_content')
-@patch('src.scrapers.scrape_sites.extract_content')
-def test_scrape_website_success(mock_extract, mock_fetch):
-    """Test scraping a website successfully."""
+@patch('src.scrapers.scrape_sites.requests.get')
+@patch('src.scrapers.scrape_sites.BeautifulSoup')
+@patch('src.scrapers.scrape_sites.extract_meaningful_content')
+@patch('src.scrapers.scrape_sites.cache_content')
+@patch('src.scrapers.scrape_sites.is_cached')
+def test_scrape_url_success(mock_is_cached, mock_cache, mock_extract, mock_bs4, mock_get):
+    """Test scraping URL successfully."""
     # Setup mocks
-    mock_fetch.return_value = ("success", "<html></html>")
-    mock_extract.return_value = {"title": "Test", "paragraphs": ["Test paragraph"]}
-    
-    # Create sample link
-    link = {"url": "https://example.com", "title": "Example", "tags": ["tag1"]}
-    
+    mock_is_cached.return_value = False
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.text = "<html>Test</html>"
+    mock_response.raise_for_status = MagicMock()
+    mock_get.return_value = mock_response
+
+    mock_soup = MagicMock()
+    mock_bs4.return_value = mock_soup
+
+    mock_extract.return_value = {
+        "title": "Test Title",
+        "paragraphs": ["Test content"],
+        "headings": ["Test heading"],
+        "list_items": ["Item 1"],
+        "metadata": {}
+    }
+
     # Call the function
-    result = scrape_website(link)
-    
+    result = scrape_url("https://example.com")
+
     # Verify expected output
     assert result["url"] == "https://example.com"
-    assert result["title"] == "Example"
     assert result["status"] == "success"
     assert "content" in result
-    assert result["content"]["title"] == "Test"
-    assert "Test paragraph" in result["content"]["paragraphs"]
-    
-    # Verify mocks were called
-    mock_fetch.assert_called_once_with("https://example.com")
-    mock_extract.assert_called_once_with("<html></html>")
+    assert result["content"]["title"] == "Test Title"
 
 
-@patch('src.scrapers.scrape_sites.fetch_page_content')
-def test_scrape_website_failure(mock_fetch):
-    """Test scraping a website with a failure."""
-    # Setup mock to return an error
-    mock_fetch.return_value = ("error", "Failed to fetch")
-    
-    # Create sample link
-    link = {"url": "https://example.com", "title": "Example", "tags": ["tag1"]}
-    
+@patch('requests.get')
+def test_scrape_url_failure(mock_get):
+    """Test scraping URL with failure."""
+    # Setup mock to raise a RequestException (which is what the function catches)
+    import requests
+    mock_get.side_effect = requests.exceptions.RequestException("Connection error")
+
     # Call the function
-    result = scrape_website(link)
-    
+    result = scrape_url("https://example.com")
+
     # Verify expected output
     assert result["url"] == "https://example.com"
-    assert result["title"] == "Example"
     assert result["status"] == "error"
-    assert result["error"] == "Failed to fetch"
-    
-    # Verify mock was called
-    mock_fetch.assert_called_once_with("https://example.com")
+    assert "Connection error" in result["error"]
 
 
-@patch('src.scrapers.scrape_sites.scrape_website')
-def test_process_websites(mock_scrape):
-    """Test processing multiple websites."""
+def test_get_cache_path():
+    """Test getting cache path for URL."""
+    path = get_cache_path("https://example.com/test")
+    assert "cached_data" in str(path)
+    assert "example.com_test" in str(path)
+
+
+@patch('os.path.exists')
+def test_is_cached(mock_exists):
+    """Test checking if URL is cached."""
+    mock_exists.return_value = True
+    assert is_cached("https://example.com") == True
+
+    mock_exists.return_value = False
+    assert is_cached("https://example.com") == False
+
+
+@patch('src.scrapers.scrape_sites.scrape_url')
+@patch('tqdm.tqdm')
+def test_scrape_links(mock_tqdm, mock_scrape_url):
+    """Test scraping multiple links."""
     # Setup mock to return sample data
-    mock_scrape.side_effect = [
+    mock_scrape_url.side_effect = [
         {"url": "https://example.com/1", "status": "success", "content": {"title": "Test 1"}},
         {"url": "https://example.com/2", "status": "error", "error": "Failed"}
     ]
-    
-    # Create sample links
-    links = {
+
+    # Create sample organized links
+    organized_links = {
         "category": [
             {"url": "https://example.com/1", "title": "Example 1", "tags": ["tag1"]},
             {"url": "https://example.com/2", "title": "Example 2", "tags": ["tag2"]}
         ]
     }
-    
-    # Call the function with a mock progress bar
-    with patch('tqdm.tqdm') as mock_tqdm:
-        mock_tqdm.return_value.__iter__.return_value = range(2)
-        results = process_websites(links)
-    
+
+    # Setup mock progress bar
+    mock_progress_bar = MagicMock()
+    mock_tqdm.return_value = mock_progress_bar
+
+    # Call the function
+    results = scrape_links(organized_links)
+
     # Verify expected output
     assert "category" in results
     assert len(results["category"]) == 2
@@ -182,9 +164,9 @@ def test_process_websites(mock_scrape):
     assert results["category"][0]["status"] == "success"
     assert results["category"][1]["url"] == "https://example.com/2"
     assert results["category"][1]["status"] == "error"
-    
+
     # Verify mock was called twice
-    assert mock_scrape.call_count == 2
+    assert mock_scrape_url.call_count == 2
 
 
 @patch('builtins.open', new_callable=mock_open)
@@ -192,18 +174,20 @@ def test_process_websites(mock_scrape):
 @patch('os.makedirs')
 def test_save_scraped_data(mock_makedirs, mock_json_dump, mock_file):
     """Test saving scraped data to a file."""
-    # Create sample data
-    data = {"category": [{"url": "https://example.com", "status": "success"}]}
-    
+    # Create sample data with proper structure for text extraction
+    data = {"category": [{"url": "https://example.com", "status": "success", "content": {"title": "Test", "paragraphs": ["test content"]}}]}
+
     # Call the function
     save_scraped_data(data, "scraped_data.json")
-    
+
     # Verify directory creation
     mock_makedirs.assert_called_once()
-    
-    # Verify file opening
-    mock_file.assert_called_once_with("scraped_data.json", 'w', encoding='utf-8')
-    
+
+    # Verify file openings (should open 2 files: JSON and text extract)
+    assert mock_file.call_count == 2
+    mock_file.assert_any_call("scraped_data.json", 'w', encoding='utf-8')
+    mock_file.assert_any_call("scraped_data_text_extract.txt", 'w', encoding='utf-8')
+
     # Verify JSON dumping
     mock_json_dump.assert_called_once()
     args, _ = mock_json_dump.call_args

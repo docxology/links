@@ -1,8 +1,9 @@
 """
 Module for generating images based on the political platform manifesto.
 
-This module uses OpenAI's DALL-E model to generate images that visually represent
-the key themes and concepts from the political platform.
+This module uses OpenAI's GPT-Image-1 model to generate images that visually represent
+the key themes and concepts from the political platform. GPT-Image-1 provides
+advanced text-to-image generation with superior quality and creative capabilities.
 """
 
 import os
@@ -11,7 +12,7 @@ import time
 from pathlib import Path
 import base64
 import requests
-import openai
+from openai import OpenAI
 from src.utils.logger import get_logger
 from src.utils.config import PLATFORM_OUTPUT_PATH, OUTPUT_DIR, OPENAI_API_KEY
 
@@ -55,84 +56,116 @@ def generate_image_prompts(platform_data, num_prompts=5):
     
     prompts = []
     
-    # Get executive summary for overall theme
+        # Get executive summary for overall theme
     if "executive_summary" in platform_data and platform_data["executive_summary"]:
-        prompts.append(f"A symbolic representation of a political platform with themes of: {platform_data['executive_summary'][:500]}")
-    
+        exec_summary = platform_data["executive_summary"]
+        prompts.append(f"A symbolic representation of a political platform with themes of: {exec_summary[:500]}")
+
+        # Extract key themes from executive summary for additional prompts
+        if len(prompts) < num_prompts and "digital democracy" in exec_summary.lower():
+            prompts.append("Digital democracy concept with interconnected networks, diverse people collaborating online, blockchain symbols, and democratic participation")
+        if len(prompts) < num_prompts and "economic innovation" in exec_summary.lower():
+            prompts.append("Economic innovation scene with sustainable businesses, community currencies, green technology, and collaborative workspaces")
+        if len(prompts) < num_prompts and "environmental responsibility" in exec_summary.lower():
+            prompts.append("Environmental responsibility illustration with renewable energy, community gardens, sustainable cities, and nature conservation")
+
     # Process each category to extract key themes
     categories = ["political", "economic", "social", "technological", "other"]
-    
+
     for category in categories:
         if len(prompts) >= num_prompts:
             break
-            
-        if category in platform_data and platform_data[category]:
-            # Limit content length to avoid excessive tokens
+
+        if category in platform_data and platform_data[category] and platform_data[category] != "No data available for this category." and len(platform_data[category]) > 50:
             content = platform_data[category][:500]
-            prompts.append(f"An inspirational and symbolic image representing {category} policy with themes of: {content}")
-    
+
+            # Create more specific prompts based on category content
+            if category == "other":
+                if "digital democracy" in content.lower():
+                    prompts.append(f"Digital democracy and decentralized governance with themes: {content[:300]}")
+                elif "economic innovation" in content.lower():
+                    prompts.append(f"Economic innovation and sustainable development with themes: {content[:300]}")
+                elif "environmental responsibility" in content.lower():
+                    prompts.append(f"Environmental stewardship and community sustainability with themes: {content[:300]}")
+                else:
+                    prompts.append(f"Innovative {category} policy and governance with themes: {content[:300]}")
+            else:
+                prompts.append(f"An inspirational and symbolic image representing {category} policy with themes of: {content}")
+
     # If we still need more prompts, create some based on combined themes
     if len(prompts) < num_prompts:
         prompts.append("A visually striking political campaign poster that represents progressive ideas and forward thinking")
+    if len(prompts) < num_prompts:
+        prompts.append("Futuristic cityscape with sustainable architecture, renewable energy, diverse community, and technological innovation")
+    if len(prompts) < num_prompts:
+        prompts.append("Community gathering with people of diverse backgrounds collaborating on environmental and social projects")
     
     # Trim list to exactly the number requested
     return prompts[:num_prompts]
 
 def generate_images(prompts):
     """
-    Generate images using OpenAI's DALL-E API.
-    
+    Generate images using OpenAI's GPT-Image-1 model.
+
+    GPT-Image-1 provides advanced text-to-image generation with superior quality,
+    creative capabilities, and flexible styling options.
+
     Args:
         prompts (list): List of image generation prompts.
-        
+
     Returns:
         list: List of paths to saved images.
     """
-    logger.info(f"Generating {len(prompts)} images using DALL-E")
-    
-    openai.api_key = OPENAI_API_KEY
+    logger.info(f"Generating {len(prompts)} images using GPT-Image-1")
+
+    from httpx import Client
+    http_client = Client(timeout=60.0)
+    client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
     image_paths = []
-    
+
     for i, prompt in enumerate(prompts):
         try:
             logger.info(f"Generating image {i+1} with prompt: {prompt[:100]}...")
-            
-            response = openai.Image.create(
+
+            response = client.images.generate(
+                model="gpt-image-1",  # Use GPT-Image-1 model
                 prompt=prompt,
                 n=1,
-                size="1024x1024"
+                size="1024x1024",
+                quality="hd",  # Use high definition for better quality
+                style="vivid"  # Use vivid style for more creative results
             )
-            
-            # Get image URL from response
-            image_url = response['data'][0]['url']
-            
+
+                        # Get image URL from response
+            image_url = response.data[0].url
+
             # Download the image
-            response = requests.get(image_url)
-            if response.status_code == 200:
+            image_response = requests.get(image_url)
+            if image_response.status_code == 200:
                 # Save the image
                 image_path = IMAGES_OUTPUT_DIR / f"platform_image_{i+1}.png"
-                with open(image_path, 'wb') as f:
-                    f.write(response.content)
-                
+                with open(str(image_path), 'wb') as f:
+                    f.write(image_response.content)
+
                 image_paths.append(image_path)
-                logger.info(f"Image saved to {image_path}")
+                logger.info(f"Image saved to {str(image_path)}")
             else:
-                logger.error(f"Failed to download image: {response.status_code}")
-            
+                logger.error(f"Failed to download image: {image_response.status_code}")
+
             # Add a small delay to avoid rate limiting
             time.sleep(1)
-            
+
         except Exception as e:
             logger.error(f"Error generating image {i+1}: {str(e)}")
-    
+
     return image_paths
 
 def main():
     """
-    Main function to generate images from the political platform.
-    
+    Main function to generate images from the political platform using GPT-Image-1.
+
     Returns:
-        list: List of paths to generated images.
+        Path: Path to the directory containing generated images.
     """
     try:
         # Load platform data

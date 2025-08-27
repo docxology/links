@@ -1,0 +1,83 @@
+# .cursorrules - Professional Development Guidelines
+
+## Core Principles
+- **Always use real methods and data analysis** - No mock methods, always do real data analysis
+- **Modular professional style** - Write clean, well-documented, clearly reasoned, interpretable code
+- **Comprehensive rationale** - Provide thoughtful, comprehensive, coherent rationale for all decisions
+- **Best practices** - Follow programming best practices thoughtfully and assess context
+- **Test-driven development (TDD)** - Use TDD with unified modular approach to all modules and tests
+- **Documentation** - Use understated "show not tell" documentation style
+
+## Code Quality Standards
+
+### Structure and Organization
+- Use clear, descriptive variable and function names
+- Organize code into logical modules with single responsibilities
+- Implement proper error handling and logging
+- Follow consistent formatting and style guidelines
+
+### Documentation Requirements
+- **Show not tell**: Use examples and code to demonstrate functionality rather than verbose explanations
+- **Clear reasoning**: Explain the rationale behind design decisions
+- **Comprehensive**: Cover all edge cases and important considerations
+- **Professional**: Maintain professional tone throughout
+
+### Testing Approach
+- **TDD First**: Write tests before implementation
+- **Real Data**: Use real data and methods, not mocks
+- **Comprehensive Coverage**: Test all modules and edge cases
+- **Integration Tests**: Include full pipeline integration tests
+- **Modular Testing**: Test each component independently
+
+### OpenAI API Usage
+- **Modern API**: Always use OpenAI v1.0+ client-based approach
+- **Error Handling**: Implement robust error handling for API calls
+- **Rate Limiting**: Respect API rate limits and implement backoff strategies
+- **Cost Optimization**: Use appropriate model sizes and token limits
+
+### Data Analysis Standards
+- **Real Analysis**: Perform actual data analysis, not simulated results
+- **Validation**: Validate all data inputs and outputs
+- **Reproducibility**: Ensure analyses can be reproduced consistently
+- **Documentation**: Document analysis methodology and reasoning
+
+### Logging and Monitoring
+- **Structured Logging**: Use consistent, structured logging throughout
+- **Progress Tracking**: Implement progress bars and status updates for long operations
+- **Error Reporting**: Provide clear, actionable error messages
+- **Performance**: Log performance metrics and bottlenecks
+
+## File Organization
+- **Modular Structure**: Keep related functionality in dedicated modules
+- **Clear Separation**: Separate concerns (data, analysis, utilities)
+- **Import Organization**: Group imports logically (stdlib, third-party, local)
+- **Configuration**: Centralize configuration in dedicated config modules
+
+## Quality Assurance
+- **Linting**: Ensure code passes all linting checks
+- **Type Safety**: Use type hints where appropriate
+- **Code Review**: Write code that would pass professional code review
+- **Maintainability**: Design for long-term maintainability and extensibility
+
+## Development Workflow
+- **Version Control**: Use git effectively with clear commit messages
+- **Testing**: Run full test suite before commits
+- **Documentation**: Update documentation with code changes
+- **Validation**: Test all functionality end-to-end regularly
+
+## Performance Considerations
+- **Efficiency**: Optimize for both time and resource usage
+- **Scalability**: Design with scalability in mind
+- **Memory Management**: Be mindful of memory usage with large datasets
+- **Caching**: Implement appropriate caching strategies
+
+## Security Best Practices
+- **Input Validation**: Validate all user inputs thoroughly
+- **Error Handling**: Don't expose sensitive information in error messages
+- **Dependencies**: Keep dependencies updated and secure
+
+## Ethical Considerations
+- **Data Privacy**: Respect data privacy and user consent
+- **Bias Awareness**: Be aware of potential biases in data and algorithms
+- **Transparency**: Be transparent about methodology and limitations
+- **Responsible AI**: Use AI responsibly and ethically

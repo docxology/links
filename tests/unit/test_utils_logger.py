@@ -6,7 +6,7 @@ import logging
 import os
 import pytest
 from pathlib import Path
-from src.utils.logger import get_logger, log_with_emoji, CustomFormatter
+from src.utils.logger import get_logger, log_with_emoji, ColoredFormatter
 
 
 def test_get_logger():
@@ -58,9 +58,9 @@ def test_log_with_emoji():
         os.remove(test_log)
 
 
-def test_custom_formatter():
-    """Test that CustomFormatter formats log messages correctly."""
-    formatter = CustomFormatter()
+def test_colored_formatter():
+    """Test that ColoredFormatter formats log messages correctly."""
+    formatter = ColoredFormatter()
     
     # Create a log record
     record = logging.LogRecord(
@@ -79,6 +79,6 @@ def test_custom_formatter():
     # Verify formatting
     assert "Test message" in formatted
     
-    # Check color formatting
-    if record.levelno == logging.INFO:
-        assert "\033[" in formatted  # ANSI color code should be present 
+    # Check formatting - should contain emoji and message
+    assert "Test message" in formatted
+    assert "✅" in formatted  # Emoji should be present 

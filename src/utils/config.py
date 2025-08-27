@@ -38,6 +38,7 @@ ANALYSIS_SUMMARY_PATH = OUTPUT_DIR / "analysis_summary.json"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_KEY = OPENAI_API_KEY  # For backward compatibility
 GPT_MODEL = os.getenv("GPT_MODEL", "gpt-4")
+IMAGE_MODEL = os.getenv("IMAGE_MODEL", "gpt-image-1")  # Use GPT-Image-1 for image generation
 
 # Scraping settings
 REQUEST_TIMEOUT = int(os.getenv("TIMEOUT", 30))

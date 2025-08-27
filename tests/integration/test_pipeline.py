@@ -227,25 +227,175 @@ def test_pipeline_flow(setup_test_data):
     """Test the entire pipeline flow with mocked functions."""
     # Here we test that the pipeline flow is correct by mocking the main functions
     # of each stage and verifying they are called in the right order
-    
+
     with patch('src.data.organize_links.main') as mock_organize, \
          patch('src.scrapers.scrape_sites.main') as mock_scrape, \
          patch('src.analysis.extract_concepts.main') as mock_extract, \
          patch('src.analysis.generate_platform.main') as mock_generate, \
          patch('src.analysis.render_markdown.main') as mock_render, \
          patch('src.analysis.generate_images.main') as mock_images:
-        
+
         # Mock the render_markdown.main to return a file path
         mock_render.return_value = str(setup_test_data["output_dir"] / "political_platform.md")
-        
+
         # Import and run the pipeline
         from src.main import run_pipeline
         run_pipeline()
-        
+
         # Verify that all stages were called in order
         mock_organize.assert_called_once()
         mock_scrape.assert_called_once()
         mock_extract.assert_called_once()
         mock_generate.assert_called_once()
         mock_render.assert_called_once()
-        mock_images.assert_called_once() 
+        mock_images.assert_called_once()
+
+
+def test_real_data_integration():
+    """Test the pipeline with real data files to ensure integration works."""
+    from src.utils.config import (
+        ORGANIZED_LINKS_PATH, SCRAPED_DATA_PATH,
+        EXTRACTED_CONCEPTS_PATH, PLATFORM_OUTPUT_PATH
+    )
+    from src.analysis.render_markdown import MARKDOWN_OUTPUT_PATH, HTML_OUTPUT_PATH
+
+    # Verify all input files exist
+    assert ORGANIZED_LINKS_PATH.exists(), f"Organized links file not found: {ORGANIZED_LINKS_PATH}"
+    assert SCRAPED_DATA_PATH.exists(), f"Scraped data file not found: {SCRAPED_DATA_PATH}"
+
+    # Test data organization module
+    from src.data.organize_links import load_raw_links, categorize_links
+    raw_links = load_raw_links(ORGANIZED_LINKS_PATH)  # Actually organized links now
+    assert isinstance(raw_links, dict)
+    assert len(raw_links) > 0
+
+    # Test scraping module
+    from src.scrapers.scrape_sites import load_organized_links
+    scraped_data = load_organized_links(SCRAPED_DATA_PATH)  # Actually scraped data now
+    assert isinstance(scraped_data, dict)
+
+    # Test concept extraction module
+    from src.analysis.extract_concepts import load_scraped_data
+    extracted_data = load_scraped_data(EXTRACTED_CONCEPTS_PATH)  # Actually extracted concepts now
+    assert isinstance(extracted_data, dict)
+
+    # Test platform generation module
+    from src.analysis.generate_platform import load_extracted_concepts
+    platform_data = load_extracted_concepts(PLATFORM_OUTPUT_PATH)  # Actually platform data now
+    assert isinstance(platform_data, dict)
+    assert "executive_summary" in platform_data
+
+    # Test markdown rendering module
+    from src.analysis.render_markdown import load_platform_data, render_markdown, render_html
+
+    # Load platform data
+    platform_data = load_platform_data(PLATFORM_OUTPUT_PATH)
+    assert isinstance(platform_data, dict)
+
+    # Render markdown
+    markdown = render_markdown(platform_data)
+    assert isinstance(markdown, str)
+    assert len(markdown) > 0
+    assert "# Political Platform" in markdown
+
+    # Render HTML
+    html = render_html(platform_data)
+    assert isinstance(html, str)
+    assert len(html) > 0
+    assert "<!DOCTYPE html>" in html
+
+    # Test image generation module
+    from src.analysis.generate_images import generate_image_prompts
+
+    # Generate image prompts
+    prompts = generate_image_prompts(platform_data, num_prompts=3)
+    assert isinstance(prompts, list)
+    assert len(prompts) >= 1
+    assert all(isinstance(prompt, str) for prompt in prompts)
+    assert all(len(prompt) > 0 for prompt in prompts)
+
+    # Verify prompts are meaningful (not "No data available")
+    for prompt in prompts:
+        assert "No data available" not in prompt
+
+
+def test_output_files_structure():
+    """Test that all output files have the expected structure."""
+    from src.utils.config import PLATFORM_OUTPUT_PATH
+    from src.analysis.render_markdown import MARKDOWN_OUTPUT_PATH, HTML_OUTPUT_PATH
+
+    # Test platform JSON structure
+    with open(PLATFORM_OUTPUT_PATH, 'r', encoding='utf-8') as f:
+        platform_data = json.load(f)
+
+    assert isinstance(platform_data, dict)
+    assert "executive_summary" in platform_data
+
+    # Verify executive summary is meaningful
+    exec_summary = platform_data["executive_summary"]
+    assert exec_summary != "Error generating executive summary."
+    assert len(exec_summary) > 50  # Should be substantial content
+
+    # Verify at least one category has meaningful content
+    categories = ["political", "economic", "social", "technological", "other"]
+    has_content = False
+    for category in categories:
+        if category in platform_data and platform_data[category] != "No data available for this category.":
+            has_content = True
+            assert len(platform_data[category]) > 50  # Should be substantial content
+            break
+    assert has_content, "No category has meaningful content"
+
+    # Test markdown content
+    with open(MARKDOWN_OUTPUT_PATH, 'r', encoding='utf-8') as f:
+        markdown_content = f.read()
+
+    assert "# Political Platform" in markdown_content
+    assert "## Executive Summary" in markdown_content
+    assert len(markdown_content) > 200  # Should be substantial content
+
+    # Test HTML content
+    with open(HTML_OUTPUT_PATH, 'r', encoding='utf-8') as f:
+        html_content = f.read()
+
+    assert "<!DOCTYPE html>" in html_content
+    assert "<title>Political Platform</title>" in html_content
+    assert len(html_content) > 500  # Should be substantial content
+
+
+def test_image_generation_with_real_data():
+    """Test that image generation works with real platform data."""
+    from src.utils.config import PLATFORM_OUTPUT_PATH
+    from src.analysis.generate_images import load_platform_data, generate_image_prompts
+
+    # Load real platform data
+    platform_data = load_platform_data(PLATFORM_OUTPUT_PATH)
+
+    # Generate prompts
+    prompts = generate_image_prompts(platform_data, num_prompts=5)
+
+    # Verify we get the expected number of prompts
+    assert len(prompts) == 5
+
+    # Verify all prompts are meaningful strings
+    for i, prompt in enumerate(prompts):
+        assert isinstance(prompt, str)
+        assert len(prompt) > 10
+        assert "No data available" not in prompt
+        print(f"Prompt {i+1}: {prompt[:80]}...")
+
+    # Verify prompt diversity - should have different themes
+    prompt_text = " ".join(prompts).lower()
+    themes_found = []
+
+    if "digital democracy" in prompt_text or "democracy" in prompt_text:
+        themes_found.append("democracy")
+    if "economic" in prompt_text or "innovation" in prompt_text:
+        themes_found.append("economic")
+    if "environment" in prompt_text or "sustainable" in prompt_text:
+        themes_found.append("environmental")
+    if "governance" in prompt_text or "decentralized" in prompt_text:
+        themes_found.append("governance")
+
+    # Should have at least 2 different themes
+    assert len(themes_found) >= 2, f"Only found themes: {themes_found}" 

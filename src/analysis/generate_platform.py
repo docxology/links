@@ -16,7 +16,10 @@ from src.utils.config import SCRAPED_DATA_PATH, EXTRACTED_CONCEPTS_PATH, PLATFOR
 logger = get_logger("generate_platform", "platform.log")
 
 # Set up OpenAI API client
-openai.api_key = OPENAI_KEY
+from openai import OpenAI
+from httpx import Client
+http_client = Client(timeout=60.0)
+client = OpenAI(api_key=OPENAI_KEY, http_client=http_client)
 
 def load_extracted_concepts(file_path):
     """
@@ -103,7 +106,7 @@ def generate_section(category, documents):
         prompt = prepare_prompt(category, documents)
         
         # Call the OpenAI API
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a helpful political analyst who excels at synthesizing diverse concepts into a coherent political platform."},
@@ -112,7 +115,7 @@ def generate_section(category, documents):
             max_tokens=2000,
             temperature=0.7
         )
-        
+
         # Extract and return the generated content
         generated_text = response.choices[0].message.content.strip()
         return generated_text
@@ -149,7 +152,7 @@ def generate_platform(extracted_data):
             summary_prompt += f"=== {category.upper()} ===\n{section}\n\n"
         
         # Generate the summary
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a skilled political strategist who excels at synthesizing complex policy ideas into compelling, accessible summaries."},
@@ -158,7 +161,7 @@ def generate_platform(extracted_data):
             max_tokens=1200,
             temperature=0.7
         )
-        
+
         # Add the summary to the platform
         platform["executive_summary"] = response.choices[0].message.content.strip()
     except Exception as e:

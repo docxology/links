@@ -24,7 +24,7 @@ def test_load_scraped_data():
         assert result == {"tech": [{"url": "https://example.com", "status": "success"}]}
 
 
-@patch('openai.ChatCompletion.create')
+@patch('src.analysis.extract_concepts.client.chat.completions.create')
 def test_extract_concepts_from_document_success(mock_openai):
     """Test extracting concepts from a document successfully."""
     # Setup mock OpenAI response
@@ -47,12 +47,16 @@ def test_extract_concepts_from_document_success(mock_openai):
     
     # Call the function
     result = extract_concepts_from_document(document)
-    
+
     # Verify expected output
     assert result["url"] == "https://example.com"
     assert result["title"] == "Test Document"
     assert result["status"] == "success"
-    assert "1. Test Concept" in result["concepts"]
+    assert isinstance(result["categories"], dict)
+    assert "principles" in result["categories"]
+    assert "policies" in result["categories"]
+    assert "values" in result["categories"]
+    assert "goals" in result["categories"]
     
     # Verify OpenAI was called
     mock_openai.assert_called_once()

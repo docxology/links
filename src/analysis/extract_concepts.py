@@ -20,7 +20,10 @@ logger = get_logger("extract_concepts", "concepts.log")
 # CONCEPTS_PATH = OUTPUT_DIR / "extracted_concepts.json"
 
 # Set up OpenAI API client
-openai.api_key = OPENAI_KEY
+from openai import OpenAI
+from httpx import Client
+http_client = Client(timeout=60.0)
+client = OpenAI(api_key=OPENAI_KEY, http_client=http_client)
 
 def load_scraped_data(file_path):
     """
@@ -110,31 +113,47 @@ def extract_concepts_from_document(document):
                         if isinstance(item, str):
                             text_to_analyze += f"  {i+1}. {item}\n"
         
-        # Prepare the prompt for concept extraction
+        # Prepare the prompt for extracting Principles, Policies, Values, Goals
         prompt = f"""
-Analyze the following content and extract specific ideas, positions, and beliefs that would be relevant for a manifesto or political platform. 
+Analyze the following content and extract information specifically related to these four categories:
 
 {text_to_analyze}
 
-Extract the following in detail:
-1. Key political ideas and positions expressed
-2. Economic concepts or policies mentioned
-3. Social values and principles advocated for
-4. Technological or scientific perspectives
-5. Environmental stances or approaches
-6. All named people and bioregions
+**PRINCIPLES** (deep first values): Core philosophical foundations, fundamental beliefs, or guiding doctrines that represent the deepest level of what the content holds as fundamentally true or important.
 
-For each concept, include:
-- A clear, concise title
-- A detailed explanation of the concept
-- Any specific implementation details mentioned
-- Why this concept is significant for a political platform
+**POLICIES** (actions of individuals and collectives): Specific proposals, concrete plans, strategies, or methods that individuals or groups should take to achieve outcomes.
 
-Format your response as a structured list of concepts, being as specific and detailed as possible. Focus on extracting actionable ideas that could be incorporated into a political platform.
+**VALUES** (what matters): Moral or ethical standards, priorities, or ideals that are considered important - what the content indicates should be valued or protected.
+
+**GOALS** (desired endpoints): Objectives, aims, targets, visions, or desired outcomes that the content seeks to achieve - the ultimate endpoints being pursued.
+
+For each category, provide:
+- Direct quotes or paraphrases from the content that support the extraction
+- Detailed explanation of what the principle/policy/value/goal entails
+- Context of how it relates to the overall content
+- Any specific implementation details or examples mentioned
+
+Format your response as a structured JSON with these exact keys:
+{{
+  "principles": [
+    {{
+      "title": "Clear, concise title",
+      "content": "Direct quote or paraphrase from content",
+      "explanation": "Detailed explanation of the deep first value",
+      "context": "How it fits into the broader content",
+      "implementation": "Any specific implementation details mentioned"
+    }}
+  ],
+  "policies": [...],
+  "values": [...],
+  "goals": [...]
+}}
+
+Be comprehensive but focused - only include items that are clearly supported by the content. Focus on extracting actionable insights that reveal the content's core worldview and intentions. If a category has no relevant content, return an empty array for that category.
 """
         
         # Call the OpenAI API
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a skilled political analyst who excels at extracting specific, detailed concepts from text."},
@@ -143,14 +162,54 @@ Format your response as a structured list of concepts, being as specific and det
             max_tokens=2000,
             temperature=0.3
         )
-        
+
         # Extract the generated content
-        extracted_concepts = response.choices[0].message.content.strip()
-        
+        extracted_content = response.choices[0].message.content.strip()
+
+        # Try to parse as JSON, if it fails, wrap in the expected structure
+        try:
+            # Look for JSON content within the response
+            import re
+            json_match = re.search(r'\{.*\}', extracted_content, re.DOTALL)
+            if json_match:
+                extracted_json = json.loads(json_match.group())
+            else:
+                extracted_json = json.loads(extracted_content)
+
+            # Ensure all expected categories exist and validate structure
+            extracted_data = {}
+            for category in ["principles", "policies", "values", "goals"]:
+                items = extracted_json.get(category, [])
+                # Validate that each item has required fields
+                validated_items = []
+                for item in items:
+                    if isinstance(item, dict) and "title" in item and "content" in item:
+                        # Ensure all required fields exist
+                        validated_item = {
+                            "title": item.get("title", "No title"),
+                            "content": item.get("content", "No content"),
+                            "explanation": item.get("explanation", "No explanation"),
+                            "context": item.get("context", ""),
+                            "implementation": item.get("implementation", "")
+                        }
+                        validated_items.append(validated_item)
+                extracted_data[category] = validated_items
+
+        except json.JSONDecodeError as e:
+            logger.warning(f"JSON parsing failed for {document.get('url')}: {str(e)}")
+            # If JSON parsing fails, create a basic structure with the raw content
+            extracted_data = {
+                "principles": [{"title": "Raw Content", "content": extracted_content[:500], "explanation": "Could not parse structured data", "context": "", "implementation": ""}],
+                "policies": [],
+                "values": [],
+                "goals": []
+            }
+
         return {
             "url": document.get("url", "Unknown URL"),
             "title": title,
-            "concepts": extracted_concepts,
+            "categories": extracted_data,
+            "raw_response": extracted_content,
             "status": "success"
         }
     except Exception as e:
@@ -158,7 +217,12 @@ Format your response as a structured list of concepts, being as specific and det
         return {
             "url": document.get("url", "Unknown URL"),
             "title": document.get("title", "Unknown Title"),
-            "concepts": [],
+            "categories": {
+                "principles": [],
+                "policies": [],
+                "values": [],
+                "goals": []
+            },
             "status": "error",
             "error": str(e)
         }
@@ -229,14 +293,29 @@ def save_extracted_concepts(extracted_data, output_path):
         with open(text_path, 'w', encoding='utf-8') as f:
             for category, items in extracted_data.items():
                 f.write(f"=== CATEGORY: {category.upper()} ===\n\n")
-                
+
                 for i, item in enumerate(items):
                     if item.get("status") == "success":
                         f.write(f"[DOCUMENT {i+1}]\n")
                         f.write(f"URL: {item.get('url', 'Unknown URL')}\n")
                         f.write(f"TITLE: {item.get('title', 'Unknown Title')}\n\n")
-                        f.write("EXTRACTED CONCEPTS:\n")
-                        f.write(f"{item.get('concepts', 'No concepts extracted')}\n\n")
+
+                        # Write out each category for this document
+                        categories_data = item.get('categories', {})
+                        for cat_name, cat_items in categories_data.items():
+                            if cat_items:
+                                f.write(f"**{cat_name.upper()}:**\n")
+                                for cat_item in cat_items:
+                                    f.write(f"• {cat_item.get('title', 'No title')}\n")
+                                    f.write(f"  Content: {cat_item.get('content', 'No content')}\n")
+                                    f.write(f"  Explanation: {cat_item.get('explanation', 'No explanation')}\n")
+                                    if cat_item.get('context'):
+                                        f.write(f"  Context: {cat_item.get('context')}\n")
+                                    if cat_item.get('implementation'):
+                                        f.write(f"  Implementation: {cat_item.get('implementation')}\n")
+                                    f.write("\n")
+                                f.write("\n")
+
                         f.write("-" * 80 + "\n\n")
                 
         logger.info(f"Text version saved to {text_path}")

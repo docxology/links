@@ -19,16 +19,32 @@ def test_data_dir():
 @pytest.fixture
 def sample_urls():
     """Return a sample of URLs for testing."""
-    return {
-        "tech": [
-            {"url": "https://example.com/tech1", "title": "Tech Article 1"},
-            {"url": "https://example.com/tech2", "title": "Tech Article 2"}
-        ],
-        "politics": [
-            {"url": "https://example.com/politics1", "title": "Politics Article 1"},
-            {"url": "https://example.com/politics2", "title": "Politics Article 2"}
-        ]
-    }
+    return [
+        {
+            "url": "https://example.com/tech1",
+            "title": "Tech Article 1",
+            "description": "An article about artificial intelligence and technology",
+            "tags": ["technology", "ai", "future"]
+        },
+        {
+            "url": "https://example.com/tech2",
+            "title": "Programming Tutorial",
+            "description": "Learn programming with Python",
+            "tags": ["technology", "programming"]
+        },
+        {
+            "url": "https://example.com/politics1",
+            "title": "Democratic Reform",
+            "description": "Improving democratic processes and governance",
+            "tags": ["politics", "governance"]
+        },
+        {
+            "url": "https://example.com/politics2",
+            "title": "Election Process",
+            "description": "Understanding the election system",
+            "tags": ["politics", "election"]
+        }
+    ]
 
 
 @pytest.fixture
