@@ -52,3 +52,119 @@
 2025-08-27 12:54:26 - generate_essays - INFO -   - Has structure: False
 2025-08-27 12:54:26 - generate_essays - INFO - Essay validation completed for goals
 2025-08-27 12:54:26 - generate_essays - INFO - Essay generation completed. Essays saved to /Users/4d/Documents/GitHub/links/output/essays
+2026-04-15 15:51:40 - generate_essays - INFO - Starting essay generation process
+2026-04-15 15:51:40 - generate_essays - INFO - Generating essay for principles (12 items)
+2026-04-15 15:51:44 - generate_essays - ERROR - Error generating essay for principles: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:51:44 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/principles_essay.md
+2026-04-15 15:51:44 - generate_essays - INFO - Essay quality validation for principles:
+2026-04-15 15:51:44 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:51:44 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:51:44 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:51:44 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:51:44 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:51:44 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:51:44 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:51:44 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:51:44 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:51:44 - generate_essays - INFO - Essay validation completed for principles
+2026-04-15 15:51:44 - generate_essays - INFO - Generating essay for policies (8 items)
+2026-04-15 15:51:47 - generate_essays - ERROR - Error generating essay for policies: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:51:47 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/policies_essay.md
+2026-04-15 15:51:47 - generate_essays - INFO - Essay quality validation for policies:
+2026-04-15 15:51:47 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:51:47 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:51:47 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:51:47 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:51:47 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:51:47 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:51:47 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:51:47 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:51:47 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:51:47 - generate_essays - INFO - Essay validation completed for policies
+2026-04-15 15:51:47 - generate_essays - INFO - Generating essay for values (7 items)
+2026-04-15 15:51:49 - generate_essays - ERROR - Error generating essay for values: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:51:49 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/values_essay.md
+2026-04-15 15:51:49 - generate_essays - INFO - Essay quality validation for values:
+2026-04-15 15:51:49 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:51:49 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:51:49 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:51:49 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:51:49 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:51:49 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:51:49 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:51:49 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:51:49 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:51:49 - generate_essays - INFO - Essay validation completed for values
+2026-04-15 15:51:49 - generate_essays - INFO - Generating essay for goals (7 items)
+2026-04-15 15:51:51 - generate_essays - ERROR - Error generating essay for goals: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:51:51 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/goals_essay.md
+2026-04-15 15:51:51 - generate_essays - INFO - Essay quality validation for goals:
+2026-04-15 15:51:51 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:51:51 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:51:51 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:51:51 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:51:51 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:51:51 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:51:51 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:51:51 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:51:51 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:51:51 - generate_essays - INFO - Essay validation completed for goals
+2026-04-15 15:51:51 - generate_essays - INFO - Essay generation completed. Essays saved to /Users/4d/Documents/GitHub/links/output/essays
+2026-04-15 15:52:03 - generate_essays - INFO - Starting essay generation process
+2026-04-15 15:52:03 - generate_essays - INFO - Generating essay for principles (12 items)
+2026-04-15 15:52:05 - generate_essays - ERROR - Error generating essay for principles: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:05 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/principles_essay.md
+2026-04-15 15:52:05 - generate_essays - INFO - Essay quality validation for principles:
+2026-04-15 15:52:05 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:52:05 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:52:05 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:52:05 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:52:05 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:52:05 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:52:05 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:52:05 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:52:05 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:52:05 - generate_essays - INFO - Essay validation completed for principles
+2026-04-15 15:52:05 - generate_essays - INFO - Generating essay for policies (8 items)
+2026-04-15 15:52:07 - generate_essays - ERROR - Error generating essay for policies: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:07 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/policies_essay.md
+2026-04-15 15:52:07 - generate_essays - INFO - Essay quality validation for policies:
+2026-04-15 15:52:07 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:52:07 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:52:07 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:52:07 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:52:07 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:52:07 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:52:07 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:52:07 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:52:07 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:52:07 - generate_essays - INFO - Essay validation completed for policies
+2026-04-15 15:52:07 - generate_essays - INFO - Generating essay for values (7 items)
+2026-04-15 15:52:08 - generate_essays - ERROR - Error generating essay for values: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:08 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/values_essay.md
+2026-04-15 15:52:08 - generate_essays - INFO - Essay quality validation for values:
+2026-04-15 15:52:08 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:52:08 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:52:08 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:52:08 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:52:08 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:52:08 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:52:08 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:52:08 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:52:08 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:52:08 - generate_essays - INFO - Essay validation completed for values
+2026-04-15 15:52:08 - generate_essays - INFO - Generating essay for goals (7 items)
+2026-04-15 15:52:10 - generate_essays - ERROR - Error generating essay for goals: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:10 - generate_essays - INFO - Essay saved to /Users/4d/Documents/GitHub/links/output/essays/goals_essay.md
+2026-04-15 15:52:10 - generate_essays - INFO - Essay quality validation for goals:
+2026-04-15 15:52:10 - generate_essays - INFO -   - Has source citations: False
+2026-04-15 15:52:10 - generate_essays - INFO -   - Has quotes: False
+2026-04-15 15:52:10 - generate_essays - INFO -   - Citation count: 0
+2026-04-15 15:52:10 - generate_essays - INFO -   - Quote count: 0
+2026-04-15 15:52:10 - generate_essays - INFO -   - Quotes with sources: 0
+2026-04-15 15:52:10 - generate_essays - INFO -   - Has source index: False
+2026-04-15 15:52:10 - generate_essays - INFO -   - URL references: 1
+2026-04-15 15:52:10 - generate_essays - INFO -   - Word count: 37
+2026-04-15 15:52:10 - generate_essays - INFO -   - Has structure: False
+2026-04-15 15:52:10 - generate_essays - INFO - Essay validation completed for goals
+2026-04-15 15:52:10 - generate_essays - INFO - Essay generation completed. Essays saved to /Users/4d/Documents/GitHub/links/output/essays

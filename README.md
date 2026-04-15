@@ -1,291 +1,148 @@
 # Links Analysis Pipeline
 
-A comprehensive AI-powered pipeline for analyzing web content collections and generating political platforms. This project demonstrates modern software engineering practices with modular architecture, comprehensive testing, and professional documentation.
+End-to-end pipeline: organize URLs, scrape pages, extract structured principles/policies/values/goals with an LLM, aggregate and write overview essays, generate essay images, synthesize a political platform, render Markdown and HTML, and generate platform images.
 
-## Features
+## Requirements
 
-- **Web Scraping**: Intelligent content extraction with caching and error handling
-- **AI-Powered Analysis**: LLM-based concept extraction and political platform generation
-- **Multi-format Output**: JSON, Markdown, HTML, and image generation
-- **Comprehensive Testing**: Unit tests, integration tests, and real data validation
-- **Professional Logging**: Emoji-enhanced logging with progress tracking
-- **Modular Architecture**: Clean separation of concerns with well-documented APIs
-
-## Project Structure
-
-```
-/
-├── src/                           # Source code
-│   ├── main.py                    # Main pipeline entry point
-│   ├── data/
-│   │   ├── organize_links.py      # Link organization and categorization
-│   │   └── __init__.py
-│   ├── scrapers/
-│   │   ├── scrape_sites.py        # Web scraping and content extraction
-│   │   └── __init__.py
-│   ├── analysis/
-│   │   ├── extract_concepts.py    # AI-powered concept extraction
-│   │   ├── generate_platform.py   # Political platform generation
-│   │   ├── render_markdown.py     # Multi-format output rendering
-│   │   ├── generate_images.py     # AI image generation
-│   │   └── __init__.py
-│   └── utils/
-│       ├── config.py              # Configuration management
-│       ├── logger.py              # Logging system
-│       ├── demo_logger.py         # Logging demonstrations
-│       └── __init__.py
-├── tests/                         # Comprehensive test suite
-│   ├── unit/                      # Unit tests for individual modules
-│   ├── integration/               # Integration tests for end-to-end functionality
-│   └── fixtures/                  # Test data fixtures
-├── data/                          # Data processing directory
-│   ├── organized_links.json       # Processed link data
-│   ├── scraped_data.json          # Scraped website content
-│   └── scraped_data_text_extract.txt # Human-readable content extract
-├── output/                        # Generated outputs
-│   ├── extracted_concepts.json    # AI-extracted concepts
-│   ├── extracted_concepts_text.txt # Text version of concepts
-│   ├── political_platform.json    # Generated political platform
-│   ├── political_platform.md      # Markdown documentation
-│   ├── political_platform.html    # Interactive HTML version
-│   └── platform_images/           # AI-generated images
-├── cached_data/                   # Web scraping cache
-├── logs/                          # Application logs
-├── docs/                          # Documentation
-├── bestofnow_urls.json           # Input URL collection
-├── bestofnow_tags.json           # URL categorization tags
-├── .env                          # Environment configuration
-├── .cursorrules                  # IDE development guidelines
-├── requirements.txt              # Python dependencies
-├── pyrightconfig.json            # Python type checking config
-└── README.md                     # This file
-```
+- Python 3.12+ (see `pyproject.toml` / `requirements.txt`)
+- [uv](https://github.com/astral-sh/uv) for environments and commands
+- `OPENAI_API_KEY` for LLM and image APIs
 
 ## Setup
 
-1. Clone the repository
-2. Create a virtual environment:
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install requirements:
-   ```
-   pip install -r requirements.txt
-   ```
-4. Create a `.env` file from `.env.example` and add your OpenAI API key:
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
-
-   Additional optional environment variables:
-   ```
-   LOG_LEVEL=INFO          # Logging level (INFO, DEBUG, WARNING, ERROR)
-   MAX_LINKS=100           # Maximum number of links to process
-   GPT_MODEL=gpt-4         # OpenAI model to use
-   TIMEOUT=30              # Request timeout in seconds
-   MAX_CONCURRENT_REQUESTS=5   # Maximum concurrent scraping requests
-   ```
-
-5. Required input files:
-   The pipeline expects the following input files in the project root:
-   - `bestofnow_urls.json`: JSON file containing the links to analyze
-   - `bestofnow_tags.json`: JSON file containing tags for the links
-
-## Logging System
-
-The project includes an enhanced logging system with the following features:
-
-### 🎨 Colorful Emoji Logging
-
-The logging system uses emojis and colors to make the terminal output more readable:
-
-- 🚀 `START`: Beginning of a process
-- ✅ `SUCCESS`: Successful operation
-- ⏳ `PROCESSING`: Processing data
-- 🔎 `SCRAPING`: Scraping websites
-- 🔮 `EXTRACTING`: Extracting concepts
-- 🧠 `ANALYZING`: Analyzing data
-- ✨ `GENERATING`: Generating content
-- 🎨 `RENDERING`: Rendering output
-- 💾 `SAVING`: Saving data
-- 📂 `LOADING`: Loading data
-- ⏭️ `SKIPPED`: Skipped operation
-- ❌ `ERROR`: Error in operation
-- 🏁 `COMPLETE`: Completion of a process
-
-### 📊 Enhanced Progress Bars
-
-The progress bars now include:
-- Emoji indicators
-- Clear success/failure counters
-- Better visual formatting
-- Elapsed and estimated time remaining
-- Percentage completion
-
-### 🔍 Demo Script
-
-To see a demonstration of the logging system:
-
 ```bash
-./demo_logging.py
+git clone <repository-url>
+cd links
+
+uv venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+
+uv sync --all-extras
+# or: uv pip install -r requirements.txt
+
+cp .env.example .env
+# Set OPENAI_API_KEY and optional variables (see below)
 ```
 
-This demo showcases the various logging features without running the full pipeline.
+Required inputs in the project root:
 
-## Pipeline Architecture
+- `bestofnow_urls.json` — list of link objects (`url`, `title`, `description`, `tags`, …)
+- `bestofnow_tags.json` — tag metadata (validated when using helpers that require it)
 
-The Links Analysis Pipeline consists of six modular stages that work together to transform web content into comprehensive political platforms:
+## Environment variables
 
-### 1. Data Organization (`organize_links.py`)
-- **Input**: Raw URL collections and categorization tags
-- **Process**: Categorizes links by topic (political, economic, social, technological)
-- **Output**: Structured link data ready for scraping
+| Variable | Role |
+|----------|------|
+| `OPENAI_API_KEY` | Required for OpenAI chat and image calls |
+| `LOG_LEVEL` | Logging level (default: `INFO`) |
+| `MAX_LINKS` | Cap on URLs loaded from `bestofnow_urls.json` (default: `40`) |
+| `GPT_MODEL` | Chat model (default: `gpt-4`) |
+| `TIMEOUT` | HTTP timeout for scraping, in seconds (exposed in code as `REQUEST_TIMEOUT`, default `30`) |
+| `IMAGE_MODEL` | Platform images in `generate_images.py` (default: `gpt-image-1`) |
+| `ESSAY_IMAGE_MODEL` | Essay images in `generate_essay_images.py` (default: `dall-e-3`) |
 
-### 2. Web Scraping (`scrape_sites.py`)
-- **Input**: Organized link collections
-- **Process**: Intelligent content extraction with caching and error handling
-- **Output**: Structured website content (titles, headings, paragraphs, metadata)
-- **Features**: Rate limiting, caching, BeautifulSoup parsing, user-agent rotation
+`MAX_CONCURRENT_REQUESTS` is fixed at `5` in `src/utils/config.py` (not read from the environment).
 
-### 3. Concept Extraction (`extract_concepts.py`)
-- **Input**: Scraped website content
-- **Process**: AI-powered analysis using GPT models to extract political concepts
-- **Output**: Structured concepts with significance and implementation details
-- **Features**: Context-aware prompting, error handling, batch processing
+## Pipeline (nine stages)
 
-### 4. Platform Generation (`generate_platform.py`)
-- **Input**: Extracted concepts by category
-- **Process**: Synthesizes concepts into cohesive political platform sections
-- **Output**: Comprehensive political platform with executive summary
-- **Features**: Cross-category synthesis, executive summary generation
+Orchestration: `src/main.py` → `src/pipeline_cli.py` (`parse_pipeline_argv`) → `src/pipeline_orchestration.py` (`run_pipeline`).
 
-### 5. Content Rendering (`render_markdown.py`)
-- **Input**: Generated political platform
-- **Process**: Multi-format output generation (Markdown, HTML)
-- **Output**: Professional documentation and interactive web versions
-- **Features**: Responsive HTML design, collapsible sections, professional styling
-
-### 6. Image Generation (`generate_images.py`)
-- **Input**: Political platform content
-- **Process**: AI image generation based on platform themes
-- **Output**: Visual representations of key platform concepts
-- **Features**: Thematic image prompts, multiple image generation, GPT-Image-1 integration
+| Stage | Module | Purpose |
+|-------|--------|---------|
+| 1 | `src/data/organize_links.py` | Load URLs, categorize by keywords, write `data/organized_links.json` |
+| 2 | `src/scrapers/scrape_sites.py` | Scrape pages with cache under `cached_data/`, write `data/scraped_data.json` |
+| 3 | `src/analysis/extract_concepts.py` | Per-document JSON: principles, policies, values, goals → `output/extracted_concepts.json` |
+| 4 | `src/analysis/organize_extractions.py` | `output/site_specific/`, `output/compiled/` |
+| 5 | `src/analysis/generate_essays.py` | `output/essays/*_essay.md` from compiled data |
+| 6 | `src/analysis/generate_essay_images.py` | `output/essay_images/` (default `ESSAY_IMAGE_MODEL` = `dall-e-3`) |
+| 7 | `src/analysis/generate_platform.py` | `output/political_platform.json` |
+| 8 | `src/analysis/render_markdown.py` | `output/political_platform.md`, `output/political_platform.html` |
+| 9 | `src/analysis/generate_images.py` | `output/platform_images/` (GPT-Image-1) |
 
 ## Usage
 
-### Quick Start
-
 ```bash
-# Clone and setup
-git clone <repository-url>
-cd links-analysis-pipeline
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
+# Full pipeline
+uv run python -m src.main
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your OpenAI API key
+# One stage only (others skipped)
+uv run python -m src.main --only-organize
+uv run python -m src.main --only-scrape
+uv run python -m src.main --only-extract
+uv run python -m src.main --only-organize-extractions
+uv run python -m src.main --only-essays
+uv run python -m src.main --only-essay-images
+uv run python -m src.main --only-analyze
+uv run python -m src.main --only-render
+uv run python -m src.main --only-images
 
-# Run the complete pipeline
-python -m src.main
+# Skip stages
+uv run python -m src.main --skip-scrape --skip-images
 ```
 
-### Selective Execution
+If multiple `--only-*` flags are passed, **each flag handler runs in a fixed script order** (organize → scrape → extract → organize-extractions → essays → essay-images → analyze → render → images). A later handler in that sequence overrides earlier ones, so e.g. `--only-extract --only-analyze` runs **analyze** only.
 
-#### Run Individual Stages
-```bash
-# Data organization only
-python -m src.main --only-organize
-
-# Web scraping only
-python -m src.main --only-scrape
-
-# Concept extraction only
-python -m src.main --only-extract
-
-# Platform generation only
-python -m src.main --only-analyze
-
-# Content rendering only
-python -m src.main --only-render
-
-# Image generation only
-python -m src.main --only-images
-```
-
-#### Skip Stages
-```bash
-# Skip web scraping (use cached data)
-python -m src.main --skip-scrape
-
-# Skip image generation (faster execution)
-python -m src.main --skip-images
-```
-
-### Configuration
-
-The pipeline supports various configuration options via environment variables:
+## Logging demo
 
 ```bash
-# Processing limits
-MAX_LINKS=100           # Maximum links to process
-REQUEST_TIMEOUT=30      # Web request timeout (seconds)
-
-# AI Model settings
-GPT_MODEL=gpt-4o-mini   # OpenAI model to use
-MAX_TOKENS=2000         # Maximum tokens per request
-
-# Logging
-LOG_LEVEL=INFO          # Logging verbosity
+uv run python demo_logging.py
 ```
 
-### Demo Mode
-
-Experience the logging system without running the full pipeline:
+## Tests
 
 ```bash
-python demo_logging.py
+uv run pytest
 ```
 
-## Output
+See [docs/TESTING.md](docs/TESTING.md).
 
-After running the pipeline:
-1. Organized links will be saved to `data/organized_links.json`
-2. Scraped content will be saved to `data/scraped_data.json`
-3. Extracted concepts will be in `output/extracted_concepts.json` and `output/extracted_concepts_text.txt`
-4. The generated political platform will be in `output/political_platform.json`
-5. A formatted Markdown version of the platform will be in `output/political_platform.md`
-6. An interactive HTML version of the platform will be in `output/political_platform.html`
-7. Generated images based on the platform will be in `output/platform_images/`
-8. Logs will be saved to `logs/`
+## Documentation
 
-## Pipeline Stages
+Comprehensive docs live in [`docs/`](docs/) with hub at [`docs/README.md`](docs/README.md) (recommended reading order: USER_GUIDE → ARCHITECTURE → API_REFERENCE → TESTING → DEVELOPMENT).
 
-### 1. Organize Links and Tags
-Processes raw links and associated tags, categorizing them for analysis.
+Folder-level `README.md` and `AGENTS.md` exist in `src/`, `tests/`, `docs/`, `data/`, `output/`, etc. for context-specific guidance.
 
-### 2. Scrape Websites
-Downloads and extracts meaningful content from the websites, extracting paragraphs, headings, and lists while filtering out navigation and layout elements.
+| Doc | Content |
+|-----|---------|
+| [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md) | Operator usage, outputs, troubleshooting |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Pipeline flow (mermaid), data shapes, error handling |
+| [`docs/API_REFERENCE.md`](docs/API_REFERENCE.md) | Functions, CLI flags, contracts |
+| [`docs/TESTING.md`](docs/TESTING.md) | Test layout, markers, TDD policy |
+| [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) | `uv`, contributing, workflow |
+| [`docs/SUMMARY.md`](docs/SUMMARY.md) | 5-minute overview |
+| [`docs/CHANGELOG.md`](docs/CHANGELOG.md) | Version history |
+| [`docs/cursor_setup.md`](docs/cursor_setup.md) | IDE notes |
+| [`diagram.md`](diagram.md) | Additional Mermaid diagrams |
+| [`docs/REAL_OPENAI_REFACTOR.md`](docs/REAL_OPENAI_REFACTOR.md) | Historical refactor checklist |
 
-### 3. Extract Concepts
-Processes each scraped website through an LLM to extract specific ideas, positions, and beliefs that would be relevant for a political platform. This creates a structured set of concepts and positions from varied sources.
+See folder `README.md` files (e.g. [`src/README.md`](src/README.md), [`tests/README.md`](tests/README.md), [`output/README.md`](output/README.md)) for local context.
 
-### 4. Generate Political Platform
-Analyzes the extracted concepts and synthesizes them into a coherent political platform, organized by category (political, economic, social, technological, etc.) with an executive summary.
+## Contributing
 
-### 5. Render Markdown and HTML
-Converts the political platform from JSON format into:
-- A well-formatted Markdown document with proper sections and formatting
-- An interactive HTML document with tabs for different platform sections, collapsible content areas, and professional styling for better presentation and readability
+1. Follow [`.cursorrules`](.cursorrules) (TDD, real data, modular code, understated docs).
+2. Add tests for new behavior (update `test_pipeline_cli.py`, `test_main.py`, or module tests).
+3. Expand relevant `AGENTS.md` and `README.md` in affected folders.
+4. Update [`docs/CHANGELOG.md`](docs/CHANGELOG.md), this `README.md`, and [`docs/API_REFERENCE.md`](docs/API_REFERENCE.md).
+5. Run `uv run pytest` and `uv sync --all-extras`.
+6. Submit PR.
 
-### 6. Generate Images
-Creates a set of 5 images based on the political platform content using OpenAI's GPT-Image-1:
-- Generates images that visually represent key themes from the manifesto
-- Creates images for different platform categories (political, economic, social, etc.)
-- Saves the generated images in the `output/platform_images/` directory
+See [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) for details.
 
-## Dependencies
+## Layout
 
-See `requirements.txt` for the full list of dependencies. 
+```
+├── src/                 # Application code (main, pipeline_*.py, analysis/, data/, scrapers/, utils/)
+├── tests/               # pytest suite (unit, integration, live/)
+├── data/                # Organized links JSON
+├── output/              # All generated artifacts (see output/README.md)
+├── cached_data/         # Scrape cache
+├── logs/                # Stage and pipeline logs
+├── docs/                # Comprehensive documentation (see docs/README.md)
+├── bestofnow_urls.json
+├── bestofnow_tags.json
+├── requirements.txt
+├── pyproject.toml
+├── .env.example
+├── AGENTS.md
+└── README.md
+```

@@ -1,112 +1,64 @@
-# Links Analysis Project Diagrams
+# Links Analysis — diagrams
 
-## Project Structure
+## Repository layout
 
 ```mermaid
-graph TD
-    root["/"] --> src["src/"]
-    root --> data["data/"]
-    root --> output["output/"]
-    root --> others["Other Files"]
-    
-    src --> utils["utils/"]
-    src --> data_proc["data/"]
-    src --> scrapers["scrapers/"]
-    src --> analysis["analysis/"]
-    src --> main["main.py"]
-    
-    data --> raw["raw/"]
-    data --> processed["processed/"]
-    
-    output --> files["Platform Files"]
+flowchart TB
+  root[repo_root]
+  root --> src[src]
+  root --> tests[tests]
+  root --> docs[docs]
+  root --> data[data]
+  root --> output[output]
+  root --> cached[cached_data]
+  root --> logs[logs]
+  src --> main_py[main.py]
+  src --> pipe_cli[pipeline_cli.py]
+  src --> pipe_orch[pipeline_orchestration.py]
+  src --> analysis[analysis]
+  src --> scrapers[scrapers]
+  src --> data_mod[data_pkg]
+  src --> utils[utils]
 ```
 
-## Pipeline Overview
+## Nine-stage pipeline
 
 ```mermaid
-graph TD
-    A[1. Organize Links] --> B[2. Scrape Websites]
-    B --> C[3. Extract Concepts]
-    C --> D[4. Generate Platform]
-    D --> E[5. Render Documents]
-    E --> F[6. Generate Images]
+flowchart LR
+  s1[organize_links] --> s2[scrape_sites]
+  s2 --> s3[extract_concepts]
+  s3 --> s4[organize_extractions]
+  s4 --> s5[generate_essays]
+  s5 --> s6[generate_essay_images]
+  s6 --> s7[generate_platform]
+  s7 --> s8[render_markdown]
+  s8 --> s9[generate_images]
 ```
 
-## Data Flow Diagram
+## Data flow (artifacts)
 
 ```mermaid
-graph LR
-    A[Input Files] --> B[Process]
-    B --> C[Output Files]
-    
-    subgraph process
-    B1[Organize] --> B2[Scrape]
-    B2 --> B3[Extract]
-    B3 --> B4[Analyze]
-    B4 --> B5[Render]
-    B5 --> B6[Generate Images]
-    end
+flowchart LR
+  urls[bestofnow_urls.json] --> org[data/organized_links.json]
+  org --> scraped[data/scraped_data.json]
+  scraped --> ext[output/extracted_concepts.json]
+  ext --> compiled[output/compiled]
+  ext --> site[output/site_specific]
+  compiled --> essays[output/essays]
+  essays --> eimg[output/essay_images]
+  ext --> plat[output/political_platform.json]
+  plat --> mdhtml[output/political_platform.md_and_html]
+  plat --> pimg[output/platform_images]
 ```
 
-## Detailed Process Flow
-
-### 1. Organize Links and Tags
+## CLI
 
 ```mermaid
-graph TD
-    A[Input Files] --> B[Process URLs & Tags]
-    B --> C[Save organized_links.json]
-```
-
-### 2. Website Scraping
-
-```mermaid
-graph TD
-    A[Load Links] --> B[Scrape Content]
-    B --> C[Save Data]
-```
-
-### 3. Concept Extraction
-
-```mermaid
-graph TD
-    A[Load Content] --> B[Process with LLM]
-    B --> C[Save Extracted Concepts]
-```
-
-### 4. Political Platform Generation
-
-```mermaid
-graph TD
-    A[Load Concepts] --> B[Generate Platform]
-    B --> C[Save Platform JSON]
-```
-
-### 5. Markdown and HTML Rendering
-
-```mermaid
-graph TD
-    A[Load Platform] --> B[Generate Documents]
-    B --> C[Save MD & HTML]
-```
-
-### 6. Image Generation
-
-```mermaid
-graph TD
-    A[Load Platform] --> B[Generate Images]
-    B --> C[Save Images]
-```
-
-## Command Line Options
-
-```mermaid
-graph TD
-    A[Parse Arguments] --> B{Run Only Specific Stage?}
-    B -->|Yes| C[Run Selected Stage]
-    B -->|No| D[Run Full Pipeline]
-    
-    D --> E{Skip Any Stages?}
-    E -->|Yes| F[Skip Selected Stages]
-    E -->|No| G[Run All Stages]
+flowchart TD
+  argv[argv] --> parse[argparse]
+  parse --> only{any_only_flag}
+  only -->|yes| setSkips[set_skip_flags_for_that_stage]
+  only -->|no| runAll[run_all_non_skipped_stages]
+  setSkips --> runPipeline[run_pipeline]
+  runAll --> runPipeline
 ```

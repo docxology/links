@@ -7,10 +7,11 @@ This module analyzes the scraped website content and generates a political platf
 import json
 import os
 from pathlib import Path
+from typing import Any, Dict, List
 import openai
 from tqdm import tqdm
 from src.utils.logger import get_logger
-from src.utils.config import SCRAPED_DATA_PATH, EXTRACTED_CONCEPTS_PATH, PLATFORM_OUTPUT_PATH, OPENAI_KEY, GPT_MODEL
+from src.utils.config import SCRAPED_DATA_PATH, EXTRACTED_CONCEPTS_PATH, PLATFORM_OUTPUT_PATH, OPENAI_API_KEY, GPT_MODEL
 
 # Set up logger
 logger = get_logger("generate_platform", "platform.log")
@@ -19,7 +20,34 @@ logger = get_logger("generate_platform", "platform.log")
 from openai import OpenAI
 from httpx import Client
 http_client = Client(timeout=60.0)
-client = OpenAI(api_key=OPENAI_KEY, http_client=http_client)
+client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
+
+
+def _text_from_extracted_document(doc: Dict[str, Any]) -> str:
+    """Build prompt text from legacy `concepts` string or structured `categories`."""
+    if doc.get("concepts"):
+        return str(doc["concepts"])
+    categories = doc.get("categories")
+    if not isinstance(categories, dict):
+        return ""
+    lines: List[str] = []
+    for cat_name, items in categories.items():
+        if not items:
+            continue
+        lines.append(f"### {cat_name}")
+        for item in items:
+            if isinstance(item, dict):
+                title = item.get("title", "")
+                content = item.get("content", "")
+                explanation = item.get("explanation", "")
+                lines.append(f"- {title}: {content}")
+                if explanation:
+                    lines.append(f"  ({explanation})")
+            else:
+                lines.append(f"- {item}")
+        lines.append("")
+    return "\n".join(lines).strip()
+
 
 def load_extracted_concepts(file_path):
     """
@@ -50,17 +78,18 @@ def prepare_prompt(category, documents):
     Returns:
         str: Prompt for the GPT model.
     """
-    # Extract successful documents with concepts
+    # Extract successful documents with legacy concepts or structured categories
     valid_docs = [
-        doc for doc in documents 
-        if doc.get("status") == "success" and doc.get("concepts")
+        doc for doc in documents
+        if doc.get("status") == "success"
+        and (doc.get("concepts") or doc.get("categories"))
     ]
-    
+
     # Get all concepts from these documents
     concepts_list = []
     for doc in valid_docs[:10]:  # Limit to 10 documents
         title = doc.get("title", "No title")
-        concepts = doc.get("concepts", "")
+        concepts = _text_from_extracted_document(doc)
         concepts_list.append(f"Source: {title}\n\n{concepts}")
     
     # Format the prompt

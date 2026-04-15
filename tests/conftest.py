@@ -136,32 +136,12 @@ def sample_extracted_concepts():
 
 @pytest.fixture
 def sample_platform():
-    """Return a sample political platform for testing."""
+    """Return a sample political platform JSON matching render_markdown / generate_platform shape."""
     return {
-        "title": "Sample Political Platform",
         "executive_summary": "This is a sample political platform for testing.",
-        "categories": {
-            "political": {
-                "title": "Political Reforms",
-                "items": [
-                    {
-                        "title": "Democratic Reform",
-                        "description": "Improving democratic processes",
-                        "details": "Electoral system changes to increase representation",
-                        "sources": ["https://example.com/politics1"]
-                    }
-                ]
-            },
-            "technological": {
-                "title": "Technology Policy",
-                "items": [
-                    {
-                        "title": "AI Ethics",
-                        "description": "Establishing ethical guidelines for AI",
-                        "details": "Creating regulatory frameworks for AI development",
-                        "sources": ["https://example.com/tech1"]
-                    }
-                ]
-            }
-        }
+        "political": "1. Overview:\nDemocratic reform content.\n\n2. Proposals:\nMore detail here.",
+        "economic": "Economic platform text for tests.",
+        "social": "Social platform text.",
+        "technological": "Technology platform text.",
+        "other": "Other category text.",
     } 

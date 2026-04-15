@@ -1,421 +1,215 @@
 # API Reference
 
-## Core Modules
+## `src.main`
 
-### `src.main`
+Entry point: `python -m src.main`. Delegates to `parse_pipeline_argv(sys.argv[1:])` and `run_pipeline(**kwargs)` (see `src/pipeline_cli.py`, `src/pipeline_orchestration.py`).
 
-Main pipeline entry point providing command-line interface and orchestration.
+## `src.pipeline_cli`
 
-#### `run_pipeline(skip_organize=False, skip_scrape=False, skip_extract=False, skip_analyze=False, skip_render=False, skip_images=False)`
+| Function | Description |
+|----------|-------------|
+| `build_parser()` | `ArgumentParser` with all `--skip-*` and `--only-*` flags |
+| `apply_only_flags(args)` | Mutates `args` so a single `--only-*` stage runs |
+| `parse_pipeline_argv(argv)` | Parse argv without program name → dict of `skip_*` keys for `run_pipeline` |
 
-Runs the complete analysis pipeline with selective stage execution.
+## `src.pipeline_orchestration`
 
-**Parameters:**
-- `skip_organize` (bool): Skip data organization stage
-- `skip_scrape` (bool): Skip web scraping stage
-- `skip_extract` (bool): Skip concept extraction stage
-- `skip_analyze` (bool): Skip platform generation stage
-- `skip_render` (bool): Skip content rendering stage
-- `skip_images` (bool): Skip image generation stage
+### `PipelineStages`
 
-**Returns:** None
+Dataclass of nine callables defaulting to each stage’s `main()`. Pass a custom instance to tests to avoid real work.
 
----
+### `run_pipeline(...)`
 
-## Data Processing
-
-### `src.data.organize_links`
-
-#### `load_raw_links(file_path)`
-
-Loads raw URL data from JSON file.
-
-**Parameters:**
-- `file_path` (str): Path to JSON file containing URL data
-
-**Returns:** list - List of link objects with URL, title, description, and tags
-
-#### `categorize_links(links_data)`
-
-Categorizes links based on content analysis.
-
-**Parameters:**
-- `links_data` (list): List of link objects
-
-**Returns:** dict - Categorized links by topic (political, economic, social, technological, other)
-
-#### `save_organized_links(organized_links, output_path)`
-
-Saves organized link data to JSON file.
-
-**Parameters:**
-- `organized_links` (dict): Categorized link data
-- `output_path` (str): Output file path
-
-**Returns:** None
-
----
-
-## Web Scraping
-
-### `src.scrapers.scrape_sites`
-
-#### `load_organized_links(file_path)`
-
-Loads organized link data for scraping.
-
-**Parameters:**
-- `file_path` (str): Path to organized links JSON file
-
-**Returns:** dict - Organized link data by category
-
-#### `scrape_url(url)`
-
-Scrapes content from a single URL with caching and error handling.
-
-**Parameters:**
-- `url` (str): URL to scrape
-
-**Returns:** dict - Scraped content with status, content, and metadata
-
-#### `scrape_links(organized_links)`
-
-Scrapes content from multiple organized links.
-
-**Parameters:**
-- `organized_links` (dict): Organized links by category
-
-**Returns:** dict - Scraped content organized by category
-
-#### `extract_meaningful_content(soup)`
-
-Extracts structured content from BeautifulSoup object.
-
-**Parameters:**
-- `soup` (BeautifulSoup): Parsed HTML content
-
-**Returns:** dict - Extracted content with title, headings, paragraphs, list_items, metadata
-
-#### `save_scraped_data(scraped_data, output_path)`
-
-Saves scraped data to JSON and text extract files.
-
-**Parameters:**
-- `scraped_data` (dict): Scraped content data
-- `output_path` (str): Output JSON file path
-
-**Returns:** None
-
----
-
-## Content Analysis
-
-### `src.analysis.extract_concepts`
-
-#### `load_scraped_data(file_path)`
-
-Loads scraped data for concept extraction.
-
-**Parameters:**
-- `file_path` (str): Path to scraped data JSON file
-
-**Returns:** dict - Scraped data organized by category
-
-#### `extract_concepts_from_document(document)`
-
-Extracts political concepts from a single document using AI.
-
-**Parameters:**
-- `document` (dict): Document with scraped content
-
-**Returns:** dict - Extracted concepts with metadata
-
-#### `extract_concepts(scraped_data)`
-
-Extracts concepts from all scraped documents.
-
-**Parameters:**
-- `scraped_data` (dict): Scraped data by category
-
-**Returns:** dict - Extracted concepts organized by category
-
-#### `save_extracted_concepts(extracted_data, output_path)`
-
-Saves extracted concepts to JSON and text files.
-
-**Parameters:**
-- `extracted_data` (dict): Extracted concept data
-- `output_path` (str): Output JSON file path
-
-**Returns:** None
-
----
-
-### `src.analysis.generate_platform`
-
-#### `load_extracted_concepts(file_path)`
-
-Loads extracted concepts for platform generation.
-
-**Parameters:**
-- `file_path` (str): Path to extracted concepts JSON file
-
-**Returns:** dict - Extracted concepts by category
-
-#### `generate_section(category, documents)`
-
-Generates platform section for a specific category.
-
-**Parameters:**
-- `category` (str): Category name
-- `documents` (list): Documents with extracted concepts
-
-**Returns:** str - Generated platform section content
-
-#### `generate_platform(extracted_data)`
-
-Generates complete political platform with executive summary.
-
-**Parameters:**
-- `extracted_data` (dict): Extracted concepts by category
-
-**Returns:** dict - Complete political platform
-
-#### `save_platform(platform, output_path)`
-
-Saves generated platform to JSON file.
-
-**Parameters:**
-- `platform` (dict): Generated platform data
-- `output_path` (str): Output JSON file path
-
-**Returns:** None
-
----
-
-### `src.analysis.render_markdown`
-
-#### `load_platform_data(file_path)`
-
-Loads platform data for rendering.
-
-**Parameters:**
-- `file_path` (str): Path to platform JSON file
-
-**Returns:** dict - Platform data
-
-#### `render_markdown(platform_data)`
-
-Renders platform data as Markdown document.
-
-**Parameters:**
-- `platform_data` (dict): Platform data
-
-**Returns:** str - Markdown formatted content
-
-#### `render_html(platform_data)`
-
-Renders platform data as interactive HTML document.
-
-**Parameters:**
-- `platform_data` (dict): Platform data
-
-**Returns:** str - HTML formatted content
-
-#### `save_markdown(markdown_content, output_path)`
-
-Saves Markdown content to file.
-
-**Parameters:**
-- `markdown_content` (str): Markdown content
-- `output_path` (str): Output file path
-
-**Returns:** None
-
-#### `save_html(html_content, output_path)`
-
-Saves HTML content to file.
-
-**Parameters:**
-- `html_content` (str): HTML content
-- `output_path` (str): Output file path
-
-**Returns:** None
-
----
-
-### `src.analysis.generate_images`
-
-#### `load_platform_data(file_path)`
-
-Loads platform data for image generation.
-
-**Parameters:**
-- `file_path` (str): Path to platform JSON file
-
-**Returns:** dict - Platform data
-
-#### `generate_image_prompts(platform_data, num_prompts=5)`
-
-Generates image prompts based on platform content.
-
-**Parameters:**
-- `platform_data` (dict): Platform data
-- `num_prompts` (int): Number of prompts to generate
-
-**Returns:** list - List of image generation prompts
-
-#### `generate_images(prompts)`
-
-Generates images using OpenAI GPT-Image-1 based on prompts.
-
-GPT-Image-1 provides advanced text-to-image generation with superior quality,
-creative capabilities, and flexible styling options.
-
-**Parameters:**
-- `prompts` (list): List of image prompts
-
-**Returns:** list - List of generated image file paths
-
-**Features:**
-- High-definition image quality (`quality="hd"`)
-- Vivid creative style (`style="vivid"`)
-- Advanced prompt understanding and transformation
-- Superior image composition and aesthetics
-
----
-
-## Utilities
-
-### `src.utils.config`
-
-Configuration management module.
-
-#### Key Constants
-- `BASE_DIR`: Project root directory
-- `DATA_DIR`: Data processing directory
-- `OUTPUT_DIR`: Output files directory
-- `LOGS_DIR`: Log files directory
-- `OPENAI_API_KEY`: OpenAI API key from environment
-- `GPT_MODEL`: AI model to use (default: gpt-4o-mini)
-- `REQUEST_TIMEOUT`: Web request timeout
-- `MAX_LINKS`: Maximum links to process
-
-### `src.utils.logger`
-
-Logging system with emoji-enhanced output.
-
-#### `get_logger(name, log_file=None)`
-
-Creates configured logger instance.
-
-**Parameters:**
-- `name` (str): Logger name
-- `log_file` (str, optional): Log file name
-
-**Returns:** logging.Logger - Configured logger
-
-#### `log_with_emoji(logger, level, emoji_key, message)`
-
-Logs message with emoji and specified level.
-
-**Parameters:**
-- `logger`: Logger instance
-- `level` (str): Log level (INFO, WARNING, ERROR, etc.)
-- `emoji_key` (str): Emoji key from EMOJI dictionary
-- `message` (str): Log message
-
-**Returns:** None
-
-#### `ColoredFormatter`
-
-Custom log formatter with colors and emojis.
-
----
-
-## Data Structures
-
-### Link Object
 ```python
-{
-    "url": "https://example.com",
-    "title": "Article Title",
-    "description": "Article description",
-    "tags": ["technology", "ai"]
-}
+run_pipeline(
+    skip_organize=False,
+    skip_scrape=False,
+    skip_extract=False,
+    skip_organize_extractions=False,
+    skip_essays=False,
+    skip_essay_images=False,
+    skip_analyze=False,
+    skip_render=False,
+    skip_images=False,
+    stages: PipelineStages | None = None,
+)
 ```
 
-### Scraped Content
-```python
-{
-    "url": "https://example.com",
-    "title": "Page Title",
-    "content": {
-        "title": "Page Title",
-        "headings": ["Heading 1", "Heading 2"],
-        "paragraphs": ["Paragraph 1", "Paragraph 2"],
-        "list_items": ["Item 1", "Item 2"],
-        "metadata": {"description": "Page description"}
-    },
-    "status": "success",
-    "source": "web"
-}
-```
+Runs stages in order unless the corresponding `skip_*` is `True`. **`stages`** defaults to production `PipelineStages()`.
 
-### Extracted Concepts
-```python
-{
-    "url": "https://example.com",
-    "title": "Article Title",
-    "concepts": "AI Ethics: Establishing ethical guidelines for AI development...",
-    "status": "success"
-}
-```
+**CLI mapping**
 
-### Political Platform
-```python
-{
-    "executive_summary": "Comprehensive platform overview...",
-    "political": "Political platform section content...",
-    "economic": "Economic platform section content...",
-    "social": "Social platform section content...",
-    "technological": "Technological platform section content...",
-    "other": "Other category platform content..."
-}
-```
+| Flag | Effect |
+|------|--------|
+| `--skip-organize` | Skip stage 1 |
+| `--skip-scrape` | Skip stage 2 |
+| `--skip-extract` | Skip stage 3 |
+| `--skip-organize-extractions` | Skip stage 4 |
+| `--skip-essays` | Skip stage 5 |
+| `--skip-essay-images` | Skip stage 6 |
+| `--skip-analyze` | Skip stage 7 |
+| `--skip-render` | Skip stage 8 |
+| `--skip-images` | Skip stage 9 |
+| `--only-*` | Sets skips so only that stage runs; multiple `--only-*` apply in **fixed script order** (later handler wins, e.g. `--only-analyze` after `--only-extract` runs analyze only) |
 
 ---
 
-## Error Handling
+## `src.utils.config`
 
-All modules implement comprehensive error handling:
+Paths and settings (loaded from environment via `python-dotenv`):
 
-- **Network errors**: Graceful handling of connection failures
-- **API errors**: Robust OpenAI API error management
-- **File I/O errors**: Safe file operations with proper error reporting
-- **Data validation**: Input validation and sanitization
-- **Logging**: Comprehensive error logging with context
+| Name | Source |
+|------|--------|
+| `BASE_DIR` | Project root |
+| `DATA_DIR`, `OUTPUT_DIR`, `CACHE_DIR`, `LOGS_DIR` | Subdirectories under `BASE_DIR` |
+| `RAW_LINKS_PATH` | `bestofnow_urls.json` |
+| `TAGS_JSON_PATH` | `bestofnow_tags.json` |
+| `ORGANIZED_LINKS_PATH` | `data/organized_links.json` |
+| `SCRAPED_DATA_PATH` | `data/scraped_data.json` |
+| `EXTRACTED_CONCEPTS_PATH` | `output/extracted_concepts.json` |
+| `PLATFORM_OUTPUT_PATH` | `output/political_platform.json` |
+| `OPENAI_API_KEY` | API key |
+| `GPT_MODEL` | Chat model (default `gpt-4`) |
+| `IMAGE_MODEL` | Platform images in `generate_images.py` (default `gpt-image-1`) |
+| `ESSAY_IMAGE_MODEL` | Essay images in `generate_essay_images.py` (default `dall-e-3`) |
+| `REQUEST_TIMEOUT` | `int(os.getenv("TIMEOUT", 30))` |
+| `MAX_LINKS` | Default `40` |
+| `MAX_CONCURRENT_REQUESTS` | Constant `5` |
+
+`validate_files()` and `validate_api_key()` enforce inputs when called.
 
 ---
 
-## Configuration
+## `src.data.organize_links`
 
-The system supports configuration through environment variables:
+| Function | Description |
+|----------|-------------|
+| `load_raw_links(file_path)` | Load JSON list of links; trim to `MAX_LINKS` |
+| `categorize_links(links_data)` | Keyword buckets: `political`, `economic`, `social`, `technological`, `other` |
+| `save_organized_links(organized_links, output_path)` | Write JSON |
+| `main()` | Load → categorize → save to `ORGANIZED_LINKS_PATH` |
 
-- `OPENAI_API_KEY`: Required OpenAI API key
-- `LOG_LEVEL`: Logging verbosity (DEBUG, INFO, WARNING, ERROR)
-- `MAX_LINKS`: Maximum number of links to process
-- `GPT_MODEL`: OpenAI model to use
-- `TIMEOUT`: Request timeout in seconds
-- `MAX_CONCURRENT_REQUESTS`: Maximum concurrent requests
+---
+
+## `src.scrapers.scrape_sites`
+
+| Function | Description |
+|----------|-------------|
+| `load_organized_links(file_path)` | Load categorized JSON |
+| `scrape_url(url)` | GET with cache, return `status`, `content`, `source` |
+| `scrape_links(organized_links)` | Per-category scrape; caps each category at 20 links in code |
+| `extract_meaningful_content(soup)` | Title, paragraphs, headings, list items, metadata |
+| `save_scraped_data(scraped_data, output_path)` | JSON + `*_text_extract.txt` |
+| `main()` | Load organized → scrape → save |
+
+---
+
+## `src.analysis.extract_concepts`
+
+Extracts per document a structured `categories` object: `principles`, `policies`, `values`, `goals` (each a list of items with `title`, `content`, `explanation`, …).
+
+| Function | Description |
+|----------|-------------|
+| `load_scraped_data(file_path)` | Load scraped JSON |
+| `extract_concepts_from_document(document)` | One LLM call; returns JSON-shaped extraction or error/skip |
+| `extract_concepts(scraped_data)` | All documents |
+| `save_extracted_concepts(extracted_data, output_path)` | JSON + `*_text.txt` |
+| `main()` | Load → extract → save |
+
+---
+
+## `src.analysis.organize_extractions`
+
+| Function | Description |
+|----------|-------------|
+| `create_site_specific_structure(extracted_data, output_dir)` | `output/site_specific/<category>/<safe_url>.json` |
+| `create_compiled_structure(extracted_data, output_dir)` | `output/compiled/` JSON + `*_summary.txt` |
+| `main()` | Load `EXTRACTED_CONCEPTS_PATH` → both trees; returns dict with paths |
+
+---
+
+## `src.analysis.generate_essays`
+
+| Function | Description |
+|----------|-------------|
+| `load_compiled_data(compiled_dir)` | Read `principles.json`, `policies.json`, `values.json`, `goals.json` |
+| `generate_essay(category, items)` | LLM essay with attribution rules |
+| `generate_category_essay(...)` | Write `output/essays/{category}_essay.md` |
+| `validate_essay_quality(essay_content, category)` | Heuristic checks + logging |
+| `main()` | Generate essays from `output/compiled` |
+
+---
+
+## `src.analysis.generate_essay_images`
+
+Chat prompts use **`GPT_MODEL`**. **`ESSAY_IMAGE_MODEL`** (default `dall-e-3`) is passed to `client.images.generate`. Prompts must parse as a JSON array of exactly two non-empty strings or `extract_image_prompts_from_essay` raises `ValueError`.
+
+| Function | Description |
+|----------|-------------|
+| `extract_image_prompts_from_essay(essay_content, category)` | Chat completion → two string prompts |
+| `generate_image(prompt, category, image_number, output_dir)` | One image file; raises on API/download failure |
+| `generate_images_for_essay(essay_file, category, output_dir)` | Two images per essay |
+| `main()` | Glob `output/essays/*_essay.md` → `output/essay_images/` |
+
+---
+
+## `src.analysis.generate_platform`
+
+| Function | Description |
+|----------|-------------|
+| `load_extracted_concepts(file_path)` | Load JSON |
+| `prepare_prompt` / `generate_section` | Per-category platform text from `concepts` strings on documents |
+| `generate_platform(extracted_data)` | All categories + `executive_summary` |
+| `save_platform(platform, output_path)` | Write JSON |
+| `main()` | Load → generate → save |
+
+---
+
+## `src.analysis.render_markdown`
+
+| Function | Description |
+|----------|-------------|
+| `load_platform_data`, `render_markdown`, `render_html` | Platform JSON → strings |
+| `save_markdown`, `save_html` | Write files |
+| `main()` | Load → render MD + HTML → **returns** `(MARKDOWN_OUTPUT_PATH, HTML_OUTPUT_PATH)` |
+
+Constants: `MARKDOWN_OUTPUT_PATH`, `HTML_OUTPUT_PATH` under `output/`.
+
+---
+
+## `src.analysis.generate_images`
+
+Platform manifesto images: **`gpt-image-1`** in `client.images.generate`.
+
+| Function | Description |
+|----------|-------------|
+| `load_platform_data`, `generate_image_prompts`, `generate_images` | Prompts from platform JSON |
+| `main()` | Returns `IMAGES_OUTPUT_DIR` (`output/platform_images/`) |
+
+---
+
+## `src.utils.logger`
+
+| Function | Description |
+|----------|-------------|
+| `get_logger(name, log_file=None)` | Console + optional file under `LOGS_DIR` |
+| `log_with_emoji(logger, level, emoji_key, message)` | Uses `EMOJI` map (unknown keys → empty prefix) |
+| `ColoredFormatter` | ANSI colors when stdout is a TTY |
+
+---
+
+## Data shapes (summary)
+
+**Organized links** — dict of category → list of link objects.
+
+**Scraped document** — `url`, `title`, `content` (dict with `paragraphs`, `headings`, `lists`, …), `status`.
+
+**Extracted document (success)** — `url`, `title`, `categories` (four keys), `raw_response`, `status`.
+
+**Platform JSON** — `executive_summary`, `political`, `economic`, `social`, `technological`, `other` (string sections).
 
 ---
 
 ## Dependencies
 
-- **openai**: OpenAI API client
-- **requests**: HTTP client for web scraping
-- **beautifulsoup4**: HTML parsing
-- **python-dotenv**: Environment variable management
-- **tqdm**: Progress bars
-- **colorama**: Terminal colors
+`requirements.txt` / `pyproject.toml`: `openai`, `httpx`, `requests`, `beautifulsoup4`, `python-dotenv`, `tqdm`, `pyyaml`, `colorama`. Dev: `pytest`, `pytest-cov` (optional group in `pyproject.toml`).

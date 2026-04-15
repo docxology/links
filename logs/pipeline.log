@@ -46,3 +46,542 @@
 2025-08-27 12:57:20 - main - INFO - ✨ Stage 9: Generating images from platform
 2025-08-27 12:57:21 - main - INFO - 🏁 Stage 9 completed. Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
 2025-08-27 12:57:21 - main - INFO - 🏁 Pipeline completed in 8m 25.88s
+2026-04-15 15:51:40 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:51:40 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:51:40 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:51:40 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 15:51:40 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 15:51:40 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:51:40 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 15:51:40 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 15:51:40 - main - INFO - 🏁 Stage 4 completed. Site-specific: /Users/4d/Documents/GitHub/links/output/site_specific, Compiled: /Users/4d/Documents/GitHub/links/output/compiled
+2026-04-15 15:51:40 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 15:51:51 - main - INFO - 🏁 Stage 5 completed. Essays saved to /Users/4d/Documents/GitHub/links/output/essays
+2026-04-15 15:51:51 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 15:52:03 - main - INFO - 🏁 Stage 6 completed. Images saved to /Users/4d/Documents/GitHub/links/output/essay_images
+2026-04-15 15:52:03 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 15:52:03 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:52:03 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 15:52:03 - main - INFO - 🏁 Stage 8 completed. Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-120/test_pipeline_flow0/output/political_platform.md
+2026-04-15 15:52:03 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 15:52:03 - main - INFO - 🏁 Stage 9 completed. Images saved to <MagicMock name='main()' id='4466166576'>
+2026-04-15 15:52:03 - main - INFO - 🏁 Pipeline completed in 23.38s
+2026-04-15 15:52:03 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 15:52:03 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:52:03 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:52:03 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:52:03 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:52:03 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:52:03 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 15:52:03 - main - INFO - 🏁 Stage 4 completed. Site-specific: /Users/4d/Documents/GitHub/links/output/site_specific, Compiled: /Users/4d/Documents/GitHub/links/output/compiled
+2026-04-15 15:52:03 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 15:52:10 - main - INFO - 🏁 Stage 5 completed. Essays saved to /Users/4d/Documents/GitHub/links/output/essays
+2026-04-15 15:52:10 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 15:52:21 - main - INFO - 🏁 Stage 6 completed. Images saved to /Users/4d/Documents/GitHub/links/output/essay_images
+2026-04-15 15:52:21 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:52:21 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:52:21 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:52:21 - main - INFO - 🏁 Pipeline completed in 17.64s
+2026-04-15 15:58:32 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:58:32 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:58:32 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 15:58:32 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 15:58:32 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 15:58:32 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 15:58:32 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 15:58:32 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:58:32 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 8 completed. Markdown saved to ('m.md', 'h.html')
+2026-04-15 15:58:32 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 9 completed. Images saved to <MagicMock name='main()' id='4440955344'>
+2026-04-15 15:58:32 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:58:32 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 15:58:32 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:58:32 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:58:32 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:58:32 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:58:32 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:59:16 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 15:59:16 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 15:59:16 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 15:59:16 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 15:59:16 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 15:59:16 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:59:16 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 8 completed. Markdown saved to ('m.md', 'h.html')
+2026-04-15 15:59:16 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 9 completed. Images saved to <MagicMock name='generate_images_main()' id='4687426720'>
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 8 completed. Markdown saved to ('out.md', 'out.html')
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:16 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:16 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:16 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 15:59:16 - main - INFO - 🏁 Stage 9 completed. Images saved to <MagicMock name='generate_images_main()' id='4687213824'>
+2026-04-15 15:59:16 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:59:28 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 15:59:28 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 15:59:28 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 15:59:28 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 15:59:28 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 15:59:28 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:59:28 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 8 completed. Markdown saved to ('m.md', 'h.html')
+2026-04-15 15:59:28 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 9 completed. Images saved to <MagicMock name='generate_images_main()' id='4705155168'>
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 8 completed. Markdown saved to ('out.md', 'out.html')
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 15:59:28 - main - INFO - 🚀 Starting pipeline
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 1: Organizing links and tags
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 15:59:28 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 15:59:28 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 15:59:28 - main - INFO - 🏁 Stage 9 completed. Images saved to <MagicMock name='generate_images_main()' id='4705384208'>
+2026-04-15 15:59:28 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:07:24 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:07:24 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:07:24 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:07:24 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:07:24 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:07:24 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:07:24 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:07:24 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:07:24 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 8 completed. Markdown: m.md, HTML: h.html
+2026-04-15 16:07:24 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 9 completed. Images saved to img
+2026-04-15 16:07:24 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:07:24 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 16:07:24 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:07:24 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:07:24 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:07:24 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:07:24 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:07:24 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:07:24 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:07:24 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:07:24 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 8 completed. Markdown: out.md, HTML: out.html
+2026-04-15 16:07:24 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 9 completed. Images saved to imgdir
+2026-04-15 16:07:24 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:07:24 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:07:24 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:07:24 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 16:07:24 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 16:07:24 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:15:11 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:15:11 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:15:11 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:15:11 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:15:11 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:15:11 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:15:11 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:15:11 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:15:11 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 8 completed. Markdown: m.md, HTML: h.html
+2026-04-15 16:15:11 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 9 completed. Images saved to img
+2026-04-15 16:15:11 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:15:11 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 16:15:11 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:15:11 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:15:11 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:15:11 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:15:11 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:15:11 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:15:11 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:15:11 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:15:11 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 8 completed. Markdown: out.md, HTML: out.html
+2026-04-15 16:15:11 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 9 completed. Images saved to imgdir
+2026-04-15 16:15:11 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:15:11 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:15:11 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:15:11 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 16:15:11 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 16:15:11 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:15:52 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:15:52 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:15:52 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:15:52 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:15:52 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:15:52 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:15:52 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:15:52 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:15:52 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 8 completed. Markdown: m.md, HTML: h.html
+2026-04-15 16:15:52 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 9 completed. Images saved to img
+2026-04-15 16:15:52 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:15:52 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 16:15:52 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:15:52 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:15:52 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:15:52 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:15:52 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:15:52 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:15:52 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:15:52 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:15:52 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 8 completed. Markdown: out.md, HTML: out.html
+2026-04-15 16:15:52 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 9 completed. Images saved to imgdir
+2026-04-15 16:15:52 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:15:52 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:15:52 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:15:52 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 16:15:52 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 16:15:52 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:20:52 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:20:52 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:20:52 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:20:52 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:20:52 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:20:52 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:20:52 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:20:52 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:20:52 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 8 completed. Markdown: m.md, HTML: h.html
+2026-04-15 16:20:52 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 9 completed. Images saved to img
+2026-04-15 16:20:52 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:20:52 - main - ERROR - ❌ Error in pipeline: Test error
+2026-04-15 16:20:52 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:20:52 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:20:52 - main - INFO - 🔎 Stage 2: Scraping websites
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 2 completed
+2026-04-15 16:20:52 - main - INFO - 🔮 Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 3 completed. Categories saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 16:20:52 - main - INFO - Stage 4: Organizing extractions into site-specific and compiled formats
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 4 completed. Site-specific: s, Compiled: c
+2026-04-15 16:20:52 - main - INFO - Stage 5: Generating overview essays
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 5 completed. Essays saved to e
+2026-04-15 16:20:52 - main - INFO - ✨ Stage 6: Generating images from essays
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 6 completed. Images saved to i
+2026-04-15 16:20:52 - main - INFO - 🧠 Stage 7: Generating political platform
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 7 completed. Platform saved to /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:20:52 - main - INFO - 🎨 Stage 8: Rendering platform as Markdown
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 8 completed. Markdown: out.md, HTML: out.html
+2026-04-15 16:20:52 - main - INFO - ✨ Stage 9: Generating images from platform
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 9 completed. Images saved to imgdir
+2026-04-15 16:20:52 - main - INFO - 🏁 Pipeline completed in 0.00s
+2026-04-15 16:20:52 - main - INFO - 🚀 Starting pipeline
+2026-04-15 16:20:52 - main - INFO - ⏳ Stage 1: Organizing links and tags
+2026-04-15 16:20:52 - main - INFO - 🏁 Stage 1 completed
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 2: Scraping websites
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 3: Extracting Principles, Policies, Values, Goals
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 4: Organizing extractions
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 5: Generating essays
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 6: Generating essay images
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 7: Generating political platform
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 8: Rendering platform as Markdown
+2026-04-15 16:20:52 - main - INFO - ⏭️ Skipping Stage 9: Generating images from platform
+2026-04-15 16:20:52 - main - INFO - 🏁 Pipeline completed in 0.00s

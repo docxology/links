@@ -5,20 +5,17 @@ Cursor is an AI-powered code editor based on VS Code that helps streamline devel
 ## Installation
 
 ### macOS
-1. Visit [cursor.so](https://cursor.so) and click on "Download"
-2. Download the macOS version
-3. Open the downloaded file and drag Cursor to your Applications folder
-4. Launch Cursor from your Applications folder
+1. Download from [cursor.com](https://cursor.com)
+2. Open the installer and drag Cursor into Applications
+3. Launch Cursor
 
 ### Windows
-1. Visit [cursor.so](https://cursor.so) and click on "Download"
-2. Download the Windows version (.exe)
-3. Run the installer and follow the prompts
-4. Launch Cursor from the Start menu or desktop shortcut
+1. Download the `.exe` from [cursor.com](https://cursor.com)
+2. Run the installer
+3. Launch from the Start menu or desktop shortcut
 
 ### Linux
-1. Visit [cursor.so](https://cursor.so) and click on "Download"
-2. Download the appropriate Linux version (.AppImage or .deb)
+1. Download `.AppImage` or `.deb` from [cursor.com](https://cursor.com)
 3. For AppImage:
    - Make it executable: `chmod +x Cursor-*.AppImage`
    - Run it: `./Cursor-*.AppImage`
@@ -36,31 +33,27 @@ Cursor is an AI-powered code editor based on VS Code that helps streamline devel
 
 ## Using Cursor with this Project
 
-1. Open this project in Cursor:
-   - File → Open Folder → Navigate to the project directory
-2. Explore AI features:
-   - Use `/` command to chat with AI
-   - Press Ctrl+K (Cmd+K on macOS) to bring up the command palette
-   - Use the AI tab in the sidebar for more advanced features
+1. Open the project root in Cursor.
+2. The `.cursorrules` and folder-level `AGENTS.md` / `README.md` files provide persistent guidance.
+3. Use the AI chat (`/`) with references to specific files (e.g. `@src/pipeline_orchestration.py`).
+4. Key commands:
+   - `uv sync --all-extras`
+   - `uv run pytest`
+   - `uv run python -m src.main --only-extract`
 
-## Useful Keyboard Shortcuts
-
-- `/` - Start a chat with the AI assistant
-- `Ctrl+K` (`Cmd+K` on macOS) - Command palette
-- `Ctrl+E` (`Cmd+E` on macOS) - Explain selected code
-- `Ctrl+G` (`Cmd+G` on macOS) - Generate code from a comment
+Project-specific:
+- Follow conventions in [`.cursorrules`](../.cursorrules) and [`AGENTS.md`](../AGENTS.md) in every folder.
+- Documentation is in [`docs/`](../docs/) with hub at [`docs/README.md`](../docs/README.md).
+- Tests prefer real data; live OpenAI tests are marked and excluded by default.
 
 ## Additional Resources
 
 - [Cursor Documentation](https://cursor.sh/docs)
-- [Cursor GitHub Repository](https://github.com/getcursor/cursor)
-- [Cursor Discord Community](https://discord.gg/cursor)
+- Root [`README.md`](../README.md) and [`docs/DEVELOPMENT.md`](DEVELOPMENT.md)
 
 ## Troubleshooting
 
-If you encounter issues with Cursor:
-
-1. Ensure your API keys are correctly configured
-2. Check your internet connection as AI features require connectivity
-3. Update to the latest version of Cursor
-4. Visit the Cursor Discord community for support 
+- AI context: reference specific `@docs/ARCHITECTURE.md` or `@src/pipeline_orchestration.py`.
+- Environment: ensure `.env` is loaded and `uv` is used.
+- Linter errors after edits: run `uv run pytest` and check with ReadLints if needed.
+ 

@@ -131,3 +131,128 @@
 2025-08-27 12:49:37 - scrape_sites - INFO - ✅ Scraped data saved successfully
 2025-08-27 12:49:37 - scrape_sites - INFO - ✅ Text extract saved successfully
 2025-08-27 12:49:37 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 15:52:03 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 15:52:21 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 15:52:21 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:52:21 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:52:21 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 15:52:21 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 15:52:21 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 15:52:21 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 15:52:23 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 15:52:23 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 15:52:23 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 15:52:23 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 15:52:23 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2026-04-15 15:58:32 - scrape_sites - INFO - 🚀 Starting web scraping process
+2026-04-15 15:58:32 - scrape_sites - INFO - 📂 Loading organized links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-122/test_scrape_sites_integration0/data/organized_links.json
+2026-04-15 15:58:32 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 15:58:32 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 15:58:32 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 15:58:32 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:58:32 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:58:32 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 15:58:32 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 15:58:32 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 15:58:32 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 15:58:37 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 15:58:37 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 15:58:37 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 15:58:37 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 15:58:37 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2026-04-15 15:59:16 - scrape_sites - INFO - 🚀 Starting web scraping process
+2026-04-15 15:59:16 - scrape_sites - INFO - 📂 Loading organized links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-123/test_scrape_sites_integration0/data/organized_links.json
+2026-04-15 15:59:16 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 15:59:16 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 15:59:16 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 15:59:16 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:59:16 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:59:16 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 15:59:16 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 15:59:16 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 15:59:16 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 15:59:19 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 15:59:19 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 15:59:19 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 15:59:19 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 15:59:19 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2026-04-15 15:59:28 - scrape_sites - INFO - 🚀 Starting web scraping process
+2026-04-15 15:59:28 - scrape_sites - INFO - 📂 Loading organized links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-124/test_scrape_sites_integration0/data/organized_links.json
+2026-04-15 15:59:28 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 15:59:28 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 15:59:28 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 15:59:28 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:59:28 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 15:59:28 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 15:59:28 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 15:59:28 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 15:59:28 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 15:59:32 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 15:59:32 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 15:59:32 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 15:59:32 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 15:59:32 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2026-04-15 16:07:24 - scrape_sites - INFO - 🚀 Starting web scraping process
+2026-04-15 16:07:24 - scrape_sites - INFO - 📂 Loading organized links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-125/test_scrape_sites_integration0/data/organized_links.json
+2026-04-15 16:07:24 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 16:07:24 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 16:07:24 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 16:07:24 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:07:24 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:07:24 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 16:07:24 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 16:07:24 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 16:07:24 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 16:07:30 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 16:07:30 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 16:07:30 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 16:07:30 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 16:07:30 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2026-04-15 16:15:11 - scrape_sites - INFO - 🚀 Starting web scraping process
+2026-04-15 16:15:11 - scrape_sites - INFO - 📂 Loading organized links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-126/test_scrape_sites_integration0/data/organized_links.json
+2026-04-15 16:15:11 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 16:15:11 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 16:15:11 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 16:15:11 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:15:11 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:15:11 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 16:15:11 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 16:15:11 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 16:15:11 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 16:15:16 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 16:15:16 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 16:15:16 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 16:15:16 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 16:15:16 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2026-04-15 16:15:52 - scrape_sites - INFO - 🚀 Starting web scraping process
+2026-04-15 16:15:52 - scrape_sites - INFO - 📂 Loading organized links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-127/test_scrape_sites_integration0/data/organized_links.json
+2026-04-15 16:15:52 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 16:15:52 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 16:15:52 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 16:15:52 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:15:52 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:15:52 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 16:15:52 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 16:15:52 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 16:15:52 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 16:15:56 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 16:15:56 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 16:15:56 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 16:15:56 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 16:15:56 - scrape_sites - ERROR - ❌ Error saving data: 'title'
+2026-04-15 16:20:52 - scrape_sites - INFO - 🚀 Starting web scraping process
+2026-04-15 16:20:52 - scrape_sites - INFO - 📂 Loading organized links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-128/test_scrape_sites_integration0/data/organized_links.json
+2026-04-15 16:20:52 - scrape_sites - INFO - 🏁 Web scraping process completed
+2026-04-15 16:20:52 - scrape_sites - INFO - 📂 Loading organized links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 16:20:53 - scrape_sites - INFO - 📂 Loading organized links from organized_links.json
+2026-04-15 16:20:53 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:20:53 - scrape_sites - INFO - 🔎 Scraping URL: https://example.com
+2026-04-15 16:20:53 - scrape_sites - ERROR - ❌ Error scraping https://example.com: Connection error
+2026-04-15 16:20:53 - scrape_sites - INFO - 🚀 Starting scraping process
+2026-04-15 16:20:53 - scrape_sites - INFO - ✅ Total links to scrape: 2
+2026-04-15 16:20:53 - scrape_sites - INFO - ⏳ Scraping 2 links in category: category
+2026-04-15 16:20:57 - scrape_sites - INFO - 🏁 Scraping completed. Success: 1, Failed: 1, Skipped: 0
+2026-04-15 16:20:57 - scrape_sites - INFO - 💾 Saving scraped data to scraped_data.json
+2026-04-15 16:20:57 - scrape_sites - INFO - 💾 Saving text extract to scraped_data_text_extract.txt
+2026-04-15 16:20:57 - scrape_sites - INFO - ✅ Scraped data saved successfully
+2026-04-15 16:20:57 - scrape_sites - ERROR - ❌ Error saving data: 'title'

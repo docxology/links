@@ -43,3 +43,122 @@
 2025-08-27 12:52:19 - extract_concepts - INFO - Extracted concepts saved successfully
 2025-08-27 12:52:19 - extract_concepts - INFO - Text version saved to /Users/4d/Documents/GitHub/links/output/extracted_concepts_text.txt
 2025-08-27 12:52:19 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:51:40 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:51:40 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 15:51:40 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:52:03 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/output/extracted_concepts.json
+2026-04-15 15:52:21 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 15:52:21 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 15:52:21 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:52:21 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 15:52:21 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 15:52:21 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 15:52:21 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 15:52:21 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 15:52:21 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 15:52:21 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:52:21 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:58:32 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:58:32 - extract_concepts - INFO - Loading scraped data from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-122/test_extract_concepts_integrat0/data/scraped_data.json
+2026-04-15 15:58:32 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:58:32 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 15:58:32 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 15:58:32 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:58:32 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 15:58:32 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 15:58:32 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 15:58:32 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 15:58:32 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 15:58:32 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 15:58:32 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:58:32 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:59:16 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:59:16 - extract_concepts - INFO - Loading scraped data from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-123/test_extract_concepts_integrat0/data/scraped_data.json
+2026-04-15 15:59:16 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:59:16 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 15:59:16 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 15:59:16 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 15:59:16 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:59:16 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 15:59:16 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 15:59:16 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 15:59:16 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 15:59:16 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 15:59:16 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 15:59:16 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:59:16 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:59:28 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:59:28 - extract_concepts - INFO - Loading scraped data from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-124/test_extract_concepts_integrat0/data/scraped_data.json
+2026-04-15 15:59:28 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 15:59:28 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 15:59:28 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 15:59:28 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 15:59:28 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:59:28 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 15:59:28 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 15:59:28 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 15:59:28 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 15:59:28 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 15:59:28 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 15:59:28 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 15:59:28 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:07:24 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:07:24 - extract_concepts - INFO - Loading scraped data from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-125/test_extract_concepts_integrat0/data/scraped_data.json
+2026-04-15 16:07:24 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:07:24 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 16:07:24 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 16:07:24 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 16:07:24 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:07:24 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 16:07:24 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 16:07:24 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 16:07:24 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 16:07:24 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 16:07:24 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 16:07:24 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:07:24 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:15:11 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:15:11 - extract_concepts - INFO - Loading scraped data from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-126/test_extract_concepts_integrat0/data/scraped_data.json
+2026-04-15 16:15:11 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:15:11 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 16:15:11 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 16:15:11 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 16:15:11 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:15:11 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 16:15:11 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 16:15:11 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 16:15:11 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 16:15:11 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 16:15:11 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 16:15:11 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:15:11 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:15:52 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:15:52 - extract_concepts - INFO - Loading scraped data from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-127/test_extract_concepts_integrat0/data/scraped_data.json
+2026-04-15 16:15:52 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:15:52 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 16:15:52 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 16:15:52 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 16:15:52 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:15:52 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 16:15:52 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 16:15:52 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 16:15:52 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 16:15:52 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 16:15:52 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 16:15:52 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:15:52 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:20:52 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:20:52 - extract_concepts - INFO - Loading scraped data from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-128/test_extract_concepts_integrat0/data/scraped_data.json
+2026-04-15 16:20:52 - extract_concepts - INFO - Concept extraction process completed
+2026-04-15 16:20:52 - extract_concepts - INFO - Loading scraped data from /Users/4d/Documents/GitHub/links/data/scraped_data.json
+2026-04-15 16:20:52 - extract_concepts - INFO - Loading scraped data from scraped_data.json
+2026-04-15 16:20:52 - extract_concepts - WARNING - JSON parsing failed for https://example.com: Extra data: line 1 column 2 (char 1)
+2026-04-15 16:20:52 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:20:52 - extract_concepts - INFO - Processing 2 documents
+2026-04-15 16:20:52 - extract_concepts - INFO - Processing 2 documents in category: tech
+2026-04-15 16:20:52 - extract_concepts - INFO - Concept extraction completed. Success: 1, Error: 1, Skipped: 0
+2026-04-15 16:20:53 - extract_concepts - INFO - Saving extracted concepts to extracted_concepts.json
+2026-04-15 16:20:53 - extract_concepts - INFO - Extracted concepts saved successfully
+2026-04-15 16:20:53 - extract_concepts - INFO - Text version saved to extracted_concepts_text.txt
+2026-04-15 16:20:53 - extract_concepts - INFO - Starting concept extraction process
+2026-04-15 16:20:53 - extract_concepts - INFO - Concept extraction process completed

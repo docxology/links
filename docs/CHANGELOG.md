@@ -1,173 +1,51 @@
 # Changelog
 
-All notable changes to the Links Analysis Pipeline will be documented in this file.
+Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). Versions are semantic when tagged in git.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [1.0.1] - 2024-01-XX
-
-### Changed
-- **Image Generation**: Migrated from DALL-E to GPT-Image-1 for superior image quality
-- **Enhanced Visual Output**: Added HD quality and vivid style parameters for better image generation
-- **Updated Documentation**: All references updated to reflect GPT-Image-1 usage
-- **Test Updates**: Modified tests to validate GPT-Image-1 specific parameters
-
-### Technical Improvements
-- **GPT-Image-1 Integration**: Advanced text-to-image generation with superior quality
-- **Enhanced Image Parameters**: High-definition quality and vivid creative style
-- **Improved Prompt Handling**: Better prompt understanding and transformation
-- **Superior Visual Output**: More engaging and dynamic image generation
-
-## [1.0.0] - 2024-01-XX
+## [Unreleased]
 
 ### Added
-- **Complete Pipeline Implementation**: End-to-end web content analysis pipeline
-- **OpenAI Integration**: Modern v1.0+ API client with robust error handling
-- **Modular Architecture**: Clean separation of concerns across 6 pipeline stages
-- **Comprehensive Testing**: Unit tests, integration tests, and real data validation
-- **Professional Documentation**: Complete API reference, development guide, and user manual
-- **Advanced Logging**: Emoji-enhanced logging with progress tracking
-- **Caching System**: Intelligent web scraping with rate limiting and caching
-- **Multi-format Output**: JSON, Markdown, HTML, and AI-generated images
-- **Professional Styling**: Responsive HTML with collapsible sections
-- **Development Standards**: .cursorrules enforcing best practices
+- Folder-level `README.md` and expanded `AGENTS.md` across `src/`, `tests/`, `docs/`, and artifact directories (`data/`, `output/`, etc.).
+- `docs/README.md` as documentation hub with recommended reading order.
+- Comprehensive updates to all `docs/*.md` for consistency with current orchestration (`pipeline_cli.py`, `PipelineStages`), environment variables (`ESSAY_IMAGE_MODEL`), real-data testing, and GitHub-facing root `README.md`.
+- `pyproject.toml` with optional dev extras; `httpx` dependency; `tests/live/` for opt-in OpenAI smoke tests (`live_openai` marker).
 
-### Technical Features
-- **Web Scraping**: BeautifulSoup-based content extraction with error recovery
-- **AI Concept Extraction**: GPT-powered analysis of political content
-- **Platform Generation**: Automated political platform synthesis
-- **Content Rendering**: Professional documentation generation
-- **Image Generation**: GPT-Image-1 powered visual content creation
-- **Configuration Management**: Environment-based settings
-- **Error Handling**: Comprehensive exception handling and recovery
-- **Performance Optimization**: Batch processing and resource management
+### Changed
+- Documentation aligned with nine-stage pipeline, `TIMEOUT` / `REQUEST_TIMEOUT`, strict JSON prompt parsing in essay images (no fallbacks), and `uv sync --all-extras` workflow.
+- CLI split: `src/pipeline_cli.py`, `src/pipeline_orchestration.py`; `OPENAI_API_KEY` only.
+- Expanded root `README.md` as primary overview; all docs now cross-link and avoid drift.
 
-### Quality Assurance
-- **Test Coverage**: 80%+ unit test coverage
-- **Integration Testing**: End-to-end pipeline validation
-- **Code Quality**: Black formatting, flake8 linting, type hints
-- **Documentation**: Comprehensive inline and external documentation
-- **Professional Standards**: Real data analysis, modular design, TDD approach
+See [`REAL_OPENAI_REFACTOR.md`](REAL_OPENAI_REFACTOR.md) for historical context of the 2026 refactor.
 
-### Breaking Changes
-- Migrated from OpenAI v0.x to v1.0+ API
-- Updated all function signatures to match current implementation
-- Changed data structures to support richer content analysis
-- Updated configuration system to use environment variables
+## [1.1.0] - 2026-04-15
 
----
+### Added
+- Stages 4–6: `organize_extractions`, `generate_essays`, `generate_essay_images` with outputs under `output/site_specific`, `output/compiled`, `output/essays`, `output/essay_images`.
+- CLI flags: `--skip-organize-extractions`, `--skip-essays`, `--skip-essay-images`, `--only-organize-extractions`, `--only-essays`, `--only-essay-images`.
+- Expanded `run_pipeline(...)` signature with the new skip parameters.
 
-## Previous Versions
+### Changed
+- Concept extraction now emits structured `principles` / `policies` / `values` / `goals` per document (not a single `concepts` string) for the aggregation stages.
+- Docs and README describe dual image paths: DALL·E 3 (essay images) vs GPT-Image-1 (platform images in `generate_images.py`).
 
-### [0.1.0] - 2024-01-XX (Internal)
-- Initial prototype implementation
-- Basic web scraping functionality
-- Simple concept extraction
-- Manual testing only
+## [1.0.1] - 2024-01-15
 
-### [0.0.1] - 2024-01-XX (Development)
-- Project initialization
-- Basic folder structure
-- Dependency setup
-- Initial documentation
+### Changed
+- Platform image generation uses GPT-Image-1 in `generate_images.py`.
+
+## [1.0.0] - 2024-01-01
+
+### Added
+- Initial six-stage pipeline: organize → scrape → extract → platform → render → platform images.
+- OpenAI v1 client, caching, multi-format outputs.
+
+### Breaking
+- Migration from OpenAI Python SDK v0.x patterns to v1 `OpenAI` client.
 
 ---
 
-## Development Roadmap
+## Migration notes
 
-### Planned for v1.1.0
-- [ ] Enhanced error recovery mechanisms
-- [ ] Performance optimizations for large datasets
-- [ ] Additional output formats (PDF, presentation slides)
-- [ ] Advanced AI model support
-- [ ] Real-time progress monitoring
-- [ ] Plugin architecture for extensibility
+**Environment**: Use `TIMEOUT` in `.env` for HTTP timeout (read as `REQUEST_TIMEOUT` in code).
 
-### Planned for v1.2.0
-- [ ] Multi-language support
-- [ ] Advanced content filtering
-- [ ] Integration with external APIs
-- [ ] Enhanced visualization options
-- [ ] Collaborative editing features
-
-### Planned for v2.0.0
-- [ ] Distributed processing support
-- [ ] Machine learning model fine-tuning
-- [ ] Advanced analytics dashboard
-- [ ] API endpoints for web integration
-- [ ] Mobile application support
-
----
-
-## Migration Guide
-
-### From v0.x to v1.0.0
-
-#### OpenAI API Migration
-```python
-# Old (v0.x)
-import openai
-openai.api_key = "your-key"
-response = openai.ChatCompletion.create(...)
-
-# New (v1.0+)
-from openai import OpenAI
-client = OpenAI(api_key="your-key")
-response = client.chat.completions.create(...)
-```
-
-#### Configuration Changes
-```python
-# Old
-from config import API_KEY
-
-# New
-import os
-api_key = os.getenv("OPENAI_API_KEY")
-```
-
-#### Data Structure Updates
-- Enhanced content extraction with metadata
-- Restructured concept analysis output
-- Improved platform generation format
-- Extended HTML output with interactivity
-
----
-
-## Contributing
-
-See [DEVELOPMENT.md](DEVELOPMENT.md) for detailed contribution guidelines.
-
-### Quick Setup for Contributors
-```bash
-git clone <repository-url>
-cd links-analysis-pipeline
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-pip install -r requirements-dev.txt  # Development dependencies
-python -m pytest tests/ -v
-```
-
----
-
-## Acknowledgments
-
-- OpenAI for providing powerful AI capabilities
-- BeautifulSoup for robust HTML parsing
-- tqdm for excellent progress bar implementation
-- The open-source community for inspiration and tools
-
----
-
-## Contact
-
-For questions, issues, or contributions:
-- GitHub Issues: [Report bugs and request features]
-- GitHub Discussions: [Share ideas and get help]
-- Documentation: [Complete user and developer guides]
-
----
-
-*This changelog documents the evolution of the Links Analysis Pipeline from a simple script to a comprehensive, production-ready system for automated political content analysis.*
+**Concepts schema**: Downstream code expecting only string `concepts` per document must be updated for the four-category structure produced by `extract_concepts.py`.

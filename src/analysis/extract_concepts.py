@@ -11,7 +11,7 @@ from pathlib import Path
 import openai
 from tqdm import tqdm
 from src.utils.logger import get_logger
-from src.utils.config import SCRAPED_DATA_PATH, OUTPUT_DIR, OPENAI_KEY, GPT_MODEL, EXTRACTED_CONCEPTS_PATH
+from src.utils.config import SCRAPED_DATA_PATH, OUTPUT_DIR, OPENAI_API_KEY, GPT_MODEL, EXTRACTED_CONCEPTS_PATH
 
 # Set up logger
 logger = get_logger("extract_concepts", "concepts.log")
@@ -23,7 +23,7 @@ logger = get_logger("extract_concepts", "concepts.log")
 from openai import OpenAI
 from httpx import Client
 http_client = Client(timeout=60.0)
-client = OpenAI(api_key=OPENAI_KEY, http_client=http_client)
+client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
 
 def load_scraped_data(file_path):
     """

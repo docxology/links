@@ -1,21 +1,9 @@
 {
   "total_categories": 4,
   "categories": {
-    "values": [
-      "/Users/4d/Documents/GitHub/links/output/essay_images/values_image_1.png",
-      "/Users/4d/Documents/GitHub/links/output/essay_images/values_image_2.png"
-    ],
-    "goals": [
-      "/Users/4d/Documents/GitHub/links/output/essay_images/goals_image_1.png",
-      "/Users/4d/Documents/GitHub/links/output/essay_images/goals_image_2.png"
-    ],
-    "policies": [
-      "/Users/4d/Documents/GitHub/links/output/essay_images/policies_image_1.png",
-      "/Users/4d/Documents/GitHub/links/output/essay_images/policies_image_2.png"
-    ],
-    "principles": [
-      "/Users/4d/Documents/GitHub/links/output/essay_images/principles_image_1.png",
-      "/Users/4d/Documents/GitHub/links/output/essay_images/principles_image_2.png"
-    ]
+    "values": [],
+    "goals": [],
+    "policies": [],
+    "principles": []
   }
 }

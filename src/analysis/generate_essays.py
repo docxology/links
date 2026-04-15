@@ -15,9 +15,9 @@ from httpx import Client
 logger = get_logger("generate_essays", "essays.log")
 
 # Set up OpenAI API client
-from src.utils.config import OPENAI_KEY, GPT_MODEL
+from src.utils.config import OPENAI_API_KEY, GPT_MODEL
 http_client = Client(timeout=120.0)
-client = OpenAI(api_key=OPENAI_KEY, http_client=http_client)
+client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
 
 def load_compiled_data(compiled_dir: Path) -> Dict[str, Any]:
     """

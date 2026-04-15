@@ -29,3 +29,114 @@
 2025-08-27 12:57:20 - render_markdown - INFO - HTML saved successfully
 2025-08-27 12:57:20 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
 2025-08-27 12:57:20 - render_markdown - INFO - Rendering process completed
+2026-04-15 15:52:03 - render_markdown - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:52:03 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:52:03 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 15:52:21 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 15:52:21 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:52:21 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 15:52:21 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:52:21 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 15:52:21 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 15:52:21 - render_markdown - INFO - Starting rendering process
+2026-04-15 15:52:21 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 15:52:21 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 15:52:21 - render_markdown - INFO - Rendering process completed
+2026-04-15 15:58:32 - render_markdown - INFO - Starting rendering process
+2026-04-15 15:58:32 - render_markdown - INFO - Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-122/test_render_markdown_integrati0/output/political_platform.md
+2026-04-15 15:58:32 - render_markdown - INFO - HTML saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-122/test_render_markdown_integrati0/output/political_platform.html
+2026-04-15 15:58:32 - render_markdown - INFO - Rendering process completed
+2026-04-15 15:58:32 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 15:58:32 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:58:32 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 15:58:32 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:58:32 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 15:58:32 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 15:58:32 - render_markdown - INFO - Starting rendering process
+2026-04-15 15:58:32 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 15:58:32 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 15:58:32 - render_markdown - INFO - Rendering process completed
+2026-04-15 15:59:16 - render_markdown - INFO - Starting rendering process
+2026-04-15 15:59:16 - render_markdown - INFO - Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-123/test_render_markdown_integrati0/output/political_platform.md
+2026-04-15 15:59:16 - render_markdown - INFO - HTML saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-123/test_render_markdown_integrati0/output/political_platform.html
+2026-04-15 15:59:16 - render_markdown - INFO - Rendering process completed
+2026-04-15 15:59:16 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 15:59:16 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:59:16 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 15:59:16 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:59:16 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 15:59:16 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 15:59:16 - render_markdown - INFO - Starting rendering process
+2026-04-15 15:59:16 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 15:59:16 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 15:59:16 - render_markdown - INFO - Rendering process completed
+2026-04-15 15:59:28 - render_markdown - INFO - Starting rendering process
+2026-04-15 15:59:28 - render_markdown - INFO - Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-124/test_render_markdown_integrati0/output/political_platform.md
+2026-04-15 15:59:28 - render_markdown - INFO - HTML saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-124/test_render_markdown_integrati0/output/political_platform.html
+2026-04-15 15:59:28 - render_markdown - INFO - Rendering process completed
+2026-04-15 15:59:28 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 15:59:28 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:59:28 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 15:59:28 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 15:59:28 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 15:59:28 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 15:59:28 - render_markdown - INFO - Starting rendering process
+2026-04-15 15:59:28 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 15:59:28 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 15:59:28 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:07:24 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:07:24 - render_markdown - INFO - Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-125/test_render_markdown_integrati0/output/political_platform.md
+2026-04-15 16:07:24 - render_markdown - INFO - HTML saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-125/test_render_markdown_integrati0/output/political_platform.html
+2026-04-15 16:07:24 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:07:24 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 16:07:24 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:07:24 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 16:07:24 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:07:24 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 16:07:24 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 16:07:24 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:07:24 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 16:07:24 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 16:07:24 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:15:11 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:15:11 - render_markdown - INFO - Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-126/test_render_markdown_integrati0/output/political_platform.md
+2026-04-15 16:15:11 - render_markdown - INFO - HTML saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-126/test_render_markdown_integrati0/output/political_platform.html
+2026-04-15 16:15:11 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:15:11 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 16:15:11 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:15:11 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 16:15:11 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:15:11 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 16:15:11 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 16:15:11 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:15:11 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 16:15:11 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 16:15:11 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:15:52 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:15:52 - render_markdown - INFO - Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-127/test_render_markdown_integrati0/output/political_platform.md
+2026-04-15 16:15:52 - render_markdown - INFO - HTML saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-127/test_render_markdown_integrati0/output/political_platform.html
+2026-04-15 16:15:52 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:15:52 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 16:15:52 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:15:52 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 16:15:52 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:15:52 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 16:15:52 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 16:15:52 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:15:52 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 16:15:52 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 16:15:52 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:20:52 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:20:52 - render_markdown - INFO - Markdown saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-128/test_render_markdown_integrati0/output/political_platform.md
+2026-04-15 16:20:52 - render_markdown - INFO - HTML saved to /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-128/test_render_markdown_integrati0/output/political_platform.html
+2026-04-15 16:20:52 - render_markdown - INFO - Rendering process completed
+2026-04-15 16:20:53 - render_markdown - INFO - Loading political platform data from platform.json
+2026-04-15 16:20:53 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:20:53 - render_markdown - INFO - Rendering political platform as HTML
+2026-04-15 16:20:53 - render_markdown - INFO - Rendering political platform as Markdown
+2026-04-15 16:20:53 - render_markdown - INFO - Saving Markdown to platform.md
+2026-04-15 16:20:53 - render_markdown - INFO - Markdown saved successfully
+2026-04-15 16:20:53 - render_markdown - INFO - Starting rendering process
+2026-04-15 16:20:53 - render_markdown - INFO - Markdown saved to /Users/4d/Documents/GitHub/links/output/political_platform.md
+2026-04-15 16:20:53 - render_markdown - INFO - HTML saved to /Users/4d/Documents/GitHub/links/output/political_platform.html
+2026-04-15 16:20:53 - render_markdown - INFO - Rendering process completed

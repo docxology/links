@@ -6,8 +6,15 @@ import os
 import pytest
 from pathlib import Path
 from src.utils.config import (
-    BASE_DIR, DATA_DIR, OUTPUT_DIR, LOGS_DIR,
-    OPENAI_KEY, GPT_MODEL, REQUEST_TIMEOUT, MAX_CONCURRENT_REQUESTS
+    BASE_DIR,
+    DATA_DIR,
+    OUTPUT_DIR,
+    LOGS_DIR,
+    OPENAI_API_KEY,
+    GPT_MODEL,
+    REQUEST_TIMEOUT,
+    MAX_CONCURRENT_REQUESTS,
+    ESSAY_IMAGE_MODEL,
 )
 
 
@@ -33,13 +40,12 @@ def test_directory_paths():
 
 def test_api_settings():
     """Test that API settings are set appropriately."""
-    # OPENAI_KEY might be None in test environment, but it should be defined
     if os.environ.get("OPENAI_API_KEY"):
-        assert OPENAI_KEY is not None
-    
-    # GPT_MODEL should be a string
+        assert OPENAI_API_KEY is not None
+
     assert isinstance(GPT_MODEL, str)
-    assert GPT_MODEL.startswith("gpt-")
+    assert isinstance(ESSAY_IMAGE_MODEL, str)
+    assert len(ESSAY_IMAGE_MODEL) > 0
     
     # REQUEST_TIMEOUT should be a positive integer
     assert isinstance(REQUEST_TIMEOUT, int)

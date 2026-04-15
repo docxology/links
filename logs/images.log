@@ -49,3 +49,112 @@
 2025-08-27 12:57:21 - generate_images - ERROR - Error generating image 5: Error code: 400 - {'error': {'message': "Unknown parameter: 'style'.", 'type': 'invalid_request_error', 'param': 'style', 'code': 'unknown_parameter'}}
 2025-08-27 12:57:21 - generate_images - INFO - Generated 0 images based on platform manifesto
 2025-08-27 12:57:21 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 15:51:51 - generate_essay_images - INFO - Starting image generation process
+2026-04-15 15:51:51 - generate_essay_images - INFO - Generating images for values essay
+2026-04-15 15:51:52 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:51:52 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in values', 'Conceptual artwork depicting themes of values in modern society']
+2026-04-15 15:51:52 - generate_essay_images - INFO - Generating image 1 for values: Abstract visualization representing key concepts in values...
+2026-04-15 15:51:54 - generate_essay_images - ERROR - Error generating image for values: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:51:54 - generate_essay_images - INFO - Generating image 2 for values: Conceptual artwork depicting themes of values in modern society...
+2026-04-15 15:51:55 - generate_essay_images - ERROR - Error generating image for values: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:51:55 - generate_essay_images - INFO - Generating images for goals essay
+2026-04-15 15:51:57 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:51:57 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in goals', 'Conceptual artwork depicting themes of goals in modern society']
+2026-04-15 15:51:57 - generate_essay_images - INFO - Generating image 1 for goals: Abstract visualization representing key concepts in goals...
+2026-04-15 15:51:57 - generate_essay_images - ERROR - Error generating image for goals: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:51:57 - generate_essay_images - INFO - Generating image 2 for goals: Conceptual artwork depicting themes of goals in modern society...
+2026-04-15 15:51:58 - generate_essay_images - ERROR - Error generating image for goals: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:51:58 - generate_essay_images - INFO - Generating images for policies essay
+2026-04-15 15:52:00 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:00 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in policies', 'Conceptual artwork depicting themes of policies in modern society']
+2026-04-15 15:52:00 - generate_essay_images - INFO - Generating image 1 for policies: Abstract visualization representing key concepts in policies...
+2026-04-15 15:52:00 - generate_essay_images - ERROR - Error generating image for policies: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:00 - generate_essay_images - INFO - Generating image 2 for policies: Conceptual artwork depicting themes of policies in modern society...
+2026-04-15 15:52:01 - generate_essay_images - ERROR - Error generating image for policies: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:01 - generate_essay_images - INFO - Generating images for principles essay
+2026-04-15 15:52:02 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:02 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in principles', 'Conceptual artwork depicting themes of principles in modern society']
+2026-04-15 15:52:02 - generate_essay_images - INFO - Generating image 1 for principles: Abstract visualization representing key concepts in principles...
+2026-04-15 15:52:03 - generate_essay_images - ERROR - Error generating image for principles: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:03 - generate_essay_images - INFO - Generating image 2 for principles: Conceptual artwork depicting themes of principles in modern society...
+2026-04-15 15:52:03 - generate_essay_images - ERROR - Error generating image for principles: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:03 - generate_essay_images - INFO - Image generation completed. Images saved to /Users/4d/Documents/GitHub/links/output/essay_images
+2026-04-15 15:52:03 - generate_images - INFO - Generating 3 image prompts from platform data
+2026-04-15 15:52:03 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:52:03 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:52:10 - generate_essay_images - INFO - Starting image generation process
+2026-04-15 15:52:10 - generate_essay_images - INFO - Generating images for values essay
+2026-04-15 15:52:12 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:12 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in values', 'Conceptual artwork depicting themes of values in modern society']
+2026-04-15 15:52:12 - generate_essay_images - INFO - Generating image 1 for values: Abstract visualization representing key concepts in values...
+2026-04-15 15:52:12 - generate_essay_images - ERROR - Error generating image for values: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:12 - generate_essay_images - INFO - Generating image 2 for values: Conceptual artwork depicting themes of values in modern society...
+2026-04-15 15:52:12 - generate_essay_images - ERROR - Error generating image for values: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:12 - generate_essay_images - INFO - Generating images for goals essay
+2026-04-15 15:52:14 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:14 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in goals', 'Conceptual artwork depicting themes of goals in modern society']
+2026-04-15 15:52:14 - generate_essay_images - INFO - Generating image 1 for goals: Abstract visualization representing key concepts in goals...
+2026-04-15 15:52:15 - generate_essay_images - ERROR - Error generating image for goals: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:15 - generate_essay_images - INFO - Generating image 2 for goals: Conceptual artwork depicting themes of goals in modern society...
+2026-04-15 15:52:15 - generate_essay_images - ERROR - Error generating image for goals: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:15 - generate_essay_images - INFO - Generating images for policies essay
+2026-04-15 15:52:16 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:16 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in policies', 'Conceptual artwork depicting themes of policies in modern society']
+2026-04-15 15:52:16 - generate_essay_images - INFO - Generating image 1 for policies: Abstract visualization representing key concepts in policies...
+2026-04-15 15:52:17 - generate_essay_images - ERROR - Error generating image for policies: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:17 - generate_essay_images - INFO - Generating image 2 for policies: Conceptual artwork depicting themes of policies in modern society...
+2026-04-15 15:52:17 - generate_essay_images - ERROR - Error generating image for policies: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:17 - generate_essay_images - INFO - Generating images for principles essay
+2026-04-15 15:52:19 - generate_essay_images - ERROR - Error generating image prompts: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-15 15:52:19 - generate_essay_images - INFO - Generated prompts: ['Abstract visualization representing key concepts in principles', 'Conceptual artwork depicting themes of principles in modern society']
+2026-04-15 15:52:19 - generate_essay_images - INFO - Generating image 1 for principles: Abstract visualization representing key concepts in principles...
+2026-04-15 15:52:20 - generate_essay_images - ERROR - Error generating image for principles: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:20 - generate_essay_images - INFO - Generating image 2 for principles: Conceptual artwork depicting themes of principles in modern society...
+2026-04-15 15:52:21 - generate_essay_images - ERROR - Error generating image for principles: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached', 'type': 'image_generation_user_error', 'param': None, 'code': 'billing_hard_limit_reached'}}
+2026-04-15 15:52:21 - generate_essay_images - INFO - Image generation completed. Images saved to /Users/4d/Documents/GitHub/links/output/essay_images
+2026-04-15 15:52:21 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 15:52:21 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:52:21 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 15:52:21 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 15:58:32 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:58:32 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:58:32 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 15:58:32 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:58:32 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 15:58:32 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 15:59:16 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:59:16 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:59:16 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 15:59:16 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:59:16 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 15:59:16 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 15:59:28 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 15:59:28 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:59:28 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 15:59:28 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 15:59:28 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 15:59:28 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 16:07:24 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:07:24 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:07:24 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 16:07:24 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:07:24 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 16:07:24 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 16:15:11 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:15:11 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:15:11 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 16:15:11 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:15:11 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 16:15:11 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 16:15:52 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:15:52 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:15:52 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 16:15:52 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:15:52 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 16:15:52 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images
+2026-04-15 16:20:52 - generate_images - INFO - Loading political platform data from /Users/4d/Documents/GitHub/links/output/political_platform.json
+2026-04-15 16:20:52 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:20:53 - generate_images - INFO - Loading political platform data from platform.json
+2026-04-15 16:20:53 - generate_images - INFO - Generating 5 image prompts from platform data
+2026-04-15 16:20:53 - generate_images - INFO - Generated 2 images based on platform manifesto
+2026-04-15 16:20:53 - generate_images - INFO - Images saved to /Users/4d/Documents/GitHub/links/output/platform_images

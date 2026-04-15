@@ -66,3 +66,225 @@
 2025-08-27 12:52:19 - organize_extractions - INFO - Creating site-specific structure in /Users/4d/Documents/GitHub/links/output/site_specific
 2025-08-27 12:52:19 - organize_extractions - INFO - Creating compiled structure in /Users/4d/Documents/GitHub/links/output/compiled
 2025-08-27 12:52:19 - organize_extractions - INFO - Organization completed. Site-specific: /Users/4d/Documents/GitHub/links/output/site_specific, Compiled: /Users/4d/Documents/GitHub/links/output/compiled
+2026-04-15 15:51:40 - organize_extractions - INFO - Starting organization of extracted data
+2026-04-15 15:51:40 - organize_extractions - INFO - Creating site-specific structure in /Users/4d/Documents/GitHub/links/output/site_specific
+2026-04-15 15:51:40 - organize_extractions - INFO - Creating compiled structure in /Users/4d/Documents/GitHub/links/output/compiled
+2026-04-15 15:51:40 - organize_extractions - INFO - Organization completed. Site-specific: /Users/4d/Documents/GitHub/links/output/site_specific, Compiled: /Users/4d/Documents/GitHub/links/output/compiled
+2026-04-15 15:52:03 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/data/organized_links.json
+2026-04-15 15:52:03 - organize_extractions - INFO - Starting organization of extracted data
+2026-04-15 15:52:03 - organize_extractions - INFO - Creating site-specific structure in /Users/4d/Documents/GitHub/links/output/site_specific
+2026-04-15 15:52:03 - organize_extractions - INFO - Creating compiled structure in /Users/4d/Documents/GitHub/links/output/compiled
+2026-04-15 15:52:03 - organize_extractions - INFO - Organization completed. Site-specific: /Users/4d/Documents/GitHub/links/output/site_specific, Compiled: /Users/4d/Documents/GitHub/links/output/compiled
+2026-04-15 15:52:21 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 15:52:21 - organize_links - INFO - Categorizing links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:52:21 - organize_links - INFO - Categorizing links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:52:21 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:52:21 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 15:52:21 - organize_links - INFO - Organized links saved successfully
+2026-04-15 15:52:21 - organize_links - INFO - Starting link organization process
+2026-04-15 15:52:21 - organize_links - INFO - Link organization process completed
+2026-04-15 15:58:32 - organize_links - INFO - Starting link organization process
+2026-04-15 15:58:32 - organize_links - INFO - Loading raw links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-122/test_organize_links_integratio0/bestofnow_urls.json
+2026-04-15 15:58:32 - organize_links - INFO - Categorizing links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Link organization process completed
+2026-04-15 15:58:32 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/bestofnow_urls.json
+2026-04-15 15:58:32 - organize_links - INFO - Limiting to 30 links as per configuration
+2026-04-15 15:58:32 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 15:58:32 - organize_links - INFO - Categorizing links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Categorizing links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:58:32 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:58:32 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 15:58:32 - organize_links - INFO - Organized links saved successfully
+2026-04-15 15:58:32 - organize_links - INFO - Starting link organization process
+2026-04-15 15:58:32 - organize_links - INFO - Link organization process completed
+2026-04-15 15:59:16 - organize_links - INFO - Starting link organization process
+2026-04-15 15:59:16 - organize_links - INFO - Loading raw links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-123/test_organize_links_integratio0/bestofnow_urls.json
+2026-04-15 15:59:16 - organize_links - INFO - Categorizing links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Link organization process completed
+2026-04-15 15:59:16 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/bestofnow_urls.json
+2026-04-15 15:59:16 - organize_links - INFO - Limiting to 30 links as per configuration
+2026-04-15 15:59:16 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 15:59:16 - organize_links - INFO - Categorizing links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Categorizing links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:59:16 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:59:16 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 15:59:16 - organize_links - INFO - Organized links saved successfully
+2026-04-15 15:59:16 - organize_links - INFO - Starting link organization process
+2026-04-15 15:59:16 - organize_links - INFO - Link organization process completed
+2026-04-15 15:59:28 - organize_links - INFO - Starting link organization process
+2026-04-15 15:59:28 - organize_links - INFO - Loading raw links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-124/test_organize_links_integratio0/bestofnow_urls.json
+2026-04-15 15:59:28 - organize_links - INFO - Categorizing links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Link organization process completed
+2026-04-15 15:59:28 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/bestofnow_urls.json
+2026-04-15 15:59:28 - organize_links - INFO - Limiting to 30 links as per configuration
+2026-04-15 15:59:28 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 15:59:28 - organize_links - INFO - Categorizing links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Categorizing links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 15:59:28 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 15:59:28 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 15:59:28 - organize_links - INFO - Organized links saved successfully
+2026-04-15 15:59:28 - organize_links - INFO - Starting link organization process
+2026-04-15 15:59:28 - organize_links - INFO - Link organization process completed
+2026-04-15 16:07:24 - organize_links - INFO - Starting link organization process
+2026-04-15 16:07:24 - organize_links - INFO - Loading raw links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-125/test_organize_links_integratio0/bestofnow_urls.json
+2026-04-15 16:07:24 - organize_links - INFO - Categorizing links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Link organization process completed
+2026-04-15 16:07:24 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/bestofnow_urls.json
+2026-04-15 16:07:24 - organize_links - INFO - Limiting to 30 links as per configuration
+2026-04-15 16:07:24 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 16:07:24 - organize_links - INFO - Categorizing links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Categorizing links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:07:24 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:07:24 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 16:07:24 - organize_links - INFO - Organized links saved successfully
+2026-04-15 16:07:24 - organize_links - INFO - Starting link organization process
+2026-04-15 16:07:24 - organize_links - INFO - Link organization process completed
+2026-04-15 16:15:11 - organize_links - INFO - Starting link organization process
+2026-04-15 16:15:11 - organize_links - INFO - Loading raw links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-126/test_organize_links_integratio0/bestofnow_urls.json
+2026-04-15 16:15:11 - organize_links - INFO - Categorizing links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Link organization process completed
+2026-04-15 16:15:11 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/bestofnow_urls.json
+2026-04-15 16:15:11 - organize_links - INFO - Limiting to 30 links as per configuration
+2026-04-15 16:15:11 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 16:15:11 - organize_links - INFO - Categorizing links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Categorizing links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:15:11 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:15:11 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 16:15:11 - organize_links - INFO - Organized links saved successfully
+2026-04-15 16:15:11 - organize_links - INFO - Starting link organization process
+2026-04-15 16:15:11 - organize_links - INFO - Link organization process completed
+2026-04-15 16:15:52 - organize_links - INFO - Starting link organization process
+2026-04-15 16:15:52 - organize_links - INFO - Loading raw links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-127/test_organize_links_integratio0/bestofnow_urls.json
+2026-04-15 16:15:52 - organize_links - INFO - Categorizing links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Link organization process completed
+2026-04-15 16:15:52 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/bestofnow_urls.json
+2026-04-15 16:15:52 - organize_links - INFO - Limiting to 30 links as per configuration
+2026-04-15 16:15:52 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 16:15:52 - organize_links - INFO - Categorizing links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Categorizing links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:15:52 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:15:52 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 16:15:52 - organize_links - INFO - Organized links saved successfully
+2026-04-15 16:15:52 - organize_links - INFO - Starting link organization process
+2026-04-15 16:15:52 - organize_links - INFO - Link organization process completed
+2026-04-15 16:20:52 - organize_links - INFO - Starting link organization process
+2026-04-15 16:20:52 - organize_links - INFO - Loading raw links from /private/var/folders/vc/rgmbpjpj0dbg61vr54xjskc80000gn/T/pytest-of-4d/pytest-128/test_organize_links_integratio0/bestofnow_urls.json
+2026-04-15 16:20:52 - organize_links - INFO - Categorizing links
+2026-04-15 16:20:52 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:20:52 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:20:52 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:20:52 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:20:52 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:20:52 - organize_links - INFO - Link organization process completed
+2026-04-15 16:20:52 - organize_links - INFO - Loading raw links from /Users/4d/Documents/GitHub/links/bestofnow_urls.json
+2026-04-15 16:20:52 - organize_links - INFO - Limiting to 30 links as per configuration
+2026-04-15 16:20:53 - organize_links - INFO - Loading raw links from urls.json
+2026-04-15 16:20:53 - organize_links - INFO - Categorizing links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:20:53 - organize_links - INFO - Categorizing links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'political': 2 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'economic': 0 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'social': 0 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'technological': 2 links
+2026-04-15 16:20:53 - organize_links - INFO - Category 'other': 0 links
+2026-04-15 16:20:53 - organize_links - INFO - Saving organized links to organized_links.json
+2026-04-15 16:20:53 - organize_links - INFO - Organized links saved successfully
+2026-04-15 16:20:53 - organize_links - INFO - Starting link organization process
+2026-04-15 16:20:53 - organize_links - INFO - Link organization process completed

@@ -55,8 +55,8 @@ def generate_image_prompts(platform_data, num_prompts=5):
     logger.info(f"Generating {num_prompts} image prompts from platform data")
     
     prompts = []
-    
-        # Get executive summary for overall theme
+
+    # Get executive summary for overall theme
     if "executive_summary" in platform_data and platform_data["executive_summary"]:
         exec_summary = platform_data["executive_summary"]
         prompts.append(f"A symbolic representation of a political platform with themes of: {exec_summary[:500]}")
