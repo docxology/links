@@ -11,15 +11,15 @@ End-to-end pipeline that turns curated URL lists into structured political philo
 | Area | Role |
 |------|------|
 | [`README.md`](../README.md) | Primary GitHub overview |
-| [`src/main.py`](src/main.py) | CLI entry |
-| [`src/pipeline_cli.py`](src/pipeline_cli.py) | Argument parsing (`--skip-*`, `--only-*`) |
-| [`src/pipeline_orchestration.py`](src/pipeline_orchestration.py) | `PipelineStages` dataclass and `run_pipeline` |
-| [`src/data/`](src/data/) | Stage 1: link loading and categorization |
-| [`src/scrapers/`](src/scrapers/) | Stage 2: HTTP + cache + parsing |
-| [`src/analysis/`](src/analysis/) | Stages 3-9: extraction, organization, essays, images, platform, render |
-| [`src/utils/`](src/utils/) | `config.py`, `logger.py` |
-| [`tests/`](tests/) | Unit, integration, live OpenAI tests |
-| [`docs/`](docs/) | Comprehensive documentation (see [`docs/README.md`](docs/README.md)) |
+| [`src/main.py`](../src/main.py) | CLI entry |
+| [`src/pipeline_cli.py`](../src/pipeline_cli.py) | Argument parsing (`--skip-*`, `--only-*`) |
+| [`src/pipeline_orchestration.py`](../src/pipeline_orchestration.py) | `PipelineStages` dataclass and `run_pipeline` |
+| [`src/data/`](../src/data/) | Stage 1: link loading and categorization |
+| [`src/scrapers/`](../src/scrapers/) | Stage 2: HTTP + cache + parsing |
+| [`src/analysis/`](../src/analysis/) | Stages 3-9: extraction, organization, essays, images, platform, render |
+| [`src/utils/`](../src/utils/) | `config.py`, `logger.py` |
+| [`tests/`](../tests/) | Unit, integration, live OpenAI tests |
+| [`docs/`](./) | Comprehensive documentation (see [`docs/README.md`](README.md)) |
 | `output/`, `data/`, `cached_data/`, `logs/` | Generated artifacts (see their READMEs) |
 
 ## Operations
@@ -27,7 +27,7 @@ End-to-end pipeline that turns curated URL lists into structured political philo
 - **Setup**: `uv sync --all-extras`; copy `.env.example` to `.env` with `OPENAI_API_KEY`
 - **Run**: `uv run python -m src.main` or with `--only-extract`, `--skip-scrape`, etc.
 - **Test**: `uv run pytest` (default); `uv run pytest tests/live -m live_openai` for real API
-- **Docs**: Start with root [`README.md`](../README.md), then [`docs/README.md`](docs/README.md)
+- **Docs**: Start with root [`README.md`](../README.md), then [`docs/README.md`](README.md)
 
 ## Version
 
