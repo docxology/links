@@ -38,7 +38,7 @@ Required inputs in the project root:
 | `MAX_LINKS` | Cap on URLs loaded from `bestofnow_urls.json` (default: `40`) |
 | `GPT_MODEL` | Chat model (default: `gpt-4`) |
 | `TIMEOUT` | HTTP timeout for scraping, in seconds (exposed in code as `REQUEST_TIMEOUT`, default `30`) |
-| `IMAGE_MODEL` | Platform images in `generate_images.py` (default: `gpt-image-1`) |
+| `IMAGE_MODEL` | Declared in `src/utils/config.py`; `generate_images.py` currently hardcodes `gpt-image-1` |
 | `ESSAY_IMAGE_MODEL` | Essay images in `generate_essay_images.py` (default: `dall-e-3`) |
 
 `MAX_CONCURRENT_REQUESTS` is fixed at `5` in `src/utils/config.py` (not read from the environment).

@@ -5,20 +5,20 @@ description = "URL → scrape → LLM extraction → essays → platform → Mar
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "beautifulsoup4==4.12.2",
-    "requests==2.31.0",
-    "openai==1.6.0",
-    "python-dotenv==1.0.0",
-    "tqdm==4.66.1",
-    "pyyaml==6.0.1",
+    "beautifulsoup4==4.15.0",
+    "requests==2.34.2",
+    "openai==1.109.1",
+    "python-dotenv==1.2.4",
+    "tqdm==4.70.1",
+    "pyyaml==6.0.3",
     "colorama==0.4.6",
-    "httpx>=0.27.0",
+    "httpx>=0.28.1",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=8.0",
-    "pytest-cov>=4.0",
+    "pytest>=9.1",
+    "pytest-cov>=7.1",
 ]
 
 [tool.pytest.ini_options]

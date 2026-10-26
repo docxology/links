@@ -70,7 +70,7 @@ Paths and settings (loaded from environment via `python-dotenv`):
 | `PLATFORM_OUTPUT_PATH` | `output/political_platform.json` |
 | `OPENAI_API_KEY` | API key |
 | `GPT_MODEL` | Chat model (default `gpt-4`) |
-| `IMAGE_MODEL` | Platform images in `generate_images.py` (default `gpt-image-1`) |
+| `IMAGE_MODEL` | Declared here (default `gpt-image-1`); `generate_images.py` currently hardcodes `gpt-image-1` |
 | `ESSAY_IMAGE_MODEL` | Essay images in `generate_essay_images.py` (default `dall-e-3`) |
 | `REQUEST_TIMEOUT` | `int(os.getenv("TIMEOUT", 30))` |
 | `MAX_LINKS` | Default `40` |

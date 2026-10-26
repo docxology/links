@@ -37,7 +37,7 @@ uv run python -m src.main
 | `TIMEOUT` | Scraping timeout (seconds); not the name `REQUEST_TIMEOUT` in `.env` |
 | `MAX_LINKS` | Limits rows read from the URL list |
 | `GPT_MODEL` | Chat completions for extraction, platform, essays, essay-image prompts |
-| `IMAGE_MODEL` | Platform images (`generate_images.py`) |
+| `IMAGE_MODEL` | Declared in `src/utils/config.py`; `generate_images.py` currently hardcodes `gpt-image-1` |
 | `ESSAY_IMAGE_MODEL` | Essay images (`generate_essay_images.py`; default `dall-e-3`) |
 | `LOG_LEVEL` | e.g. `DEBUG` for verbose logs |
 

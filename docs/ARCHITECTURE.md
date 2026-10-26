@@ -58,7 +58,7 @@ All stages use:
 ## Image generation (two paths)
 
 - **Essay images** (`generate_essay_images.py`): `GPT_MODEL` builds two prompts (strict JSON); `client.images.generate` uses `ESSAY_IMAGE_MODEL` (default `dall-e-3`).
-- **Platform images** (`generate_images.py`): prompts from platform JSON; `IMAGE_MODEL` (default `gpt-image-1`).
+- **Platform images** (`generate_images.py`): prompts from platform JSON; model `gpt-image-1` is hardcoded in the module (`IMAGE_MODEL` from config is currently unread).
 
 ## Error handling
 

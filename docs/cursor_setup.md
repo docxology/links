@@ -48,7 +48,7 @@ Project-specific:
 
 ## Additional Resources
 
-- [Cursor Documentation](https://cursor.sh/docs)
+- [Cursor Documentation](https://docs.cursor.com)
 - Root [`README.md`](../README.md) and [`docs/DEVELOPMENT.md`](DEVELOPMENT.md)
 
 ## Troubleshooting

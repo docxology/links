@@ -14,6 +14,12 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). Version
 - Documentation aligned with nine-stage pipeline, `TIMEOUT` / `REQUEST_TIMEOUT`, strict JSON prompt parsing in essay images (no fallbacks), and `uv sync --all-extras` workflow.
 - CLI split: `src/pipeline_cli.py`, `src/pipeline_orchestration.py`; `OPENAI_API_KEY` only.
 - Expanded root `README.md` as primary overview; all docs now cross-link and avoid drift.
+- Dependency refresh in `pyproject.toml` / `requirements.txt` with regenerated `uv.lock`: `openai` 1.6.0 → 1.109.1, `requests` 2.31.0 → 2.34.2, `beautifulsoup4` 4.12.2 → 4.15.0, `python-dotenv` 1.0.0 → 1.2.4, `tqdm` 4.66.1 → 4.70.1, `pyyaml` 6.0.1 → 6.0.3, `httpx>=0.28.1`; dev extras `pytest>=9.1`, `pytest-cov>=7.1`.
+- Docs describing `IMAGE_MODEL` corrected: `generate_images.py` hardcodes `gpt-image-1` and does not read the env var. Cursor guide links to `https://docs.cursor.com`.
+
+### Removed
+- Abandoned root scripts `run_extraction_pipeline.py` (superseded by `uv run python -m src.main` with `--skip-*` flags) and `validate_pipeline.py` (source-string checks superseded by the test suite).
+- Tracked `__pycache__/*.pyc` bytecode (stale CPython 3.10/3.12/3.13 artifacts) and the local `.env`, both now covered by a new `.gitignore` (use `.env.example` as the template).
 
 See [`REAL_OPENAI_REFACTOR.md`](REAL_OPENAI_REFACTOR.md) for historical context of the 2026 refactor.
 
