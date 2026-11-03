@@ -11,16 +11,34 @@ from typing import Any, Dict, List
 import openai
 from tqdm import tqdm
 from src.utils.logger import get_logger
-from src.utils.config import SCRAPED_DATA_PATH, EXTRACTED_CONCEPTS_PATH, PLATFORM_OUTPUT_PATH, OPENAI_API_KEY, GPT_MODEL
+from src.utils.config import SCRAPED_DATA_PATH, EXTRACTED_CONCEPTS_PATH, PLATFORM_OUTPUT_PATH, OPENAI_API_KEY, GPT_MODEL, validate_api_key
 
 # Set up logger
 logger = get_logger("generate_platform", "platform.log")
 
-# Set up OpenAI API client
+# Set up the OpenAI client, built on first use: importing this module must not require a
+# credential, and the `client` name the suite patches still resolves to one stable object.
 from openai import OpenAI
 from httpx import Client
 http_client = Client(timeout=60.0)
-client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
+
+_client = None
+
+
+def _build_client():
+    """Build the client on demand, reading the environment first and the config second."""
+    api_key = os.getenv("OPENAI_API_KEY") or OPENAI_API_KEY
+    if not api_key:
+        validate_api_key()  # raises the project's own ValueError
+    return OpenAI(api_key=api_key, http_client=http_client)
+
+
+def get_client():
+    """Return the shared client, building it on first use so no import needs a key."""
+    global _client
+    if _client is None:
+        _client = _build_client()
+    return _client
 
 
 def _text_from_extracted_document(doc: Dict[str, Any]) -> str:
@@ -135,7 +153,7 @@ def generate_section(category, documents):
         prompt = prepare_prompt(category, documents)
         
         # Call the OpenAI API
-        response = client.chat.completions.create(
+        response = get_client().chat.completions.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a helpful political analyst who excels at synthesizing diverse concepts into a coherent political platform."},
@@ -181,7 +199,7 @@ def generate_platform(extracted_data):
             summary_prompt += f"=== {category.upper()} ===\n{section}\n\n"
         
         # Generate the summary
-        response = client.chat.completions.create(
+        response = get_client().chat.completions.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a skilled political strategist who excels at synthesizing complex policy ideas into compelling, accessible summaries."},

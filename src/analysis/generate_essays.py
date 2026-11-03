@@ -14,10 +14,28 @@ from httpx import Client
 # Set up logger
 logger = get_logger("generate_essays", "essays.log")
 
-# Set up OpenAI API client
-from src.utils.config import OPENAI_API_KEY, GPT_MODEL
+# Set up the OpenAI client, built on first use: importing this module must not require a
+# credential, and the `client` name the suite patches still resolves to one stable object.
+from src.utils.config import OPENAI_API_KEY, GPT_MODEL, validate_api_key
 http_client = Client(timeout=120.0)
-client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
+
+_client = None
+
+
+def _build_client():
+    """Build the client on demand, reading the environment first and the config second."""
+    api_key = os.getenv("OPENAI_API_KEY") or OPENAI_API_KEY
+    if not api_key:
+        validate_api_key()  # raises the project's own ValueError
+    return OpenAI(api_key=api_key, http_client=http_client)
+
+
+def get_client():
+    """Return the shared client, building it on first use so no import needs a key."""
+    global _client
+    if _client is None:
+        _client = _build_client()
+    return _client
 
 def load_compiled_data(compiled_dir: Path) -> Dict[str, Any]:
     """
@@ -132,7 +150,7 @@ Format the essay with proper headings and subheadings. Begin each major claim wi
 """
 
     try:
-        response = client.chat.completions.create(
+        response = get_client().chat.completions.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": f"You are an expert academic writer specializing in synthesizing information from multiple sources into well-attributed, insightful analyses of {category.lower()}. You excel at proper source attribution and creating meaningful connections between different perspectives."},

@@ -24,13 +24,13 @@ def test_load_scraped_data():
         assert result == {"tech": [{"url": "https://example.com", "status": "success"}]}
 
 
-@patch('src.analysis.extract_concepts.client.chat.completions.create')
+@patch('src.analysis.extract_concepts.get_client')
 def test_extract_concepts_from_document_success(mock_openai):
     """Test extracting concepts from a document successfully."""
     # Setup mock OpenAI response
     mock_response = MagicMock()
     mock_response.choices[0].message.content = "1. Test Concept\n- Implementation: test\n- Significance: important"
-    mock_openai.return_value = mock_response
+    mock_openai.return_value.chat.completions.create.return_value = mock_response
     
     # Create a test document
     document = {

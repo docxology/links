@@ -23,7 +23,7 @@ def test_load_extracted_concepts():
         assert result == {"tech": [{"url": "https://example.com", "concepts": "concept"}]}
 
 
-@patch('src.analysis.generate_platform.client.chat.completions.create')
+@patch('src.analysis.generate_platform.get_client')
 def test_generate_platform(mock_openai):
     """Test generating a political platform from extracted concepts."""
     # Setup mock OpenAI response
@@ -59,7 +59,7 @@ def test_generate_platform(mock_openai):
     # Convert platform to JSON string for the mock response
     mock_response = MagicMock()
     mock_response.choices[0].message.content = json.dumps(mock_platform)
-    mock_openai.return_value = mock_response
+    mock_openai.return_value.chat.completions.create.return_value = mock_response
     
     # Create sample extracted concepts
     extracted_concepts = {
@@ -92,13 +92,13 @@ def test_generate_platform(mock_openai):
     assert mock_openai.call_count == 3
 
 
-@patch('src.analysis.generate_platform.client.chat.completions.create')
+@patch('src.analysis.generate_platform.get_client')
 def test_generate_platform_invalid_response(mock_openai):
     """Test generating a platform with an invalid response from the API."""
     # Setup mock OpenAI to return invalid JSON
     mock_response = MagicMock()
     mock_response.choices[0].message.content = "This is not valid JSON"
-    mock_openai.return_value = mock_response
+    mock_openai.return_value.chat.completions.create.return_value = mock_response
     
     # Create sample extracted concepts
     extracted_concepts = {
