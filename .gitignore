@@ -7,3 +7,8 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Scraped page captures are regenerable cache, and third-party pages carry their own
+# credentials: the captured YouTube page held five distinct Google keys. Captures stay out
+# of the index; tests/unit/test_cached_captures_are_credential_free.py enforces it.
+cached_data/*.html
