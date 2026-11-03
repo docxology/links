@@ -9,6 +9,13 @@ working tree: a developer may keep a local cache, and scanning the tree would fa
 checkout that has one. It detects Google-key-shaped values only — not a general secret
 scanner, and it makes no statement about whether a credential is live. Diagnostics are
 file and line locators, never matched values.
+
+The `.gitignore` rule and this scan are one control with two halves, and neither half is
+sufficient alone. The rule keeps a re-capture out of the index while the cache goes on
+being written; this scan reads the index, so it also catches a capture that was force-added
+despite the rule. What it cannot see is a key-bearing file that is neither tracked nor
+ignored — which is the same file the repository does not publish, so the gap is outside the
+surface being asserted.
 """
 
 import subprocess
