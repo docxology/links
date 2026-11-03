@@ -11,7 +11,7 @@ from pathlib import Path
 import openai
 from tqdm import tqdm
 from src.utils.logger import get_logger
-from src.utils.config import SCRAPED_DATA_PATH, OUTPUT_DIR, OPENAI_API_KEY, GPT_MODEL, EXTRACTED_CONCEPTS_PATH
+from src.utils.config import SCRAPED_DATA_PATH, OUTPUT_DIR, OPENAI_API_KEY, GPT_MODEL, EXTRACTED_CONCEPTS_PATH, validate_api_key
 
 # Set up logger
 logger = get_logger("extract_concepts", "concepts.log")
@@ -19,11 +19,29 @@ logger = get_logger("extract_concepts", "concepts.log")
 # Define output path for extracted concepts (no longer needed)
 # CONCEPTS_PATH = OUTPUT_DIR / "extracted_concepts.json"
 
-# Set up OpenAI API client
+# Set up the OpenAI client, built on first use: importing this module must not require a
+# credential, and the `client` name the suite patches still resolves to one stable object.
 from openai import OpenAI
 from httpx import Client
 http_client = Client(timeout=60.0)
-client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
+
+_client = None
+
+
+def _build_client():
+    """Build the client on demand, reading the environment first and the config second."""
+    api_key = os.getenv("OPENAI_API_KEY") or OPENAI_API_KEY
+    if not api_key:
+        validate_api_key()  # raises the project's own ValueError
+    return OpenAI(api_key=api_key, http_client=http_client)
+
+
+def get_client():
+    """Return the shared client, building it on first use so no import needs a key."""
+    global _client
+    if _client is None:
+        _client = _build_client()
+    return _client
 
 def load_scraped_data(file_path):
     """
@@ -153,7 +171,7 @@ Be comprehensive but focused - only include items that are clearly supported by 
 """
         
         # Call the OpenAI API
-        response = client.chat.completions.create(
+        response = get_client().chat.completions.create(
             model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": "You are a skilled political analyst who excels at extracting specific, detailed concepts from text."},

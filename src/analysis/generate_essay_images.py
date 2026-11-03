@@ -3,6 +3,7 @@ Module for generating images from essay content using OpenAI's image generation 
 """
 
 import json
+import os
 import re
 from pathlib import Path
 from typing import Any, List
@@ -11,13 +12,30 @@ import requests
 from httpx import Client
 from openai import OpenAI
 
-from src.utils.config import OPENAI_API_KEY, ESSAY_IMAGE_MODEL, GPT_MODEL
+from src.utils.config import OPENAI_API_KEY, ESSAY_IMAGE_MODEL, GPT_MODEL, validate_api_key
 from src.utils.logger import get_logger
 
 logger = get_logger("generate_essay_images", "images.log")
 
 http_client = Client(timeout=120.0)
-client = OpenAI(api_key=OPENAI_API_KEY, http_client=http_client)
+
+_client = None
+
+
+def _build_client():
+    """Build the client on demand, reading the environment first and the config second."""
+    api_key = os.getenv("OPENAI_API_KEY") or OPENAI_API_KEY
+    if not api_key:
+        validate_api_key()  # raises the project's own ValueError
+    return OpenAI(api_key=api_key, http_client=http_client)
+
+
+def get_client():
+    """Return the shared client, building it on first use so no import needs a key."""
+    global _client
+    if _client is None:
+        _client = _build_client()
+    return _client
 
 
 def _parse_two_prompt_strings(raw: str) -> List[str]:
@@ -77,7 +95,7 @@ Format your response as a JSON array with exactly 2 prompts (strings only, no ot
 
 Make sure each prompt is optimized for AI image generation and captures the intellectual depth of the essay's content."""
 
-    response = client.chat.completions.create(
+    response = get_client().chat.completions.create(
         model=GPT_MODEL,
         messages=[
             {
@@ -115,7 +133,7 @@ def generate_image(prompt: str, category: str, image_number: int, output_dir: Pa
     """
     logger.info(f"Generating image {image_number} for {category}: {prompt[:100]}...")
 
-    response = client.images.generate(
+    response = get_client().images.generate(
         model=ESSAY_IMAGE_MODEL,
         prompt=prompt,
         size="1024x1024",
