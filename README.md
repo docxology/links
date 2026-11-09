@@ -146,3 +146,7 @@ See [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) for details.
 ├── AGENTS.md
 └── README.md
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
