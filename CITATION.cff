@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "links"
+authors:
+  - family-names: Friedman
+    given-names: Daniel Ari
+    orcid: "https://orcid.org/0000-0001-6232-9096"
+repository-code: "https://github.com/docxology/links"
+abstract: "Nine-stage Python pipeline that turns a curated URL list into a synthesized political platform — scrapes and caches pages, extracts principles, policies, values, and goals with the Claude Agent SDK, then generates essays and Markdown/HTML/JSON platform documents with DALL-E 3 imagery."
+license: MIT
