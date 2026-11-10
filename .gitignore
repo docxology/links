@@ -12,3 +12,6 @@ __pycache__/
 # credentials: the captured YouTube page held five distinct Google keys. Captures stay out
 # of the index; tests/unit/test_cached_captures_are_credential_free.py enforces it.
 cached_data/*.html
+
+# OS, editor and Python cache files
+.DS_Store
