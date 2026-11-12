@@ -1,5 +1,10 @@
 # Links Analysis Pipeline
 
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue"></a>
+  <img alt="Requires Python 3.12 or newer" src="https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white">
+</p>
+
 End-to-end pipeline: organize URLs, scrape pages, extract structured principles/policies/values/goals with an LLM, aggregate and write overview essays, generate essay images, synthesize a political platform, render Markdown and HTML, and generate platform images.
 
 ## Requirements
