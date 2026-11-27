@@ -1,0 +1,7 @@
+[
+  {"url": "https://example.org/x1", "title": "Stone", "description": "Museum catalog", "tags": ["object"]},
+  {"url": "https://example.org/x2", "title": "Exhibit", "description": "Museum catalog", "tags": ["hardware"]},
+  {"url": "https://example.org/x3", "title": "Education software", "description": "", "tags": []},
+  {"url": "https://example.org/x1", "title": "Shell", "description": "Museum catalog", "tags": ["object"]},
+  {"url": "https://example.org/x4", "title": "Chair", "description": "", "tags": []}
+]

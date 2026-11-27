@@ -1,0 +1,29 @@
+paper:
+  title: "Reproducible Organization of Local URL Metadata"
+  subtitle: "A software methods note for Links"
+
+authors:
+  - name: "Daniel Ari Friedman"
+    orcid: "0000-0001-6232-9096"
+
+publication:
+  github_repository: docxology/links
+  repository_url: https://github.com/docxology/links
+
+metadata:
+  language: en
+  license: MIT
+
+keywords:
+  - URL metadata
+  - JSON
+  - keyword classification
+  - reproducibility
+
+render:
+  formats:
+    pdf: true
+    html: true
+    slides: false
+    docx: false
+    epub: false

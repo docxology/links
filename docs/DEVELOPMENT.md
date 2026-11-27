@@ -36,7 +36,7 @@ Use the `openai` v1 client: `OpenAI(api_key=..., http_client=httpx.Client(timeou
 ## Docs and diagrams
 
 - User-facing: [USER_GUIDE.md](USER_GUIDE.md), [README.md](../README.md)
-- Diagrams: [diagram.md](../diagram.md)
+- Diagrams: [diagram.md](diagram.md)
 
 ## Continuous integration
 
