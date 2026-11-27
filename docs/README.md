@@ -14,6 +14,12 @@ This directory contains comprehensive documentation for the links analysis pipel
 8. [`cursor_setup.md`](cursor_setup.md) — IDE-specific notes.
 9. [`AGENTS.md`](AGENTS.md) — technical notes for AI agents.
 
-See the root [`README.md`](../README.md) for the primary project overview, pipeline usage, and stage table.
+## Software methods and repository history
+
+- [Canonical manuscript](manuscript/README.md) — local metadata organization, fixture evidence, and reproducibility.
+- [Manuscript status](manuscript-status.md) — scope of the software methods note.
+- [Diagrams](diagram.md) — repository and pipeline visuals.
+- [Open maintenance items](TODO.md) — dated repository review with implementation evidence.
+- [OpenAI refactor record](REAL_OPENAI_REFACTOR.md) — historical checklist. See the architecture guide for current behavior.
 
 All documentation follows the conventions in [`.cursorrules`](../.cursorrules) and is kept in sync with code in `src/pipeline_orchestration.py` and `src/utils/config.py`.

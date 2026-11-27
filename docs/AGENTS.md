@@ -32,5 +32,5 @@ See [`docs/README.md`](README.md) for reading order.
 ## See also
 
 - Root [`AGENTS.md`](../AGENTS.md) for repo conventions.
-- [`diagram.md`](../diagram.md) for Mermaid visuals.
+- [`diagram.md`](diagram.md) for Mermaid visuals.
 

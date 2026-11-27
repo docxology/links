@@ -16,9 +16,9 @@ Python pipeline: URLs → scrape → LLM extraction → aggregates → essays �
 
 ## Documentation
 
-- `README.md` — setup and stage table
+- `README.md` — project overview and documentation links
 - `docs/` — guides and API reference
-- `diagram.md` — Mermaid diagrams
+- `docs/diagram.md` — Mermaid diagrams
 
 ## Conventions
 

@@ -1,0 +1,3 @@
+# Abstract
+
+Links includes a local organizer that reads URL metadata from a JSON array, assigns each record to a keyword bucket, and serializes the resulting groups. A five-record synthetic fixture exercises matches in a tag, an equal-score tie, a repeated URL, an unintended substring hit, and the configured input limit. With the limit disabled, the organizer assigns one record to the social bucket, two to technological, and two to the fallback bucket. Two serializations of the same fixture yield identical JSON bytes. The fixture establishes how the current implementation handles these cases. It provides no estimate of classification accuracy on a real corpus.

@@ -1,5 +1,15 @@
 # Testing
 
+## Offline manuscript fixture
+
+A [neutral five-record fixture](../tests/fixtures/organizer_neutral.json) exercises the local organizer. It uses local JSON files and does not dereference the fixture URLs. Run from the repository root after installing the development environment.
+
+```sh
+uv run --locked pytest -q tests/unit/test_organizer_manuscript_fixture.py
+```
+
+The tests write serialized output to a temporary directory. The project logger can append to `logs/organize.log`, so use a disposable checkout if preserving retained logs byte for byte. See the [methods and measurements](manuscript/README.md).
+
 ## Commands
 
 ```bash

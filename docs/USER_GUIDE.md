@@ -12,7 +12,11 @@
 8. Renders Markdown and static HTML for the platform.
 9. Generates platform-themed images (GPT-Image-1).
 
-## Prerequisites
+## Local metadata organization
+
+The standalone organizer takes an ordered UTF-8 JSON array. A record can supply `url`, `title`, `description`, and a `tags` array of strings. Missing fields contribute no text. The loader applies `MAX_LINKS` before the categorizer groups records, and the output preserves the records within each bucket. See the [offline fixture](TESTING.md#offline-manuscript-fixture) for a local demonstration without external services.
+
+## Full workflow prerequisites
 
 - Python 3.12+, `uv`, OpenAI API key with billing appropriate for chat + image usage
 - `bestofnow_urls.json` and `bestofnow_tags.json` in the repo root (see `src/utils/config.validate_files()` when you add validation to your entry path)
@@ -33,9 +37,9 @@ uv run python -m src.main
 
 | Variable | Notes |
 |----------|------|
-| `OPENAI_API_KEY` | Required |
+| `OPENAI_API_KEY` | Used by provider-backed stages |
 | `TIMEOUT` | Scraping timeout (seconds); not the name `REQUEST_TIMEOUT` in `.env` |
-| `MAX_LINKS` | Limits rows read from the URL list |
+| `MAX_LINKS` | Default 40. A nonpositive value keeps all loaded rows |
 | `GPT_MODEL` | Chat completions for extraction, platform, essays, essay-image prompts |
 | `IMAGE_MODEL` | Declared in `src/utils/config.py`; `generate_images.py` currently hardcodes `gpt-image-1` |
 | `ESSAY_IMAGE_MODEL` | Essay images (`generate_essay_images.py`; default `dall-e-3`) |
@@ -73,6 +77,12 @@ If you pass more than one `--only-*` flag, handlers run in a **fixed script orde
 - **Missing input files**: ensure `bestofnow_urls.json` / `bestofnow_tags.json` paths match `src/utils/config.py`.
 - **429 / billing errors**: reduce `MAX_LINKS`, skip essay or image stages, or check OpenAI quota.
 - **Stale scrape**: delete `cached_data/` for that host or use `--skip-scrape` only when `data/scraped_data.json` is already valid.
+
+## Logging demo
+
+```bash
+uv run python demo_logging.py
+```
 
 ## Further reading
 
