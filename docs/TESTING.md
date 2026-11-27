@@ -1,8 +1,17 @@
 # Testing
 
+## Setup
+
+From the repository root, install the locked test dependencies. See the
+[development environment guide](DEVELOPMENT.md#environment) for setup details.
+
+```sh
+uv sync --locked --extra dev
+```
+
 ## Offline manuscript fixture
 
-A [neutral five-record fixture](../tests/fixtures/organizer_neutral.json) exercises the local organizer. It uses local JSON files and does not dereference the fixture URLs. Run from the repository root after installing the development environment.
+A [neutral five-record fixture](../tests/fixtures/organizer_neutral.json) exercises the local organizer. It uses local JSON files and does not dereference the fixture URLs. Run the fixture after completing the [setup](#setup).
 
 ```sh
 uv run --locked pytest -q tests/unit/test_organizer_manuscript_fixture.py

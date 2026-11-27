@@ -7,7 +7,8 @@ Python pipeline: URLs → scrape → LLM extraction → aggregates → essays �
 ## Entry points
 
 - `uv run python -m src.main` — full or selective pipeline (`--skip-*`, `--only-*`; parsing in `src/pipeline_cli.py`, execution in `src/pipeline_orchestration.py`)
-- `uv run pytest` — default suite (excludes `live_openai`; see `docs/TESTING.md`)
+- After the [test setup](docs/TESTING.md#setup), run `uv run pytest` for the
+  default suite (excludes `live_openai`).
 
 ## Configuration
 
